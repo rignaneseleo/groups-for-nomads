@@ -2,6 +2,9 @@
 Europe
 - [🇪🇸 Spain](#spain)
 
+Central America
+- [🇬🇹 Guatemala](#guatemala)
+
 South America
 - [🇨🇴 Colombia](#colombia)
 - [🇧🇷 Brasil](#brasil)
@@ -18,6 +21,12 @@ South America
 
 ### Lanzarote
 ![Telegram](icons/telegram.svg) [Nomads](https://t.me/lanzarotedigital)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Guatemala 🇬🇹 <a name="guatemala"></a>
+### Guatemala City
+![Whatsapp](icons/whatsapp.svg) [Guatemala Digital Nomads](https://chat.whatsapp.com/Ds5K33ap4QKJQfJNxbnZhE)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -92,6 +101,18 @@ South America
 ![Whatsapp](icons/whatsapp.svg) [Football](https://chat.whatsapp.com/IXcBgRgybsX260udORp9Di)
 
 ![Whatsapp](icons/whatsapp.svg) [Tennis](https://chat.whatsapp.com/IwUX9MiTcFcLoTiuOllebK)
+
+### Santa Marta
+
+![Whatsapp](icons/whatsapp.svg) [Santa Marta Expats & Digital Nomads](https://chat.whatsapp.com/GfSuzdAah9kDkL7MqrGRNv)
+
+### Cartagena 
+![Whatsapp](icons/whatsapp.svg) [Cartagena Expats & Digital Nomads](https://chat.whatsapp.com/Ji77amHkUNlDcB6z6pxxTJ)
+
+### Bogota
+![Whatsapp](icons/whatsapp.svg) [Bogota Expats](https://chat.whatsapp.com/K4ZmeuXfUQcJ46E4DKa6z1)
+
+![Whatsapp](icons/whatsapp.svg) [CS Picnic](https://chat.whatsapp.com/IcpH9bZvgAVLc7KjRV4u6W)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
