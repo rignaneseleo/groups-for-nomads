@@ -21,6 +21,11 @@ Please note that contributions should follow the existing format and be relevant
 
 The directory is organized by countries, allowing users to easily find communities in specific locations. Each country section contains a list of digital nomad groups along with their descriptions and links. Explore the directory and discover communities worldwide!
 
+## The list
+
+[Click HERE to open the list](directory.md)
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE). By contributing to this directory, you agree to release your contributions under this license.
