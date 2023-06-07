@@ -16,6 +16,9 @@ South America
 
 
 # The list
+## World
+![Telegram](icons/telegram.svg) [Digital Nomads Network](https://t.me/NetworkDigitalNomads)
+
 
 ## Spain 🇪🇸 <a name="spain"></a>
 ### Madrid
