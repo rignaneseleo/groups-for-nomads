@@ -1,4 +1,4 @@
-## Spain
+## Spain 🇪🇸
 ### Corralejo
 ![Telegram](icons/telegram.svg) [Nomads](https://t.me/corralejo_nomads)
 
@@ -7,7 +7,7 @@
 
 ---
 
-## Colombia
+## Colombia 🇨🇴
 ### Medellin
 
 #### Making Friends/Meetups
@@ -81,7 +81,7 @@
 
 ---
 
-## Brasil
+## Brasil 🇧🇷
 ### Rio De Janeiro
 
 #### Making Friends/Meetups
