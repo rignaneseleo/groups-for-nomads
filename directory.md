@@ -44,6 +44,10 @@ South America
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Colombia 🇨🇴 <a name="colombia"></a>
+![Telegram](icons/telegram.svg) [Digital Nomads Colombia](https://t.me/ColombiaDigitalNomads)
+
+
+
 ### Medellin
 
 #### Making Friends/Meetups
