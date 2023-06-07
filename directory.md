@@ -6,7 +6,10 @@ South America
 - [🇨🇴 Colombia](#colombia)
 - [🇧🇷 Brasil](#brasil)
 
-----
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+
+
 # The list
 
 ## Spain 🇪🇸 <a name="spain"></a>
@@ -16,7 +19,7 @@ South America
 ### Lanzarote
 ![Telegram](icons/telegram.svg) [Nomads](https://t.me/lanzarotedigital)
 
----
+<p>&nbsp;</p><p>&nbsp;</p>
 
 ## Colombia 🇨🇴 <a name="colombia"></a>
 ### Medellin
@@ -90,7 +93,7 @@ South America
 
 ![Whatsapp](icons/whatsapp.svg) [Tennis](https://chat.whatsapp.com/IwUX9MiTcFcLoTiuOllebK)
 
----
+<p>&nbsp;</p><p>&nbsp;</p>
 
 ## Brasil 🇧🇷 <a name="brasil"></a>
 ### Rio De Janeiro
