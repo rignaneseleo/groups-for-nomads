@@ -3,11 +3,13 @@ Europe
 - [🇪🇸 Spain](#spain)
 
 Central America
+- [🇲🇽 Mexico](#mexico)
 - [🇬🇹 Guatemala](#guatemala)
 
 South America
 - [🇨🇴 Colombia](#colombia)
 - [🇧🇷 Brasil](#brasil)
+- [🇵🇪 Perù](#peru)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 <p>&nbsp;</p><p>&nbsp;</p>
@@ -16,6 +18,9 @@ South America
 # The list
 
 ## Spain 🇪🇸 <a name="spain"></a>
+### Madrid
+![Whatsapp](icons/whatsapp.svg) [Madrid new friends](https://chat.whatsapp.com/DyosoSaCfXt00exnHQuJJF)
+
 ### Corralejo
 ![Telegram](icons/telegram.svg) [Nomads](https://t.me/corralejo_nomads)
 
@@ -27,6 +32,14 @@ South America
 ## Guatemala 🇬🇹 <a name="guatemala"></a>
 ### Guatemala City
 ![Whatsapp](icons/whatsapp.svg) [Guatemala Digital Nomads](https://chat.whatsapp.com/Ds5K33ap4QKJQfJNxbnZhE)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Mexico 🇲🇽 <a name="mexico"></a>
+### Mexico City
+![Whatsapp](icons/whatsapp.svg) [CDMX Remote Workers](https://chat.whatsapp.com/GYdSopsvi8lCDp9J4gwPqB)
+
+![Whatsapp](icons/whatsapp.svg) [Nomad Chat CDMX](https://chat.whatsapp.com/B9o7eWYldLV2Z8MPcfV8Mj)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -96,6 +109,8 @@ South America
 ![Whatsapp](icons/whatsapp.svg) [Russians](https://chat.whatsapp.com/JMLjXiVkpyFEdFVpVHeJdp)
 
 #### Sports
+![Whatsapp](icons/whatsapp.svg) [MDE Sports All-Stars](https://chat.whatsapp.com/FAvZfLOeSSnJAdUYwI0lWq)
+
 ![Whatsapp](icons/whatsapp.svg) [Another Yoga club](https://chat.whatsapp.com/EHYGFXvhbpF7byCjMt7FQl)
 
 ![Whatsapp](icons/whatsapp.svg) [Football](https://chat.whatsapp.com/IXcBgRgybsX260udORp9Di)
@@ -197,3 +212,13 @@ South America
 ![Whatsapp](icons/whatsapp.svg) [Techno Party2](https://chat.whatsapp.com/Eob5H3a852b98OgizKDv7F)
 
 ![Whatsapp](icons/whatsapp.svg) [Pub Krio Guestlist](https://wa.me/5521982234138)
+
+### Florianopolis
+![Whatsapp](icons/whatsapp.svg) [Digital Nomads](https://chat.whatsapp.com/EJDgKrA14ibE1pxt4l87mg)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Peru 🇵🇪 <a name="peru"></a>
+### Lima
+![Whatsapp](icons/whatsapp.svg) [Exchange Lima 2023](https://chat.whatsapp.com/F01Xu8HKF3x5EGnDj6BW9H)
+
