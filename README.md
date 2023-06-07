@@ -1,4 +1,11 @@
+## Spain
+### Corralejo
+![Telegram](icons/telegram.svg) [Nomads](https://t.me/corralejo_nomads)
 
+### Lanzarote
+![Telegram](icons/telegram.svg) [Nomads](https://t.me/lanzarotedigital)
+
+---
 ## Colombia
 ### Medellin
 
