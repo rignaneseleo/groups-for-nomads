@@ -2,6 +2,10 @@
 
 Welcome to the Digital Nomad Community Directory! This project aims to create a comprehensive list of online communities and groups specifically catered to digital nomads. Whether you're a seasoned nomad or just starting your remote work journey, this directory will help you connect with like-minded individuals, find support, and discover exciting opportunities around the world.
 
+## The list
+
+👉🏻 [Click HERE to open the list](directory.md)
+
 ## How to Contribute
 
 Contributions to this directory are highly encouraged and greatly appreciated. If you come across any digital nomad groups that are not listed here, please add them to the directory by following these steps:
@@ -20,10 +24,6 @@ Please note that contributions should follow the existing format and be relevant
 ## Directory Structure
 
 The directory is organized by countries, allowing users to easily find communities in specific locations. Each country section contains a list of digital nomad groups along with their descriptions and links. Explore the directory and discover communities worldwide!
-
-## The list
-
-[Click HERE to open the list](directory.md)
 
 
 ## License
