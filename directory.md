@@ -11,6 +11,10 @@ South America
 - [🇧🇷 Brasil](#brasil)
 - [🇵🇪 Perù](#peru)
 
+South East Asia
+- [🇮🇩 Indonesia](#indonesia)
+
+
 <p>&nbsp;</p><p>&nbsp;</p>
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -230,3 +234,9 @@ South America
 ### Lima
 ![Whatsapp](icons/whatsapp.svg) [Lima Nomads and Friends](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
 
+## Indonesia 🇮🇩 <a name="indonesia"></a>
+### Bali
+#### Making Friends/Meetups
+![Whatsapp](icons/whatsapp.svg) [🌀Bali Nomads Giving Back🌀](https://chat.whatsapp.com/Gq8sjbZBKFk6iUc78XRqdz)
+
+![Whatsapp](icons/whatsapp.svg) [Canggu Men](https://chat.whatsapp.com/ClpnSc1ZOv46uRki6nH0KH)
