@@ -26,6 +26,8 @@ South East Asia
 ### Madrid
 ![Whatsapp](icons/whatsapp.svg) [Madrid new friends](https://chat.whatsapp.com/DyosoSaCfXt00exnHQuJJF)
 
+![Whatsapp](icons/whatsapp.svg) [Freelancers in Madrid](https://chat.whatsapp.com/CBJXxMtx5UYHP1Kj5HkGK8)
+
 ### Corralejo
 ![Telegram](icons/telegram.svg) [Nomads](https://t.me/corralejo_nomads)
 
