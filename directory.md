@@ -228,5 +228,5 @@ South America
 
 ## Peru 🇵🇪 <a name="peru"></a>
 ### Lima
-![Whatsapp](icons/whatsapp.svg) [Exchange Lima 2023](https://chat.whatsapp.com/F01Xu8HKF3x5EGnDj6BW9H)
+![Whatsapp](icons/whatsapp.svg) [Lima Nomads and Friends](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
 
