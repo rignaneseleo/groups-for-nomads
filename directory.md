@@ -14,10 +14,7 @@ South America
 South East Asia
 - [🇮🇩 Indonesia](#indonesia)
 
-
 <p>&nbsp;</p><p>&nbsp;</p>
-<p>&nbsp;</p><p>&nbsp;</p>
-
 
 # The list
 ## World
@@ -28,6 +25,8 @@ South East Asia
 ## Spain 🇪🇸 <a name="spain"></a>
 ### Madrid
 ![Whatsapp](icons/whatsapp.svg) [Madrid new friends](https://chat.whatsapp.com/DyosoSaCfXt00exnHQuJJF)
+
+![Whatsapp](icons/whatsapp.svg) [Freelancers in Madrid](https://chat.whatsapp.com/CBJXxMtx5UYHP1Kj5HkGK8)
 
 ### Corralejo
 ![Telegram](icons/telegram.svg) [Nomads](https://t.me/corralejo_nomads)
@@ -53,8 +52,6 @@ South East Asia
 
 ## Colombia 🇨🇴 <a name="colombia"></a>
 ![Telegram](icons/telegram.svg) [Digital Nomads Colombia](https://t.me/ColombiaDigitalNomads)
-
-
 
 ### Medellin
 
@@ -157,8 +154,6 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Rio Pints & Meet-up](https://chat.whatsapp.com/JX9USdkYfKpGp4sL8KIpxF)
 
-  
-
 #### Accommodation
 ![Whatsapp](icons/whatsapp.svg) [Long Term Rentals](https://bit.ly/3ZrIs2D)
 
@@ -167,8 +162,6 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [Visa Support Group](https://chat.whatsapp.com/ELk4BNkkuNXDFCDPonITcR)
 
 ![Whatsapp](icons/whatsapp.svg) [Buy Sell/Trade Furniture](https://chat.whatsapp.com/FhsycEZEQIZEUIgzE47ARp)
-
-  
 
 #### Activities
 ![Whatsapp](icons/whatsapp.svg) [Hike-a-holics](https://chat.whatsapp.com/IpBlhKpfaEf00d85stp4wK)
@@ -233,6 +226,8 @@ South East Asia
 ## Peru 🇵🇪 <a name="peru"></a>
 ### Lima
 ![Whatsapp](icons/whatsapp.svg) [Lima Nomads and Friends](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
+
+<p>&nbsp;</p><p>&nbsp;</p>
 
 ## Indonesia 🇮🇩 <a name="indonesia"></a>
 ### Bali
