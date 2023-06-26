@@ -8,6 +8,7 @@ Central America
 
 South America
 - [🇨🇴 Colombia](#colombia)
+- [🇻🇪 Venezuela](#venezuela)
 - [🇧🇷 Brasil](#brasil)
 - [🇵🇪 Perù](#peru)
 
@@ -44,9 +45,59 @@ South East Asia
 
 ## Mexico 🇲🇽 <a name="mexico"></a>
 ### Mexico City
+![Whatsapp](icons/whatsapp.svg) [CDMX Group of Groups 🇲🇽](https://chat.whatsapp.com/I1nC4r7OxmiJQYe6GagHU3)
+
 ![Whatsapp](icons/whatsapp.svg) [CDMX Remote Workers](https://chat.whatsapp.com/GYdSopsvi8lCDp9J4gwPqB)
 
 ![Whatsapp](icons/whatsapp.svg) [Nomad Chat CDMX](https://chat.whatsapp.com/B9o7eWYldLV2Z8MPcfV8Mj)
+
+![Whatsapp](icons/whatsapp.svg) [EN VENTA CDMX](https://chat.whatsapp.com/LPxElKKHQ4Q52UP1nBCRRB)
+
+![Whatsapp](icons/whatsapp.svg) [CDMX hangovers! 🍻](https://chat.whatsapp.com/EPds8AuOgNFH5cl9s3ypVo)
+
+![Whatsapp](icons/whatsapp.svg) [🌎Worldwide Sticker Club 🌍](https://chat.whatsapp.com/D93tWOKjCBVIgghNxNP56l)
+
+![Whatsapp](icons/whatsapp.svg) [🏠ing and Roomie Eventos!](https://chat.whatsapp.com/DNsjPsLVfQfCtGoyXQgY2n)
+
+![Whatsapp](icons/whatsapp.svg) [Blaxicocina](https://chat.whatsapp.com/H0l1UTY0ZqC18uVBWj5YuB)
+
+![Whatsapp](icons/whatsapp.svg) [BlockParty Prod. Playa](https://chat.whatsapp.com/JIjxfbY4XzVLmpjOW5mcbg)
+
+![Whatsapp](icons/whatsapp.svg) [CONSCIOUS CDMX 🧘🏽‍♀️🧘🏿🧘🏼‍♂️🔮👽🛸](https://chat.whatsapp.com/ByJj6fKgxT18Xyy6QLqPhn)
+
+![Whatsapp](icons/whatsapp.svg) [CONSCIOUS CDMX 2 🧘🏿🧘🏽‍♀️🛸👽✨🤍](https://chat.whatsapp.com/LJ611AzUKf7HTfrw6sTv08)
+
+![Whatsapp](icons/whatsapp.svg) [Veg-Out CDMX](https://chat.whatsapp.com/HlJhee58Fm84x2754Q2OBa)
+
+![Whatsapp](icons/whatsapp.svg) [DrG Mexican Residency](https://chat.whatsapp.com/I0wPPTRgpnuFc9TUaaS0hC)
+
+![Whatsapp](icons/whatsapp.svg) [Mama Rumba 🕺💃](https://chat.whatsapp.com/BrVW7syCAvvLpB0s4QwqMz)
+
+![Whatsapp](icons/whatsapp.svg) [PLAYA COMMUNITY 🤜🏾🤛🏿](https://chat.whatsapp.com/FwrwVQbwPrT4vIz8nZedSmp)
+
+![Whatsapp](icons/whatsapp.svg) [Puerto Parties & More](https://chat.whatsapp.com/HZPdfSbxKIl7r4g3Phqvfz)
+
+![Whatsapp](icons/whatsapp.svg) [Analog Gamers CDMX](https://chat.whatsapp.com/KqdAQHKC7EdB0lNlz4mSlv)
+
+![Whatsapp](icons/whatsapp.svg) [Restaurant Meetup Condesa](https://chat.whatsapp.com/Es0PjpAsofI0JOX7GTAhaH)
+
+![Whatsapp](icons/whatsapp.svg) [E-commerce Group](https://chat.whatsapp.com/ENhuyTa5GcpJnp6CrqOpBZ)
+
+![Whatsapp](icons/whatsapp.svg) [CDMX Business Owners](https://chat.whatsapp.com/EefGYGjGOu6I59ObzYDzxB)
+
+![Whatsapp](icons/whatsapp.svg) [c/Passive Crypto](https://chat.whatsapp.com/HMGJMiQBzQvAedAsGGaelO)
+
+![Whatsapp](icons/whatsapp.svg) [Makers Brunch - CDMX](https://chat.whatsapp.com/L87h2sos6udLNgDb77a2rp)
+
+![Whatsapp](icons/whatsapp.svg) [CDMX Dance Social](https://chat.whatsapp.com/Hz3dN8j7minL6v3IzTMYYK)
+
+![Whatsapp](icons/whatsapp.svg) [Cantina Crew CDMX](https://chat.whatsapp.com/D0rOpfIj7I79UPymLmdeDr)
+
+![Whatsapp](icons/whatsapp.svg) [Black Diaspora CDMX](https://chat.whatsapp.com/GYZ85CvGmLTDEtcv6RlXGz)
+
+![Whatsapp](icons/whatsapp.svg) [Single Beautiful Girls](https://chat.whatsapp.com/invite/5aWaZJpzZts2WzhBjwgGu5)
+
+![Whatsapp](icons/whatsapp.svg) [Morning JumpStart](https://chat.whatsapp.com/GXNGnY09Tg0BrVobf9aYC9)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -55,8 +106,12 @@ South East Asia
 
 ### Medellin
 
+[Linktree Collection of WA-Groups for Medellin](https://linktr.ee/mdecommunity)
+
 #### Making Friends/Meetups
 ![Whatsapp](icons/whatsapp.svg) [Nomads & Amigos](https://chat.whatsapp.com/F0RkCK5QF1f1wypQXdaW0b)
+
+![Whatsapp](icons/whatsapp.svg) [Nomads // visitor of MDE](https://chat.whatsapp.com/D218VvL7GO3C6jgEvXsmgG)
 
 ![Whatsapp](icons/whatsapp.svg) [Laureles General](https://chat.whatsapp.com/Hiz1QZVvkoM0wn5s1IxXgb)
 
@@ -137,6 +192,11 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [Bogota Expats](https://chat.whatsapp.com/K4ZmeuXfUQcJ46E4DKa6z1)
 
 ![Whatsapp](icons/whatsapp.svg) [CS Picnic](https://chat.whatsapp.com/IcpH9bZvgAVLc7KjRV4u6W)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Venezuela 🇻🇪 <a name="venezuela"></a>
+![Whatsapp](icons/whatsapp.svg) [Venezuela 🇻🇪💥](https://chat.whatsapp.com/KNIZIxVJg8L07duupFtuXp)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -225,7 +285,28 @@ South East Asia
 
 ## Peru 🇵🇪 <a name="peru"></a>
 ### Lima
-![Whatsapp](icons/whatsapp.svg) [Lima Nomads and Friends](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
+![Whatsapp](icons/whatsapp.svg) [Lima Community (Main Community for all Lima Whatsapp-Groups)](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
+
+#### Making Friends/Meetups
+![Whatsapp](icons/whatsapp.svg) [Lima Expats and Friends](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
+
+![Whatsapp](icons/whatsapp.svg) [Co-Working Cafe Meetups](https://chat.whatsapp.com/BSYjpnaJensIIUD7znUUVv)
+
+#### Activities
+![Whatsapp](icons/whatsapp.svg) [Volleyball - Lima](https://chat.whatsapp.com/LgvEMYyVqrkJAuSm84ZXYl)
+
+![Whatsapp](icons/whatsapp.svg) [Hiking](https://chat.whatsapp.com/DJUIlp3Ezww3vAfK8NJOk6)
+
+![Whatsapp](icons/whatsapp.svg) [Paintball](https://chat.whatsapp.com/J55Xkkmmpnw3wbhJQVGFbk)
+
+![Whatsapp](icons/whatsapp.svg) [Lima Salsa & Bachata 💃](https://chat.whatsapp.com/LOdaJ8uovTYIOSFZt9csZ7)
+
+![Whatsapp](icons/whatsapp.svg) [Salsa](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
+
+#### Parties
+![Whatsapp](icons/whatsapp.svg) [Lima Day Parties](https://chat.whatsapp.com/KQna4x3uBe3BFo0Qd08nAF)
+
+![Whatsapp](icons/whatsapp.svg) [Nightlife](https://chat.whatsapp.com/COpZ3q0F8nf4FERDDPILhi)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
