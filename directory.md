@@ -155,6 +155,8 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Organic Products](https://chat.whatsapp.com/C3kCF1CTQPvBnAA5fPyrRw)
 
+![Whatsapp](icons/whatsapp.svg) [🍃 Ayahuasca Ceremonies - Medellín - Javier Yagari y Johannes 🍃🥃](https://chat.whatsapp.com/IM8rehOdsDt5OF2UA7CZ29)
+
 #### Communities
 ![Whatsapp](icons/whatsapp.svg) [Awareness & Consciousness events](https://cutt.ly/rNbYbj5)
 
@@ -291,6 +293,8 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [Lima Expats and Friends](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
 
 ![Whatsapp](icons/whatsapp.svg) [Co-Working Cafe Meetups](https://chat.whatsapp.com/BSYjpnaJensIIUD7znUUVv)
+
+![Whatsapp](icons/whatsapp.svg) [Exchange 2023 Lima](https://chat.whatsapp.com/F01Xu8HKF3x5EGnDj6BW9H)
 
 #### Activities
 ![Whatsapp](icons/whatsapp.svg) [Volleyball - Lima](https://chat.whatsapp.com/LgvEMYyVqrkJAuSm84ZXYl)
