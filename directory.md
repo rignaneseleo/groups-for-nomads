@@ -287,7 +287,7 @@ South East Asia
 
 ## Peru 🇵🇪 <a name="peru"></a>
 ### Lima
-![Whatsapp](icons/whatsapp.svg) [Lima Community (Main Community for all Lima Whatsapp-Groups)](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
+![Whatsapp](icons/whatsapp.svg) [Lima Community (Main Community for all Lima Whatsapp-Groups)](https://chat.whatsapp.com/DNfvYIDnmT99mfqdVLSUI4)
 
 #### Making Friends/Meetups
 ![Whatsapp](icons/whatsapp.svg) [Lima Expats and Friends](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
