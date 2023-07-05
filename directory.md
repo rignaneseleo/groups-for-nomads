@@ -3,14 +3,15 @@ Europe
 - [🇪🇸 Spain](#spain)
 
 Central America
-- [🇲🇽 Mexico](#mexico)
 - [🇬🇹 Guatemala](#guatemala)
+- [🇲🇽 Mexico](#mexico)
 
 South America
+- [🇦🇷 Argentina](#argentina)
+- [🇧🇷 Brazil](#brazil)
 - [🇨🇴 Colombia](#colombia)
-- [🇻🇪 Venezuela](#venezuela)
-- [🇧🇷 Brasil](#brasil)
 - [🇵🇪 Perù](#peru)
+- [🇻🇪 Venezuela](#venezuela)
 
 South East Asia
 - [🇮🇩 Indonesia](#indonesia)
@@ -24,16 +25,16 @@ South East Asia
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Spain 🇪🇸 <a name="spain"></a>
-### Madrid
-![Whatsapp](icons/whatsapp.svg) [Madrid new friends](https://chat.whatsapp.com/DyosoSaCfXt00exnHQuJJF)
-
-![Whatsapp](icons/whatsapp.svg) [Freelancers in Madrid](https://chat.whatsapp.com/CBJXxMtx5UYHP1Kj5HkGK8)
-
 ### Corralejo
 ![Telegram](icons/telegram.svg) [Nomads](https://t.me/corralejo_nomads)
 
 ### Lanzarote
 ![Telegram](icons/telegram.svg) [Nomads](https://t.me/lanzarotedigital)
+
+### Madrid
+![Whatsapp](icons/whatsapp.svg) [Madrid new friends](https://chat.whatsapp.com/DyosoSaCfXt00exnHQuJJF)
+
+![Whatsapp](icons/whatsapp.svg) [Freelancers in Madrid](https://chat.whatsapp.com/CBJXxMtx5UYHP1Kj5HkGK8)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -101,12 +102,109 @@ South East Asia
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+## Argentina 🇦🇷 <a name="argentina"></a>
+### Buenos Aires
+![Linktree](icons/linktree.svg) [Linktree for Buenos Aires "BA Digital Nomads"](https://linktr.ee/BADigitalNomads)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Brazil 🇧🇷 <a name="brazil"></a>
+### Florianopolis
+![Whatsapp](icons/whatsapp.svg) [Digital Nomads](https://chat.whatsapp.com/EJDgKrA14ibE1pxt4l87mg)
+
+### Rio De Janeiro
+
+#### Making Friends/Meetups
+![Whatsapp](icons/whatsapp.svg) [Rio Friends MeetUp Group5](https://chat.whatsapp.com/HHkfWPuUUIPGkCl3JqWI3z)
+
+![Whatsapp](icons/whatsapp.svg) [Rio Digital Nomads 2.0](https://chat.whatsapp.com/B60QYOkl0z7BUYQQScKEeS)
+
+![Whatsapp](icons/whatsapp.svg) [Beach Day Posto 9 Fridays](https://chat.whatsapp.com/FMpZO4LKDjxAIyylRZhCQ1)
+
+![Whatsapp](icons/whatsapp.svg) [Rio de Janiero CS](https://chat.whatsapp.com/Hx4K3HKIDA2LipEXuZN7yw)
+
+![Whatsapp](icons/whatsapp.svg) [Rio Pints & Meet-up](https://chat.whatsapp.com/JX9USdkYfKpGp4sL8KIpxF)
+
+#### Accommodation
+![Whatsapp](icons/whatsapp.svg) [Long Term Rentals](https://bit.ly/3ZrIs2D)
+
+![Whatsapp](icons/whatsapp.svg) [Short Term Rentals](https://bit.ly/3vW9e5D)
+
+![Whatsapp](icons/whatsapp.svg) [Visa Support Group](https://chat.whatsapp.com/ELk4BNkkuNXDFCDPonITcR)
+
+![Whatsapp](icons/whatsapp.svg) [Buy Sell/Trade Furniture](https://chat.whatsapp.com/FhsycEZEQIZEUIgzE47ARp)
+
+#### Activities
+![Whatsapp](icons/whatsapp.svg) [Hike-a-holics](https://chat.whatsapp.com/IpBlhKpfaEf00d85stp4wK)
+
+![Whatsapp](icons/whatsapp.svg) [Hike-a-holics (old)](https://chat.whatsapp.com/LfDS8HDDwDSFGulza7Xiff)
+
+![Whatsapp](icons/whatsapp.svg) [For Foodies](https://chat.whatsapp.com/G1zrtnbSInIGdjSK8FbvFA)
+
+![Whatsapp](icons/whatsapp.svg) [Rio Random (From naked motel parties to restaurant reviews, truly random)](https://chat.whatsapp.com/FSjdKyJvpcY240RefmvSmo)
+
+![Whatsapp](icons/whatsapp.svg) [All-carnaval](https://chat.whatsapp.com/DBXCKanZEEh3HPwtARymr8)
+
+![Whatsapp](icons/whatsapp.svg) [Samba Schools](https://chat.whatsapp.com/Cm6OzuKLzjsECLAmsOWSBa)
+
+![Whatsapp](icons/whatsapp.svg) [Buy Sell trade](https://chat.whatsapp.com/FhsycEZEQIZEUIgzE47ARp)
+
+![Whatsapp](icons/whatsapp.svg) [Camarote Carnaval](https://chat.whatsapp.com/DY5zLmZsn1S3B80ucHTb69)
+
+![Whatsapp](icons/whatsapp.svg) [Rio Sports Supporters](https://chat.whatsapp.com/JTAbo2pRipJ5WXeN8bCCkY)
+
+![Whatsapp](icons/whatsapp.svg) [Dancing in Rio](https://chat.whatsapp.com/CehGfMVTKrb0QUGJi6YOLK)
+
+![Whatsapp](icons/whatsapp.svg) [Foreigners in Barra](https://chat.whatsapp.com/HB1RcaxO7ujL6UMIrYKmZL)
+
+![Whatsapp](icons/whatsapp.svg) [Business Nomad Meet-up](https://chat.whatsapp.com/DfdEk4xtWsu6o1oJCjACwW)
+
+![Whatsapp](icons/whatsapp.svg) [Movie Lovers Rio](https://chat.whatsapp.com/Cz2JmUN6mWMIT5evlag4nd)
+
+![Whatsapp](icons/whatsapp.svg) [Board Gamers in RJ](https://chat.whatsapp.com/JiVb6LzS7rF9jlzgvAEvga)
+
+#### Sports
+![Whatsapp](icons/whatsapp.svg) [Footy](https://chat.whatsapp.com/LpPg9UPvnSC1NsX8AI6UKz)
+
+![Whatsapp](icons/whatsapp.svg) [Volleyball](https://chat.whatsapp.com/CsH226HQsvQ9qLYzkYrSJ7)
+
+![Whatsapp](icons/whatsapp.svg) [Basketball](https://chat.whatsapp.com/E1kZsflMYpW7Pi2s7fgngi)
+
+![Whatsapp](icons/whatsapp.svg) [Surfing](https://chat.whatsapp.com/J6kEH7UAXnH0gNQvPQS7YP)
+
+![Whatsapp](icons/whatsapp.svg) [Rio Sports Supporters](https://chat.whatsapp.com/JTAbo2pRipJ5WXeN8bCCkY)
+
+#### Parties
+![Whatsapp](icons/whatsapp.svg) [Promoted by Clara](https://linktr.ee/clathal)
+
+![Whatsapp](icons/whatsapp.svg) [Festas Errejotas](https://chat.whatsapp.com/BNrAQaIcm4X0VMwq9QFVYf)
+
+![Whatsapp](icons/whatsapp.svg) [Festas Brasil](https://chat.whatsapp.com/GpDvyFzDesa0PynNhFROUl)
+
+![Whatsapp](icons/whatsapp.svg) [Festas Melhores](https://chat.whatsapp.com/HUoqHDe1r0yFP99opmMmUz)
+
+![Whatsapp](icons/whatsapp.svg) [Techno Party](https://chat.whatsapp.com/LcCgdM08Rri7pouqcsUrRR)
+
+![Whatsapp](icons/whatsapp.svg) [Techno Party2](https://chat.whatsapp.com/Eob5H3a852b98OgizKDv7F)
+
+![Whatsapp](icons/whatsapp.svg) [Pub Krio Guestlist](https://wa.me/5521982234138)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## Colombia 🇨🇴 <a name="colombia"></a>
 ![Telegram](icons/telegram.svg) [Digital Nomads Colombia](https://t.me/ColombiaDigitalNomads)
 
+### Bogota
+![Whatsapp](icons/whatsapp.svg) [Bogota Expats](https://chat.whatsapp.com/K4ZmeuXfUQcJ46E4DKa6z1)
+
+![Whatsapp](icons/whatsapp.svg) [CS Picnic](https://chat.whatsapp.com/IcpH9bZvgAVLc7KjRV4u6W)
+
+### Cartagena 
+![Whatsapp](icons/whatsapp.svg) [Cartagena Expats & Digital Nomads](https://chat.whatsapp.com/Ji77amHkUNlDcB6z6pxxTJ)
+
 ### Medellin
 
-[Linktree Collection of WA-Groups for Medellin](https://linktr.ee/mdecommunity)
+![Linktree](icons/linktree.svg) [Linktree Collection of WA-Groups for Medellin "MDE-Community"](https://linktr.ee/mdecommunity)
 
 #### Making Friends/Meetups
 ![Whatsapp](icons/whatsapp.svg) [Nomads & Amigos](https://chat.whatsapp.com/F0RkCK5QF1f1wypQXdaW0b)
@@ -187,102 +285,6 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Santa Marta Expats & Digital Nomads](https://chat.whatsapp.com/GfSuzdAah9kDkL7MqrGRNv)
 
-### Cartagena 
-![Whatsapp](icons/whatsapp.svg) [Cartagena Expats & Digital Nomads](https://chat.whatsapp.com/Ji77amHkUNlDcB6z6pxxTJ)
-
-### Bogota
-![Whatsapp](icons/whatsapp.svg) [Bogota Expats](https://chat.whatsapp.com/K4ZmeuXfUQcJ46E4DKa6z1)
-
-![Whatsapp](icons/whatsapp.svg) [CS Picnic](https://chat.whatsapp.com/IcpH9bZvgAVLc7KjRV4u6W)
-
-<p>&nbsp;</p><p>&nbsp;</p>
-
-## Venezuela 🇻🇪 <a name="venezuela"></a>
-![Whatsapp](icons/whatsapp.svg) [Venezuela 🇻🇪💥](https://chat.whatsapp.com/KNIZIxVJg8L07duupFtuXp)
-
-<p>&nbsp;</p><p>&nbsp;</p>
-
-## Brasil 🇧🇷 <a name="brasil"></a>
-### Rio De Janeiro
-
-#### Making Friends/Meetups
-![Whatsapp](icons/whatsapp.svg) [Rio Friends MeetUp Group5](https://chat.whatsapp.com/HHkfWPuUUIPGkCl3JqWI3z)
-
-![Whatsapp](icons/whatsapp.svg) [Rio Digital Nomads 2.0](https://chat.whatsapp.com/B60QYOkl0z7BUYQQScKEeS)
-
-![Whatsapp](icons/whatsapp.svg) [Beach Day Posto 9 Fridays](https://chat.whatsapp.com/FMpZO4LKDjxAIyylRZhCQ1)
-
-![Whatsapp](icons/whatsapp.svg) [Rio de Janiero CS](https://chat.whatsapp.com/Hx4K3HKIDA2LipEXuZN7yw)
-
-![Whatsapp](icons/whatsapp.svg) [Rio Pints & Meet-up](https://chat.whatsapp.com/JX9USdkYfKpGp4sL8KIpxF)
-
-#### Accommodation
-![Whatsapp](icons/whatsapp.svg) [Long Term Rentals](https://bit.ly/3ZrIs2D)
-
-![Whatsapp](icons/whatsapp.svg) [Short Term Rentals](https://bit.ly/3vW9e5D)
-
-![Whatsapp](icons/whatsapp.svg) [Visa Support Group](https://chat.whatsapp.com/ELk4BNkkuNXDFCDPonITcR)
-
-![Whatsapp](icons/whatsapp.svg) [Buy Sell/Trade Furniture](https://chat.whatsapp.com/FhsycEZEQIZEUIgzE47ARp)
-
-#### Activities
-![Whatsapp](icons/whatsapp.svg) [Hike-a-holics](https://chat.whatsapp.com/IpBlhKpfaEf00d85stp4wK)
-
-![Whatsapp](icons/whatsapp.svg) [Hike-a-holics (old)](https://chat.whatsapp.com/LfDS8HDDwDSFGulza7Xiff)
-
-![Whatsapp](icons/whatsapp.svg) [For Foodies](https://chat.whatsapp.com/G1zrtnbSInIGdjSK8FbvFA)
-
-![Whatsapp](icons/whatsapp.svg) [Rio Random (From naked motel parties to restaurant reviews, truly random)](https://chat.whatsapp.com/FSjdKyJvpcY240RefmvSmo)
-
-![Whatsapp](icons/whatsapp.svg) [All-carnaval](https://chat.whatsapp.com/DBXCKanZEEh3HPwtARymr8)
-
-![Whatsapp](icons/whatsapp.svg) [Samba Schools](https://chat.whatsapp.com/Cm6OzuKLzjsECLAmsOWSBa)
-
-![Whatsapp](icons/whatsapp.svg) [Buy Sell trade](https://chat.whatsapp.com/FhsycEZEQIZEUIgzE47ARp)
-
-![Whatsapp](icons/whatsapp.svg) [Camarote Carnaval](https://chat.whatsapp.com/DY5zLmZsn1S3B80ucHTb69)
-
-![Whatsapp](icons/whatsapp.svg) [Rio Sports Supporters](https://chat.whatsapp.com/JTAbo2pRipJ5WXeN8bCCkY)
-
-![Whatsapp](icons/whatsapp.svg) [Dancing in Rio](https://chat.whatsapp.com/CehGfMVTKrb0QUGJi6YOLK)
-
-![Whatsapp](icons/whatsapp.svg) [Foreigners in Barra](https://chat.whatsapp.com/HB1RcaxO7ujL6UMIrYKmZL)
-
-![Whatsapp](icons/whatsapp.svg) [Business Nomad Meet-up](https://chat.whatsapp.com/DfdEk4xtWsu6o1oJCjACwW)
-
-![Whatsapp](icons/whatsapp.svg) [Movie Lovers Rio](https://chat.whatsapp.com/Cz2JmUN6mWMIT5evlag4nd)
-
-![Whatsapp](icons/whatsapp.svg) [Board Gamers in RJ](https://chat.whatsapp.com/JiVb6LzS7rF9jlzgvAEvga)
-
-#### Sports
-![Whatsapp](icons/whatsapp.svg) [Footy](https://chat.whatsapp.com/LpPg9UPvnSC1NsX8AI6UKz)
-
-![Whatsapp](icons/whatsapp.svg) [Volleyball](https://chat.whatsapp.com/CsH226HQsvQ9qLYzkYrSJ7)
-
-![Whatsapp](icons/whatsapp.svg) [Basketball](https://chat.whatsapp.com/E1kZsflMYpW7Pi2s7fgngi)
-
-![Whatsapp](icons/whatsapp.svg) [Surfing](https://chat.whatsapp.com/J6kEH7UAXnH0gNQvPQS7YP)
-
-![Whatsapp](icons/whatsapp.svg) [Rio Sports Supporters](https://chat.whatsapp.com/JTAbo2pRipJ5WXeN8bCCkY)
-
-#### Parties
-![Whatsapp](icons/whatsapp.svg) [Promoted by Clara](https://linktr.ee/clathal)
-
-![Whatsapp](icons/whatsapp.svg) [Festas Errejotas](https://chat.whatsapp.com/BNrAQaIcm4X0VMwq9QFVYf)
-
-![Whatsapp](icons/whatsapp.svg) [Festas Brasil](https://chat.whatsapp.com/GpDvyFzDesa0PynNhFROUl)
-
-![Whatsapp](icons/whatsapp.svg) [Festas Melhores](https://chat.whatsapp.com/HUoqHDe1r0yFP99opmMmUz)
-
-![Whatsapp](icons/whatsapp.svg) [Techno Party](https://chat.whatsapp.com/LcCgdM08Rri7pouqcsUrRR)
-
-![Whatsapp](icons/whatsapp.svg) [Techno Party2](https://chat.whatsapp.com/Eob5H3a852b98OgizKDv7F)
-
-![Whatsapp](icons/whatsapp.svg) [Pub Krio Guestlist](https://wa.me/5521982234138)
-
-### Florianopolis
-![Whatsapp](icons/whatsapp.svg) [Digital Nomads](https://chat.whatsapp.com/EJDgKrA14ibE1pxt4l87mg)
-
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Peru 🇵🇪 <a name="peru"></a>
@@ -311,6 +313,11 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [Lima Day Parties](https://chat.whatsapp.com/KQna4x3uBe3BFo0Qd08nAF)
 
 ![Whatsapp](icons/whatsapp.svg) [Nightlife](https://chat.whatsapp.com/COpZ3q0F8nf4FERDDPILhi)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Venezuela 🇻🇪 <a name="venezuela"></a>
+![Whatsapp](icons/whatsapp.svg) [Venezuela 🇻🇪💥](https://chat.whatsapp.com/KNIZIxVJg8L07duupFtuXp)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
