@@ -211,6 +211,8 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Nomads // visitor of MDE](https://chat.whatsapp.com/D218VvL7GO3C6jgEvXsmgG)
 
+![Whatsapp](icons/whatsapp.svg) [Medellin Meetups 🙌](https://chat.whatsapp.com/LrVumJvbes2FF5P40brHQ8)
+
 ![Whatsapp](icons/whatsapp.svg) [Laureles General](https://chat.whatsapp.com/Hiz1QZVvkoM0wn5s1IxXgb)
 
 ![Whatsapp](icons/whatsapp.svg) [Sabaneta General](https://chat.whatsapp.com/Ka0iMZYBrG9L62hjU5fEdQ)
@@ -222,6 +224,8 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [LGBTQ+](https://chat.whatsapp.com/DwiHHueKgxnIUCcxet0oy5)
 
 ![Whatsapp](icons/whatsapp.svg) [Parents](https://chat.whatsapp.com/IACy8TCM8Te6AVNnlCt2JL)
+
+
   
 #### Accommodation
 ![Whatsapp](icons/whatsapp.svg) [Apartment Hunting](https://chat.whatsapp.com/Cl1wpaCwwU1I8cYZtPcAdn)
