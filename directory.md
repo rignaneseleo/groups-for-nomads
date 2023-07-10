@@ -313,6 +313,8 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Salsa](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
 
+![Whatsapp](icons/whatsapp.svg) [Dog Lover (For Dog Walks, etc.)](https://chat.whatsapp.com/CSnB6S89FmR0WBEC3jBRXM)
+
 #### Parties
 ![Whatsapp](icons/whatsapp.svg) [Lima Day Parties](https://chat.whatsapp.com/KQna4x3uBe3BFo0Qd08nAF)
 
