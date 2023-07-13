@@ -262,6 +262,8 @@ South East Asia
 #### Communities
 ![Whatsapp](icons/whatsapp.svg) [Awareness & Consciousness events](https://cutt.ly/rNbYbj5)
 
+![Whatsapp](icons/whatsapp.svg) [Vegan and Vegeterians in Medellin](https://chat.whatsapp.com/FRhqcVwQfdWG1LUDoMmyKl)
+
 ![Whatsapp](icons/whatsapp.svg) [Gratitude Circle](https://chat.whatsapp.com/DiT84sUww6eKipj9o5FY8n)
 
 ![Whatsapp](icons/whatsapp.svg) [Hollistic Wellness](https://chat.whatsapp.com/HPAfnS7UCUhDafwjjqdj8f)
@@ -272,7 +274,7 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [French](https://chat.whatsapp.com/L5DKu8bGDOxCG6y7a858ks)
 
-![Whatsapp](icons/whatsapp.svg) [Dutch/German](https://chat.whatsapp.com/GyjM4QjrdUqGLBOU2jFWVY)
+![Whatsapp](icons/whatsapp.svg) [Deutschsprachige in MDE](https://chat.whatsapp.com/GyjM4QjrdUqGLBOU2jFWVY)
 
 ![Whatsapp](icons/whatsapp.svg) [Russians](https://chat.whatsapp.com/JMLjXiVkpyFEdFVpVHeJdp)
 
