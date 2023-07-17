@@ -262,6 +262,8 @@ South East Asia
 #### Communities
 ![Whatsapp](icons/whatsapp.svg) [Awareness & Consciousness events](https://cutt.ly/rNbYbj5)
 
+![Whatsapp](icons/whatsapp.svg) [Medellin Compra y venta - Fair Buy/Sell/Trade](https://chat.whatsapp.com/H8JZTRadF1k4d4G3MPVaXh)
+
 ![Whatsapp](icons/whatsapp.svg) [Vegan and Vegeterians in Medellin](https://chat.whatsapp.com/FRhqcVwQfdWG1LUDoMmyKl)
 
 ![Whatsapp](icons/whatsapp.svg) [Gratitude Circle](https://chat.whatsapp.com/DiT84sUww6eKipj9o5FY8n)
@@ -286,6 +288,8 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [Football](https://chat.whatsapp.com/IXcBgRgybsX260udORp9Di)
 
 ![Whatsapp](icons/whatsapp.svg) [Tennis](https://chat.whatsapp.com/IwUX9MiTcFcLoTiuOllebK)
+
+![Whatsapp](icons/whatsapp.svg) [Ping Pong in MDE](https://chat.whatsapp.com/L2pr4SyKqng4bWPn0Jerab)
 
 ### Santa Marta
 
