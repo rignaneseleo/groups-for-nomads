@@ -292,12 +292,14 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [Ping Pong in MDE](https://chat.whatsapp.com/L2pr4SyKqng4bWPn0Jerab)
 
 ### Santa Marta
-
 ![Whatsapp](icons/whatsapp.svg) [Santa Marta Expats & Digital Nomads](https://chat.whatsapp.com/GfSuzdAah9kDkL7MqrGRNv)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Peru 🇵🇪 <a name="peru"></a>
+### Cusco
+![Whatsapp](icons/whatsapp.svg) [Cusco nomads and travelers](https://chat.whatsapp.com/JXZk1JO7XgH0HoXnkZerEX)
+
 ### Lima
 ![Whatsapp](icons/whatsapp.svg) [Lima Community (Main Community for all Lima Whatsapp-Groups)](https://chat.whatsapp.com/DNfvYIDnmT99mfqdVLSUI4)
 
