@@ -46,6 +46,8 @@ South East Asia
 
 ## Mexico 🇲🇽 <a name="mexico"></a>
 ### Mexico City
+![Linktree](icons/linktree.svg) [Linktree for Mexico City "CDMX"](https://linktr.ee/cdmx)
+
 ![Whatsapp](icons/whatsapp.svg) [CDMX Group of Groups 🇲🇽](https://chat.whatsapp.com/I1nC4r7OxmiJQYe6GagHU3)
 
 ![Whatsapp](icons/whatsapp.svg) [CDMX Remote Workers](https://chat.whatsapp.com/GYdSopsvi8lCDp9J4gwPqB)
