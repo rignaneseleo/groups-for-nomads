@@ -1,5 +1,6 @@
 # Table of Contents
 Europe
+- [🇵🇹 Portugal](#portugal)
 - [🇪🇸 Spain](#spain)
 
 Central America
@@ -21,6 +22,12 @@ South East Asia
 # The list
 ## World
 ![Telegram](icons/telegram.svg) [Digital Nomads Network](https://t.me/NetworkDigitalNomads)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Portugal 🇵🇹 <a name="portugal"></a>
+### Lisbon
+![Whatsapp](icons/whatsapp.svg) [Melanated People of Lisbon](https://chat.whatsapp.com/BDYR2HxmipbBtEngQ9i7t0)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -193,6 +200,15 @@ South East Asia
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+### São Paulo
+
+![Whatsapp](icons/whatsapp.svg) [Digital Nomads Sao Paulo](https://chat.whatsapp.com/Ijwh8BQxgu4BJKQUwDBU36)
+
+![Whatsapp](icons/whatsapp.svg) [Gastronômicas 🦪🍤🍝](https://chat.whatsapp.com/JHcsctmhuzQH2XtP9IdH6v)
+
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## Colombia 🇨🇴 <a name="colombia"></a>
 ![Telegram](icons/telegram.svg) [Digital Nomads Colombia](https://t.me/ColombiaDigitalNomads)
 
@@ -215,6 +231,8 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Medellin Meetups 🙌](https://chat.whatsapp.com/LrVumJvbes2FF5P40brHQ8)
 
+![Whatsapp](icons/whatsapp.svg) [Medellin Foodies 🙌🍜🍴](https://chat.whatsapp.com/KOw6nmA7qu369Fz1V9g2Ny)
+
 ![Whatsapp](icons/whatsapp.svg) [Laureles General](https://chat.whatsapp.com/Hiz1QZVvkoM0wn5s1IxXgb)
 
 ![Whatsapp](icons/whatsapp.svg) [Sabaneta General](https://chat.whatsapp.com/Ka0iMZYBrG9L62hjU5fEdQ)
@@ -226,7 +244,7 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [LGBTQ+](https://chat.whatsapp.com/DwiHHueKgxnIUCcxet0oy5)
 
 ![Whatsapp](icons/whatsapp.svg) [Parents](https://chat.whatsapp.com/IACy8TCM8Te6AVNnlCt2JL)
-  
+
 #### Accommodation
 ![Whatsapp](icons/whatsapp.svg) [Apartment Hunting](https://chat.whatsapp.com/Cl1wpaCwwU1I8cYZtPcAdn)
 
