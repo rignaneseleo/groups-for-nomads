@@ -233,6 +233,8 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Medellin Foodies 🙌🍜🍴](https://chat.whatsapp.com/KOw6nmA7qu369Fz1V9g2Ny)
 
+![Whatsapp](icons/whatsapp.svg) [🌳MINDFUL MEET UPS - MDE](https://chat.whatsapp.com/BbWkftXvsCpCGVPpZ0eUkj)
+
 ![Whatsapp](icons/whatsapp.svg) [Laureles General](https://chat.whatsapp.com/Hiz1QZVvkoM0wn5s1IxXgb)
 
 ![Whatsapp](icons/whatsapp.svg) [Sabaneta General](https://chat.whatsapp.com/Ka0iMZYBrG9L62hjU5fEdQ)
