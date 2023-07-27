@@ -233,6 +233,8 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Medellin Foodies 🙌🍜🍴](https://chat.whatsapp.com/KOw6nmA7qu369Fz1V9g2Ny)
 
+![Whatsapp](icons/whatsapp.svg) [The Movie Group 🍿](https://chat.whatsapp.com/EWRlK7aTk44IEVFkuhCC0t)
+
 ![Whatsapp](icons/whatsapp.svg) [🌳MINDFUL MEET UPS - MDE](https://chat.whatsapp.com/BbWkftXvsCpCGVPpZ0eUkj)
 
 ![Whatsapp](icons/whatsapp.svg) [Laureles General](https://chat.whatsapp.com/Hiz1QZVvkoM0wn5s1IxXgb)
@@ -284,7 +286,9 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [MDE After Dark](https://chat.whatsapp.com/JLjPJAEJopp43rNEX95zJA)
 
 #### Communities
-![Whatsapp](icons/whatsapp.svg) [Awareness & Consciousness events](https://cutt.ly/rNbYbj5)
+![Whatsapp](icons/whatsapp.svg) [Awareness & Consciousness events](https://chat.whatsapp.com/Hg5G4XpWnfdANynL41WLtd)
+
+![Whatsapp](icons/whatsapp.svg) [IT/Tech Medellin](https://chat.whatsapp.com/Juai959qAK42d9XXh8823U)
 
 ![Whatsapp](icons/whatsapp.svg) [Medellin Compra y venta - Fair Buy/Sell/Trade](https://chat.whatsapp.com/H8JZTRadF1k4d4G3MPVaXh)
 
