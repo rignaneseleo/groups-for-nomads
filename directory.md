@@ -32,6 +32,9 @@ South East Asia
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Spain 🇪🇸 <a name="spain"></a>
+### Barcelona
+![Whatsapp](icons/whatsapp.svg) [CouchSurfing Barcelona](https://chat.whatsapp.com/EqAYv1stKRa1iErgSUSKhi)
+
 ### Corralejo
 ![Telegram](icons/telegram.svg) [Nomads](https://t.me/corralejo_nomads)
 
