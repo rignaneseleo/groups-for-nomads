@@ -225,7 +225,7 @@ South East Asia
 ![Linktree](icons/linktree.svg) [Linktree Collection of WA-Groups for Medellin "MDE-Community"](https://linktr.ee/mdecommunity)
 
 #### Making Friends/Meetups
-![Whatsapp](icons/whatsapp.svg) [Nomads & Amigos](https://chat.whatsapp.com/F0RkCK5QF1f1wypQXdaW0b)
+![Whatsapp](icons/whatsapp.svg) [Medellin Nomads & Amigos](https://chat.whatsapp.com/EnQaDkdmkRSEqpZpEn0OEl)
 
 ![Whatsapp](icons/whatsapp.svg) [Nomads // visitor of MDE](https://chat.whatsapp.com/D218VvL7GO3C6jgEvXsmgG)
 
