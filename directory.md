@@ -1,5 +1,6 @@
 # Table of Contents
 Europe
+- [🇳🇱 Netherlands](#netherlands)
 - [🇵🇹 Portugal](#portugal)
 - [🇪🇸 Spain](#spain)
 
@@ -22,6 +23,12 @@ South East Asia
 # The list
 ## World
 ![Telegram](icons/telegram.svg) [Digital Nomads Network](https://t.me/NetworkDigitalNomads)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Netherlands 🇳🇱 <a name="netherlands"></a>
+### Maastricht
+![Whatsapp](icons/whatsapp.svg) [Couchsurfing Events 🏄🏻‍](https://chat.whatsapp.com/Cnmp00nwROIGGq8HOK4SDa)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
