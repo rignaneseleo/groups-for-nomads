@@ -232,11 +232,11 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Nomads // visitor of MDE](https://chat.whatsapp.com/D218VvL7GO3C6jgEvXsmgG)
 
+![Whatsapp](icons/whatsapp.svg) [Medellín Co-work](https://chat.whatsapp.com/F3mEXK7QMxBIs6arUiPp4x)
+
 ![Whatsapp](icons/whatsapp.svg) [Medellin Meetups 🙌](https://chat.whatsapp.com/LrVumJvbes2FF5P40brHQ8)
 
 ![Whatsapp](icons/whatsapp.svg) [Medellin Foodies 🙌🍜🍴](https://chat.whatsapp.com/KOw6nmA7qu369Fz1V9g2Ny)
-
-![Whatsapp](icons/whatsapp.svg) [The Movie Group 🍿](https://chat.whatsapp.com/EWRlK7aTk44IEVFkuhCC0t)
 
 ![Whatsapp](icons/whatsapp.svg) [🌳MINDFUL MEET UPS - MDE](https://chat.whatsapp.com/BbWkftXvsCpCGVPpZ0eUkj)
 
@@ -248,9 +248,11 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Christian Expats](https://chat.whatsapp.com/L4blIQV7aAu3JDEiJqT547)
 
-![Whatsapp](icons/whatsapp.svg) [LGBTQ+](https://chat.whatsapp.com/DwiHHueKgxnIUCcxet0oy5)
+![Whatsapp](icons/whatsapp.svg) [LGBTQ+](https://chat.whatsapp.com/FCFNXif7Ay38aDjcYMRvsV)
 
 ![Whatsapp](icons/whatsapp.svg) [Parents](https://chat.whatsapp.com/IACy8TCM8Te6AVNnlCt2JL)
+
+![Whatsapp](icons/whatsapp.svg) [Expats in Oriente](https://chat.whatsapp.com/FqB190rYYFpJ1Q264DX2tv)
 
 #### Accommodation
 ![Whatsapp](icons/whatsapp.svg) [Apartment Hunting](https://chat.whatsapp.com/Cl1wpaCwwU1I8cYZtPcAdn)
@@ -264,7 +266,11 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Social Dancing & Classes](https://chat.whatsapp.com/B7RxgPl8MyOAi0yBlMyBY0)
 
+![Whatsapp](icons/whatsapp.svg) [Medallo MTB](https://chat.whatsapp.com/ClV26kf9GanBYQaJkC7FLy)
+
 ![Whatsapp](icons/whatsapp.svg) [Arts & Culture Club](https://linktr.ee/join_mde.acc)
+
+![Whatsapp](icons/whatsapp.svg) [The Movie Group 🍿](https://chat.whatsapp.com/EWRlK7aTk44IEVFkuhCC0t)
 
 ![Whatsapp](icons/whatsapp.svg) [Food Experiences](https://chat.whatsapp.com/J7Rbxriff4M5AK6xL2dsUf)
 
