@@ -239,7 +239,7 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Nomads // visitor of MDE](https://chat.whatsapp.com/D218VvL7GO3C6jgEvXsmgG)
 
-![Whatsapp](icons/whatsapp.svg) [Medellín Co-work](https://chat.whatsapp.com/F3mEXK7QMxBIs6arUiPp4x)
+![Whatsapp](icons/whatsapp.svg) [MDE Coworking 💻](https://chat.whatsapp.com/F3mEXK7QMxBIs6arUiPp4x)
 
 ![Whatsapp](icons/whatsapp.svg) [Medellin Meetups 🙌](https://chat.whatsapp.com/LrVumJvbes2FF5P40brHQ8)
 
