@@ -261,10 +261,12 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Expats in Oriente](https://chat.whatsapp.com/FqB190rYYFpJ1Q264DX2tv)
 
-#### Accommodation
+#### Accommodation / Market / Job-Hunting
 ![Whatsapp](icons/whatsapp.svg) [Apartment Hunting](https://chat.whatsapp.com/Cl1wpaCwwU1I8cYZtPcAdn)
 
 ![Whatsapp](icons/whatsapp.svg) [Buy/Sell/Trade/Donate Items](https://chat.whatsapp.com/LuKwWM6owndK429aYC5lat)
+
+![Whatsapp](icons/whatsapp.svg) [MDE Job Marketplace](https://chat.whatsapp.com/LjBOvTDR1YjHV2zfHD1bMi)
 
 #### Activities
 ![Whatsapp](icons/whatsapp.svg) [Hiking Club](https://chat.whatsapp.com/KeiPGJhlm2eLoSrbBDZuKY)
@@ -278,6 +280,8 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [Arts & Culture Club](https://linktr.ee/join_mde.acc)
 
 ![Whatsapp](icons/whatsapp.svg) [The Movie Group 🍿](https://chat.whatsapp.com/EWRlK7aTk44IEVFkuhCC0t)
+
+![Whatsapp](icons/whatsapp.svg) [Texas Holdem Medellín](https://chat.whatsapp.com/I08PZwS6LGdBs6oCAlOWfn)
 
 ![Whatsapp](icons/whatsapp.svg) [Food Experiences](https://chat.whatsapp.com/J7Rbxriff4M5AK6xL2dsUf)
 
@@ -331,6 +335,8 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Football](https://chat.whatsapp.com/IXcBgRgybsX260udORp9Di)
 
+![Whatsapp](icons/whatsapp.svg) [🏐Volleyball Medellin](https://chat.whatsapp.com/JCcGgpsfKrpKf04Wp9FfPM)
+
 ![Whatsapp](icons/whatsapp.svg) [Tennis](https://chat.whatsapp.com/IwUX9MiTcFcLoTiuOllebK)
 
 ![Whatsapp](icons/whatsapp.svg) [Ping Pong in MDE](https://chat.whatsapp.com/L2pr4SyKqng4bWPn0Jerab)
@@ -358,6 +364,8 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [Volleyball - Lima](https://chat.whatsapp.com/LgvEMYyVqrkJAuSm84ZXYl)
 
 ![Whatsapp](icons/whatsapp.svg) [Hiking](https://chat.whatsapp.com/DJUIlp3Ezww3vAfK8NJOk6)
+
+![Whatsapp](icons/whatsapp.svg) [Tribe Cerros 🎒☘️🌳🌵🌸 (Second Hiking Group)](https://chat.whatsapp.com/C4EteDvNbqQ5sDRZTT9pFB)
 
 ![Whatsapp](icons/whatsapp.svg) [Paintball](https://chat.whatsapp.com/J55Xkkmmpnw3wbhJQVGFbk)
 
