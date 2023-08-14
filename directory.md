@@ -237,6 +237,8 @@ South East Asia
 #### Making Friends/Meetups
 ![Whatsapp](icons/whatsapp.svg) [Medellin Nomads & Amigos](https://chat.whatsapp.com/EnQaDkdmkRSEqpZpEn0OEl)
 
+![Whatsapp](icons/whatsapp.svg) [Digital Nomads Meet-Ups Medellín](https://chat.whatsapp.com/DntF5pnHL5k8AIFfs86mKz)
+
 ![Whatsapp](icons/whatsapp.svg) [Nomads // visitor of MDE](https://chat.whatsapp.com/D218VvL7GO3C6jgEvXsmgG)
 
 ![Whatsapp](icons/whatsapp.svg) [MDE Coworking 💻](https://chat.whatsapp.com/F3mEXK7QMxBIs6arUiPp4x)
