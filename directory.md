@@ -268,7 +268,7 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Buy/Sell/Trade/Donate Items](https://chat.whatsapp.com/LuKwWM6owndK429aYC5lat)
 
-![Whatsapp](icons/whatsapp.svg) [MDE Job Marketplace](https://chat.whatsapp.com/LjBOvTDR1YjHV2zfHD1bMi)
+![Whatsapp](icons/whatsapp.svg) [MDE Job Marketplace](https://chat.whatsapp.com/L003SHICERo7COfH6i8Szm)
 
 #### Activities
 ![Whatsapp](icons/whatsapp.svg) [Hiking Club](https://chat.whatsapp.com/KeiPGJhlm2eLoSrbBDZuKY)
