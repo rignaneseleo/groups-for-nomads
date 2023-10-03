@@ -225,6 +225,8 @@ South East Asia
 ### Bogota
 ![Whatsapp](icons/whatsapp.svg) [Bogota Expats](https://chat.whatsapp.com/K4ZmeuXfUQcJ46E4DKa6z1)
 
+![Whatsapp](icons/whatsapp.svg) [Bogota IntDev (For Developers)](https://chat.whatsapp.com/Dt21ZOXjEjvFJDTX3WntXp)
+
 ![Whatsapp](icons/whatsapp.svg) [CS Picnic](https://chat.whatsapp.com/IcpH9bZvgAVLc7KjRV4u6W)
 
 ### Cartagena 
