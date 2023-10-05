@@ -303,6 +303,8 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Organic Products](https://chat.whatsapp.com/C3kCF1CTQPvBnAA5fPyrRw)
 
+![Whatsapp](icons/whatsapp.svg) [Walking Meditations](https://chat.whatsapp.com/Krr0a0fpZFDAlHPdHrNnrn)
+
 ![Whatsapp](icons/whatsapp.svg) [🍃 Ayahuasca Ceremonies - Medellín - Javier Yagari y Johannes 🍃🥃](https://chat.whatsapp.com/IM8rehOdsDt5OF2UA7CZ29)
 
 ![Whatsapp](icons/whatsapp.svg) [Sacred Medicine MDE](https://chat.whatsapp.com/FHCZzrQIcXtE6baRStZnOc)
