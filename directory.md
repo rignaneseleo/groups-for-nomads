@@ -366,8 +366,6 @@ South East Asia
 
 ![Whatsapp](icons/whatsapp.svg) [Exchange 2023 Lima](https://chat.whatsapp.com/F01Xu8HKF3x5EGnDj6BW9H)
 
-![Telegram](icons/telegram.svg) [Mundo Lingo Language Exchange](https://t.me/MundoLingo)
-
 #### Activities
 ![Whatsapp](icons/whatsapp.svg) [Volleyball - Lima](https://chat.whatsapp.com/LgvEMYyVqrkJAuSm84ZXYl)
 
