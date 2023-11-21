@@ -1,8 +1,17 @@
 # Table of Contents
 Europe
+- [🇫🇷 France](#france)
+- [🇩🇪 Germany](#germany)
+- [🇮🇹 Italy](#italy)
 - [🇳🇱 Netherlands](#netherlands)
 - [🇵🇹 Portugal](#portugal)
 - [🇪🇸 Spain](#spain)
+- [🇨🇭 Switzerland](#switzerland)
+- [🇬🇧 UK](#uk)
+
+North America
+- [🇨🇦 Canada](#canada)
+- [🇺🇸 USA](#usa)
 
 Central America
 - [🇬🇹 Guatemala](#guatemala)
@@ -15,14 +24,40 @@ South America
 - [🇵🇪 Perù](#peru)
 - [🇻🇪 Venezuela](#venezuela)
 
-South East Asia
+Asia
+- [🇨🇳 China](#china)
 - [🇮🇩 Indonesia](#indonesia)
+- [🇯🇵 Japan](#japan)
+- [🇲🇲 Myanmar](#myanmar)
+- [🇷🇺 Russia](#russia)
+- [🇸🇬 Singapore](#singapore)
+- [🇰🇷 South Korea](#southkorea)
+- [🇹🇭 Thailand](#thailand)
+- [🇻🇳 Vietnam](#vietnam)
+
+Australia
+- [🇦🇺 Australia](#australia)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
 # The list
 ## World
 ![Telegram](icons/telegram.svg) [Digital Nomads Network](https://t.me/NetworkDigitalNomads)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## France 🇫🇷 <a name="france"></a>
+![Telegram](icons/telegram.svg) [MundoLingo France](https://t.me/+GLiMBsBa4ck4MGQ0)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Germany 🇩🇪 <a name="germany"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Germany](https://t.me/+8AlQqM8G9eVjZTM0)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Italy 🇮🇹 <a name="italy"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Italy](https://t.me/+pCmkcKh6v81lYTc8)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -39,6 +74,8 @@ South East Asia
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Spain 🇪🇸 <a name="spain"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Spain](https://t.me/+DrjlLBeM0soxNTM0)
+
 ### Barcelona
 ![Whatsapp](icons/whatsapp.svg) [CouchSurfing Barcelona](https://chat.whatsapp.com/EqAYv1stKRa1iErgSUSKhi)
 
@@ -52,6 +89,26 @@ South East Asia
 ![Whatsapp](icons/whatsapp.svg) [Madrid new friends](https://chat.whatsapp.com/DyosoSaCfXt00exnHQuJJF)
 
 ![Whatsapp](icons/whatsapp.svg) [Freelancers in Madrid](https://chat.whatsapp.com/CBJXxMtx5UYHP1Kj5HkGK8)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Switzerland 🇨🇭 <a name="switzerland"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Switzerland](https://t.me/+rXRvJu7nuDNlZjU0)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## UK 🇬🇧 <a name="uk"></a>
+![Telegram](icons/telegram.svg) [MundoLingo UK](https://t.me/+wxpON0YCyPRhNTI0)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Canada 🇨🇦 <a name="canada"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Canada](https://t.me/+OFlKd4z17L0yMzc8)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## USA 🇺🇸 <a name="usa"></a>
+![Telegram](icons/telegram.svg) [MundoLingo USA](https://t.me/+FBUcXVAdwYAyYWRk)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -122,12 +179,17 @@ South East Asia
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Argentina 🇦🇷 <a name="argentina"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Argentina](https://t.me/+oPMzrYofXJYyZTE0)
+
 ### Buenos Aires
 ![Linktree](icons/linktree.svg) [Linktree for Buenos Aires "BA Digital Nomads"](https://linktr.ee/BADigitalNomads)
+![Telegram](icons/telegram.svg) [MundoLingo Buenos Aires](https://t.me/ML_Argentina/109948)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Brazil 🇧🇷 <a name="brazil"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Brazil](https://t.me/+e_NGPDyykRViOGY0)
+
 ### Florianopolis
 ![Whatsapp](icons/whatsapp.svg) [Digital Nomads](https://chat.whatsapp.com/EJDgKrA14ibE1pxt4l87mg)
 
@@ -353,11 +415,14 @@ South East Asia
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Peru 🇵🇪 <a name="peru"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Peru](https://t.me/+rBDLSTqFISQxMGFk)
+
 ### Cusco
 ![Whatsapp](icons/whatsapp.svg) [Cusco nomads and travelers](https://chat.whatsapp.com/JXZk1JO7XgH0HoXnkZerEX)
 
 ### Lima
 ![Whatsapp](icons/whatsapp.svg) [Lima Community (Main Community for all Lima Whatsapp-Groups)](https://chat.whatsapp.com/DNfvYIDnmT99mfqdVLSUI4)
+![Telegram](icons/telegram.svg) [MundoLingo Lima](https://t.me/ML_Peru/1)
 
 #### Making Friends/Meetups
 ![Whatsapp](icons/whatsapp.svg) [Lima Expats and Friends](https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd)
@@ -393,9 +458,54 @@ South East Asia
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+## China 🇨🇳 <a name="china"></a>
+![Telegram](icons/telegram.svg) [MundoLingo China](https://t.me/+GZUnAW2aouNjYmRk)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## Indonesia 🇮🇩 <a name="indonesia"></a>
 ### Bali
 #### Making Friends/Meetups
 ![Whatsapp](icons/whatsapp.svg) [🌀Bali Nomads Giving Back🌀](https://chat.whatsapp.com/Gq8sjbZBKFk6iUc78XRqdz)
 
 ![Whatsapp](icons/whatsapp.svg) [Canggu Men](https://chat.whatsapp.com/ClpnSc1ZOv46uRki6nH0KH)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Japan 🇯🇵 <a name="japan"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Japan](https://t.me/+eOVW_Nmre7QxYzc1)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Myanmar 🇲🇲 <a name="myanmar"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Myanmar](https://t.me/+psmrIg9s2phiMzU0)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Russia 🇷🇺 <a name="russia"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Russia](https://t.me/+iLwyx3V2Op0xMGVk)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Singapore 🇸🇬 <a name="singapore"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Singapore](https://t.me/+Y_U4Ze2kdNFmNWNk)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## South Korea 🇰🇷 <a name="southkorea"></a>
+![Telegram](icons/telegram.svg) [MundoLingo South Korea](https://t.me/+JqDYE9pklu81OGFl)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Thailand 🇹🇭 <a name="thailand"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Thailand](https://t.me/+ureOhlmfRetlNTg0)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Vietnam 🇻🇳 <a name="vietnam"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Vietnam](https://t.me/+nqlVMGubWwY0NjRk)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Australia 🇦🇺 <a name="australia"></a>
+![Telegram](icons/telegram.svg) [MundoLingo Australia](https://t.me/+nib_PUKZNV1jMjA0)
