@@ -20,8 +20,12 @@ Central America
 South America
 - [🇦🇷 Argentina](#argentina)
 - [🇧🇷 Brazil](#brazil)
+- [🇨🇱 Chile](#chile)
 - [🇨🇴 Colombia](#colombia)
-- [🇵🇪 Perù](#peru)
+- [🇬🇾 Guyana](#guyana)
+- [🇵🇾 Paraguay](#paraguay)
+- [🇵🇪 Peru](#peru)
+- [🇺🇾 Uruguay](#uruguay)
 - [🇻🇪 Venezuela](#venezuela)
 
 Asia
@@ -180,6 +184,7 @@ Australia
 
 ## Argentina 🇦🇷 <a name="argentina"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Argentina](https://t.me/+oPMzrYofXJYyZTE0)
+![Whatsapp](icons/whatsapp.svg) [Argentina Overlanders](https://chat.whatsapp.com/J4ALrPwMLXb3GSI6VHlNWI)
 
 ### Buenos Aires
 ![Linktree](icons/linktree.svg) [Linktree for Buenos Aires "BA Digital Nomads"](https://linktr.ee/BADigitalNomads)
@@ -278,6 +283,10 @@ Australia
 
 ![Whatsapp](icons/whatsapp.svg) [Gastronômicas 🦪🍤🍝](https://chat.whatsapp.com/JHcsctmhuzQH2XtP9IdH6v)
 
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Chile 🇨🇱 <a name="chile"></a>
+![Whatsapp](icons/whatsapp.svg) [Overlanding Chile](https://chat.whatsapp.com/KgWcgA6BRmf4qx9PkBKC8p)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -414,6 +423,16 @@ Australia
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+## Guayana 🇬🇾 <a name="guyana"></a>
+![Whatsapp](icons/whatsapp.svg) [Overlanders and travellers in the Guyanas](https://chat.whatsapp.com/LVZ0mF68ce8AQ853nIp8Bt)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Paraguay 🇵🇾 <a name="paraguay"></a>
+![Whatsapp](icons/whatsapp.svg) [Discover Paraguay - Overlanders](https://chat.whatsapp.com/JC6Or809IlOCVqcQbxzm5Z)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## Peru 🇵🇪 <a name="peru"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Peru](https://t.me/+rBDLSTqFISQxMGFk)
 
@@ -450,6 +469,11 @@ Australia
 ![Whatsapp](icons/whatsapp.svg) [Lima Day Parties](https://chat.whatsapp.com/KQna4x3uBe3BFo0Qd08nAF)
 
 ![Whatsapp](icons/whatsapp.svg) [Nightlife](https://chat.whatsapp.com/COpZ3q0F8nf4FERDDPILhi)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Uruguay 🇺🇾 <a name="uruguay"></a>
+![Whatsapp](icons/whatsapp.svg) [Travelling overland in Uruguay](https://chat.whatsapp.com/K9OR05vKihVCGVCeSHYXYG)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
