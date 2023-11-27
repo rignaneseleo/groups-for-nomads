@@ -22,6 +22,7 @@ South America
 - [🇧🇷 Brazil](#brazil)
 - [🇨🇱 Chile](#chile)
 - [🇨🇴 Colombia](#colombia)
+- [🇪🇨 Ecuador](#ecuador)
 - [🇬🇾 Guyana](#guyana)
 - [🇵🇾 Paraguay](#paraguay)
 - [🇵🇪 Peru](#peru)
@@ -423,6 +424,11 @@ Australia
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+## Ecuador 🇪🇨 <a name="ecuador"></a>
+![Whatsapp](icons/whatsapp.svg) [Traveling in Ecuador](https://chat.whatsapp.com/HWpgcU8IvVI0bUtob0owqR)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## Guayana 🇬🇾 <a name="guyana"></a>
 ![Whatsapp](icons/whatsapp.svg) [Overlanders and travellers in the Guyanas](https://chat.whatsapp.com/LVZ0mF68ce8AQ853nIp8Bt)
 
@@ -479,6 +485,7 @@ Australia
 
 ## Venezuela 🇻🇪 <a name="venezuela"></a>
 ![Whatsapp](icons/whatsapp.svg) [Venezuela 🇻🇪💥](https://chat.whatsapp.com/KNIZIxVJg8L07duupFtuXp)
+![Whatsapp](icons/whatsapp.svg) [Overlanding Venezuela English](https://chat.whatsapp.com/FSQkIWLpiCpBRblQuvrQyH)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
