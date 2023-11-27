@@ -185,10 +185,12 @@ Australia
 
 ## Argentina 🇦🇷 <a name="argentina"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Argentina](https://t.me/+oPMzrYofXJYyZTE0)
+
 ![Whatsapp](icons/whatsapp.svg) [Argentina Overlanders](https://chat.whatsapp.com/J4ALrPwMLXb3GSI6VHlNWI)
 
 ### Buenos Aires
 ![Linktree](icons/linktree.svg) [Linktree for Buenos Aires "BA Digital Nomads"](https://linktr.ee/BADigitalNomads)
+
 ![Telegram](icons/telegram.svg) [MundoLingo Buenos Aires](https://t.me/ML_Argentina/109948)
 
 <p>&nbsp;</p><p>&nbsp;</p>
@@ -447,6 +449,7 @@ Australia
 
 ### Lima
 ![Whatsapp](icons/whatsapp.svg) [Lima Community (Main Community for all Lima Whatsapp-Groups)](https://chat.whatsapp.com/DNfvYIDnmT99mfqdVLSUI4)
+
 ![Telegram](icons/telegram.svg) [MundoLingo Lima](https://t.me/ML_Peru/1)
 
 #### Making Friends/Meetups
@@ -485,6 +488,7 @@ Australia
 
 ## Venezuela 🇻🇪 <a name="venezuela"></a>
 ![Whatsapp](icons/whatsapp.svg) [Venezuela 🇻🇪💥](https://chat.whatsapp.com/KNIZIxVJg8L07duupFtuXp)
+
 ![Whatsapp](icons/whatsapp.svg) [Overlanding Venezuela English](https://chat.whatsapp.com/FSQkIWLpiCpBRblQuvrQyH)
 
 <p>&nbsp;</p><p>&nbsp;</p>
