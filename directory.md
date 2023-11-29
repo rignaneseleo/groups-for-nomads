@@ -52,10 +52,9 @@
 ### [Australia](#australia)
 - [🇦🇺 Australia](#australia)
 
-<p>&nbsp;</p><p>&nbsp;</p>
+------
 
-# The list
-## World
+# World
 ![Telegram](icons/telegram.svg) [Digital Nomads Network](https://t.me/NetworkDigitalNomads)
 
 ![Linktree](icons/linktree.svg) [Dutchies Worldwide](https://linktr.ee/dutchiestravelling)
