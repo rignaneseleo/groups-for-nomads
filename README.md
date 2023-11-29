@@ -4,7 +4,7 @@ Welcome to the Digital Nomad Community Directory! This project aims to create a 
 
 ## The list
 
-👉🏻 [Click HERE to open the list](directory.md)
+👉🏻 Click [HERE](directory.md) to open the list
 
 ## How to Contribute
 
@@ -23,7 +23,8 @@ Please note that contributions should follow the existing format and be relevant
 
 ## Directory Structure
 
-The directory is organized by countries, allowing users to easily find communities in specific locations. Each country section contains a list of digital nomad groups along with their descriptions and links. Explore the directory and discover communities worldwide!
+The directory is organized first by continents, then by countries, all in alphabetical order.
+This allows users to easily find communities in specific locations. Each country section contains a list of groups along with their descriptions and links. Explore the directory and discover communities worldwide!
 
 
 ## License
