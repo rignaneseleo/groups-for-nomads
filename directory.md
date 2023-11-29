@@ -1,5 +1,5 @@
-# Table of Contents
-Europe
+# Index
+### [Europe](#europe)
 - [🇫🇷 France](#france)
 - [🇩🇪 Germany](#germany)
 - [🇮🇹 Italy](#italy)
@@ -9,15 +9,15 @@ Europe
 - [🇨🇭 Switzerland](#switzerland)
 - [🇬🇧 UK](#uk)
 
-North America
+### [North America](#northamerica)
 - [🇨🇦 Canada](#canada)
 - [🇺🇸 USA](#usa)
 
-Central America
+### [Central America](#centralamerica)
 - [🇬🇹 Guatemala](#guatemala)
 - [🇲🇽 Mexico](#mexico)
 
-South America
+### [South America](#southamerica)
 - [🇦🇷 Argentina](#argentina)
 - [🇧🇷 Brazil](#brazil)
 - [🇨🇱 Chile](#chile)
@@ -29,18 +29,27 @@ South America
 - [🇺🇾 Uruguay](#uruguay)
 - [🇻🇪 Venezuela](#venezuela)
 
-Asia
+### [Asia](#asia)
+- [🇰🇭 Cambodia](#cambodia)
 - [🇨🇳 China](#china)
+- [🇮🇳 India](#india)
 - [🇮🇩 Indonesia](#indonesia)
 - [🇯🇵 Japan](#japan)
+- [🇱🇦 Laos](#laos)
+- [🇲🇾 Malaysia](#malaysia)
+- [🇲🇻 Maldives](#maldives)
 - [🇲🇲 Myanmar](#myanmar)
+- [🇳🇵 Nepal](#nepal)
+- [🇵🇭 Philippines](#philippines)
 - [🇷🇺 Russia](#russia)
 - [🇸🇬 Singapore](#singapore)
 - [🇰🇷 South Korea](#southkorea)
+- [🇱🇰 Sri Lanka](#srilanka)
+- [🇹🇼 Taiwan](#taiwan)
 - [🇹🇭 Thailand](#thailand)
 - [🇻🇳 Vietnam](#vietnam)
 
-Australia
+### [Australia](#australia)
 - [🇦🇺 Australia](#australia)
 
 <p>&nbsp;</p><p>&nbsp;</p>
@@ -49,7 +58,11 @@ Australia
 ## World
 ![Telegram](icons/telegram.svg) [Digital Nomads Network](https://t.me/NetworkDigitalNomads)
 
+![Linktree](icons/linktree.svg) [Dutchies Worldwide](https://linktr.ee/dutchiestravelling)
+
 <p>&nbsp;</p><p>&nbsp;</p>
+
+# Europe <a name="europe"></a>
 
 ## France 🇫🇷 <a name="france"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo France](https://t.me/+GLiMBsBa4ck4MGQ0)
@@ -107,6 +120,8 @@ Australia
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+# North America <a name="northamerica"></a>
+
 ## Canada 🇨🇦 <a name="canada"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Canada](https://t.me/+OFlKd4z17L0yMzc8)
 
@@ -115,7 +130,11 @@ Australia
 ## USA 🇺🇸 <a name="usa"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo USA](https://t.me/+FBUcXVAdwYAyYWRk)
 
+![Whatsapp](icons/whatsapp.svg) [Dutchies in de Verenigde Staten 🇺🇸](https://chat.whatsapp.com/Jb2c1ovytaXAjpf1skYwin)
+
 <p>&nbsp;</p><p>&nbsp;</p>
+
+# Central America <a name="centralamerica"></a>
 
 ## Guatemala 🇬🇹 <a name="guatemala"></a>
 ### Guatemala City
@@ -124,6 +143,9 @@ Australia
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Mexico 🇲🇽 <a name="mexico"></a>
+
+![Whatsapp](icons/whatsapp.svg) [Dutchies in Mexico 🇲🇽](https://chat.whatsapp.com/FjIF9a55rO20juyG9R1su8)
+
 ### Mexico City
 ![Linktree](icons/linktree.svg) [Linktree for Mexico City "CDMX"](https://linktr.ee/cdmx)
 
@@ -182,6 +204,10 @@ Australia
 ![Whatsapp](icons/whatsapp.svg) [Morning JumpStart](https://chat.whatsapp.com/GXNGnY09Tg0BrVobf9aYC9)
 
 <p>&nbsp;</p><p>&nbsp;</p>
+
+# South America <a name="southamerica"></a>
+
+![Linktree](icons/linktree.svg) [Dutchies in Latin America](https://linktr.ee/dutchies)
 
 ## Argentina 🇦🇷 <a name="argentina"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Argentina](https://t.me/+oPMzrYofXJYyZTE0)
@@ -296,6 +322,10 @@ Australia
 ## Colombia 🇨🇴 <a name="colombia"></a>
 ![Telegram](icons/telegram.svg) [Digital Nomads Colombia](https://t.me/ColombiaDigitalNomads)
 
+![Whatsapp](icons/whatsapp.svg) [Colombia travellers 🇨🇴🌞🔥](https://chat.whatsapp.com/IpxrAo0aoLmH7VbxVBrazY)
+
+![Whatsapp](icons/whatsapp.svg) [Colombia Biker ADVs](https://chat.whatsapp.com/Lgfu1NFOi3iEfZOQUP5Znh)
+
 ### Bogota
 ![Whatsapp](icons/whatsapp.svg) [Bogota Expats](https://chat.whatsapp.com/K4ZmeuXfUQcJ46E4DKa6z1)
 
@@ -308,7 +338,7 @@ Australia
 
 ### Medellin
 
-![Linktree](icons/linktree.svg) [Linktree Collection of WA-Groups for Medellin "MDE-Community"](https://linktr.ee/mdecommunity)
+![Linktree](icons/linktree.svg) [Linktree for Medellin "MDE-Community"](https://linktr.ee/mdecommunity)
 
 #### Making Friends/Meetups
 ![Whatsapp](icons/whatsapp.svg) [Medellin Nomads & Amigos](https://chat.whatsapp.com/EnQaDkdmkRSEqpZpEn0OEl)
@@ -493,27 +523,71 @@ Australia
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+# Asia <a name="asia"></a>
+
+![Linktree](icons/linktree.svg) [Linktree for Backpackers in Asia 🌏](https://linktr.ee/backpackersasia)
+
+## Cambodia 🇰🇭 <a name="cambodia"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Cambodia 🇰🇭](https://chat.whatsapp.com/EoQR2PcRln908KhUpit4dv)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## China 🇨🇳 <a name="china"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo China](https://t.me/+GZUnAW2aouNjYmRk)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+## India 🇮🇳 <a name="india"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in India 🇮🇳](https://chat.whatsapp.com/H8cXuNXuZdRDIW5C0EsZa6)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## Indonesia 🇮🇩 <a name="indonesia"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Indonesia 🇮🇩](https://chat.whatsapp.com/GGNgPVxkrgt28Tg7Dj1BWH)
+
 ### Bali
-#### Making Friends/Meetups
 ![Whatsapp](icons/whatsapp.svg) [🌀Bali Nomads Giving Back🌀](https://chat.whatsapp.com/Gq8sjbZBKFk6iUc78XRqdz)
 
 ![Whatsapp](icons/whatsapp.svg) [Canggu Men](https://chat.whatsapp.com/ClpnSc1ZOv46uRki6nH0KH)
 
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Bali 🇮🇩](https://chat.whatsapp.com/DtzSMxbvwgDBTJRW28mRgk)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Japan 🇯🇵 <a name="japan"></a>
+![Whatsapp](icons/whatsapp.svg) [Japan 🇯🇵 Backpackers](https://chat.whatsapp.com/JzLDJabg4T1HU4X8lu9ie5)
+
 ![Telegram](icons/telegram.svg) [MundoLingo Japan](https://t.me/+eOVW_Nmre7QxYzc1)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Laos 🇱🇦 <a name="laos"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Laos 🇱🇦](https://chat.whatsapp.com/L0cvvUYampsKc8iPFXXjLU)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Malaysia 🇲🇾 <a name="malaysia"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Malaysia 🇲🇾](https://chat.whatsapp.com/KFjdMOEMlUi6RPRVM3NdtL)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Maldives 🇲🇻 <a name="maldives"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Maldives 🇲🇻](https://chat.whatsapp.com/Jc7OkH7uAFKKfH0PeauBNT)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Myanmar 🇲🇲 <a name="myanmar"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Myanmar](https://t.me/+psmrIg9s2phiMzU0)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Nepal 🇳🇵 <a name="nepal"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Nepal 🇳🇵](https://chat.whatsapp.com/ISTPc0MFxma2HdHfnkSYSt)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Philippines 🇵🇭 <a name="philippines"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Philippines 🇵🇭](https://chat.whatsapp.com/CjVSXSMUDBoKOwvcZ0NwqE)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -523,24 +597,50 @@ Australia
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Singapore 🇸🇬 <a name="singapore"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Singapore 🇸🇬](https://chat.whatsapp.com/JkDBE8gBoMx1OGrkhRI0WB)
+
 ![Telegram](icons/telegram.svg) [MundoLingo Singapore](https://t.me/+Y_U4Ze2kdNFmNWNk)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## South Korea 🇰🇷 <a name="southkorea"></a>
+![Whatsapp](icons/whatsapp.svg) [Korea Backpackers 🇰🇷](https://chat.whatsapp.com/FtnHvR3lkrF5XCgCaGvN7b)
+
 ![Telegram](icons/telegram.svg) [MundoLingo South Korea](https://t.me/+JqDYE9pklu81OGFl)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+## Sri Lanka 🇱🇰 <a name="srilanka"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Sri Lanka 🇱🇰](https://chat.whatsapp.com/CqbtuOd5aUkCDIHrEqWVDL)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## Taiwan 🇹🇼 <a name="taiwan"></a>
+![Whatsapp](icons/whatsapp.svg) [Taiwan travelers 🇹🇼](https://chat.whatsapp.com/FiIz63rIae0ArdvIdD2V1F)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## Thailand 🇹🇭 <a name="thailand"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Thailand 🇹🇭](https://chat.whatsapp.com/CFIy6tKpj4VABoGg9yhLAZ)
+
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Thailand ➋ 🇹🇭](https://chat.whatsapp.com/HNxPPhu5EkF83jOLeSsejg)
+
+![Whatsapp](icons/whatsapp.svg) [Deutsche in Thailand 🇩🇪🇹🇭](https://chat.whatsapp.com/KpIs6xptdSK88rroiaMoyA)
+
 ![Telegram](icons/telegram.svg) [MundoLingo Thailand](https://t.me/+ureOhlmfRetlNTg0)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Vietnam 🇻🇳 <a name="vietnam"></a>
+![Whatsapp](icons/whatsapp.svg) [Backpackers in Vietnam 🇻🇳](https://chat.whatsapp.com/EOKNlO0BpsKL3eR6tkfBbA)
+
 ![Telegram](icons/telegram.svg) [MundoLingo Vietnam](https://t.me/+nqlVMGubWwY0NjRk)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+# Australia <a name="australia"></a>
+
 ## Australia 🇦🇺 <a name="australia"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Australia](https://t.me/+nib_PUKZNV1jMjA0)
+
+![Whatsapp](icons/whatsapp.svg) [Dutchies in Australië 🇦🇺](https://chat.whatsapp.com/HnkgANr3zHJHGE7X6u1CWQ)
