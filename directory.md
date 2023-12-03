@@ -49,6 +49,8 @@
 - [🇹🇭 Thailand](#thailand)
 - [🇻🇳 Vietnam](#vietnam)
 
+### [Antarctica](#antarctica)
+
 ### [Australia](#australia)
 - [🇦🇺 Australia](#australia)
 
@@ -471,6 +473,7 @@
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Peru 🇵🇪 <a name="peru"></a>
+![Whatsapp](icons/whatsapp.svg) [Traveling in Peru 🇵🇪🎒🚙⛰️🏍️](https://chat.whatsapp.com/LcLsLPqsKFTG7etlnr7uE4)
 ![Telegram](icons/telegram.svg) [MundoLingo Peru](https://t.me/+rBDLSTqFISQxMGFk)
 
 ### Cusco
@@ -634,6 +637,11 @@
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Vietnam 🇻🇳](https://chat.whatsapp.com/EOKNlO0BpsKL3eR6tkfBbA)
 
 ![Telegram](icons/telegram.svg) [MundoLingo Vietnam](https://t.me/+nqlVMGubWwY0NjRk)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
+# Antarctica <a name="antarctica"></a>
+![Whatsapp](icons/whatsapp.svg) [https://chat.whatsapp.com/IRW7EQnzJuLGFlX7TbF1ww](https://chat.whatsapp.com/IRW7EQnzJuLGFlX7TbF1ww)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
