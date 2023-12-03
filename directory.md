@@ -49,9 +49,10 @@
 - [🇹🇭 Thailand](#thailand)
 - [🇻🇳 Vietnam](#vietnam)
 
-### [Antarctica](#antarctica)
+### [Antarctica](#continent-antarctica)
+- [🇦🇶 Antarctica](#antarctica)
 
-### [Australia](#australia)
+### [Australia](#continent-australia)
 - [🇦🇺 Australia](#australia)
 
 ------
@@ -640,13 +641,13 @@
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
-# Antarctica <a name="antarctica"></a>
-![Whatsapp](icons/whatsapp.svg) [https://chat.whatsapp.com/IRW7EQnzJuLGFlX7TbF1ww](https://chat.whatsapp.com/IRW7EQnzJuLGFlX7TbF1ww)
+# Antarctica <a name="continent-antarctica"></a>
+## Antarctica 🇦🇶 <a name="antarctica"></a>
+![Whatsapp](icons/whatsapp.svg) [Traveling Antarctica 🇦🇶](https://chat.whatsapp.com/IRW7EQnzJuLGFlX7TbF1ww)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
-# Australia <a name="australia"></a>
-
+# Australia <a name="continent-australia"></a>
 ## Australia 🇦🇺 <a name="australia"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Australia](https://t.me/+nib_PUKZNV1jMjA0)
 
