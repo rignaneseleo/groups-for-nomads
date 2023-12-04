@@ -64,7 +64,7 @@
 
 ![Linktree](icons/linktree.svg) [Dutchies Worldwide](https://linktr.ee/dutchiestravelling)
 
-[//]: # "![Whatsapp](icons/whatsapp.svg) [Overlanding Community](awaiting from community admin)""
+[//]: # "![Whatsapp](icons/whatsapp.svg) [Overlanding Community](awaiting from community admin)"
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
