@@ -459,7 +459,9 @@
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Ecuador 🇪🇨 <a name="ecuador"></a>
-![Whatsapp](icons/whatsapp.svg) [Traveling in Ecuador](https://chat.whatsapp.com/HWpgcU8IvVI0bUtob0owqR)
+![Whatsapp](icons/whatsapp.svg) [Backpacking in Ecuador 🎒🥾](https://chat.whatsapp.com/JjBMo83mbokGrDIkcFz3J3)
+
+![Whatsapp](icons/whatsapp.svg) [Overlanding Ecuador 🚐🚙🇪🇨](https://chat.whatsapp.com/HWpgcU8IvVI0bUtob0owqR)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
