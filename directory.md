@@ -1,4 +1,5 @@
 # Index
+[//]: # (Continents and countries go here)
 ### [Europe](#europe)
 - [🇫🇷 France](#france)
 - [🇩🇪 Germany](#germany)
@@ -58,9 +59,12 @@
 ------
 
 # World
+[//]: # (Country-independent Networks and Communities go here)
 ![Telegram](icons/telegram.svg) [Digital Nomads Network](https://t.me/NetworkDigitalNomads)
 
 ![Linktree](icons/linktree.svg) [Dutchies Worldwide](https://linktr.ee/dutchiestravelling)
+
+[//]: # "![Whatsapp](icons/whatsapp.svg) [Overlanding Community](awaiting from community admin)""
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
