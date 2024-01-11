@@ -217,10 +217,14 @@
 
 ![Linktree](icons/linktree.svg) [Dutchies in Latin America](https://linktr.ee/dutchies)
 
+![Linktree](icons/linktree.svg) [Linktree for "Hiking Groups in Argentina & Chile"](https://linktr.ee/Mavrica14)
+
 ## Argentina 🇦🇷 <a name="argentina"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Argentina](https://t.me/+oPMzrYofXJYyZTE0)
 
 ![Whatsapp](icons/whatsapp.svg) [Argentina Overlanders](https://chat.whatsapp.com/J4ALrPwMLXb3GSI6VHlNWI)
+
+![Whatsapp](icons/whatsapp.svg) [Women's Chat Argentina](https://chat.whatsapp.com/I2xirYR6VUyJBRtisrQfuy)
 
 ### Buenos Aires
 ![Linktree](icons/linktree.svg) [Linktree for Buenos Aires "BA Digital Nomads"](https://linktr.ee/BADigitalNomads)
@@ -324,6 +328,8 @@
 
 ## Chile 🇨🇱 <a name="chile"></a>
 ![Whatsapp](icons/whatsapp.svg) [Overlanding Chile](https://chat.whatsapp.com/KgWcgA6BRmf4qx9PkBKC8p)
+
+![Whatsapp](icons/whatsapp.svg) [Digital Nomads/Expats in Chile](https://chat.whatsapp.com/FKCy0oYFwyn7tBOFeuUDBd)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
