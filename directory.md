@@ -231,6 +231,10 @@
 
 ![Telegram](icons/telegram.svg) [MundoLingo Buenos Aires](https://t.me/ML_Argentina/109948)
 
+![Whatsapp](icons/whatsapp.svg) [Mindful Nomads - Buenos Aires](https://chat.whatsapp.com/CLXfzyvdjM5KWNdN1RZayc)
+
+![Whatsapp](icons/whatsapp.svg) [LGBT+ BA International](https://chat.whatsapp.com/JadJ6iCD3z6G5vKzuTi61J)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Brazil 🇧🇷 <a name="brazil"></a>
