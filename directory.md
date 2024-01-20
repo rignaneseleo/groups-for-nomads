@@ -17,8 +17,10 @@
 - [🇺🇸 USA](#usa)
 
 ### [Central America](#centralamerica)
+- [🇨🇷 Costa Rica](#costarica)
 - [🇬🇹 Guatemala](#guatemala)
 - [🇲🇽 Mexico](#mexico)
+- [🇳🇮 Nicaragua](#nicaragua)
 
 ### [South America](#southamerica)
 - [🇦🇷 Argentina](#argentina)
@@ -66,7 +68,7 @@
 
 ![Linktree](icons/linktree.svg) [Dutchies Worldwide](https://linktr.ee/dutchiestravelling)
 
-[//]: # "![Whatsapp](icons/whatsapp.svg) [Overlanding Community](https://chat.whatsapp.com/IfmuhQ55pQh6ZGdTmykzU0) REMOVE COMMENT IF THE COMMUNITY ISN'T FULL ANYMORE"
+![Whatsapp](icons/whatsapp.svg) [Overlanding Community](https://chat.whatsapp.com/IfmuhQ55pQh6ZGdTmykzU0)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -144,6 +146,14 @@
 
 # Central America <a name="centralamerica"></a>
 
+![Whatsapp](icons/whatsapp.svg) [South/Central America Travelers (Commercial)](https://chat.whatsapp.com/DLACqBov8OyFaRJEsB4Fge)
+
+## Costa Rica 🇨🇷 <a name="costarica"></a>
+
+![Whatsapp](icons/whatsapp.svg) [Costa Rica travelers 🇨🇷 (Commercial)](https://chat.whatsapp.com/LkAt0e6qNLoB9gO2fGPEOO)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## Guatemala 🇬🇹 <a name="guatemala"></a>
 ### Guatemala City
 ![Whatsapp](icons/whatsapp.svg) [Guatemala Digital Nomads](https://chat.whatsapp.com/Ds5K33ap4QKJQfJNxbnZhE)
@@ -213,7 +223,15 @@
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+## Nicaragua 🇳🇮 <a name="nicaragua"></a>
+
+![Whatsapp](icons/whatsapp.svg) [Travelers in Nicaragua 🇳🇮 (Commercial)](https://chat.whatsapp.com/K9vdzQs7W233nnpReyJIir)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 # South America <a name="southamerica"></a>
+
+![Whatsapp](icons/whatsapp.svg) [South/Central America Travelers (Commercial)](https://chat.whatsapp.com/DLACqBov8OyFaRJEsB4Fge)
 
 ![Linktree](icons/linktree.svg) [Dutchies in Latin America](https://linktr.ee/dutchies)
 
@@ -345,6 +363,9 @@
 ![Whatsapp](icons/whatsapp.svg) [Colombia travellers 🇨🇴🌞🔥](https://chat.whatsapp.com/IpxrAo0aoLmH7VbxVBrazY)
 
 ![Whatsapp](icons/whatsapp.svg) [Colombia Biker ADVs](https://chat.whatsapp.com/Lgfu1NFOi3iEfZOQUP5Znh)
+
+![Whatsapp](icons/whatsapp.svg) [Travelers in Colombia 🇨🇴 (Commercial)](https://chat.whatsapp.com/BFeNnwP3kNl11Er9nrREwx)
+
 
 ### Bogota
 ![Whatsapp](icons/whatsapp.svg) [Bogota Expats](https://chat.whatsapp.com/K4ZmeuXfUQcJ46E4DKa6z1)
