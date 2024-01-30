@@ -148,6 +148,8 @@
 
 ![Whatsapp](icons/whatsapp.svg) [South/Central America Travelers (Commercial)](https://chat.whatsapp.com/DLACqBov8OyFaRJEsB4Fge)
 
+![Whatsapp](icons/whatsapp.svg) [Central American and Mexican Overlanders](https://chat.whatsapp.com/D35phZbq83cJ9JZzOXjlax)
+
 ## Costa Rica 🇨🇷 <a name="costarica"></a>
 
 ![Whatsapp](icons/whatsapp.svg) [Costa Rica travelers 🇨🇷 (Commercial)](https://chat.whatsapp.com/LkAt0e6qNLoB9gO2fGPEOO)
