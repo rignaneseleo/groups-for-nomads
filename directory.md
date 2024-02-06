@@ -2,7 +2,7 @@
 [//]: # (Continents and countries go here)
 ### [World](#world)
 
-### [Europe](#europe)
+### [Europe](#continent-europe)
 - [🇫🇷 France](#france)
 - [🇩🇪 Germany](#germany)
 - [🇮🇹 Italy](#italy)
@@ -35,9 +35,9 @@
 - [🇺🇾 Uruguay](#uruguay)
 - [🇻🇪 Venezuela](#venezuela)
 
-### [Africa](#africa)
+### [Africa](#continent-africa)
 
-### [Asia](#asia)
+### [Asia](#continent-asia)
 - [🇰🇭 Cambodia](#cambodia)
 - [🇨🇳 China](#china)
 - [🇮🇳 India](#india)
@@ -77,7 +77,7 @@
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
-# Europe <a name="europe"></a>
+# Europe <a name="continent-europe"></a>
 
 ![Whatsapp](icons/whatsapp.svg) [Vanlife Europa 🚐 (Deutsch)(Commercial)](https://chat.whatsapp.com/EELrOQ94WLsFf46NuzFjca)
 
@@ -603,13 +603,13 @@
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
-# Africa <a name="africa"></a>
+# Africa <a name="continent-africa"></a>
 
 ![Whatsapp](icons/whatsapp.svg) [Overland durch Afrika 🌍 (Deutsch)(Commercial)](https://chat.whatsapp.com/LdfGpQSo9EHBqM1taZ1YQe)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
-# Asia <a name="asia"></a>
+# Asia <a name="continent-asia"></a>
 
 ![Linktree](icons/linktree.svg) [Linktree for Backpackers in Asia 🌏](https://linktr.ee/backpackersasia)
 
