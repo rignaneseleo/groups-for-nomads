@@ -24,6 +24,7 @@
 
 ### [South America](#southamerica)
 - [🇦🇷 Argentina](#argentina)
+- [🇧🇴 Bolivia](#bolivia)
 - [🇧🇷 Brazil](#brazil)
 - [🇨🇱 Chile](#chile)
 - [🇨🇴 Colombia](#colombia)
@@ -33,6 +34,8 @@
 - [🇵🇪 Peru](#peru)
 - [🇺🇾 Uruguay](#uruguay)
 - [🇻🇪 Venezuela](#venezuela)
+
+### [Africa](#africa)
 
 ### [Asia](#asia)
 - [🇰🇭 Cambodia](#cambodia)
@@ -70,9 +73,13 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Overlanding Community](https://chat.whatsapp.com/IfmuhQ55pQh6ZGdTmykzU0)
 
+![Whatsapp](icons/whatsapp.svg) [Container Sharing and RoRo Shipping worldwide 🚢](https://chat.whatsapp.com/BmCwZ5YSY489u4Chb87llo)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 # Europe <a name="europe"></a>
+
+![Whatsapp](icons/whatsapp.svg) [Vanlife Europa 🚐 (Deutsch)(Commercial)](https://chat.whatsapp.com/EELrOQ94WLsFf46NuzFjca)
 
 ## France 🇫🇷 <a name="france"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo France](https://t.me/+GLiMBsBa4ck4MGQ0)
@@ -132,6 +139,10 @@
 
 # North America <a name="northamerica"></a>
 
+![Whatsapp](icons/whatsapp.svg) [Panamericana 🌎 (Deutsch)](https://chat.whatsapp.com/HgHsNzl2BwrEa3ToIdatoi)
+
+![Whatsapp](icons/whatsapp.svg) [Centro y Norte America (Español)](https://chat.whatsapp.com/F0Mze9I373BHpIz5lFjvjW)
+
 ## Canada 🇨🇦 <a name="canada"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Canada](https://t.me/+OFlKd4z17L0yMzc8)
 
@@ -149,6 +160,12 @@
 ![Whatsapp](icons/whatsapp.svg) [South/Central America Travelers (Commercial)](https://chat.whatsapp.com/DLACqBov8OyFaRJEsB4Fge)
 
 ![Whatsapp](icons/whatsapp.svg) [Central American and Mexican Overlanders](https://chat.whatsapp.com/D35phZbq83cJ9JZzOXjlax)
+
+![Whatsapp](icons/whatsapp.svg) [Motos in Mexico and Central America](https://chat.whatsapp.com/DaVvJQsXdFv9ExO2OwtjBY)
+
+![Whatsapp](icons/whatsapp.svg) [Panamericana 🌎 (Deutsch)](https://chat.whatsapp.com/HgHsNzl2BwrEa3ToIdatoi)
+
+![Whatsapp](icons/whatsapp.svg) [Centro y Norte America (Español)](https://chat.whatsapp.com/F0Mze9I373BHpIz5lFjvjW)
 
 ## Costa Rica 🇨🇷 <a name="costarica"></a>
 
@@ -235,12 +252,20 @@
 
 ![Whatsapp](icons/whatsapp.svg) [South/Central America Travelers (Commercial)](https://chat.whatsapp.com/DLACqBov8OyFaRJEsB4Fge)
 
+![Whatsapp](icons/whatsapp.svg) [Panamericana 🌎 (Deutsch)](https://chat.whatsapp.com/HgHsNzl2BwrEa3ToIdatoi)
+
 ![Linktree](icons/linktree.svg) [Dutchies in Latin America](https://linktr.ee/dutchies)
 
 ## Argentina 🇦🇷 <a name="argentina"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Argentina](https://t.me/+oPMzrYofXJYyZTE0)
 
+![Whatsapp](icons/whatsapp.svg) [Backpackers Argentina 🇦🇷☀️](https://chat.whatsapp.com/ICfhLe2Kr2wEfZZnxUmtUr)
+
+![Whatsapp](icons/whatsapp.svg) [Travelers in Argentina 🇦🇷 (Commercial)](https://chat.whatsapp.com/Go3yVVuDqvdICSk1xDx6s0)
+
 ![Whatsapp](icons/whatsapp.svg) [Argentina Overlanders](https://chat.whatsapp.com/J4ALrPwMLXb3GSI6VHlNWI)
+
+![Whatsapp](icons/whatsapp.svg) [Compra y venta USD, EUR, ARS, BRL, USDT, cripto... 💵💶💴💸](https://chat.whatsapp.com/GuKMntRhgZvEX48fgSrYQo)
 
 ![Whatsapp](icons/whatsapp.svg) [Women's Chat Argentina](https://chat.whatsapp.com/I2xirYR6VUyJBRtisrQfuy)
 
@@ -257,8 +282,17 @@
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+## Bolivia 🇧🇴 <a name="bolivia"></a>
+![Whatsapp](icons/whatsapp.svg) [Traveling in Bolivia 🧭🇧🇴](https://chat.whatsapp.com/C80kUNYT8GcJmit7gT8kbt)
+
+![Whatsapp](icons/whatsapp.svg) [Traveling in Bolivia 🇧🇴🎒🚙🏍️⛰️](https://chat.whatsapp.com/Iuvh9hvh873IptNugih9uy)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 ## Brazil 🇧🇷 <a name="brazil"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Brazil](https://t.me/+e_NGPDyykRViOGY0)
+
+![Whatsapp](icons/whatsapp.svg) [Travelers in Brazil](https://chat.whatsapp.com/BwV6IW4ui3eGMW8RCmuvPU)
 
 ### Florianopolis
 ![Whatsapp](icons/whatsapp.svg) [Digital Nomads](https://chat.whatsapp.com/EJDgKrA14ibE1pxt4l87mg)
@@ -292,7 +326,7 @@
 
 ![Whatsapp](icons/whatsapp.svg) [For Foodies](https://chat.whatsapp.com/G1zrtnbSInIGdjSK8FbvFA)
 
-![Whatsapp](icons/whatsapp.svg) [Rio Random (From naked motel parties to restaurant reviews, truly random)](https://chat.whatsapp.com/FSjdKyJvpcY240RefmvSmo)
+![Whatsapp](icons/whatsapp.svg) [Rio Random ((From naked motel parties to restaurant reviews, truly random))](https://chat.whatsapp.com/FSjdKyJvpcY240RefmvSmo)
 
 ![Whatsapp](icons/whatsapp.svg) [All-carnaval](https://chat.whatsapp.com/DBXCKanZEEh3HPwtARymr8)
 
@@ -569,9 +603,17 @@
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
+# Africa <a name="africa"></a>
+
+![Whatsapp](icons/whatsapp.svg) [Overland durch Afrika 🌍 (Deutsch)(Commercial)](https://chat.whatsapp.com/LdfGpQSo9EHBqM1taZ1YQe)
+
+<p>&nbsp;</p><p>&nbsp;</p>
+
 # Asia <a name="asia"></a>
 
 ![Linktree](icons/linktree.svg) [Linktree for Backpackers in Asia 🌏](https://linktr.ee/backpackersasia)
+
+![Whatsapp](icons/whatsapp.svg) [Overland durch Asien 🌏 (Deutsch)(Commercial)](https://chat.whatsapp.com/BkY1htYMmEvDqLLP35ZTu3)
 
 ## Cambodia 🇰🇭 <a name="cambodia"></a>
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Cambodia 🇰🇭](https://chat.whatsapp.com/EoQR2PcRln908KhUpit4dv)
@@ -693,5 +735,7 @@
 # Australia <a name="continent-australia"></a>
 ## Australia 🇦🇺 <a name="australia"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Australia](https://t.me/+nib_PUKZNV1jMjA0)
+
+![Whatsapp](icons/whatsapp.svg) [Vanlife Australien 🦘 (Deutsch)(Commercial)](https://chat.whatsapp.com/BWAKooLkPIU2iUBCDDpSr2)
 
 ![Whatsapp](icons/whatsapp.svg) [Dutchies in Australië 🇦🇺](https://chat.whatsapp.com/HnkgANr3zHJHGE7X6u1CWQ)
