@@ -700,6 +700,7 @@
 
 ## Sri Lanka 🇱🇰 <a name="srilanka"></a>
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Sri Lanka 🇱🇰](https://chat.whatsapp.com/CqbtuOd5aUkCDIHrEqWVDL)
+![Whatsapp](icons/whatsapp.svg) [Digital nomads Sri Lanka 🇱🇰](https://chat.whatsapp.com/C1jBiDhWKG44Mf4e1qsO43)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
