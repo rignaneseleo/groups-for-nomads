@@ -297,6 +297,8 @@
 ### Florianopolis
 ![Whatsapp](icons/whatsapp.svg) [Digital Nomads](https://chat.whatsapp.com/EJDgKrA14ibE1pxt4l87mg)
 
+![Whatsapp](icons/whatsapp.svg) [Digital Nomads Floripa - Magic Happens Here](https://chat.whatsapp.com/L54clBmXJfxLQq648M4Nc8)
+
 ### Rio De Janeiro
 
 #### Making Friends/Meetups
@@ -700,6 +702,7 @@
 
 ## Sri Lanka 🇱🇰 <a name="srilanka"></a>
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Sri Lanka 🇱🇰](https://chat.whatsapp.com/CqbtuOd5aUkCDIHrEqWVDL)
+
 ![Whatsapp](icons/whatsapp.svg) [Digital nomads Sri Lanka 🇱🇰](https://chat.whatsapp.com/C1jBiDhWKG44Mf4e1qsO43)
 
 <p>&nbsp;</p><p>&nbsp;</p>
