@@ -257,6 +257,10 @@
 ![Linktree](icons/linktree.svg) [Dutchies in Latin America](https://linktr.ee/dutchies)
 
 ## Argentina 🇦🇷 <a name="argentina"></a>
+![Linktree](icons/linktree.svg) [Linktree for Argentina Travellers](https://linktr.ee/argentinatravellers)
+
+![Linktree](icons/linktree.svg) [Linktree for "Hiking Groups in Argentina & Chile"](https://linktr.ee/Mavrica14)
+
 ![Telegram](icons/telegram.svg) [MundoLingo Argentina](https://t.me/+oPMzrYofXJYyZTE0)
 
 ![Whatsapp](icons/whatsapp.svg) [Backpackers Argentina 🇦🇷☀️](https://chat.whatsapp.com/ICfhLe2Kr2wEfZZnxUmtUr)
@@ -265,20 +269,67 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Argentina Overlanders](https://chat.whatsapp.com/J4ALrPwMLXb3GSI6VHlNWI)
 
+![Whatsapp](icons/whatsapp.svg) [Fiverr Argentina - Freelancers](https://chat.whatsapp.com/D0hK88gapOe5LzGWLfQcED)
+
 ![Whatsapp](icons/whatsapp.svg) [Compra y venta USD, EUR, ARS, BRL, USDT, cripto... 💵💶💴💸](https://chat.whatsapp.com/GuKMntRhgZvEX48fgSrYQo)
 
 ![Whatsapp](icons/whatsapp.svg) [Women's Chat Argentina](https://chat.whatsapp.com/I2xirYR6VUyJBRtisrQfuy)
 
-![Linktree](icons/linktree.svg) [Linktree for "Hiking Groups in Argentina & Chile"](https://linktr.ee/Mavrica14)
+![Whatsapp](icons/whatsapp.svg) [Hiking in Argentina & Patagonia](https://chat.whatsapp.com/K13BMnuoKuvJiSadh4z98u)
+
+![Whatsapp](icons/whatsapp.svg) [Patagonia Bariloche & More](https://chat.whatsapp.com/Cr4CdA6dScu7rblxsQFBHN)
 
 ### Buenos Aires
 ![Linktree](icons/linktree.svg) [Linktree for Buenos Aires "BA Digital Nomads"](https://linktr.ee/BADigitalNomads)
 
 ![Telegram](icons/telegram.svg) [MundoLingo Buenos Aires](https://t.me/ML_Argentina/109948)
 
+![Whatsapp](icons/whatsapp.svg) [Pool Party People in BA](https://chat.whatsapp.com/Jaff3CuLzC8HclvIfLxIHI)
+
+![Whatsapp](icons/whatsapp.svg) [Photography in BA)](https://chat.whatsapp.com/DdO2jpp8EibL8lD2TD1hb7)
+
+![Whatsapp](icons/whatsapp.svg) [BA Expat Photographers](https://chat.whatsapp.com/GvAHNO9ab030uHQNBIMcBK)
+
+![Whatsapp](icons/whatsapp.svg) [BA Digital Nomads Jobs](https://chat.whatsapp.com/LLhOpx9HIMF5tHyssyWly6)
+
+![Whatsapp](icons/whatsapp.svg) [BA Board Game Lovers](https://chat.whatsapp.com/HEDW5WeL7IHJtAHiqEZbPV)
+
+![Whatsapp](icons/whatsapp.svg) [BA Event List ](https://chat.whatsapp.com/KA2X3VmDwyyKzhtiOPVJfn)
+
+![Whatsapp](icons/whatsapp.svg) [BA Sporties](https://chat.whatsapp.com/HrRwMGiP9u9EBFUPTnHmnE)
+
+![Whatsapp](icons/whatsapp.svg) [Asadito - asados in la Lucila](https://chat.whatsapp.com/EeWxMCMOtq0HFblAYNf1tw)
+
+![Whatsapp](icons/whatsapp.svg) [Nomad Artists](https://chat.whatsapp.com/CXMqgHWbmbXFSvcDLjhilx)
+
+![Whatsapp](icons/whatsapp.svg) [Pádel Beginners](https://chat.whatsapp.com/L7etY1Qjrh64WXL6spuLD9)
+
+![Whatsapp](icons/whatsapp.svg) [Spanish painting & “culture” group](https://chat.whatsapp.com/HJCvpOZbgZm61ofO3whhZs)
+
+![Whatsapp](icons/whatsapp.svg) [Spanish Bar & Language group](https://chat.whatsapp.com/JJY3SknxwQK2Wiolqfmasv)
+
+![Whatsapp](icons/whatsapp.svg) [Outdoor Cinema Club](https://chat.whatsapp.com/DaBy9ClAEVvItYo7hlCZ0z)
+
+![Whatsapp](icons/whatsapp.svg) [Food Meetup - Argentina](https://chat.whatsapp.com/FSiTlVNx9ZvAyj7F1T6SoR)
+
+![Whatsapp](icons/whatsapp.svg) [Beer & Cheers](https://chat.whatsapp.com/EqnlBWOhzfHJ6CLsZI9l0r)
+
+![Whatsapp](icons/whatsapp.svg) [UNDER CLUB (dance, techno)](https://chat.whatsapp.com/DWYd7WuiKFMBdHn2EAT5fA)
+
+![Whatsapp](icons/whatsapp.svg) [Ping Pong Buenos Aires](https://chat.whatsapp.com/CR0VGPgIemQFjPABnFrXuB)
+
+![Whatsapp](icons/whatsapp.svg) [Club Social](https://chat.whatsapp.com/G73RrbEtDs757rchINANqm)
+
+![Whatsapp](icons/whatsapp.svg) [Club Social 2](https://chat.whatsapp.com/E73PBQ6Lawf0iWcDbYdwMS)
+
+![Whatsapp](icons/whatsapp.svg) [Club Social market & housing](https://chat.whatsapp.com/F8dc0CyIzYm7J1kCRWwwbI)
+
 ![Whatsapp](icons/whatsapp.svg) [Mindful Nomads - Buenos Aires](https://chat.whatsapp.com/CLXfzyvdjM5KWNdN1RZayc)
 
 ![Whatsapp](icons/whatsapp.svg) [LGBT+ BA International](https://chat.whatsapp.com/JadJ6iCD3z6G5vKzuTi61J)
+
+### Mendoza
+![Whatsapp](icons/whatsapp.svg) [Hiking in Mendoza](https://chat.whatsapp.com/HXh8WYp3GTfGTgbOZu3a5v)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
@@ -302,7 +353,7 @@
 ### Rio De Janeiro
 
 #### Making Friends/Meetups
-![Whatsapp](icons/whatsapp.svg) [Rio Friends MeetUp Group5](https://chat.whatsapp.com/HHkfWPuUUIPGkCl3JqWI3z)
+![Whatsapp](icons/whatsapp.svg) [Rio Friends MeetUp](https://chat.whatsapp.com/L7SRFAnykqlLWmw1Bwc7b7)
 
 ![Whatsapp](icons/whatsapp.svg) [Rio Digital Nomads 2.0](https://chat.whatsapp.com/B60QYOkl0z7BUYQQScKEeS)
 
