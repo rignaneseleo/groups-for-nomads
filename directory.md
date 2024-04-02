@@ -298,6 +298,8 @@
 
 ![Whatsapp](icons/whatsapp.svg) [BA Sporties](https://chat.whatsapp.com/HrRwMGiP9u9EBFUPTnHmnE)
 
+![Whatsapp](icons/whatsapp.svg) [Palermo Nomad Coworking](https://chat.whatsapp.com/H7WW6lAQoz8KHPRtJOcMHY)
+
 ![Whatsapp](icons/whatsapp.svg) [Asadito - asados in la Lucila](https://chat.whatsapp.com/EeWxMCMOtq0HFblAYNf1tw)
 
 ![Whatsapp](icons/whatsapp.svg) [Nomad Artists](https://chat.whatsapp.com/CXMqgHWbmbXFSvcDLjhilx)
@@ -668,7 +670,11 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Overland durch Asien 🌏 (Deutsch)(Commercial)](https://chat.whatsapp.com/BkY1htYMmEvDqLLP35ZTu3)
 
+![Whatsapp](icons/whatsapp.svg) [Southeast Asia Nomads](https://chat.whatsapp.com/GZGmk6YxCDdI6gAWEa1gF6)
+
 ## Cambodia 🇰🇭 <a name="cambodia"></a>
+![Whatsapp](icons/whatsapp.svg) [Cambodia Nomads](https://chat.whatsapp.com/KBhFHifsBZxF0Q3siOG3yj)
+
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Cambodia 🇰🇭](https://chat.whatsapp.com/EoQR2PcRln908KhUpit4dv)
 
 <p>&nbsp;</p><p>&nbsp;</p>
@@ -679,6 +685,8 @@
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## India 🇮🇳 <a name="india"></a>
+![Whatsapp](icons/whatsapp.svg) [India Nomads](https://chat.whatsapp.com/K3q23k9F6M4IWHKLKI7m0E)
+
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in India 🇮🇳](https://chat.whatsapp.com/H8cXuNXuZdRDIW5C0EsZa6)
 
 <p>&nbsp;</p><p>&nbsp;</p>
@@ -687,6 +695,8 @@
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Indonesia 🇮🇩](https://chat.whatsapp.com/GGNgPVxkrgt28Tg7Dj1BWH)
 
 ### Bali
+![Whatsapp](icons/whatsapp.svg) [Bali Nomads](https://chat.whatsapp.com/GYVg06zZnnRBxbhBE8k61d)
+
 ![Whatsapp](icons/whatsapp.svg) [🌀Bali Nomads Giving Back🌀](https://chat.whatsapp.com/Gq8sjbZBKFk6iUc78XRqdz)
 
 ![Whatsapp](icons/whatsapp.svg) [Canggu Men](https://chat.whatsapp.com/ClpnSc1ZOv46uRki6nH0KH)
@@ -710,6 +720,9 @@
 ## Malaysia 🇲🇾 <a name="malaysia"></a>
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Malaysia 🇲🇾](https://chat.whatsapp.com/KFjdMOEMlUi6RPRVM3NdtL)
 
+### Kuala Lumpur
+![Whatsapp](icons/whatsapp.svg) [Kuala Lumpur Nomads](https://chat.whatsapp.com/CNBEaZUhOcUDKOCdDMLYag)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Maldives 🇲🇻 <a name="maldives"></a>
@@ -728,6 +741,8 @@
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Philippines 🇵🇭 <a name="philippines"></a>
+![Whatsapp](icons/whatsapp.svg) [Philippines Nomads](https://chat.whatsapp.com/ICZ83CBak5JGtZbbtq3xUZ)
+
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Philippines 🇵🇭](https://chat.whatsapp.com/CjVSXSMUDBoKOwvcZ0NwqE)
 
 <p>&nbsp;</p><p>&nbsp;</p>
@@ -738,6 +753,8 @@
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Singapore 🇸🇬 <a name="singapore"></a>
+![Whatsapp](icons/whatsapp.svg) [Singapore Nomads](https://chat.whatsapp.com/GjWgx4eLaDH0ajYkNh7bnP)
+
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Singapore 🇸🇬](https://chat.whatsapp.com/JkDBE8gBoMx1OGrkhRI0WB)
 
 ![Telegram](icons/telegram.svg) [MundoLingo Singapore](https://t.me/+Y_U4Ze2kdNFmNWNk)
@@ -745,6 +762,8 @@
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## South Korea 🇰🇷 <a name="southkorea"></a>
+![Whatsapp](icons/whatsapp.svg) [South Korea Nomads](https://chat.whatsapp.com/E8JtEiu7YTA7WNGeLCj5au)
+
 ![Whatsapp](icons/whatsapp.svg) [Korea Backpackers 🇰🇷](https://chat.whatsapp.com/FtnHvR3lkrF5XCgCaGvN7b)
 
 ![Telegram](icons/telegram.svg) [MundoLingo South Korea](https://t.me/+JqDYE9pklu81OGFl)
@@ -756,6 +775,8 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Digital nomads Sri Lanka 🇱🇰](https://chat.whatsapp.com/C1jBiDhWKG44Mf4e1qsO43)
 
+![Whatsapp](icons/whatsapp.svg) [Sri Lanka Nomads](https://chat.whatsapp.com/EFxtGC06nYP1idWVFfjzft)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Taiwan 🇹🇼 <a name="taiwan"></a>
@@ -764,6 +785,8 @@
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Thailand 🇹🇭 <a name="thailand"></a>
+![Whatsapp](icons/whatsapp.svg) [Thailand Nomads](https://chat.whatsapp.com/BtP78LZqIJNBafgHbaR9RH)
+
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Thailand 🇹🇭](https://chat.whatsapp.com/CFIy6tKpj4VABoGg9yhLAZ)
 
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Thailand ➋ 🇹🇭](https://chat.whatsapp.com/HNxPPhu5EkF83jOLeSsejg)
@@ -772,12 +795,32 @@
 
 ![Telegram](icons/telegram.svg) [MundoLingo Thailand](https://t.me/+ureOhlmfRetlNTg0)
 
+### Chiang Mai
+![Whatsapp](icons/whatsapp.svg) [Digital Nomads Chiang Mai](https://chat.whatsapp.com/GrgKJ03yhweA8efZnw80XG)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Vietnam 🇻🇳 <a name="vietnam"></a>
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Vietnam 🇻🇳](https://chat.whatsapp.com/EOKNlO0BpsKL3eR6tkfBbA)
 
+![Whatsapp](icons/whatsapp.svg) [Vietnam Questions & Tips](https://chat.whatsapp.com/DOyp1WtIVA47IeYXUUNNFz)
+
+![Whatsapp](icons/whatsapp.svg) [Food Group (Da Nang/Hoi An)](https://chat.whatsapp.com/BboqGzu1nt0DuvEIWivGJm)
+
+![Whatsapp](icons/whatsapp.svg) [Vietnam DNs & Travellers](https://chat.whatsapp.com/D6aS5W7arnLLVHfCpyn4ip)
+
+![Whatsapp](icons/whatsapp.svg) [Vietnam Nomads](https://chat.whatsapp.com/KGl3CPA9LeVKvK87MtZhmg)
+
 ![Telegram](icons/telegram.svg) [MundoLingo Vietnam](https://t.me/+nqlVMGubWwY0NjRk)
+
+### Da Nang
+![Whatsapp](icons/whatsapp.svg) [Da Nang Nomad Meet Ups](https://chat.whatsapp.com/KDpgku6pV0tCraUs48Lzdv)
+
+### Hoi An
+![Whatsapp](icons/whatsapp.svg) [Hanoi DNs](https://chat.whatsapp.com/Gf6yfPLjAx5HpSqiIFXOlP)
+
+### Hoi An
+![Whatsapp](icons/whatsapp.svg) [Hoi An Nomads](https://chat.whatsapp.com/FrsX6p5WadCDkBLNq1LERW)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
