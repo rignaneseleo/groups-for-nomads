@@ -29,6 +29,6 @@ This allows users to easily find communities in specific locations. Each country
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). By contributing to this directory, you agree to release your contributions under this license.
+This project is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](LICENSE), ensuring your freedom to use, modify, and distribute the software, while keeping it free and open source. By contributing to this directory, you agree to release your contributions under this license.
 
 Let's create a comprehensive directory of digital nomad communities together! Start contributing today and help fellow nomads connect and thrive in their remote work adventures!
