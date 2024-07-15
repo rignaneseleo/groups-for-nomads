@@ -75,6 +75,8 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Container Sharing and RoRo Shipping worldwide 🚢](https://chat.whatsapp.com/BmCwZ5YSY489u4Chb87llo)
 
+![Whatsapp](icons/whatsapp.svg) [Nomad Hub - The Strongest Nomad Community 🚀](https://chat.whatsapp.com/DAOto3fXuHZJUq7ilkYyqt)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 # Europe <a name="continent-europe"></a>
