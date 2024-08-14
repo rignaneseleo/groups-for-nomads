@@ -254,6 +254,8 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Panamericana 🌎 (Deutsch)](https://chat.whatsapp.com/HgHsNzl2BwrEa3ToIdatoi)
 
+![Whatsapp](icons/whatsapp.svg) [Backpackers in South America](https://chat.whatsapp.com/CP9HPOMf6kNLZafi2t4KoR)
+
 ![Linktree](icons/linktree.svg) [Dutchies in Latin America](https://linktr.ee/dutchies)
 
 ## Argentina 🇦🇷 <a name="argentina"></a>
@@ -268,6 +270,8 @@
 ![Whatsapp](icons/whatsapp.svg) [Travelers in Argentina 🇦🇷 (Commercial)](https://chat.whatsapp.com/Go3yVVuDqvdICSk1xDx6s0)
 
 ![Whatsapp](icons/whatsapp.svg) [Argentina Overlanders](https://chat.whatsapp.com/J4ALrPwMLXb3GSI6VHlNWI)
+
+![Whatsapp](icons/whatsapp.svg) [BAF Buenos Aires Friends](https://chat.whatsapp.com/GnRRWDrGPoe3jBQvjckIw3)
 
 ![Whatsapp](icons/whatsapp.svg) [Fiverr Argentina - Freelancers](https://chat.whatsapp.com/D0hK88gapOe5LzGWLfQcED)
 
@@ -292,11 +296,19 @@
 
 ![Whatsapp](icons/whatsapp.svg) [BA Digital Nomads Jobs](https://chat.whatsapp.com/LLhOpx9HIMF5tHyssyWly6)
 
+![Whatsapp](icons/whatsapp.svg) [Money Exchange (No Brokers allowed)](https://chat.whatsapp.com/LQb6yakPB559A5EaVlxtQq)
+
+![Whatsapp](icons/whatsapp.svg) [Mercado (Buy / Sell / Services)](https://chat.whatsapp.com/EHUnfslk1e7B3XHs3vP7Fl)
+
+![Whatsapp](icons/whatsapp.svg) [Legal & Accountant Advice](https://chat.whatsapp.com/Flc2pmIptqc180TkBKkRZO)
+
 ![Whatsapp](icons/whatsapp.svg) [BA Board Game Lovers](https://chat.whatsapp.com/HEDW5WeL7IHJtAHiqEZbPV)
 
 ![Whatsapp](icons/whatsapp.svg) [BA Event List ](https://chat.whatsapp.com/KA2X3VmDwyyKzhtiOPVJfn)
 
 ![Whatsapp](icons/whatsapp.svg) [BA Sporties](https://chat.whatsapp.com/HrRwMGiP9u9EBFUPTnHmnE)
+
+![Whatsapp](icons/whatsapp.svg) [Sports & Health at Buenos Aires](https://chat.whatsapp.com/IL03K9SiHO2HkRD512NXII)
 
 ![Whatsapp](icons/whatsapp.svg) [Palermo Nomad Coworking](https://chat.whatsapp.com/H7WW6lAQoz8KHPRtJOcMHY)
 
@@ -593,6 +605,8 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Overlanding Ecuador 🚐🚙🇪🇨](https://chat.whatsapp.com/HWpgcU8IvVI0bUtob0owqR)
 
+![Whatsapp](icons/whatsapp.svg) [Traveling in Galapagos 🐢](https://chat.whatsapp.com/EMb6hPWIqDaEHSxxvPHs9D)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Guayana 🇬🇾 <a name="guyana"></a>
@@ -606,7 +620,10 @@
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Peru 🇵🇪 <a name="peru"></a>
-![Whatsapp](icons/whatsapp.svg) [Traveling in Peru 🇵🇪🎒🚙⛰️🏍️](https://chat.whatsapp.com/LcLsLPqsKFTG7etlnr7uE4)
+![Whatsapp](icons/whatsapp.svg) [Traveling in Peru 🇵🇪🎒🚙⛰️🏍️](https://chat.whatsapp.com/CCrsGmswK3N7AdBak5ShAq)
+
+![Whatsapp](icons/whatsapp.svg) [Germans in Peru!](https://chat.whatsapp.com/KcMb7gegCtg514uRTfWZKv)
+
 ![Telegram](icons/telegram.svg) [MundoLingo Peru](https://t.me/+rBDLSTqFISQxMGFk)
 
 ### Cusco
