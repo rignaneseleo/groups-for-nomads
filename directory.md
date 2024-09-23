@@ -263,6 +263,8 @@
 ## Argentina 🇦🇷 <a name="argentina"></a>
 ![Linktree](icons/linktree.svg) [Linktree for Argentina Travellers](https://linktr.ee/argentinatravellers)
 
+![Whatsapp](icons/whatsapp.svg) [Medical & Health Group Argentina](https://bit.ly/3WqGrVz)
+
 ![Linktree](icons/linktree.svg) [Linktree for "Hiking Groups in Argentina & Chile"](https://linktr.ee/Mavrica14)
 
 ![Telegram](icons/telegram.svg) [MundoLingo Argentina](https://t.me/+oPMzrYofXJYyZTE0)
@@ -279,6 +281,8 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Compra y venta USD, EUR, ARS, BRL, USDT, cripto... 💵💶💴💸](https://chat.whatsapp.com/GuKMntRhgZvEX48fgSrYQo)
 
+![Whatsapp](icons/whatsapp.svg) [Medical/Health Marketplace Argentina](https://bit.ly/4blRsLO)
+
 ![Whatsapp](icons/whatsapp.svg) [Women's Chat Argentina](https://chat.whatsapp.com/I2xirYR6VUyJBRtisrQfuy)
 
 ![Whatsapp](icons/whatsapp.svg) [Hiking in Argentina & Patagonia](https://chat.whatsapp.com/K13BMnuoKuvJiSadh4z98u)
@@ -287,6 +291,10 @@
 
 ### Buenos Aires
 ![Linktree](icons/linktree.svg) [Linktree for Buenos Aires "BA Digital Nomads"](https://linktr.ee/BADigitalNomads)
+
+![Whatsapp](icons/whatsapp.svg) [BA Medical & Health Group](https://bit.ly/3WqGrVz)
+
+![Whatsapp](icons/whatsapp.svg) [BA Medical/Health Marketplace](https://bit.ly/4blRsLO)
 
 ![Telegram](icons/telegram.svg) [MundoLingo Buenos Aires](https://t.me/ML_Argentina/109948)
 
@@ -346,6 +354,8 @@
 
 ### Mendoza
 ![Whatsapp](icons/whatsapp.svg) [Hiking in Mendoza](https://chat.whatsapp.com/HXh8WYp3GTfGTgbOZu3a5v)
+
+![Whatsapp](icons/whatsapp.svg) [Mendoza Medical & Health Group](https://bit.ly/3WqGrVz)
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
