@@ -77,6 +77,9 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Nomad Hub - The Strongest Nomad Community 🚀](https://chat.whatsapp.com/DAOto3fXuHZJUq7ilkYyqt)
 
+Africa
+- [🇿🇦 South Africa](#south-africa)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 # Europe <a name="continent-europe"></a>
@@ -866,3 +869,8 @@
 ![Whatsapp](icons/whatsapp.svg) [Vanlife Australien 🦘 (Deutsch)(Commercial)](https://chat.whatsapp.com/BWAKooLkPIU2iUBCDDpSr2)
 
 ![Whatsapp](icons/whatsapp.svg) [Dutchies in Australië 🇦🇺](https://chat.whatsapp.com/HnkgANr3zHJHGE7X6u1CWQ)
+<p>&nbsp;</p><p>&nbsp;</p>
+
+## South Africa 🇿🇦 <a name="south-africa"></a>
+### Cape Town
+![Whatsapp](icons/whatsapp.svg) [Cape Town Travellers, Nomads and Couchsurfers](https://chat.whatsapp.com/IoAVHkezT1W5J3NoXRd8Ry)
