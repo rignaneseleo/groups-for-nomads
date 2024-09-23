@@ -1,4 +1,4 @@
-# Digital Nomad Community Directory
+# nomadgroups.wiki
 
 Welcome to the Digital Nomad Community Directory! This project aims to create a comprehensive list of online communities and groups specifically catered to digital nomads. Whether you're a seasoned nomad or just starting your remote work journey, this directory will help you connect with like-minded individuals, find support, and discover exciting opportunities around the world.
 
