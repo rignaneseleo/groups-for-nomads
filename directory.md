@@ -36,6 +36,7 @@
 - [🇻🇪 Venezuela](#venezuela)
 
 ### [Africa](#continent-africa)
+- [🇿🇦 South Africa](#south-africa)
 
 ### [Asia](#continent-asia)
 - [🇰🇭 Cambodia](#cambodia)
