@@ -465,6 +465,8 @@ Africa
 
 ![Whatsapp](icons/whatsapp.svg) [Gastronômicas 🦪🍤🍝](https://chat.whatsapp.com/JHcsctmhuzQH2XtP9IdH6v)
 
+![Whatsapp](icons/whatsapp.svg) [Kemi in São Paulo](https://chat.whatsapp.com/GcrDB4gLZTlBy5KObZPc8s)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Chile 🇨🇱 <a name="chile"></a>
