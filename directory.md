@@ -877,6 +877,7 @@ Africa
 ## South Africa 🇿🇦 <a name="south-africa"></a>
 ### Cape Town
 ![Whatsapp](icons/whatsapp.svg) [Cape Town Travellers, Nomads and Couchsurfers](https://chat.whatsapp.com/IoAVHkezT1W5J3NoXRd8Ry)
+
 ![Whatsapp](icons/whatsapp.svg) [Camps Bay, Bakoven, Sea Point, Fresnaye & Bantry Bay Rentals](https://chat.whatsapp.com/KQCDLehUTYWDA7r4I3Jmb0)
 
 
