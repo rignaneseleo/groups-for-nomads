@@ -78,9 +78,6 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Nomad Hub - The Strongest Nomad Community 🚀](https://chat.whatsapp.com/DAOto3fXuHZJUq7ilkYyqt)
 
-Africa
-- [🇿🇦 South Africa](#south-africa)
-
 <p>&nbsp;</p><p>&nbsp;</p>
 
 # Europe <a name="continent-europe"></a>
@@ -697,6 +694,12 @@ Africa
 
 ![Whatsapp](icons/whatsapp.svg) [Overland durch Afrika 🌍 (Deutsch)(Commercial)](https://chat.whatsapp.com/LdfGpQSo9EHBqM1taZ1YQe)
 
+## South Africa 🇿🇦 <a name="south-africa"></a>
+### Cape Town
+![Whatsapp](icons/whatsapp.svg) [Cape Town Travellers, Nomads and Couchsurfers](https://chat.whatsapp.com/IoAVHkezT1W5J3NoXRd8Ry)
+
+![Whatsapp](icons/whatsapp.svg) [Camps Bay, Bakoven, Sea Point, Fresnaye & Bantry Bay Rentals](https://chat.whatsapp.com/KQCDLehUTYWDA7r4I3Jmb0)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 # Asia <a name="continent-asia"></a>
@@ -873,11 +876,4 @@ Africa
 
 ![Whatsapp](icons/whatsapp.svg) [Dutchies in Australië 🇦🇺](https://chat.whatsapp.com/HnkgANr3zHJHGE7X6u1CWQ)
 <p>&nbsp;</p><p>&nbsp;</p>
-
-## South Africa 🇿🇦 <a name="south-africa"></a>
-### Cape Town
-![Whatsapp](icons/whatsapp.svg) [Cape Town Travellers, Nomads and Couchsurfers](https://chat.whatsapp.com/IoAVHkezT1W5J3NoXRd8Ry)
-
-![Whatsapp](icons/whatsapp.svg) [Camps Bay, Bakoven, Sea Point, Fresnaye & Bantry Bay Rentals](https://chat.whatsapp.com/KQCDLehUTYWDA7r4I3Jmb0)
-
 
