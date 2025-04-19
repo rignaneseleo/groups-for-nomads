@@ -496,6 +496,7 @@ groups:
     locations:
       - continent: "South America"
         country_id: "AR"
+    commercial: true
 
   - name: "Backpackers Argentina"
     platform: "whatsapp"
@@ -594,6 +595,7 @@ groups:
       - continent: "South America"
         country_id: "AR"
         city: "Buenos Aires"
+    commercial: true
 
   - name: "Pool Party People in BA"
     platform: "whatsapp"
@@ -836,6 +838,7 @@ groups:
     locations:
       - continent: "South America"
         country_id: "BR"
+    commercial: true
 
   - name: "Travelers in Brazil"
     platform: "whatsapp"
@@ -1590,6 +1593,7 @@ groups:
       - continent: "South America"
         country_id: "CO"
         city: "Medellin"
+    language_id: "de"
 
   - name: "Russians"
     platform: "whatsapp"
@@ -1710,6 +1714,7 @@ groups:
     locations:
       - continent: "South America"
         country_id: "PE"
+    commercial: true
 
   - name: "Cusco nomads and travelers"
     platform: "whatsapp"
@@ -1734,6 +1739,7 @@ groups:
       - continent: "South America"
         country_id: "PE"
         city: "Lima"
+    commercial: true
 
   - name: "Lima Expats and Friends"
     platform: "whatsapp"
@@ -1851,12 +1857,13 @@ groups:
     locations:
       - continent: "South America"
         country_id: "VE"
-  - name: "Overland durch Afrika 🌍 (Deutsch)(Commercial)"
+  - name: "Overland durch Afrika 🌍"
     platform: "whatsapp"
     url: "https://chat.whatsapp.com/LdfGpQSo9EHBqM1taZ1YQe"
     locations:
       - continent: "Africa"
     commercial: true
+    language_id: "de"
 
   - name: "Cape Town Travellers, Nomads and Couchsurfers"
     platform: "whatsapp"
@@ -1879,12 +1886,13 @@ groups:
     locations:
       - continent: "Asia"
 
-  - name: "Overland durch Asien 🌏 (Deutsch)(Commercial)"
+  - name: "Overland durch Asien 🌏"
     platform: "whatsapp"
     url: "https://chat.whatsapp.com/BkY1htYMmEvDqLLP35ZTu3"
     locations:
       - continent: "Asia"
     commercial: true
+    language_id: "de"
 
   - name: "Southeast Asia Nomads"
     platform: "whatsapp"
@@ -1972,6 +1980,7 @@ groups:
     locations:
       - continent: "Asia"
         country_id: "JP"
+    commercial: true
 
   - name: "Backpackers in Laos 🇱🇦"
     platform: "whatsapp"
@@ -2007,6 +2016,7 @@ groups:
     locations:
       - continent: "Asia"
         country_id: "MM"
+    commercial: true
 
   - name: "Backpackers in Nepal 🇳🇵"
     platform: "whatsapp"
@@ -2034,6 +2044,7 @@ groups:
     locations:
       - continent: "Asia"
         country_id: "RU"
+    commercial: true
 
   - name: "Singapore Nomads"
     platform: "whatsapp"
@@ -2055,6 +2066,7 @@ groups:
     locations:
       - continent: "Asia"
         country_id: "SG"
+    commercial: true
 
   - name: "South Korea Nomads"
     platform: "whatsapp"
@@ -2076,6 +2088,7 @@ groups:
     locations:
       - continent: "Asia"
         country_id: "KR"
+    commercial: true
 
   - name: "Backpackers in Sri Lanka 🇱🇰"
     platform: "whatsapp"
@@ -2131,6 +2144,7 @@ groups:
     locations:
       - continent: "Asia"
         country_id: "TH"
+    language_id: "de"
 
   - name: "MundoLingo Thailand"
     platform: "telegram"
@@ -2138,6 +2152,7 @@ groups:
     locations:
       - continent: "Asia"
         country_id: "TH"
+    commercial: true
 
   - name: "Digital Nomads Chiang Mai"
     platform: "whatsapp"
@@ -2191,6 +2206,7 @@ groups:
     locations:
       - continent: "Asia"
         country_id: "VN"
+    commercial: true
 
   - name: "Da Nang Nomad Meet Ups"
     platform: "whatsapp"
@@ -2228,6 +2244,7 @@ groups:
     locations:
       - continent: "Oceania"
         country_id: "AU"
+    commercial: true
 
   - name: "Vanlife Australien 🦘"
     platform: "whatsapp"
@@ -2252,3 +2269,4 @@ groups:
     locations:
       - continent: "Asia"
         country_id: "CN"
+    commercial: true
