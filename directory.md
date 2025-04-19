@@ -371,7 +371,7 @@
 
 ## Brazil 🇧🇷 <a name="brazil"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Brazil](https://t.me/+e_NGPDyykRViOGY0)
-
+![Whatsapp](icons/whatsapp.svg) [Travelers in Brazil](https://chat.whatsapp.com/BzDrTkxgNLtGLTLnPnH15w)
 ![Whatsapp](icons/whatsapp.svg) [Overlanders in Brazil](https://chat.whatsapp.com/BzDrTkxgNLtGLTLnPnH15w)
 
 ### Florianopolis
