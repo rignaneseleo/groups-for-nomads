@@ -481,13 +481,6 @@ groups:
       - continent: "South America"
         country_id: "AR"
 
-  - name: "Medical & Health Group Argentina"
-    platform: "whatsapp"
-    url: "https://bit.ly/3WqGrVz"
-    locations:
-      - continent: "South America"
-        country_id: "AR"
-
   - name: "Linktree for Hiking Groups in Argentina & Chile"
     platform: "linktree"
     url: "https://linktr.ee/Mavrica14"
@@ -551,7 +544,7 @@ groups:
 
   - name: "Medical/Health Marketplace Argentina"
     platform: "whatsapp"
-    url: "https://bit.ly/4blRsLO"
+    url: "https://chat.whatsapp.com/CZIQyoeqtYZAnPiQKcQ13n?git"
     locations:
       - continent: "South America"
         country_id: "AR"
@@ -586,17 +579,9 @@ groups:
         country_id: "AR"
         city: "Buenos Aires"
 
-  - name: "BA Medical & Health Group"
-    platform: "whatsapp"
-    url: "https://bit.ly/3WqGrVz"
-    locations:
-      - continent: "South America"
-        country_id: "AR"
-        city: "Buenos Aires"
-
   - name: "BA Medical/Health Marketplace"
     platform: "whatsapp"
-    url: "https://bit.ly/4blRsLO"
+    url: "https://chat.whatsapp.com/CZIQyoeqtYZAnPiQKcQ13n"
     locations:
       - continent: "South America"
         country_id: "AR"
@@ -831,13 +816,6 @@ groups:
         country_id: "AR"
         city: "Mendoza"
 
-  - name: "Mendoza Medical & Health Group"
-    platform: "whatsapp"
-    url: "https://bit.ly/3WqGrVz"
-    locations:
-      - continent: "South America"
-        country_id: "AR"
-        city: "Mendoza"
   - name: "Traveling in Bolivia 🧭🇧🇴"
     platform: "whatsapp"
     url: "https://chat.whatsapp.com/C80kUNYT8GcJmit7gT8kbt"
@@ -924,21 +902,6 @@ groups:
   - name: "Rio Pints & Meet-up"
     platform: "whatsapp"
     url: "https://chat.whatsapp.com/JX9USdkYfKpGp4sL8KIpxF"
-    locations:
-      - continent: "South America"
-        country_id: "BR"
-        city: "Rio De Janeiro"
-  - name: "Long Term Rentals"
-    platform: "whatsapp"
-    url: "https://bit.ly/3ZrIs2D"
-    locations:
-      - continent: "South America"
-        country_id: "BR"
-        city: "Rio De Janeiro"
-
-  - name: "Short Term Rentals"
-    platform: "whatsapp"
-    url: "https://bit.ly/3vW9e5D"
     locations:
       - continent: "South America"
         country_id: "BR"

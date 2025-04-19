@@ -6,21 +6,44 @@ import jsonschema
 import pycountry
 from iso3166 import countries
 
+
+class Platform:
+    def __init__(self, pattern):
+        self.pattern = re.compile(pattern, re.IGNORECASE)
+
+    def validate(self, url):
+        return bool(self.pattern.match(url))
+
+
 # Define important variables and enums
-VALID_PLATFORMS = [
-    "whatsapp",
-    "telegram",
-    "discord",
-    "facebook",
-    "slack",
-    "linktree",
-    "wechat",
-    "kakaotalk",
-    "viber",
-    "messenger",
-    "signal",
-    "website",
-]
+class Platforms:
+    WHATSAPP = Platform(r"^https://(?:chat\.whatsapp\.com/|wa\.me/)[A-Za-z0-9+_\-]+")
+    TELEGRAM = Platform(r"^https://t\.me/[A-Za-z0-9+_\-]+")
+    DISCORD = Platform(r"^https://discord\.(?:gg|com)/[A-Za-z0-9+_\-]+")
+    FACEBOOK = Platform(r"^https://(?:www\.)?facebook\.com/(?:groups/)?[A-Za-z0-9.]+")
+    SLACK = Platform(r"^https://[A-Za-z0-9\-]+\.slack\.com/")
+    LINKTREE = Platform(r"^https://linktr\.ee/[A-Za-z0-9_\-]+")
+    WECHAT = Platform(r"^https://(?:www\.)?wechat\.com/")
+    KAKAOTALK = Platform(r"^https://(?:www\.)?kakaocorp\.com/")
+    VIBER = Platform(r"^https://(?:invite\.)?viber\.com/")
+    MESSENGER = Platform(r"^https://(?:www\.)?messenger\.com/")
+    SIGNAL = Platform(r"^https://signal\.(?:group|me)/")
+    WEBSITE = Platform(
+        r"^https?://(?:www\.)?[A-Za-z0-9][A-Za-z0-9-]{0,61}[A-Za-z0-9](?:\.[A-Za-z]{2,})+"
+    )
+
+    @classmethod
+    def get_all(cls):
+        return {
+            name.lower(): value
+            for name, value in cls.__dict__.items()
+            if isinstance(value, Platform) and not name.startswith("_")
+        }
+
+    @classmethod
+    def get_names(cls):
+        return list(cls.get_all().keys())
+
 
 VALID_CONTINENTS = [
     "Africa",
@@ -49,7 +72,7 @@ schema = {
                     "description": {"type": "string"},
                     "platform": {
                         "type": "string",
-                        "enum": VALID_PLATFORMS,
+                        "enum": Platforms.get_names(),
                     },
                     "url": {"type": "string", "format": "uri", "pattern": "^https?://"},
                     "locations": {
@@ -82,21 +105,17 @@ schema = {
 }
 
 
-def validate_url(url):
-    """Simple URL validation beyond the schema's pattern check"""
+def validate_url(url, platform):
+    """Validate URL based on the platform-specific pattern"""
     if not url.startswith("http://") and not url.startswith("https://"):
         return False
-    # Basic URL pattern
-    pattern = re.compile(
-        r"^(?:http|https)://"  # http:// or https://
-        r"(?:(?:[A-Z0-9](?:[A-Z0-9-]{0,61}[A-Z0-9])?\.)+(?:[A-Z]{2,6}\.?|[A-Z0-9-]{2,}\.?)|"  # domain
-        r"localhost|"  # localhost
-        r"\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})"  # or IP
-        r"(?::\d+)?"  # optional port
-        r"(?:/?|[/?]\S+)$",
-        re.IGNORECASE,
-    )
-    return bool(pattern.match(url))
+
+    # Use platform-specific regex if available
+    platforms = Platforms.get_all()
+    if platform in platforms:
+        return platforms[platform].validate(url)
+
+    return False
 
 
 def validate_country_code(country_code):
@@ -128,10 +147,12 @@ def main():
         errors = []
 
         for i, group in enumerate(data.get("groups", [])):
-            # Check URL more thoroughly
-            if not validate_url(group.get("url", "")):
+            # Check URL more thoroughly with platform-specific validation
+            platform = group.get("platform", "")
+            url = group.get("url", "")
+            if not validate_url(url, platform):
                 errors.append(
-                    f"Group #{i+1} '{group.get('name')}': Invalid URL format: {group.get('url')}"
+                    f"Group #{i+1} '{group.get('name')}': Invalid URL format for platform '{platform}': {url}"
                 )
 
             # Check country codes
