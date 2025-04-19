@@ -180,7 +180,7 @@ groups:
     language_id: "es"
 
   - name: "Dutchies in de Verenigde Staten 🇺🇸"
-    platform: "whatsapp"
+    platform: "whatsappp"
     url: "https://chat.whatsapp.com/Jb2c1ovytaXAjpf1skYwin"
     locations:
       - continent: "North America"
