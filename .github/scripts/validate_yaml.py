@@ -6,6 +6,33 @@ import jsonschema
 import pycountry
 from iso3166 import countries
 
+# Define important variables and enums
+VALID_PLATFORMS = [
+    "whatsapp",
+    "telegram",
+    "discord",
+    "facebook",
+    "slack",
+    "linktree",
+    "wechat",
+    "kakaotalk",
+    "viber",
+    "messenger",
+    "signal",
+    "website",
+]
+
+VALID_CONTINENTS = [
+    "Africa",
+    "Antarctica",
+    "Asia",
+    "Europe",
+    "North America",
+    "Oceania",
+    "South America",
+    "Central America",
+]
+
 # Define the schema for the directory.yaml file
 schema = {
     "type": "object",
@@ -22,20 +49,7 @@ schema = {
                     "description": {"type": "string"},
                     "platform": {
                         "type": "string",
-                        "enum": [
-                            "whatsapp",
-                            "telegram",
-                            "discord",
-                            "facebook",
-                            "slack",
-                            "linktree",
-                            "wechat",
-                            "kakaotalk",
-                            "viber",
-                            "messenger",
-                            "signal",
-                            "website",
-                        ],
+                        "enum": VALID_PLATFORMS,
                     },
                     "url": {"type": "string", "format": "uri", "pattern": "^https?://"},
                     "locations": {
@@ -45,16 +59,7 @@ schema = {
                             "properties": {
                                 "continent": {
                                     "type": "string",
-                                    "enum": [
-                                        "Africa",
-                                        "Antarctica",
-                                        "Asia",
-                                        "Europe",
-                                        "North America",
-                                        "Oceania",
-                                        "South America",
-                                        "Central America",
-                                    ],
+                                    "enum": VALID_CONTINENTS,
                                 },
                                 "country_id": {
                                     "type": "string",
