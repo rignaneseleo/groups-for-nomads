@@ -171,15 +171,6 @@ groups:
         country_id: "US"
     commercial: true
 
-  - name: "Panamericana 🌎"
-    platform: "whatsapp"
-    url: "https://chat.whatsapp.com/HgHsNzl2BwrEa3ToIdatoi"
-    locations:
-      - continent: "North America"
-      - continent: "Central America"
-      - continent: "South America"
-    language_id: "de"
-
   - name: "Centro y Norte America"
     platform: "whatsapp"
     url: "https://chat.whatsapp.com/F0Mze9I373BHpIz5lFjvjW"
@@ -195,14 +186,6 @@ groups:
       - continent: "North America"
         country_id: "US"
     language_id: "nl"
-
-  - name: "South/Central America Travelers"
-    platform: "whatsapp"
-    url: "https://chat.whatsapp.com/DLACqBov8OyFaRJEsB4Fge"
-    locations:
-      - continent: "South America"
-      - continent: "Central America"
-    commercial: true
 
   - name: "Central American and Mexican Overlanders"
     platform: "whatsapp"
@@ -1028,14 +1011,6 @@ groups:
   - name: "Camarote Carnaval"
     platform: "whatsapp"
     url: "https://chat.whatsapp.com/DY5zLmZsn1S3B80ucHTb69"
-    locations:
-      - continent: "South America"
-        country_id: "BR"
-        city: "Rio De Janeiro"
-
-  - name: "Rio Sports Supporters"
-    platform: "whatsapp"
-    url: "https://chat.whatsapp.com/JTAbo2pRipJ5WXeN8bCCkY"
     locations:
       - continent: "South America"
         country_id: "BR"
