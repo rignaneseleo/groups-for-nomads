@@ -76,6 +76,8 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Container Sharing and RoRo Shipping worldwide 🚢](https://chat.whatsapp.com/BmCwZ5YSY489u4Chb87llo)
 
+![Whatsapp](icons/whatsapp.svg) [Starlink Overlanders](https://chat.whatsapp.com/CY84Z7ulKeND6dRLr2ljy7)
+
 ![Whatsapp](icons/whatsapp.svg) [Nomad Hub - The Strongest Nomad Community 🚀](https://chat.whatsapp.com/DAOto3fXuHZJUq7ilkYyqt)
 
 <p>&nbsp;</p><p>&nbsp;</p>
@@ -369,8 +371,8 @@
 
 ## Brazil 🇧🇷 <a name="brazil"></a>
 ![Telegram](icons/telegram.svg) [MundoLingo Brazil](https://t.me/+e_NGPDyykRViOGY0)
-
 ![Whatsapp](icons/whatsapp.svg) [Travelers in Brazil](https://chat.whatsapp.com/BzDrTkxgNLtGLTLnPnH15w)
+![Whatsapp](icons/whatsapp.svg) [Overlanders in Brazil](https://chat.whatsapp.com/BzDrTkxgNLtGLTLnPnH15w)
 
 ### Florianopolis
 ![Whatsapp](icons/whatsapp.svg) [Digital Nomads](https://chat.whatsapp.com/EJDgKrA14ibE1pxt4l87mg)
@@ -811,7 +813,7 @@
 ## Sri Lanka 🇱🇰 <a name="srilanka"></a>
 ![Whatsapp](icons/whatsapp.svg) [Backpackers in Sri Lanka 🇱🇰](https://chat.whatsapp.com/CqbtuOd5aUkCDIHrEqWVDL)
 
-![Whatsapp](icons/whatsapp.svg) [Digital nomads Sri Lanka 🇱🇰](https://chat.whatsapp.com/C1jBiDhWKG44Mf4e1qsO43)
+![Whatsapp](icons/whatsapp.svg) [Digital nomads Sri Lanka 🇱🇰](https://chat.whatsapp.com/IKlgoOhlEBV71NbhBCeQcj)
 
 ![Whatsapp](icons/whatsapp.svg) [Sri Lanka Nomads](https://chat.whatsapp.com/EFxtGC06nYP1idWVFfjzft)
 
