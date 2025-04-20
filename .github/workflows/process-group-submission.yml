@@ -11,6 +11,7 @@ jobs:
     permissions:
       contents: write
       issues: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -209,14 +210,24 @@ jobs:
           ISSUE_BODY: ${{ toJSON(github.event.issue.body) }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and Push Changes
+      - name: Create Pull Request
         if: steps.process.outputs.valid == 'true'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add directory.yaml
-          git commit -m "Add new group from issue #${{ github.event.issue.number }}: ${{ steps.process.outputs.group_name }}"
-          git push origin HEAD:main
+        id: create-pr
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Add new group from issue #${{ github.event.issue.number }}: ${{ steps.process.outputs.group_name }}"
+          branch: add-group-issue-${{ github.event.issue.number }}
+          delete-branch: true
+          title: "Add new group: ${{ steps.process.outputs.group_name }}"
+          body: |
+            This PR adds a new group from issue #${{ github.event.issue.number }}
+
+            **Group Name:** ${{ steps.process.outputs.group_name }}
+            **Platform:** ${{ steps.process.outputs.platform }}
+            **Location:** ${{ steps.process.outputs.location }}
+
+            Automated PR created by the group submission workflow.
 
       - name: Comment on Issue
         uses: peter-evans/create-or-update-comment@v3
@@ -227,4 +238,4 @@ jobs:
 
             ${{ steps.process.outputs.message }}
 
-            ${{ steps.process.outputs.valid == 'true' && format('Your group has been added to the directory.') || 'Please fix the issues above and we will process your submission.' }}
+            ${{ steps.process.outputs.valid == 'true' && format('Your group has been added to the directory. A pull request has been created: %s', steps.create-pr.outputs.pull-request-url) || 'Please fix the issues above and we will process your submission.' }}
