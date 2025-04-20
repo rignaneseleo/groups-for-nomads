@@ -1,7 +1,7 @@
 name: Add New Digital Nomad Group
 description: Submit a new group to be added to the directory
 title: "[NEW GROUP]: "
-labels: ["new-group"]
+labels: ["New Group"]
 assignees:
   - REPO_OWNER
 
@@ -11,7 +11,7 @@ body:
       value: |
         ## Thanks for contributing to the Digital Nomad Communities Directory!
         Please fill out this form to add a new group to our directory.
-        
+
   - type: dropdown
     id: platform
     attributes:
@@ -29,16 +29,16 @@ body:
       default: 0
     validations:
       required: true
-      
+
   - type: input
     id: group_name
     attributes:
       label: Group Name
       description: The name of the digital nomad group
-      placeholder: "e.g., Digital Nomads Barcelona"
+      placeholder: "e.g. Digital Nomads Barcelona"
     validations:
       required: true
-      
+
   - type: input
     id: group_url
     attributes:
@@ -47,7 +47,7 @@ body:
       placeholder: "https://chat.whatsapp.com/..."
     validations:
       required: true
-      
+
   - type: dropdown
     id: continent
     attributes:
@@ -65,35 +65,35 @@ body:
         - Antarctica
     validations:
       required: true
-      
+
   - type: input
     id: country
     attributes:
       label: Country
       description: Which country is this group primarily based in? (Leave blank for global/continent-wide groups)
-      placeholder: "e.g., Spain"
-      
+      placeholder: "e.g. Spain"
+
   - type: input
     id: city
     attributes:
       label: City
       description: Which city is this group primarily based in? (Leave blank for country-wide groups)
-      placeholder: "e.g., Barcelona"
-      
+      placeholder: "e.g. Barcelona"
+
   - type: input
     id: tags
     attributes:
       label: Tags
       description: Comma-separated tags for easier searching (e.g., coworking, events, housing)
-      placeholder: "e.g., coworking, events, language-exchange"
-      
+      placeholder: "e.g. coworking, events, language-exchange"
+
   - type: textarea
     id: description
     attributes:
       label: Description
       description: Provide a brief description of the group (optional)
       placeholder: "A community for digital nomads in Barcelona to share resources and organize meetups."
-      
+
   - type: checkboxes
     id: confirmation
     attributes:
