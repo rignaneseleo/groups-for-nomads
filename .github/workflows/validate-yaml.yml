@@ -3,9 +3,7 @@ name: Validate YAML Directory
 on:
   pull_request:
     branches: [main]
-    paths:
-      - "directory.yaml"
-      - ".github/scripts/validate_yaml.py"
+    types: [opened, synchronize, reopened]
 
 jobs:
   validate:
