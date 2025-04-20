@@ -1994,10 +1994,3 @@ groups:
       - continent: Asia
         country_id: CN
     commercial: true
-  - name: ttt
-    platform: whatsapp
-    url: https://chat.whatsapp.com/f
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Chiang Mai
