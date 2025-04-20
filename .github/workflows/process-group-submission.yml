@@ -24,16 +24,15 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml requests PyGithub iso3166
+          pip install pyyaml requests
 
       - name: Process Issue Form
         id: process
         run: |
-          python .github/scripts/process_group_submission.py \
-            --issue-body '${{ toJSON(github.event.issue.body) }}' \
-            --issue-number "${{ github.event.issue.number }}" \
-            --github-output $GITHUB_OUTPUT
+          python .github/scripts/process_group_submission.py
         env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_BODY: ${{ toJSON(github.event.issue.body) }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Pull Request
