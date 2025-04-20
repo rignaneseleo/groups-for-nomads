@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 import re
 import yaml
@@ -7,128 +8,141 @@ import argparse
 from urllib.parse import urlparse
 
 
+def sanitize_json_string(s):
+    """Clean up the JSON string input"""
+    if isinstance(s, dict):
+        return s.get("body", "")
+    # If it starts and ends with quotes, remove them and unescape internal quotes
+    if isinstance(s, str):
+        if s.startswith('"') and s.endswith('"'):
+            s = s[1:-1]
+        # Unescape any escaped quotes
+        s = s.replace('\\"', '"')
+        try:
+            # Try to parse as JSON in case it's a JSON string
+            parsed = json.loads(s)
+            if isinstance(parsed, dict) and "body" in parsed:
+                return parsed["body"]
+            return s
+        except json.JSONDecodeError:
+            return s
+    return str(s)
+
+
 def extract_form_data(body):
+    """Extract form data from the issue body"""
+    # First sanitize the input
+    body = sanitize_json_string(body)
+
+    # Define the fields we want to extract
+    fields = {
+        "platform": r"### Platform\s*\n\s*([^\n]+)",
+        "name": r"### Group Name\s*\n\s*([^\n]+)",
+        "url": r"### Group URL\s*\n\s*([^\n]+)",
+        "continent": r"### Continent\s*\n\s*([^\n]+)",
+        "country": r"### Country\s*\n\s*([^\n]+|_No response_)",
+        "city": r"### City\s*\n\s*([^\n]+|_No response_)",
+        "tags": r"### Tags\s*\n\s*([^\n]+|_No response_)",
+        "description": r"### Description\s*\n\s*([^\n]+|_No response_)",
+    }
+
     data = {}
+    for field, pattern in fields.items():
+        match = re.search(pattern, body, re.IGNORECASE | re.MULTILINE)
+        if match:
+            value = match.group(1).strip()
+            if value == "_No response_":
+                value = ""
+            data[field] = value
+        else:
+            data[field] = ""
 
-    # Use a more robust approach to find the values
-    platform_match = re.search(
-        r"### Platform\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$)", body, re.DOTALL
-    )
-    name_match = re.search(
-        r"### Group Name\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$)", body, re.DOTALL
-    )
-    url_match = re.search(
-        r"### Group URL\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$)", body, re.DOTALL
-    )
-    continent_match = re.search(
-        r"### Continent\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$)", body, re.DOTALL
-    )
-    country_match = re.search(
-        r"### Country\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$|_No response_)", body, re.DOTALL
-    )
-    city_match = re.search(
-        r"### City\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$|_No response_)", body, re.DOTALL
-    )
-    tags_match = re.search(
-        r"### Tags\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$|_No response_)", body, re.DOTALL
-    )
-    description_match = re.search(
-        r"### Description\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$|_No response_)",
-        body,
-        re.DOTALL,
-    )
-
-    data["platform"] = platform_match.group(1).strip() if platform_match else None
-    data["name"] = name_match.group(1).strip() if name_match else None
-    data["url"] = url_match.group(1).strip() if url_match else None
-    data["continent"] = continent_match.group(1).strip() if continent_match else None
-    data["country"] = (
-        country_match.group(1).strip()
-        if country_match and "_No response_" not in country_match.group(1)
-        else ""
-    )
-    data["city"] = (
-        city_match.group(1).strip()
-        if city_match and "_No response_" not in city_match.group(1)
-        else ""
-    )
-
-    if tags_match and "_No response_" not in tags_match.group(1):
-        data["tags"] = [tag.strip() for tag in tags_match.group(1).split(",")]
+    # Handle tags specially - split into list if present
+    if data.get("tags"):
+        data["tags"] = [tag.strip() for tag in data["tags"].split(",")]
     else:
         data["tags"] = []
-
-    data["description"] = (
-        description_match.group(1).strip()
-        if description_match and "_No response_" not in description_match.group(1)
-        else ""
-    )
-
-    # Print out what we found for debugging
-    print(f"Extracted data: {json.dumps(data, indent=2)}")
 
     return data
 
 
 def validate_data(data):
+    """Validate the extracted data"""
     errors = []
 
-    if not data["name"]:
+    # Required fields
+    if not data.get("name"):
         errors.append("Group name is required")
 
-    if not data["url"]:
+    if not data.get("url"):
         errors.append("Group URL is required")
     else:
-        # Basic URL validation
         try:
             result = urlparse(data["url"])
             if not all([result.scheme, result.netloc]):
                 errors.append("Invalid URL format")
-        except:
+        except Exception:
             errors.append("Invalid URL format")
 
-    if not data["platform"]:
+    if not data.get("platform"):
         errors.append("Platform is required")
 
-    if not data["continent"]:
+    if not data.get("continent"):
         errors.append("Continent is required")
 
     return errors
 
 
 def generate_yaml_entry(data):
+    """Generate YAML entry from the validated data"""
+    # Platform name mapping
     platform_map = {
         "WhatsApp": "whatsapp",
         "Telegram": "telegram",
         "Discord": "discord",
         "Facebook": "facebook",
         "WeChat": "wechat",
+        "KakaoTalk": "kakaotalk",
+        "Linktree": "linktree",
+        "Viber": "viber",
+        "Messenger": "messenger",
     }
-
-    platform_key = platform_map.get(data["platform"], data["platform"].lower())
 
     entry = {
         "name": data["name"],
-        "platform": platform_key,
+        "platform": platform_map.get(data["platform"], data["platform"].lower()),
         "url": data["url"],
-        "location": {
-            "continent": data["continent"],
-        },
     }
 
-    if data["country"]:
-        entry["location"]["country"] = data["country"]
+    # Add location information
+    locations = []
+    if data["continent"] != "World (for global groups)":
+        location = {"continent": data["continent"]}
+        if data["country"]:
+            location["country_id"] = data["country"]
+        if data["city"]:
+            location["city"] = data["city"]
+        locations.append(location)
+        entry["locations"] = locations
 
-    if data["city"]:
-        entry["location"]["city"] = data["city"]
-
+    # Add optional fields if present
     if data["tags"]:
         entry["tags"] = data["tags"]
-
     if data["description"]:
         entry["description"] = data["description"]
 
     return entry
+
+
+def write_github_output(key, value, file_path):
+    """Write to GitHub Actions output file"""
+    if file_path:
+        with open(file_path, "a") as f:
+            # Escape special characters in the value
+            value = (
+                str(value).replace("%", "%25").replace("\n", "%0A").replace("\r", "%0D")
+            )
+            f.write(f"{key}={value}\n")
 
 
 def main():
@@ -139,102 +153,67 @@ def main():
         "--issue-body", required=True, help="The body of the GitHub issue"
     )
     parser.add_argument("--issue-number", required=True, help="The GitHub issue number")
-    parser.add_argument(
-        "--output-file",
-        default="directory.yaml",
-        help="Path to the YAML file to update",
-    )
     parser.add_argument("--github-output", help="Path to GitHub output file")
     args = parser.parse_args()
 
-    # Set up GitHub output file for GitHub Actions
-    github_output = args.github_output or os.environ.get("GITHUB_OUTPUT")
-
-    # Parse the issue body (handle JSON format if necessary)
-    issue_body = args.issue_body
-    if issue_body.startswith('"') and issue_body.endswith('"'):
-        try:
-            # Try to parse as JSON first
-            issue_body = json.loads(issue_body)
-            # If it's a dict with a 'body' key, extract that
-            if isinstance(issue_body, dict) and "body" in issue_body:
-                issue_body = issue_body["body"]
-        except json.JSONDecodeError:
-            # If JSON parsing fails, just strip the quotes
-            issue_body = issue_body.strip('"')
-
     try:
         # Extract and validate data
-        data = extract_form_data(issue_body)
+        data = extract_form_data(args.issue_body)
         validation_errors = validate_data(data)
 
         if validation_errors:
-            # Output errors
-            if github_output:
-                with open(github_output, "a") as f:
-                    f.write("valid=false\n")
-                    error_message = (
-                        "The following errors were found:\\n\\n"
-                        + "\\n".join([f"- {error}" for error in validation_errors])
-                    )
-                    f.write(f"message={error_message}\n")
-            else:
-                print("Validation failed with the following errors:")
-                for error in validation_errors:
-                    print(f"- {error}")
-            sys.exit(0)
-
-        # Check if directory.yaml exists, if not create a basic structure
-        yaml_file = args.output_file
-        if not os.path.exists(yaml_file):
-            directory = {"version": "1.0", "groups": []}
-        else:
-            # Read current YAML file
-            with open(yaml_file, "r") as file:
-                directory = yaml.safe_load(file) or {"version": "1.0", "groups": []}
-
-            # Make sure the structure is valid
-            if "groups" not in directory:
-                directory["groups"] = []
+            # Write validation errors to GitHub output
+            write_github_output("valid", "false", args.github_output)
+            error_message = "The following errors were found:\\n- " + "\\n- ".join(
+                validation_errors
+            )
+            write_github_output("message", error_message, args.github_output)
+            sys.exit(1)
 
         # Generate new entry
         new_entry = generate_yaml_entry(data)
 
-        # Add to directory
+        # Load existing YAML file
+        yaml_file = "directory.yaml"
+        if os.path.exists(yaml_file):
+            with open(yaml_file, "r", encoding="utf-8") as f:
+                directory = yaml.safe_load(f) or {"version": 1.0, "groups": []}
+        else:
+            directory = {"version": 1.0, "groups": []}
+
+        # Add new entry
         directory["groups"].append(new_entry)
 
-        # Write updated YAML
-        with open(yaml_file, "w") as file:
-            yaml.dump(directory, file, sort_keys=False, default_flow_style=False)
+        # Write updated YAML file
+        with open(yaml_file, "w", encoding="utf-8") as f:
+            yaml.dump(directory, f, allow_unicode=True, sort_keys=False)
 
-        # Format location string for output
-        location_str = f"{data['continent']}"
+        # Write success output
+        write_github_output("valid", "true", args.github_output)
+        write_github_output("group_name", data["name"], args.github_output)
+        write_github_output("platform", data["platform"], args.github_output)
+
+        # Format location string
+        location_parts = [data["continent"]]
         if data["country"]:
-            location_str += f", {data['country']}"
+            location_parts.append(data["country"])
         if data["city"]:
-            location_str += f", {data['city']}"
+            location_parts.append(data["city"])
+        location_str = ", ".join(location_parts)
 
-        # Output success
-        if github_output:
-            with open(github_output, "a") as f:
-                f.write("valid=true\n")
-                f.write(f"group_name={data['name']}\n")
-                f.write(f"platform={data['platform']}\n")
-                f.write(f"location={location_str}\n")
-                f.write("message=Your submission has been processed successfully!\n")
-        else:
-            print(f"Successfully added group: {data['name']}")
-            print(f"Platform: {data['platform']}")
-            print(f"Location: {location_str}")
+        write_github_output("location", location_str, args.github_output)
+        write_github_output(
+            "message",
+            "Your submission has been processed successfully!",
+            args.github_output,
+        )
 
     except Exception as e:
-        # Handle errors
-        if github_output:
-            with open(github_output, "a") as f:
-                f.write("valid=false\n")
-                f.write(f"message=An error occurred: {str(e)}\n")
-        else:
-            print(f"Error: {str(e)}")
+        # Write error output
+        write_github_output("valid", "false", args.github_output)
+        write_github_output(
+            "message", f"An error occurred: {str(e)}", args.github_output
+        )
         sys.exit(1)
 
 
