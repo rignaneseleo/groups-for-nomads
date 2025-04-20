@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository code, including the PR changes
+      # Checkout the repository code, including PR changes
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x" # Use the latest Python 3.x version
+          python-version: "3.10"
 
       # Install pykwalify
       - name: Install dependencies
@@ -26,7 +26,30 @@ jobs:
           python -m pip install --upgrade pip
           pip install pykwalify
 
-      # Run the validation script
-      - name: Validate directory.yaml against schema.yaml
+      # Validate directory.yaml against schema.yaml and capture output
+      - name: Validate directory.yaml
+        id: validate
         run: |
-          python .github/scripts/validate_yaml.py directory.yaml schema.yaml
+          echo "Running YAML validation..."
+          output=$(python .github/scripts/validate_yaml.py directory.yaml schema.yaml 2>&1)
+          status=$?
+          echo "Validation output:"
+          echo "$output"
+
+          # Store output and status for the check run
+          echo "validation_output=$output" >> $GITHUB_ENV
+          echo "validation_status=$status" >> $GITHUB_ENV
+
+          # Exit with the validation status
+          exit $status
+
+      # Create or update a check run with validation results
+      - name: Report validation result
+        uses: LouisBrunner/checks-action@v1.6.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          name: YAML Validation
+          status: completed
+          conclusion: ${{ env.validation_status == '0' && 'success' || 'failure' }}
+          output: |
+            {"summary": "Validation of directory.yaml against schema.yaml", "text": "${{ env.validation_output }}"}
