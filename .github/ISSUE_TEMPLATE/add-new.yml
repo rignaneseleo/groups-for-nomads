@@ -24,6 +24,7 @@ body:
         - Facebook
         - WeChat
         - Slack
+        - Linktree
         - Meetup
         - Other (please specify in the description)
       default: 0
@@ -52,9 +53,8 @@ body:
     id: continent
     attributes:
       label: Continent
-      description: Which continent is this group primarily based in?
+      description: Which continent is this group primarily based in? Empty for global/continent-wide groups. NOTE Multiple places are allowed, but not using this form.
       options:
-        - World (for global groups)
         - Africa
         - Asia
         - Australia
@@ -62,9 +62,10 @@ body:
         - North America
         - South America
         - Central America
+        - Oceania
         - Antarctica
     validations:
-      required: true
+      required: false
 
   - type: input
     id: country
@@ -72,6 +73,8 @@ body:
       label: Country
       description: Which country is this group primarily based in? (Leave blank for global/continent-wide groups)
       placeholder: "e.g. Spain"
+    validations:
+      required: false
 
   - type: input
     id: city
@@ -79,6 +82,36 @@ body:
       label: City
       description: Which city is this group primarily based in? (Leave blank for country-wide groups)
       placeholder: "e.g. Barcelona"
+    validations:
+      required: false
+
+  - type: input
+    id: region
+    attributes:
+      label: Region
+      description: Which region is this group primarily based in? (Optional)
+      placeholder: "e.g. Patagonia"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: commercial
+    attributes:
+      label: Commercial Group
+      description: Is this a commercial/paid group?
+      options:
+        - label: This is a commercial or paid group
+    validations:
+      required: false
+
+  - type: input
+    id: language_id
+    attributes:
+      label: Primary Language if not English
+      description: Two-letter language code (ISO 639-1) for the group's primary language. See the list at https://localizely.com/iso-639-1-list/
+      placeholder: "e.g. es, fr"
+    validations:
+      required: false
 
   - type: input
     id: tags
@@ -86,6 +119,8 @@ body:
       label: Tags
       description: Comma-separated tags for easier searching (e.g., coworking, events, housing)
       placeholder: "e.g. coworking, events, language-exchange"
+    validations:
+      required: false
 
   - type: textarea
     id: description
@@ -93,6 +128,8 @@ body:
       label: Description
       description: Provide a brief description of the group (optional)
       placeholder: "A community for digital nomads in Barcelona to share resources and organize meetups."
+    validations:
+      required: false
 
   - type: checkboxes
     id: confirmation
@@ -101,8 +138,6 @@ body:
       description: Please confirm the following
       options:
         - label: This is an active group specifically for digital nomads or travelers
-          required: true
-        - label: I have verified that this group is not already in the directory
           required: true
         - label: I have permission to share this group or it's publicly available
           required: true
