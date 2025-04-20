@@ -1988,8 +1988,3 @@ groups:
   - continent: Asia
     country_id: CN
   commercial: true
-- name: Test
-  platform: whatsapp
-  url: https://chat.whatsapp.com/t
-  location:
-    continent: None
