@@ -1,6 +1,6 @@
 name: Add New Digital Nomad Group
 description: Submit a new group to be added to the directory
-title: "[NEW GROUP]: ${group_name} - ${city}${country}"
+title: "[NEW GROUP]: "
 labels: ["New Group"]
 assignees:
   - REPO_OWNER
