@@ -1,4 +1,4 @@
-name: Validate YAML Directory
+name: validate
 
 on:
   pull_request:
