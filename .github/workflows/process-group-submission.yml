@@ -173,7 +173,7 @@ jobs:
                   yaml.dump(directory, file, sort_keys=False, default_flow_style=False)
 
               # Output success
-              print(f"::set-output name=valid::true")
+              print("::set-output name=valid::true")
               print(f"::set-output name=group_name::{data['name']}")
               print(f"::set-output name=platform::{data['platform']}")
               location_str = f"{data['continent']}"
@@ -220,6 +220,13 @@ jobs:
             Automatically generated from form submission.
           branch: add-group-${{ github.event.issue.number }}
           base: main
+          delete-branch: false
+          path: .
+          add-paths: |
+            directory.yaml
+          labels: |
+            automated pr
+            group addition
 
       - name: Comment on Issue
         uses: peter-evans/create-or-update-comment@v3
