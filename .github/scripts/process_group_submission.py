@@ -153,7 +153,15 @@ def main():
     # Parse the issue body (handle JSON format if necessary)
     issue_body = args.issue_body
     if issue_body.startswith('"') and issue_body.endswith('"'):
-        issue_body = json.loads(issue_body)
+        try:
+            # Try to parse as JSON first
+            issue_body = json.loads(issue_body)
+            # If it's a dict with a 'body' key, extract that
+            if isinstance(issue_body, dict) and "body" in issue_body:
+                issue_body = issue_body["body"]
+        except json.JSONDecodeError:
+            # If JSON parsing fails, just strip the quotes
+            issue_body = issue_body.strip('"')
 
     try:
         # Extract and validate data
