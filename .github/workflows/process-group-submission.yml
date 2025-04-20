@@ -24,14 +24,14 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml requests PyGithub
+          pip install pyyaml requests PyGithub iso3166
 
       - name: Process Issue Form
         id: process
         run: |
           python .github/scripts/process_group_submission.py \
-            --issue-body '${{ toJSON(github.event.issue.body) }}' \
-            --issue-number '${{ github.event.issue.number }}' \
+            --issue-body "${{ toJSON(github.event.issue.body) }}" \
+            --issue-number "${{ github.event.issue.number }}" \
             --github-output $GITHUB_OUTPUT
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
