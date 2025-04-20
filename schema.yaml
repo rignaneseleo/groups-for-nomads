@@ -1,0 +1,19 @@
+version: str(required=True)
+groups: list(include('group'))
+
+---
+group:
+  name: str(required=True)
+  description: str(required=False)
+  platform: enum('whatsapp', 'telegram', 'discord', 'facebook', 'slack', 'linktree', required=True)
+  url: str(required=True)
+  locations: list(include('location'), required=False)
+  tags: list(str(), required=False)
+  language_id: str(length=2, required=False)
+  commercial: bool(required=False)
+---
+location:
+  continent: enum('Africa', 'Antarctica', 'Asia', 'Europe', 'North America', 'Oceania', 'South America', 'Central America', required=True)
+  country_id: str(length=2, required=False)
+  city: str(required=False)
+  region: str(required=False)
