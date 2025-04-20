@@ -39,28 +39,42 @@ jobs:
           issue_number = os.environ.get('ISSUE_NUMBER')
           issue_body = os.environ.get('ISSUE_BODY')
 
+          # The body is JSON-encoded, so we need to decode it
+          if issue_body.startswith('"') and issue_body.endswith('"'):
+              issue_body = json.loads(issue_body)
+
           # Extract form data
           def extract_form_data(body):
-              # Regex to extract each field from the issue body
-              platform_match = re.search(r'### Platform\s*\n\n(.*?)(\n|$)', body)
-              name_match = re.search(r'### Group Name\s*\n\n(.*?)(\n|$)', body)
-              url_match = re.search(r'### Group URL\s*\n\n(.*?)(\n|$)', body)
-              continent_match = re.search(r'### Continent\s*\n\n(.*?)(\n|$)', body)
-              country_match = re.search(r'### Country\s*\n\n(.*?)(\n|$)', body)
-              city_match = re.search(r'### City\s*\n\n(.*?)(\n|$)', body)
-              tags_match = re.search(r'### Tags\s*\n\n(.*?)(\n|$)', body)
-              description_match = re.search(r'### Description\s*\n\n([\s\S]*?)(?=\n\n###|$)', body)
+              data = {}
               
-              return {
-                  'platform': platform_match.group(1).strip() if platform_match else None,
-                  'name': name_match.group(1).strip() if name_match else None,
-                  'url': url_match.group(1).strip() if url_match else None,
-                  'continent': continent_match.group(1).strip() if continent_match else None,
-                  'country': country_match.group(1).strip() if country_match else '',
-                  'city': city_match.group(1).strip() if city_match else '',
-                  'tags': [tag.strip() for tag in tags_match.group(1).split(',')] if tags_match and tags_match.group(1).strip() else [],
-                  'description': description_match.group(1).strip() if description_match else ''
-              }
+              # Use a more robust approach to find the values
+              platform_match = re.search(r'### Platform\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$)', body, re.DOTALL)
+              name_match = re.search(r'### Group Name\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$)', body, re.DOTALL)
+              url_match = re.search(r'### Group URL\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$)', body, re.DOTALL)
+              continent_match = re.search(r'### Continent\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$)', body, re.DOTALL)
+              country_match = re.search(r'### Country\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$|_No response_)', body, re.DOTALL)
+              city_match = re.search(r'### City\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$|_No response_)', body, re.DOTALL)
+              tags_match = re.search(r'### Tags\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$|_No response_)', body, re.DOTALL)
+              description_match = re.search(r'### Description\s*\n\s*(\S.*?)(?:\n\s*###|\n\s*$|_No response_)', body, re.DOTALL)
+              
+              data['platform'] = platform_match.group(1).strip() if platform_match else None
+              data['name'] = name_match.group(1).strip() if name_match else None
+              data['url'] = url_match.group(1).strip() if url_match else None
+              data['continent'] = continent_match.group(1).strip() if continent_match else None
+              data['country'] = country_match.group(1).strip() if country_match and '_No response_' not in country_match.group(1) else ''
+              data['city'] = city_match.group(1).strip() if city_match and '_No response_' not in city_match.group(1) else ''
+              
+              if tags_match and '_No response_' not in tags_match.group(1):
+                  data['tags'] = [tag.strip() for tag in tags_match.group(1).split(',')]
+              else:
+                  data['tags'] = []
+              
+              data['description'] = description_match.group(1).strip() if description_match and '_No response_' not in description_match.group(1) else ''
+              
+              # Print out what we found for debugging
+              print(f"Extracted data: {json.dumps(data, indent=2)}")
+              
+              return data
 
           # Validate data
           def validate_data(data):
