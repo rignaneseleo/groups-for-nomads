@@ -8,6 +8,9 @@ jobs:
   process-submission:
     if: contains(github.event.issue.labels.*.name, 'New Group')
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -143,10 +146,11 @@ jobs:
               validation_errors = validate_data(data)
 
               if validation_errors:
-                  # Output errors
-                  print(f"::set-output name=valid::false")
-                  error_message = "The following errors were found:\\n\\n" + "\\n".join([f"- {error}" for error in validation_errors])
-                  print(f"::set-output name=message::{error_message}")
+                  # Output errors using environment file
+                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                      f.write(f"valid=false\n")
+                      error_message = "The following errors were found:\\n\\n" + "\\n".join([f"- {error}" for error in validation_errors])
+                      f.write(f"message={error_message}\n")
                   sys.exit(0)
 
               # Check if directory.yaml exists, if not create a basic structure
@@ -172,21 +176,24 @@ jobs:
               with open(yaml_file, 'w') as file:
                   yaml.dump(directory, file, sort_keys=False, default_flow_style=False)
 
-              # Output success
-              print("::set-output name=valid::true")
-              print(f"::set-output name=group_name::{data['name']}")
-              print(f"::set-output name=platform::{data['platform']}")
+              # Output success using environment file
               location_str = f"{data['continent']}"
               if data['country']:
                   location_str += f", {data['country']}"
               if data['city']:
                   location_str += f", {data['city']}"
-              print(f"::set-output name=location::{location_str}")
-              print(f"::set-output name=message::Your submission has been processed successfully!")
+                  
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                  f.write(f"valid=true\n")
+                  f.write(f"group_name={data['name']}\n")
+                  f.write(f"platform={data['platform']}\n")
+                  f.write(f"location={location_str}\n")
+                  f.write(f"message=Your submission has been processed successfully!\n")
               
           except Exception as e:
-              print(f"::set-output name=valid::false")
-              print(f"::set-output name=message::An error occurred: {str(e)}")
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                  f.write(f"valid=false\n")
+                  f.write(f"message=An error occurred: {str(e)}\n")
               sys.exit(1)
           EOF
 
@@ -202,31 +209,14 @@ jobs:
           ISSUE_BODY: ${{ toJSON(github.event.issue.body) }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create Pull Request
+      - name: Commit and Push Changes
         if: steps.process.outputs.valid == 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Add new group from issue #${{ github.event.issue.number }}"
-          title: "Add: ${{ steps.process.outputs.group_name }}"
-          body: |
-            Adds a new group from issue #${{ github.event.issue.number }}
-
-            Group details:
-            - Name: ${{ steps.process.outputs.group_name }}
-            - Platform: ${{ steps.process.outputs.platform }}
-            - Location: ${{ steps.process.outputs.location }}
-
-            Automatically generated from form submission.
-          branch: add-group-${{ github.event.issue.number }}
-          base: main
-          delete-branch: false
-          path: .
-          add-paths: |
-            directory.yaml
-          labels: |
-            automated pr
-            group addition
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add directory.yaml
+          git commit -m "Add new group from issue #${{ github.event.issue.number }}: ${{ steps.process.outputs.group_name }}"
+          git push origin HEAD:main
 
       - name: Comment on Issue
         uses: peter-evans/create-or-update-comment@v3
@@ -237,4 +227,4 @@ jobs:
 
             ${{ steps.process.outputs.message }}
 
-            ${{ steps.process.outputs.valid == 'true' && format('A pull request has been created to add this group. It will be reviewed shortly.') || 'Please fix the issues above and we will process your submission.' }}
+            ${{ steps.process.outputs.valid == 'true' && format('Your group has been added to the directory.') || 'Please fix the issues above and we will process your submission.' }}
