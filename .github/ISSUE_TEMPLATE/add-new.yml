@@ -73,6 +73,8 @@ body:
       label: Country
       description: Which country is this group primarily based in? (Leave blank for global/continent-wide groups)
       placeholder: "e.g. Spain"
+    validations:
+      required: false
 
   - type: input
     id: city
@@ -80,6 +82,8 @@ body:
       label: City
       description: Which city is this group primarily based in? (Leave blank for country-wide groups)
       placeholder: "e.g. Barcelona"
+    validations:
+      required: false
 
   - type: input
     id: region
@@ -87,6 +91,8 @@ body:
       label: Region
       description: Which region is this group primarily based in? (Optional)
       placeholder: "e.g. Patagonia"
+    validations:
+      required: false
 
   - type: checkbox
     id: commercial
@@ -95,6 +101,8 @@ body:
       description: Is this a commercial/paid group?
       options:
         - label: This is a commercial or paid group
+    validations:
+      required: false
 
   - type: input
     id: language_id
@@ -102,6 +110,8 @@ body:
       label: Primary Language if not English
       description: Two-letter language code (ISO 639-1) for the group's primary language. See the list at https://localizely.com/iso-639-1-list/
       placeholder: "e.g. es, fr"
+    validations:
+      required: false
 
   - type: input
     id: tags
@@ -109,6 +119,8 @@ body:
       label: Tags
       description: Comma-separated tags for easier searching (e.g., coworking, events, housing)
       placeholder: "e.g. coworking, events, language-exchange"
+    validations:
+      required: false
 
   - type: textarea
     id: description
@@ -116,6 +128,8 @@ body:
       label: Description
       description: Provide a brief description of the group (optional)
       placeholder: "A community for digital nomads in Barcelona to share resources and organize meetups."
+    validations:
+      required: false
 
   - type: checkboxes
     id: confirmation
