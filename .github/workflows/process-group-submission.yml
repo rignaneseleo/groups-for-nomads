@@ -30,7 +30,7 @@ jobs:
         id: process
         run: |
           python .github/scripts/process_group_submission.py \
-            --issue-body "${{ toJSON(github.event.issue.body) }}" \
+            --issue-body '${{ toJSON(github.event.issue.body) }}' \
             --issue-number "${{ github.event.issue.number }}" \
             --github-output $GITHUB_OUTPUT
         env:
