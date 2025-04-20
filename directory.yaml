@@ -1994,3 +1994,10 @@ groups:
       - continent: Asia
         country_id: CN
     commercial: true
+  - name: Test
+    platform: telegram
+    url: https://t.me/test
+    locations:
+      - continent: Asia
+        country_id: CN
+    commercial: true
