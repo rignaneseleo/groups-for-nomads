@@ -94,7 +94,7 @@ body:
     validations:
       required: false
 
-  - type: checkbox
+  - type: checkboxes
     id: commercial
     attributes:
       label: Commercial Group
