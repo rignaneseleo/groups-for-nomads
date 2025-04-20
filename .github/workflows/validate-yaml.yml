@@ -41,12 +41,13 @@ jobs:
         id: validate
         continue-on-error: true
         run: |
-          output=$(python .github/scripts/validate_yaml.py 2>&1)
-          echo "::set-output name=output::$output"
+          python .github/scripts/validate_yaml.py
           if [ $? -eq 0 ]; then
-            echo "::set-output name=status::success"
+            echo "validation=success" >> $GITHUB_OUTPUT
+            echo "output=YAML validation passed successfully!" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=status::failure"
+            echo "validation=failure" >> $GITHUB_OUTPUT
+            echo "output=YAML validation failed. Please check the logs for details." >> $GITHUB_OUTPUT
           fi
 
       - name: Update Check Run
@@ -56,6 +57,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           name: YAML Validation
           status: completed
-          conclusion: ${{ steps.validate.outputs.status }}
+          conclusion: ${{ steps.validate.outputs.validation }}
           output: |
             {"summary": "${{ steps.validate.outputs.output }}"}
