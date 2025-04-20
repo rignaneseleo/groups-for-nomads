@@ -65,4 +65,4 @@ jobs:
 
             ${{ steps.process.outputs.message }}
 
-            ${{ steps.process.outputs.valid == 'true' && format('Your group has been added to the directory. A pull request has been created: %s', steps.create-pr.outputs.pull-request-url) || 'Please fix the issues above and we will process your submission.' }}
+            ${{ steps.process.outputs.valid == 'true' && format('Your group has been added to the directory. A pull request has been created: {0}', steps.create-pr.outputs.pull-request-url) || 'Please fix the issues above and we will process your submission.' }}
