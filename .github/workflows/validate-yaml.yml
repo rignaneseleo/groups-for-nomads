@@ -9,14 +9,9 @@ jobs:
   validate:
     name: Validate YAML
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      checks: write
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -28,33 +23,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml pykwalify
 
-      - name: Create Check Run
-        uses: LouisBrunner/checks-action@v1.6.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          name: YAML Validation
-          status: in_progress
-
       - name: Validate directory.yaml
-        id: validate
-        continue-on-error: true
-        run: |
-          python .github/scripts/validate_yaml.py
-          if [ $? -eq 0 ]; then
-            echo "validation=success" >> $GITHUB_OUTPUT
-            echo "output=YAML validation passed successfully!" >> $GITHUB_OUTPUT
-          else
-            echo "validation=failure" >> $GITHUB_OUTPUT
-            echo "output=YAML validation failed. Please check the logs for details." >> $GITHUB_OUTPUT
-          fi
-
-      - name: Update Check Run
-        uses: LouisBrunner/checks-action@v1.6.1
-        if: always()
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          name: YAML Validation
-          status: completed
-          conclusion: ${{ steps.validate.outputs.validation }}
-          output: |
-            {"summary": "${{ steps.validate.outputs.output }}"}
+        run: python .github/scripts/validate_yaml.py
