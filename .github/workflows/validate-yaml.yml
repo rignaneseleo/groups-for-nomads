@@ -1,20 +1,22 @@
 name: Validate YAML Directory
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "directory.yaml"
   pull_request:
     branches: [main]
     paths:
       - "directory.yaml"
+      - ".github/scripts/validate_yaml.py"
 
 jobs:
   validate:
     runs-on: ubuntu-latest
+    outputs:
+      validation: ${{ steps.validate.outputs.validation }}
+
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch all history for proper PR validation
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -24,7 +26,29 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pyyaml jsonschema iso3166 pycountry
+          pip install pyyaml pykwalify
 
       - name: Validate directory.yaml
+        id: validate
         run: python .github/scripts/validate_yaml.py
+
+      - name: Post validation status
+        if: always()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const conclusion = '${{ steps.validate.outcome }}' === 'success' ? 'success' : 'failure';
+            const message = conclusion === 'success' ? 'Validation passed!' : 'Validation failed. Please check the workflow logs.';
+
+            github.rest.checks.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              name: 'YAML Validation',
+              head_sha: context.payload.pull_request ? context.payload.pull_request.head.sha : context.sha,
+              status: 'completed',
+              conclusion: conclusion,
+              output: {
+                title: conclusion === 'success' ? 'Validation succeeded' : 'Validation failed',
+                summary: message
+              }
+            });

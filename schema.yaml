@@ -6,7 +6,7 @@ group:
   name: str(required=True)
   description: str(required=False)
   platform: enum('whatsapp', 'telegram', 'discord', 'facebook', 'slack', 'linktree', required=True)
-  url: str(required=True)
+  url: str(required=True, pattern="^https?://")
   locations: list(include('location'), required=False)
   tags: list(str(), required=False)
   language_id: str(length=2, required=False)
