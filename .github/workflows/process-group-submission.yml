@@ -6,7 +6,7 @@ on:
 
 jobs:
   process-submission:
-    if: contains(github.event.issue.labels.*.name, 'new-group')
+    if: contains(github.event.issue.labels.*.name, 'New Group')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
