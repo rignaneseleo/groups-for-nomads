@@ -1,19 +1,64 @@
-version: str(required=True)
-groups: list(include('group'))
-
----
-group:
-  name: str(required=True)
-  description: str(required=False)
-  platform: enum('whatsapp', 'telegram', 'discord', 'facebook', 'slack', 'linktree', required=True)
-  url: str(required=True, pattern="^https?://")
-  locations: list(include('location'), required=False)
-  tags: list(str(), required=False)
-  language_id: str(length=2, required=False)
-  commercial: bool(required=False)
----
-location:
-  continent: enum('Africa', 'Antarctica', 'Asia', 'Europe', 'North America', 'Oceania', 'South America', 'Central America', required=True)
-  country_id: str(length=2, required=False)
-  city: str(required=False)
-  region: str(required=False)
+type: map
+mapping:
+  version:
+    type: str
+    required: true
+  groups:
+    type: seq
+    sequence:
+      - type: map
+        mapping:
+          name:
+            type: str
+            required: true
+          platform:
+            type: str
+            required: true
+            enum: [whatsapp, telegram, linktree, discord, facebook, slack]
+          url:
+            type: str
+            required: true
+            pattern: "^https?://"
+          locations:
+            type: seq
+            required: false
+            sequence:
+              - type: map
+                mapping:
+                  continent:
+                    type: str
+                    required: true
+                    enum:
+                      [
+                        Africa,
+                        Antarctica,
+                        Asia,
+                        Europe,
+                        North America,
+                        South America,
+                        Central America,
+                        Oceania,
+                      ]
+                  country_id:
+                    type: str
+                    required: false
+                  city:
+                    type: str
+                    required: false
+                  region:
+                    type: str
+                    required: false
+          language_id:
+            type: str
+            required: false
+          commercial:
+            type: bool
+            required: false
+          tags:
+            type: seq
+            required: false
+            sequence:
+              - type: str
+          description:
+            type: str
+            required: false
