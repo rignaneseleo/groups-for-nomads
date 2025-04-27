@@ -464,6 +464,7 @@ groups:
         country_id: MX
         city: Mexico City
     tags:
+      - meetups
       - makers
       - entrepreneurship
       - networking
