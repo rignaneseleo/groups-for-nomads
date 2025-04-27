@@ -2863,3 +2863,7 @@ groups:
       - language_exchange
       - social
       - networking
+
+ - name: Test
+   platform: telegram
+   url: https://t.me/test
