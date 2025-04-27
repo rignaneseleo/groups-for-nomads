@@ -10,13 +10,13 @@ Welcome to the Digital Nomad Community Directory! This project aims to create a 
 
 This project uses three main files:
 
-1. **directory.yaml** - This is the **source of truth** where all data is stored and maintained
-2. **schema.yaml** - This defines the structure and validation rules for the directory data
+1. **data.yaml** - This is the **source of truth** where all data is stored and maintained
+2. **schema.json** - This defines the structure and validation rules for the directory data
 3. **directory.md** - This is the human-readable file that's automatically generated from the YAML data
 
-When a change is made to directory.yaml, our GitHub workflow automatically validates it against the schema and then regenerates the markdown file.
+When a change is made to data.yaml, our GitHub workflow automatically validates it against the schema and then regenerates the markdown file.
 
-> **Important:** Always make changes to the directory.yaml file, NOT the markdown file. The markdown file is automatically generated and any direct changes to it will be overwritten.
+> **Important:** Always make changes to the data.yaml file, NOT the markdown file. The markdown file is automatically generated and any direct changes to it will be overwritten.
 
 ## How to Contribute
 
@@ -36,7 +36,7 @@ NOTE: This won't let you create a group for multiple locations. If you need to a
 
 ### Option 2: Direct YAML Editing
 
-1. Navigate to the [directory.yaml](directory.yaml) file in this repository
+1. Navigate to the [data.yaml](data.yaml) file in this repository
 2. Click on the "Edit" (pencil) button to start editing the file
 3. Add the details of the group following the YAML schema. Here's a comprehensive example:
 
@@ -77,7 +77,7 @@ NOTE: This won't let you create a group for multiple locations. If you need to a
 6. Click on the "Propose changes" button
 7. Finally, submit a pull request (PR) for your changes to be reviewed and merged
 
-> **Note:** All contributions are automatically validated against the [schema.yaml](schema.yaml) file, which defines the required structure and allowed values. Your PR will only be merged if it passes this validation.
+> **Note:** All contributions are automatically validated against the [schema.json](schema.json) file, which defines the required structure and allowed values. Your PR will only be merged if it passes this validation.
 
 Please note that contributions should follow the existing format and be relevant to the digital nomad community. Let's work together to build a vibrant and inclusive resource for all digital nomads!
 
@@ -92,20 +92,20 @@ This allows users to easily find communities in specific locations. Each country
 
 This repository uses several GitHub Actions workflows:
 
-1. **Validation**: Every pull request is automatically validated against the schema.yaml
-2. **Markdown Generation**: When directory.yaml is updated, the directory.md file is automatically regenerated
+1. **Validation**: Every pull request is automatically validated against the schema.json
+2. **Markdown Generation**: When data.yaml is updated, the directory.md file is automatically regenerated
 3. **Group Submission**: Issues created with the "New Group" label are processed automatically
 
 ### Schema Details
 
-The schema.yaml file defines the structure and requirements for the directory data. Key requirements include:
+The schema.json file defines the structure and requirements for the directory data. Key requirements include:
 
 - Valid platform values (whatsapp, telegram, discord, etc.)
 - Valid continent names
 - URL format validation
 - Required and optional fields
 
-Refer to the [schema.yaml](schema.yaml) file for complete details on data validation requirements.
+Refer to the [schema.json](schema.json) file for complete details on data validation requirements.
 
 ## License
 
