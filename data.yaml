@@ -112,8 +112,6 @@ groups:
       - continent: Europe
         country_id: ES
         city: Corralejo
-    tags:
-
   - name: Nomads
     platform: telegram
     url: https://t.me/lanzarotedigital
@@ -121,8 +119,6 @@ groups:
       - continent: Europe
         country_id: ES
         city: Lanzarote
-    tags:
-
   - name: Madrid new friends
     platform: whatsapp
     url: https://chat.whatsapp.com/DyosoSaCfXt00exnHQuJJF
@@ -2443,16 +2439,12 @@ groups:
     url: https://chat.whatsapp.com/GZGmk6YxCDdI6gAWEa1gF6
     locations:
       - continent: Asia
-    tags:
-
   - name: Cambodia Nomads
     platform: whatsapp
     url: https://chat.whatsapp.com/KBhFHifsBZxF0Q3siOG3yj
     locations:
       - continent: Asia
         country_id: KH
-    tags:
-
   - name: "Backpackers in Cambodia \U0001F1F0\U0001F1ED"
     platform: whatsapp
     url: https://chat.whatsapp.com/EoQR2PcRln908KhUpit4dv
@@ -2467,8 +2459,6 @@ groups:
     locations:
       - continent: Asia
         country_id: IN
-    tags:
-
   - name: "Backpackers in India \U0001F1EE\U0001F1F3"
     platform: whatsapp
     url: https://chat.whatsapp.com/H8cXuNXuZdRDIW5C0EsZa6
@@ -2492,8 +2482,6 @@ groups:
       - continent: Asia
         country_id: ID
         city: Bali
-    tags:
-
   - name: "\U0001F300Bali Nomads Giving Back\U0001F300"
     platform: whatsapp
     url: https://chat.whatsapp.com/Gq8sjbZBKFk6iUc78XRqdz
@@ -2567,8 +2555,6 @@ groups:
       - continent: Asia
         country_id: MY
         city: Kuala Lumpur
-    tags:
-
   - name: "Backpackers in Maldives \U0001F1F2\U0001F1FB"
     platform: whatsapp
     url: https://chat.whatsapp.com/Jc7OkH7uAFKKfH0PeauBNT
@@ -2602,8 +2588,6 @@ groups:
     locations:
       - continent: Asia
         country_id: PH
-    tags:
-
   - name: "Backpackers in Philippines \U0001F1F5\U0001F1ED"
     platform: whatsapp
     url: https://chat.whatsapp.com/CjVSXSMUDBoKOwvcZ0NwqE
@@ -2629,8 +2613,6 @@ groups:
     locations:
       - continent: Asia
         country_id: SG
-    tags:
-
   - name: "Backpackers in Singapore \U0001F1F8\U0001F1EC"
     platform: whatsapp
     url: https://chat.whatsapp.com/JkDBE8gBoMx1OGrkhRI0WB
@@ -2656,8 +2638,6 @@ groups:
     locations:
       - continent: Asia
         country_id: KR
-    tags:
-
   - name: "Korea Backpackers \U0001F1F0\U0001F1F7"
     platform: whatsapp
     url: https://chat.whatsapp.com/FtnHvR3lkrF5XCgCaGvN7b
@@ -2698,8 +2678,6 @@ groups:
     locations:
       - continent: Asia
         country_id: LK
-    tags:
-
   - name: "Taiwan travelers \U0001F1F9\U0001F1FC"
     platform: whatsapp
     url: https://chat.whatsapp.com/FiIz63rIae0ArdvIdD2V1F
@@ -2713,8 +2691,6 @@ groups:
     locations:
       - continent: Asia
         country_id: TH
-    tags:
-
   - name: "Backpackers in Thailand \U0001F1F9\U0001F1ED"
     platform: whatsapp
     url: https://chat.whatsapp.com/CFIy6tKpj4VABoGg9yhLAZ
@@ -2795,16 +2771,12 @@ groups:
     locations:
       - continent: Asia
         country_id: VN
-    tags:
-
   - name: Vietnam Nomads
     platform: whatsapp
     url: https://chat.whatsapp.com/KGl3CPA9LeVKvK87MtZhmg
     locations:
       - continent: Asia
         country_id: VN
-    tags:
-
   - name: MundoLingo Vietnam
     platform: telegram
     url: https://t.me/+nqlVMGubWwY0NjRk
@@ -2841,8 +2813,6 @@ groups:
       - continent: Asia
         country_id: VN
         city: Hoi An
-    tags:
-
   - name: "Traveling Antarctica \U0001F1E6\U0001F1F6"
     platform: whatsapp
     url: https://chat.whatsapp.com/IRW7EQnzJuLGFlX7TbF1ww
