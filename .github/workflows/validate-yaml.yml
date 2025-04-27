@@ -29,4 +29,4 @@ jobs:
           pip install ruamel.yaml jsonschema
 
       - name: Validate YAML
-        run: python validate_yaml.py data.yaml
+        run: python .github/scripts/validate_yaml.py data.yaml
