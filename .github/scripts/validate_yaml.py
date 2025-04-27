@@ -1,26 +1,55 @@
-# .github/scripts/validate_yaml.py
-from pykwalify.core import Core
+#!/usr/bin/env python3
 import sys
+import json
+import jsonschema
+from ruamel.yaml import YAML
 
 
-def validate_yaml(data_file, schema_file):
+def load_schema():
+    with open("schema.json", "r") as schema_file:
+        return json.load(schema_file)
+
+
+def validate_yaml(file_path):
     try:
-        # Initialize pykwalify with the data and schema files
-        validator = Core(source_file=data_file, schema_files=[schema_file])
-        # Perform validation
-        validator.validate(raise_exception=True)
-        print(f"Validation successful: {data_file} conforms to {schema_file}")
-        return 0
+        # Load the schema
+        schema = load_schema()
+
+        # Load the YAML file
+        with open(file_path, "r") as yaml_file:
+            yaml_parser = YAML(typ="safe")
+            data = yaml_parser.load(yaml_file)
+
+        # Validate against JSON Schema
+        jsonschema.validate(instance=data, schema=schema)
+
+        print("YAML validation successful!")
+        return True
+
+    except jsonschema.exceptions.ValidationError as ve:
+        print(f"Validation error: {ve}")
+        # Provide more detailed error context
+        print(f"Validation failed at: {ve.json_path}")
+        print(f"Validator keyword: {ve.validator}")
+        print(f"Validator value: {ve.validator_value}")
+        return False
     except Exception as e:
-        print(f"Validation failed: {e}")
-        return 1
+        print(f"Unexpected error during validation: {e}")
+        return False
+
+
+def main():
+    if len(sys.argv) < 2:
+        print("Please provide the path to the YAML file")
+        sys.exit(1)
+
+    file_path = sys.argv[1]
+
+    if validate_yaml(file_path):
+        sys.exit(0)
+    else:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: python validate_yaml.py <data_file> <schema_file>")
-        sys.exit(1)
-
-    data_file = sys.argv[1]
-    schema_file = sys.argv[2]
-    sys.exit(validate_yaml(data_file, schema_file))
+    main()

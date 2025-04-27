@@ -3,53 +3,30 @@ name: Validate YAML
 on:
   pull_request:
     paths:
-      - "directory.yaml" # Trigger only when directory.yaml is modified
+      - "data.yaml"
+  push:
+    branches:
+      - main
+    paths:
+      - "data.yaml"
 
 jobs:
   validate-yaml:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository code, including PR changes
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      # Set up Python environment
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v3
         with:
-          python-version: "3.10"
+          python-version: "3.9"
 
-      # Install pykwalify
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pykwalify
+          pip install ruamel.yaml jsonschema
 
-      # Validate directory.yaml against schema.yaml and capture output
-      - name: Validate directory.yaml
-        id: validate
-        run: |
-          echo "Running YAML validation..."
-          output=$(python .github/scripts/validate_yaml.py directory.yaml schema.yaml 2>&1)
-          status=$?
-          echo "Validation output:"
-          echo "$output"
-
-          # Store output and status for the check run
-          echo "validation_output=$output" >> $GITHUB_ENV
-          echo "validation_status=$status" >> $GITHUB_ENV
-
-          # Exit with the validation status
-          exit $status
-
-      # Create or update a check run with validation results
-      - name: Report validation result
-        uses: LouisBrunner/checks-action@v1.6.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          name: YAML Validation
-          status: completed
-          conclusion: ${{ env.validation_status == '0' && 'success' || 'failure' }}
-          output: |
-            {"summary": "Validation of directory.yaml against schema.yaml", "text": "${{ env.validation_output }}"}
+      - name: Validate YAML
+        run: python validate_yaml.py data.yaml
