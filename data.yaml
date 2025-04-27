@@ -11,6 +11,7 @@ groups:
   - name: Overlanding Community
     platform: whatsapp
     url: https://chat.whatsapp.com/IfmuhQ55pQh6ZGdTmykzU0
+    language_id: nl
     tags:
       - overlanding
   - name: "Container Sharing and RoRo Shipping worldwide \U0001F6A2"
