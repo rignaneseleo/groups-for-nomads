@@ -10,12 +10,12 @@ on:
 jobs:
   generate-markdown:
     runs-on: ubuntu-latest
-    # Add permissions for GITHUB_TOKEN
-    permissions:
-      contents: write # This gives permission to push to the repo
+    # Remove the permissions block since we'll use PAT
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GEN_MD_ACTION_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
