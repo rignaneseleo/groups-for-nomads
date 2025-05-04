@@ -348,6 +348,9 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Freelancers in Madrid](https://chat.whatsapp.com/CBJXxMtx5UYHP1Kj5HkGK8) #freelancing #jobs
 
+### Valencia
+![Telegram](icons/telegram.svg) [Valencia Nomads](https://t.me/valencianomadsofficial/)
+
 <p>&nbsp;</p><p>&nbsp;</p>
 
 ## Switzerland 🇨🇭 <a name="switzerland"></a>
