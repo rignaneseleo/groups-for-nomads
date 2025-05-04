@@ -119,6 +119,13 @@ groups:
       - continent: Europe
         country_id: ES
         city: Lanzarote
+  - name: Valencia Nomads
+    platform: telegram
+    url: https://t.me/valencianomadsofficial
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Valencia        
   - name: Madrid new friends
     platform: whatsapp
     url: https://chat.whatsapp.com/DyosoSaCfXt00exnHQuJJF
