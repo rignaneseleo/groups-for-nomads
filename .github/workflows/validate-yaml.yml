@@ -1,0 +1,32 @@
+name: Validate YAML
+
+on:
+  pull_request:
+    paths:
+      - "data.yaml"
+  push:
+    branches:
+      - main
+    paths:
+      - "data.yaml"
+
+jobs:
+  validate-yaml:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruamel.yaml jsonschema
+
+      - name: Validate YAML
+        run: python .github/scripts/validate_yaml.py data.yaml

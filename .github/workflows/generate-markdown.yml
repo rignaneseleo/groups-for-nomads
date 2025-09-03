@@ -1,0 +1,39 @@
+name: Generate Markdown from YAML
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data.yaml"
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  generate-markdown:
+    runs-on: ubuntu-latest
+    # Remove the permissions block since we'll use PAT
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GEN_MD_ACTION_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml iso3166 pycountry
+
+      - name: Generate markdown from YAML
+        run: python .github/scripts/generate_markdown.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add directory.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-generate directory.md from YAML data"
+          git push

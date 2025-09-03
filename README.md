@@ -1,33 +1,99 @@
-# Digital Nomad Community Directory
+# nomadgroups.wiki
 
 Welcome to the Digital Nomad Community Directory! This project aims to create a comprehensive list of online communities and groups specifically catered to digital nomads. Whether you're a seasoned nomad or just starting your remote work journey, this directory will help you connect with like-minded individuals, find support, and discover exciting opportunities around the world.
 
 ## The list
 
-👉🏻 [Click HERE to open the list](directory.md)
+👉🏻 Click [HERE](directory.md) to open the list
 
-## How to Contribute
+## 🗂️ How the Directory Works
 
-Contributions to this directory are highly encouraged and greatly appreciated. If you come across any digital nomad groups that are not listed here, please add them to the directory by following these steps:
+This project uses three main files:
 
-1. Navigate to the [directory.md](directory.md) file in this repository.
-2. Click on the "Edit" (pencil) button to start editing the file.
-3. Add the details of the group in the following format:
-   - Group Name: [Name of the Group](Group Link)
-4. Make sure to place your entry in the appropriate geographical section and category.
-5. Once you have added the group, provide a meaningful commit message describing your contribution.
-6. Click on the "Propose changes" button.
-7. Finally, submit a pull request (PR) for your changes to be reviewed and merged into the directory.
+1. **`data.yaml`** - The **source of truth** where all data is stored and maintained
+2. **`schema.json`** - Defines the structure and validation rules for the directory data
+3. **`directory.md`** - The human-readable file that's automatically generated from the YAML data
 
-Please note that contributions should follow the existing format and be relevant to the digital nomad community. Let's work together to build a vibrant and inclusive resource for all digital nomads!
+> **Important:** Always make changes to `data.yaml`, NOT the markdown file. The markdown file is automatically generated and any direct changes will be overwritten.
 
-## Directory Structure
+## 🤝 How to Contribute
 
-The directory is organized by countries, allowing users to easily find communities in specific locations. Each country section contains a list of digital nomad groups along with their descriptions and links. Explore the directory and discover communities worldwide!
+We welcome and appreciate all contributions to this directory! Here's how you can add new groups:
 
+### Adding a New Group
 
-## License
+1. Navigate to [data.yaml](data.yaml)
+2. Click the "Edit" (pencil) button
+3. Add your group at the end of the list following this example:
 
-This project is licensed under the [MIT License](LICENSE). By contributing to this directory, you agree to release your contributions under this license.
+   ```yaml
+   - name: "Chiang Mai Digital Nomads"  # Always use quotes for strings
+     platform: "whatsapp"  # Supported: whatsapp, telegram, discord, linktree, facebook, slack
+     url: "https://chat.whatsapp.com/example"
+     locations:
+       - continent: "Asia"  # Must be one of: Africa, Antarctica, Asia, Europe, North America, South America, Central America, Oceania
+         country_id: "TH"  # ISO 3166-1 alpha-2 country code
+         city: "Chiang Mai"  # Optional
+         region: "Northern Thailand"  # Optional
+     language_id: "en"  # Optional: ISO 639-1 language code
+     commercial: false  # No quotes for boolean values
+     tags:  # Optional: keywords to categorize the group
+       - "coworking"
+       - "meetups"
+       - "housing"
+   ```
 
-Let's create a comprehensive directory of digital nomad communities together! Start contributing today and help fellow nomads connect and thrive in their remote work adventures!
+4. For multiple locations:
+
+   ```yaml
+   - name: "Southeast Asia Nomads"
+     platform: "telegram"
+     url: "https://t.me/example"
+     locations:
+       - continent: "Asia"
+         country_id: "TH"
+       - continent: "Asia"
+         country_id: "VN"
+       - continent: "Asia"
+         country_id: "ID"
+   ```
+
+5. Click "Propose changes"
+6. Submit a pull request
+
+> **Note:** All contributions are automatically validated against [schema.json](schema.json). Your PR will only be merged if it passes validation.
+
+## 🔧 Technical Information
+
+### Automated Workflows
+
+This repository uses GitHub Actions for automation:
+
+1. **Validation Workflow**
+   - Runs on every pull request
+   - Validates data against schema.json
+   - Ensures data integrity
+
+2. **Markdown Generation**
+   - Triggers on data.yaml updates
+   - Automatically regenerates directory.md
+   - Maintains consistency
+
+### Schema Details
+
+The `schema.json` file enforces:
+- Valid platform values
+- Correct continent names
+- Proper URL formats
+- Required and optional fields
+- Data type validation
+
+For complete validation requirements, refer to [schema.json](schema.json).
+
+## 📜 License
+
+This project is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](LICENSE). By contributing, you agree to release your contributions under this license.
+
+---
+
+Let's build the most comprehensive digital nomad community directory together! Your contributions help fellow nomads connect and thrive in their remote work adventures. 🌍✨
