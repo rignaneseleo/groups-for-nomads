@@ -2211,7 +2211,7 @@ groups:
       - community
   - name: Lima Community (Main Community for all Lima Whatsapp-Groups)
     platform: whatsapp
-    url: https://chat.whatsapp.com/DNfvYIDnmT99mfqdVLSUI4
+    url: https://form.typeform.com/to/xCgjlqEL
     locations:
       - continent: South America
         country_id: PE
