@@ -24,7 +24,8 @@
                             "linktree",
                             "discord",
                             "facebook",
-                            "slack"
+                            "slack",
+                            "instagram",
                         ],
                         "description": "Platform hosting the community group"
                     },
@@ -356,4 +357,5 @@
         "version",
         "groups"
     ]
+
 }
