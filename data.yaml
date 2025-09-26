@@ -2879,3 +2879,24 @@ groups:
       - language_exchange
       - social
       - networking
+  - name: Smileys Coworkers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KyuiRGdjHm7ErkCe3BHGGX
+    locations:
+      - continent: Asia
+        country_id: TR
+        city: Istanbul
+    tags:
+      - networking 
+  - name: Smileys Community
+    platform: instagram
+    url: https://www.instagram.com/smileys.community
+    locations:
+      - continent: Asia
+        country_id: TR
+        city: Istanbul
+    tags:
+      - networking 
+      - sport
+      - party
+      - houring
