@@ -1,0 +1,44 @@
+name: Process New Group Issue
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  process-group:
+    if: contains(github.event.issue.labels.*.name, 'add-group')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install ruamel.yaml
+
+      - name: Parse Issue and Update YAML
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python .github/scripts/process_new_group.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: add new group from issue #${{ github.event.issue.number }}"
+          title: "feat: add ${{ github.event.issue.title }}"
+          body: |
+            This PR adds a new group submitted via issue #${{ github.event.issue.number }}.
+            
+            Closes #${{ github.event.issue.number }}
+          branch: "add-group-${{ github.event.issue.number }}"
+          delete-branch: true
+

@@ -1,0 +1,120 @@
+name: Add a New Group
+description: Submit a new digital nomad community group to the directory.
+title: "Add Group: [Group Name]"
+labels: ["add-group"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to the Digital Nomad Community Directory!
+        Please fill out the information below.
+
+  - type: input
+    id: name
+    attributes:
+      label: Group Name
+      description: The name of the community group.
+      placeholder: e.g., Chiang Mai Digital Nomads
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: The platform where the group is hosted.
+      options:
+        - whatsapp
+        - telegram
+        - discord
+        - linktree
+        - facebook
+        - slack
+        - instagram
+        - kakaotalk
+        - viber
+        - messenger
+        - wechat
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The invite link or URL for the group.
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: continent
+    attributes:
+      label: Continent
+      description: The continent where the group is located.
+      options:
+        - Africa
+        - Antarctica
+        - Asia
+        - Europe
+        - North America
+        - South America
+        - Central America
+        - Oceania
+    validations:
+      required: false
+
+  - type: input
+    id: country_id
+    attributes:
+      label: Country Code
+      description: Two-letter ISO 3166-1 alpha-2 country code (e.g., TH, US, ES). Leave empty for global groups.
+      placeholder: TH
+    validations:
+      required: false
+
+  - type: input
+    id: city
+    attributes:
+      label: City
+      description: The city name (if applicable).
+      placeholder: Chiang Mai
+    validations:
+      required: false
+
+  - type: input
+    id: language_id
+    attributes:
+      label: Language Code
+      description: ISO 639-1 language code (e.g., en, es, de). Default is usually implied by context, but useful for specific language groups.
+      placeholder: en
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: commercial
+    attributes:
+      label: Commercial
+      description: Is this group primarily for commercial purposes or run by a business?
+      options:
+        - label: This is a commercial group
+    validations:
+      required: false
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Comma-separated tags to categorize the group.
+      placeholder: coworking, social, hiking
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Additional Information
+      description: Any extra details or multiple locations?
+    validations:
+      required: false
+
