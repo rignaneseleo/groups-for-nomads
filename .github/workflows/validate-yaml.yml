@@ -2,13 +2,9 @@ name: Validate YAML
 
 on:
   pull_request:
-    paths:
-      - "data.yaml"
   push:
     branches:
       - main
-    paths:
-      - "data.yaml"
 
 jobs:
   validate-yaml:
