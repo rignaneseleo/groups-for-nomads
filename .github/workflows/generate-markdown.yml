@@ -13,7 +13,7 @@ jobs:
     # Remove the permissions block since we'll use PAT
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         with:
           token: ${{ secrets.GEN_MD_ACTION_TOKEN }}
 
