@@ -25,7 +25,7 @@
                             "discord",
                             "facebook",
                             "slack",
-                            "instagram",
+                            "instagram"
                         ],
                         "description": "Platform hosting the community group"
                     },
@@ -357,5 +357,4 @@
         "version",
         "groups"
     ]
-
 }
