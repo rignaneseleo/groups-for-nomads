@@ -125,7 +125,7 @@ groups:
     locations:
       - continent: Europe
         country_id: ES
-        city: Valencia        
+        city: Valencia
   - name: Madrid new friends
     platform: whatsapp
     url: https://chat.whatsapp.com/DyosoSaCfXt00exnHQuJJF
@@ -2393,6 +2393,15 @@ groups:
     tags:
       - overlanding
       - venezuela
+  - name: "DAHAB FORUM \U0001F334"
+    platform: telegram
+    url: https://t.me/DahabForum
+    locations:
+      - continent: Africa
+        country_id: EG
+        city: Dahab
+    tags:
+      - community
   - name: "Overland durch Afrika \U0001F30D"
     platform: whatsapp
     url: https://chat.whatsapp.com/LdfGpQSo9EHBqM1taZ1YQe
