@@ -59,7 +59,7 @@ coworking, social, hiking
 Great group!
 """
     result = process_new_group.parse_issue_body(body)
-    
+
     assert result['name'] == 'Chiang Mai Nomads'
     assert result['platform'] == 'whatsapp'
     assert result['url'] == 'https://chat.whatsapp.com/12345'
@@ -100,9 +100,9 @@ def test_create_group_entry():
         'commercial': False,
         'tags': ['tech']
     }
-    
+
     entry = process_new_group.create_group_entry(parsed_data)
-    
+
     assert isinstance(entry, CommentedMap)
     assert entry['name'] == 'Test Group'
     assert entry['platform'] == 'slack'
@@ -123,4 +123,3 @@ def test_create_group_entry_commercial():
     }
     entry = process_new_group.create_group_entry(parsed_data)
     assert entry['commercial'] is True
-

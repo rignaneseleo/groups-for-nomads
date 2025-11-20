@@ -117,4 +117,3 @@ body:
       description: Any extra details or multiple locations?
     validations:
       required: false
-
