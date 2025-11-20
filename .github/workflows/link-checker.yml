@@ -1,0 +1,22 @@
+name: Link Checker
+
+on:
+  schedule:
+    - cron: "0 0 * * 1" # Run weekly on Mondays
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.9.0
+        with:
+          # Check links in data.yaml and README.md
+          args: --verbose --no-progress 'data.yaml' 'README.md' 'directory.md'
+          # Fail action if broken links are found
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
