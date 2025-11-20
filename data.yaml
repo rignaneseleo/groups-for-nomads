@@ -2887,7 +2887,7 @@ groups:
         country_id: TR
         city: Istanbul
     tags:
-      - networking 
+      - networking
   - name: Smileys Community
     platform: instagram
     url: https://www.instagram.com/smileys.community
@@ -2896,7 +2896,60 @@ groups:
         country_id: TR
         city: Istanbul
     tags:
-      - networking 
+      - networking
       - sport
       - party
       - houring
+  - name: Neighbours Citywide Capetown
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FCgy7oIu8xULi2rkBwoB8X
+    locations:
+      - continent: Africa
+        country_id: ZA
+        city: Cape Town
+    tags:
+      - community
+  - name: Bangkok Digital Nomads Community
+    platform: whatsapp
+    url: https://chat.whatsapp.com/F6aI5O81eVeDnLcuWFoSnC
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Bangkok
+    tags:
+      - networking
+  - name: Bangkok Digital Nomads Community
+    platform: telegram
+    url: https://t.me/bangkokdigitalnomads
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Bangkok
+    tags:
+      - networking
+  - name: Bangkok Digital Nomads Community
+    platform: discord
+    url: https://discord.gg/Gk3mSk6SKE
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Bangkok
+    tags:
+      - networking
+  - name: Bangkok Digital Nomads Community
+    platform: instagram
+    url: https://www.instagram.com/bangkokdigitalnomads
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Bangkok
+    tags:
+      - networking
+  - name: Digital Nomads Sri Lanka
+    platform: whatsapp
+    url: https://chat.whatsapp.com/C7iSQsJVeliAPiv0bMzswV
+    locations:
+      - continent: Asia
+        country_id: LK
+    tags:
+      - networking
