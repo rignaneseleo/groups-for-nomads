@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "0 0 * * 1" # Run weekly on Mondays
   workflow_dispatch: # Allow manual trigger
+  pull_request: # Run on PRs to verify links before merging
 
 jobs:
   link-checker:
