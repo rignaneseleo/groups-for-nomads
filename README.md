@@ -18,9 +18,15 @@ This project uses three main files:
 
 ## 🤝 How to Contribute
 
-We welcome and appreciate all contributions to this directory! Here's how you can add new groups:
+We welcome and appreciate all contributions to this directory! You can add new groups in two ways:
 
-### Adding a New Group
+### Method 1: Easy (Recommended)
+
+Simply **[open a new issue](https://github.com/rignaneseleo/groups-for-nomads/issues/new?template=add_group.yml)** using the "Add a New Group" template. Fill in the details, and we'll add it for you!
+
+### Method 2: Advanced (Pull Request)
+
+If you're comfortable with GitHub and YAML, you can submit a Pull Request directly:
 
 1. Navigate to [data.yaml](data.yaml)
 2. Click the "Edit" (pencil) button
@@ -78,6 +84,10 @@ This repository uses GitHub Actions for automation:
    - Triggers on data.yaml updates
    - Automatically regenerates directory.md
    - Maintains consistency
+
+3. **Link Checker**
+   - Runs weekly to identify broken invitation links
+   - Helps keep the directory up-to-date
 
 ### Schema Details
 
