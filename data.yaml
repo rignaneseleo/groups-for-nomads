@@ -528,6 +528,34 @@ groups:
     language_id: de
     tags:
       - overlanding
+  - name: "Overlander Mules South & Central America"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FFd6EGfbZbX2piHGJZwEkS
+    locations:
+      - continent: Central America
+      - continent: South America
+    language_id: de
+    tags:
+      - overlanding
+      - backpacking
+  - name: "Motos in Mexico and Central America"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/J1x5xvdIGahFLNA7j3890P
+    locations:
+      - continent: Central America
+      - continent: South America
+    language_id: de
+    tags:
+      - overlanding
+  - name: "BUY-SELL-TRADE TRAVELERS IN THE AMERICAS"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EPdOR51wzgO0oicomi9Z9J
+    locations:
+      - continent: Central America
+      - continent: South America
+    language_id: de
+    tags:
+      - overlanding
   - name: Backpackers in South America
     platform: whatsapp
     url: https://chat.whatsapp.com/CP9HPOMf6kNLZafi2t4KoR
@@ -589,7 +617,7 @@ groups:
 
   - name: Argentina Overlanders
     platform: whatsapp
-    url: https://chat.whatsapp.com/J4ALrPwMLXb3GSI6VHlNWI
+    url: https://chat.whatsapp.com/DWgiIZGnMz2JyyrOAEwZl5
     locations:
       - continent: South America
         country_id: AR
@@ -1464,6 +1492,14 @@ groups:
         country_id: CO
     tags:
       - backpacking
+  - name: CamperClubColombia
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IlI6c9yEvfT0bCiqoELBDN
+    locations:
+      - continent: South America
+        country_id: CO
+    tags:
+      - overlanding
   - name: Colombia Biker ADVs
     platform: whatsapp
     url: https://chat.whatsapp.com/Lgfu1NFOi3iEfZOQUP5Znh
@@ -2137,7 +2173,7 @@ groups:
       - ecuador
   - name: "Overlanding Ecuador \U0001F690\U0001F699\U0001F1EA\U0001F1E8"
     platform: whatsapp
-    url: https://chat.whatsapp.com/HWpgcU8IvVI0bUtob0owqR
+    url: https://chat.whatsapp.com/FiG3zV7QjWE3eyvZZ4tYZH
     locations:
       - continent: South America
         country_id: EC
@@ -2235,6 +2271,17 @@ groups:
   - name: Lima Expats and Friends
     platform: whatsapp
     url: https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd
+    locations:
+      - continent: South America
+        country_id: PE
+        city: Lima
+    tags:
+      - expat
+      - community
+      - social
+  - name: Lima Men's Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BvFYYIAcvnQ41lc1AQReoP
     locations:
       - continent: South America
         country_id: PE
@@ -2366,6 +2413,16 @@ groups:
       - nightlife
       - entertainment
       - social
+  - name: Expatriates in Cusco
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CDC3O67oFMmJfbc2qh5m4o
+    locations:
+      - continent: South America
+        country_id: PE
+        city: Lima
+    tags:
+      - social
+      - networking
   - name: Travelling overland in Uruguay
     platform: whatsapp
     url: https://chat.whatsapp.com/K9OR05vKihVCGVCeSHYXYG
@@ -2498,6 +2555,26 @@ groups:
       - continent: Asia
         country_id: ID
         city: Bali
+    tags:
+      - social
+  - name: "Backpackers in Bali \U0001F1EE\U0001F1E9"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DtzSMxbvwgDBTJRW28mRgk
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - backpacking
+  - name: "Bali Solo Traveller🌴"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/E7PhkMbviaODMBD3wteUvw
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - backpacking
   - name: "\U0001F300Bali Nomads Giving Back\U0001F300"
     platform: whatsapp
     url: https://chat.whatsapp.com/Gq8sjbZBKFk6iUc78XRqdz
@@ -2520,15 +2597,18 @@ groups:
       - men
       - social
       - community
-  - name: "Backpackers in Bali \U0001F1EE\U0001F1E9"
+  - name: Outpost (Hostel) Ubud Members
     platform: whatsapp
-    url: https://chat.whatsapp.com/DtzSMxbvwgDBTJRW28mRgk
+    url: https://chat.whatsapp.com/JktOfABz70f5ODed0MLbhA
     locations:
       - continent: Asia
         country_id: ID
         city: Bali
     tags:
+      - social
+      - community
       - backpacking
+    commercial: true
   - name: "Japan \U0001F1EF\U0001F1F5 Backpackers"
     platform: whatsapp
     url: https://chat.whatsapp.com/JzLDJabg4T1HU4X8lu9ie5
