@@ -3033,3 +3033,15 @@ groups:
         country_id: LK
     tags:
       - networking
+  - name: Bali Car Rental | Group
+    platform: telegram
+    url: https://t.me/balitransportations
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - car
+      - rental
+      - nightlife
+      - parties
