@@ -3033,3 +3033,13 @@ groups:
         country_id: LK
     tags:
       - networking
+  - name: GudauriLife
+    platform: telegram
+    url: https://t.me/GudauriLife
+    locations:
+      - continent: Europe
+        country_id: GE
+        city: Gudauri
+    tags:
+      - transfers
+      - skiing
