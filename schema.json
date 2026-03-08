@@ -25,7 +25,9 @@
                             "discord",
                             "facebook",
                             "slack",
-                            "instagram"
+                            "instagram",
+                            "reddit",
+                            "meetup"
                         ],
                         "description": "Platform hosting the community group"
                     },
