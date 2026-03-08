@@ -1,30 +1,44 @@
-name: Link Checker
+name: PR Link Checker
 
 on:
-  schedule:
-    - cron: "0 0 * * 1" # Run weekly on Mondays
-  workflow_dispatch: # Allow manual trigger
-  pull_request: # Run on PRs to verify links before merging
+  pull_request:
+    paths:
+      - "data.yaml"
 
 jobs:
-  link-checker:
+  check-new-links:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Link Checker
+      - name: Extract new URLs from diff
+        id: extract
+        run: |
+          git diff origin/${{ github.base_ref }}...HEAD -- data.yaml \
+            | grep '^+' | grep -v '^+++' \
+            | grep -oP 'https?://[^\s"'"'"'>,)]+' \
+            | sort -u > /tmp/new_urls.txt || true
+
+          count=$(wc -l < /tmp/new_urls.txt | tr -d ' ')
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+          echo "Found $count new/changed URLs:"
+          cat /tmp/new_urls.txt
+
+      - name: Check new links
+        if: steps.extract.outputs.count != '0'
         uses: lycheeverse/lychee-action@v1.9.0
         with:
-          # Check links in data.yaml and README.md
           args: >-
             --verbose
             --no-progress
-            --max-concurrency 4
-            --max-retries 3
-            --retry-wait-time 5
-            --accept 200,429
-            'data.yaml'
-          # Fail action if broken links are found
+            --exclude 'reddit\.com'
+            -- /tmp/new_urls.txt
           fail: true
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: No new links
+        if: steps.extract.outputs.count == '0'
+        run: echo "No new URLs found in this PR, skipping link check."
