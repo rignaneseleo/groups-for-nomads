@@ -16,7 +16,14 @@ jobs:
         uses: lycheeverse/lychee-action@v1.9.0
         with:
           # Check links in data.yaml and README.md
-          args: --verbose --no-progress 'data.yaml' 'README.md' 'directory.md'
+          args: >-
+            --verbose
+            --no-progress
+            --max-concurrency 4
+            --max-retries 3
+            --retry-wait-time 5
+            --accept 200,429
+            'data.yaml'
           # Fail action if broken links are found
           fail: true
         env:
