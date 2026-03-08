@@ -14,7 +14,7 @@ groups:
     language_id: nl
     tags:
       - overlanding
-  - name: "Container Sharing and RoRo Shipping worldwide \U0001F6A2"
+  - name: "Container Sharing and RoRo Shipping worldwide 🚢"
     platform: whatsapp
     url: https://chat.whatsapp.com/BmCwZ5YSY489u4Chb87llo
     tags:
@@ -27,12 +27,12 @@ groups:
       - overlanding
       - technology
       - internet
-  - name: "Nomad Hub - The Strongest Nomad Community \U0001F680"
+  - name: "Nomad Hub - The Strongest Nomad Community 🚀"
     platform: whatsapp
     url: https://chat.whatsapp.com/DAOto3fXuHZJUq7ilkYyqt
     tags:
       - networking
-  - name: "Vanlife Europa \U0001F690"
+  - name: "Vanlife Europa 🚐"
     platform: whatsapp
     url: https://chat.whatsapp.com/EELrOQ94WLsFf46NuzFjca
     locations:
@@ -72,7 +72,7 @@ groups:
     tags:
       - language_exchange
       - social
-  - name: "Couchsurfing Events \U0001F3C4\U0001F3FB\u200D"
+  - name: "Couchsurfing Events 🏄🏻‍"
     platform: whatsapp
     url: https://chat.whatsapp.com/Cnmp00nwROIGGq8HOK4SDa
     locations:
@@ -206,7 +206,7 @@ groups:
     tags:
       - networking
       - social
-  - name: "Dutchies in de Verenigde Staten \U0001F1FA\U0001F1F8"
+  - name: "Dutchies in de Verenigde Staten 🇺🇸"
     platform: whatsapp
     url: https://chat.whatsapp.com/Jb2c1ovytaXAjpf1skYwin
     locations:
@@ -232,7 +232,7 @@ groups:
     tags:
       - transportation
       - motorcycle
-  - name: "Costa Rica travelers \U0001F1E8\U0001F1F7"
+  - name: "Costa Rica travelers 🇨🇷"
     platform: whatsapp
     url: https://chat.whatsapp.com/LkAt0e6qNLoB9gO2fGPEOO
     locations:
@@ -247,7 +247,7 @@ groups:
         country_id: GT
         city: Guatemala City
 
-  - name: "Dutchies in Mexico \U0001F1F2\U0001F1FD"
+  - name: "Dutchies in Mexico 🇲🇽"
     platform: whatsapp
     url: https://chat.whatsapp.com/FjIF9a55rO20juyG9R1su8
     locations:
@@ -263,7 +263,7 @@ groups:
         city: Mexico City
     tags:
       - directory
-  - name: "CDMX Group of Groups \U0001F1F2\U0001F1FD"
+  - name: "CDMX Group of Groups 🇲🇽"
     platform: whatsapp
     url: https://chat.whatsapp.com/I1nC4r7OxmiJQYe6GagHU3
     locations:
@@ -298,7 +298,7 @@ groups:
         city: Mexico City
     tags:
       - marketplace
-  - name: "CDMX hangovers! \U0001F37B"
+  - name: "CDMX hangovers! 🍻"
     platform: whatsapp
     url: https://chat.whatsapp.com/EPds8AuOgNFH5cl9s3ypVo
     locations:
@@ -308,12 +308,12 @@ groups:
     tags:
       - nightlife
       - social
-  - name: "\U0001F30EWorldwide Sticker Club \U0001F30D"
+  - name: "🌎Worldwide Sticker Club 🌍"
     platform: whatsapp
     url: https://chat.whatsapp.com/D93tWOKjCBVIgghNxNP56l
     tags:
       - collecting
-  - name: "\U0001F3E0ing and Roomie Eventos!"
+  - name: "🏠ing and Roomie Eventos!"
     platform: whatsapp
     url: https://chat.whatsapp.com/DNsjPsLVfQfCtGoyXQgY2n
     locations:
@@ -344,9 +344,7 @@ groups:
     tags:
       - nightlife
       - events
-  - name:
-      "CONSCIOUS CDMX \U0001F9D8\U0001F3FD\u200D\u2640\uFE0F\U0001F9D8\U0001F3FF\
-      \U0001F9D8\U0001F3FC\u200D\u2642\uFE0F\U0001F52E\U0001F47D\U0001F6F8"
+  - name: "CONSCIOUS CDMX 🧘🏽‍♀️🧘🏿🧘🏼‍♂️🔮👽🛸"
     platform: whatsapp
     url: https://chat.whatsapp.com/ByJj6fKgxT18Xyy6QLqPhn
     locations:
@@ -356,9 +354,7 @@ groups:
     tags:
       - wellness
       - spirituality
-  - name:
-      "CONSCIOUS CDMX 2 \U0001F9D8\U0001F3FF\U0001F9D8\U0001F3FD\u200D\u2640\uFE0F\
-      \U0001F6F8\U0001F47D\u2728\U0001F90D"
+  - name: "CONSCIOUS CDMX 2 🧘🏿🧘🏽‍♀️🛸👽✨🤍"
     platform: whatsapp
     url: https://chat.whatsapp.com/LJ611AzUKf7HTfrw6sTv08
     locations:
@@ -379,7 +375,7 @@ groups:
       - food
       - vegetarian
       - vegan
-  - name: "Mama Rumba \U0001F57A\U0001F483"
+  - name: "Mama Rumba 🕺💃"
     platform: whatsapp
     url: https://chat.whatsapp.com/BrVW7syCAvvLpB0s4QwqMz
     locations:
@@ -389,7 +385,7 @@ groups:
     tags:
       - dancing
       - nightlife
-  - name: "PLAYA COMMUNITY \U0001F91C\U0001F3FE\U0001F91B\U0001F3FF"
+  - name: "PLAYA COMMUNITY 🤜🏾🤛🏿"
     platform: whatsapp
     url: https://chat.whatsapp.com/FwrwVQbwPrT4vIz8nZedSmp
     locations:
@@ -502,7 +498,7 @@ groups:
     tags:
       - wellness
       - productivity
-  - name: "Travelers in Nicaragua \U0001F1F3\U0001F1EE"
+  - name: "Travelers in Nicaragua 🇳🇮"
     platform: whatsapp
     url: https://chat.whatsapp.com/K9vdzQs7W233nnpReyJIir
     locations:
@@ -518,7 +514,7 @@ groups:
       - continent: Central America
     commercial: true
 
-  - name: "Panamericana \U0001F30E"
+  - name: "Panamericana 🌎"
     platform: whatsapp
     url: https://chat.whatsapp.com/HgHsNzl2BwrEa3ToIdatoi
     locations:
@@ -655,7 +651,7 @@ groups:
       - cryptocurrency
   - name: Medical/Health Marketplace Argentina
     platform: whatsapp
-    url: https://chat.whatsapp.com/CZIQyoeqtYZAnPiQKcQ13n?git
+    url: https://chat.whatsapp.com/CZIQyoeqtYZAnPiQKcQ13n
     locations:
       - continent: South America
         country_id: AR
@@ -698,16 +694,6 @@ groups:
         city: Buenos Aires
     tags:
       - resources
-  - name: BA Medical/Health Marketplace
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CZIQyoeqtYZAnPiQKcQ13n
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - healthcare
-      - marketplace
   - name: MundoLingo Buenos Aires
     platform: telegram
     url: https://t.me/ML_Argentina/109948
@@ -862,7 +848,7 @@ groups:
       - art
       - creative
 
-  - name: "P\xE1del Beginners"
+  - name: "Pádel Beginners"
     platform: whatsapp
     url: https://chat.whatsapp.com/L7etY1Qjrh64WXL6spuLD9
     locations:
@@ -1017,7 +1003,7 @@ groups:
       - hiking
       - outdoors
       - nature
-  - name: "Traveling in Bolivia \U0001F9ED\U0001F1E7\U0001F1F4"
+  - name: "Traveling in Bolivia 🧭🇧🇴"
     platform: whatsapp
     url: https://chat.whatsapp.com/C80kUNYT8GcJmit7gT8kbt
     locations:
@@ -1025,9 +1011,7 @@ groups:
         country_id: BO
     tags:
       - backpacking
-  - name:
-      "Traveling in Bolivia \U0001F1E7\U0001F1F4\U0001F392\U0001F699\U0001F3CD\uFE0F\
-      \u26F0\uFE0F"
+  - name: "Traveling in Bolivia 🇧🇴🎒🚙🏍️⛰️"
     platform: whatsapp
     url: https://chat.whatsapp.com/Iuvh9hvh873IptNugih9uy
     locations:
@@ -1047,14 +1031,6 @@ groups:
       - language
       - cultural_exchange
       - events
-  - name: Travelers in Brazil
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BzDrTkxgNLtGLTLnPnH15w
-    locations:
-      - continent: South America
-        country_id: BR
-    tags:
-      - backpacking
   - name: Overlanders in Brazil
     platform: whatsapp
     url: https://chat.whatsapp.com/BzDrTkxgNLtGLTLnPnH15w
@@ -1430,7 +1406,7 @@ groups:
         city: Sao Paulo
     tags:
       - networking
-  - name: "Gastron\xF4micas \U0001F9AA\U0001F364\U0001F35D"
+  - name: "Gastronômicas 🦪🍤🍝"
     platform: whatsapp
     url: https://chat.whatsapp.com/JHcsctmhuzQH2XtP9IdH6v
     locations:
@@ -1441,7 +1417,7 @@ groups:
       - food
       - gastronomy
       - culinary
-  - name: "Kemi in S\xE3o Paulo"
+  - name: "Kemi in São Paulo"
     platform: whatsapp
     url: https://chat.whatsapp.com/GcrDB4gLZTlBy5KObZPc8s
     locations:
@@ -1466,16 +1442,6 @@ groups:
     locations:
       - continent: South America
         country_id: CL
-  - name: Hiking Groups in Argentina & Chile
-    platform: linktree
-    url: https://linktr.ee/Mavrica14
-    locations:
-      - continent: South America
-        country_id: CL
-    tags:
-      - hiking
-      - outdoors
-      - nature
   - name: Digital Nomads Colombia
     platform: telegram
     url: https://t.me/ColombiaDigitalNomads
@@ -1570,7 +1536,7 @@ groups:
     tags:
       - social
       - community
-  - name: "Digital Nomads Meet-Ups Medell\xEDn"
+  - name: "Digital Nomads Meet-Ups Medellín"
     platform: whatsapp
     url: https://chat.whatsapp.com/DntF5pnHL5k8AIFfs86mKz
     locations:
@@ -1589,7 +1555,7 @@ groups:
         city: Medellin
     tags:
       - visitors
-  - name: "MDE Coworking \U0001F4BB"
+  - name: "MDE Coworking 💻"
     platform: whatsapp
     url: https://chat.whatsapp.com/F3mEXK7QMxBIs6arUiPp4x
     locations:
@@ -1599,7 +1565,7 @@ groups:
     tags:
       - coworking
 
-  - name: "Medellin Meetups \U0001F64C"
+  - name: "Medellin Meetups 🙌"
     platform: whatsapp
     url: https://chat.whatsapp.com/LrVumJvbes2FF5P40brHQ8
     locations:
@@ -1610,7 +1576,7 @@ groups:
       - meetup
       - social
       - events
-  - name: "Medellin Foodies \U0001F64C\U0001F35C\U0001F374"
+  - name: "Medellin Foodies 🙌🍜🍴"
     platform: whatsapp
     url: https://chat.whatsapp.com/KOw6nmA7qu369Fz1V9g2Ny
     locations:
@@ -1621,7 +1587,7 @@ groups:
       - food
       - culinary
       - restaurants
-  - name: "\U0001F333MINDFUL MEET UPS - MDE"
+  - name: "🌳MINDFUL MEET UPS - MDE"
     platform: whatsapp
     url: https://chat.whatsapp.com/BbWkftXvsCpCGVPpZ0eUkj
     locations:
@@ -1808,7 +1774,7 @@ groups:
       - arts
       - culture
       - creative
-  - name: "The Movie Group \U0001F37F"
+  - name: "The Movie Group 🍿"
     platform: whatsapp
     url: https://chat.whatsapp.com/EWRlK7aTk44IEVFkuhCC0t
     locations:
@@ -1819,7 +1785,7 @@ groups:
       - movies
       - entertainment
       - social
-  - name: "Texas Holdem Medell\xEDn"
+  - name: "Texas Holdem Medellín"
     platform: whatsapp
     url: https://chat.whatsapp.com/I08PZwS6LGdBs6oCAlOWfn
     locations:
@@ -1929,9 +1895,7 @@ groups:
       - meditation
       - mindfulness
       - walking
-  - name:
-      "\U0001F343 Ayahuasca Ceremonies - Medell\xEDn - Javier Yagari y Johannes\
-      \ \U0001F343\U0001F943"
+  - name: "🍃 Ayahuasca Ceremonies - Medellín - Javier Yagari y Johannes 🍃🥃"
     platform: whatsapp
     url: https://chat.whatsapp.com/IM8rehOdsDt5OF2UA7CZ29
     locations:
@@ -2118,7 +2082,7 @@ groups:
       - football
       - soccer
       - sports
-  - name: "\U0001F3D0Volleyball Medellin"
+  - name: "🏐Volleyball Medellin"
     platform: whatsapp
     url: https://chat.whatsapp.com/JCcGgpsfKrpKf04Wp9FfPM
     locations:
@@ -2162,7 +2126,7 @@ groups:
       - expat
 
       - community
-  - name: "Backpacking in Ecuador \U0001F392\U0001F97E"
+  - name: "Backpacking in Ecuador 🎒🥾"
     platform: whatsapp
     url: https://chat.whatsapp.com/JjBMo83mbokGrDIkcFz3J3
     locations:
@@ -2171,7 +2135,7 @@ groups:
     tags:
       - backpacking
       - ecuador
-  - name: "Overlanding Ecuador \U0001F690\U0001F699\U0001F1EA\U0001F1E8"
+  - name: "Overlanding Ecuador 🚐🚙🇪🇨"
     platform: whatsapp
     url: https://chat.whatsapp.com/FiG3zV7QjWE3eyvZZ4tYZH
     locations:
@@ -2180,7 +2144,7 @@ groups:
     tags:
       - overlanding
       - ecuador
-  - name: "Traveling in Galapagos \U0001F422"
+  - name: "Traveling in Galapagos 🐢"
     platform: whatsapp
     url: https://chat.whatsapp.com/EMb6hPWIqDaEHSxxvPHs9D
     locations:
@@ -2206,9 +2170,7 @@ groups:
     tags:
       - overlanding
       - paraguay
-  - name:
-      "Traveling in Peru \U0001F1F5\U0001F1EA\U0001F392\U0001F699\u26F0\uFE0F\U0001F3CD\
-      \uFE0F"
+  - name: "Traveling in Peru 🇵🇪🎒🚙⛰️🏍️"
     platform: whatsapp
     url: https://chat.whatsapp.com/B6oR28INgH633xIVHVGUXH
     locations:
@@ -2334,9 +2296,7 @@ groups:
       - hiking
       - outdoors
       - activities
-  - name:
-      "Tribe Cerros \U0001F392\u2618\uFE0F\U0001F333\U0001F335\U0001F338 (Second\
-      \ Hiking Group)"
+  - name: "Tribe Cerros 🎒☘️🌳🌵🌸 (Second Hiking Group)"
     platform: whatsapp
     url: https://chat.whatsapp.com/C4EteDvNbqQ5sDRZTT9pFB
     locations:
@@ -2358,7 +2318,7 @@ groups:
       - paintball
       - sports
       - activities
-  - name: "Lima Salsa & Bachata \U0001F483"
+  - name: "Lima Salsa & Bachata 💃"
     platform: whatsapp
     url: https://chat.whatsapp.com/LOdaJ8uovTYIOSFZt9csZ7
     locations:
@@ -2369,17 +2329,6 @@ groups:
       - dance
       - salsa
       - bachata
-  - name: Salsa
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd
-    locations:
-      - continent: South America
-        country_id: PE
-        city: Lima
-    tags:
-      - dance
-      - salsa
-      - activities
   - name: Dog Lover (For Dog Walks, etc.)
     platform: whatsapp
     url: https://chat.whatsapp.com/CSnB6S89FmR0WBEC3jBRXM
@@ -2432,7 +2381,7 @@ groups:
     tags:
       - overlanding
       - uruguay
-  - name: "Venezuela \U0001F1FB\U0001F1EA\U0001F4A5"
+  - name: "Venezuela 🇻🇪💥"
     platform: whatsapp
     url: https://chat.whatsapp.com/KNIZIxVJg8L07duupFtuXp
     locations:
@@ -2450,7 +2399,7 @@ groups:
     tags:
       - overlanding
       - venezuela
-  - name: "DAHAB FORUM \U0001F334"
+  - name: "DAHAB FORUM 🌴"
     platform: telegram
     url: https://t.me/DahabForum
     locations:
@@ -2459,7 +2408,7 @@ groups:
         city: Dahab
     tags:
       - community
-  - name: "Overland durch Afrika \U0001F30D"
+  - name: "Overland durch Afrika 🌍"
     platform: whatsapp
     url: https://chat.whatsapp.com/LdfGpQSo9EHBqM1taZ1YQe
     locations:
@@ -2489,7 +2438,7 @@ groups:
       - housing
       - rentals
       - accommodation
-  - name: "Linktree for Backpackers in Asia \U0001F30F"
+  - name: "Linktree for Backpackers in Asia 🌏"
     platform: linktree
     url: https://linktr.ee/backpackersasia
     locations:
@@ -2497,7 +2446,7 @@ groups:
     tags:
       - backpacking
       - asia
-  - name: "Overland durch Asien \U0001F30F"
+  - name: "Overland durch Asien 🌏"
     platform: whatsapp
     url: https://chat.whatsapp.com/BkY1htYMmEvDqLLP35ZTu3
     locations:
@@ -2518,7 +2467,7 @@ groups:
     locations:
       - continent: Asia
         country_id: KH
-  - name: "Backpackers in Cambodia \U0001F1F0\U0001F1ED"
+  - name: "Backpackers in Cambodia 🇰🇭"
     platform: whatsapp
     url: https://chat.whatsapp.com/EoQR2PcRln908KhUpit4dv
     locations:
@@ -2532,7 +2481,7 @@ groups:
     locations:
       - continent: Asia
         country_id: IN
-  - name: "Backpackers in India \U0001F1EE\U0001F1F3"
+  - name: "Backpackers in India 🇮🇳"
     platform: whatsapp
     url: https://chat.whatsapp.com/H8cXuNXuZdRDIW5C0EsZa6
     locations:
@@ -2540,7 +2489,7 @@ groups:
         country_id: IN
     tags:
       - backpacking
-  - name: "Backpackers in Indonesia \U0001F1EE\U0001F1E9"
+  - name: "Backpackers in Indonesia 🇮🇩"
     platform: whatsapp
     url: https://chat.whatsapp.com/GGNgPVxkrgt28Tg7Dj1BWH
     locations:
@@ -2557,7 +2506,7 @@ groups:
         city: Bali
     tags:
       - social
-  - name: "Backpackers in Bali \U0001F1EE\U0001F1E9"
+  - name: "Backpackers in Bali 🇮🇩"
     platform: whatsapp
     url: https://chat.whatsapp.com/DtzSMxbvwgDBTJRW28mRgk
     locations:
@@ -2575,7 +2524,7 @@ groups:
         city: Bali
     tags:
       - backpacking
-  - name: "\U0001F300Bali Nomads Giving Back\U0001F300"
+  - name: "🌀Bali Nomads Giving Back🌀"
     platform: whatsapp
     url: https://chat.whatsapp.com/Gq8sjbZBKFk6iUc78XRqdz
     locations:
@@ -2609,7 +2558,7 @@ groups:
       - community
       - backpacking
     commercial: true
-  - name: "Japan \U0001F1EF\U0001F1F5 Backpackers"
+  - name: "Japan 🇯🇵 Backpackers"
     platform: whatsapp
     url: https://chat.whatsapp.com/JzLDJabg4T1HU4X8lu9ie5
     locations:
@@ -2628,7 +2577,7 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: "Backpackers in Laos \U0001F1F1\U0001F1E6"
+  - name: "Backpackers in Laos 🇱🇦"
     platform: whatsapp
     url: https://chat.whatsapp.com/L0cvvUYampsKc8iPFXXjLU
     locations:
@@ -2636,7 +2585,7 @@ groups:
         country_id: LA
     tags:
       - backpacking
-  - name: "Backpackers in Malaysia \U0001F1F2\U0001F1FE"
+  - name: "Backpackers in Malaysia 🇲🇾"
     platform: whatsapp
     url: https://chat.whatsapp.com/KFjdMOEMlUi6RPRVM3NdtL
     locations:
@@ -2651,7 +2600,7 @@ groups:
       - continent: Asia
         country_id: MY
         city: Kuala Lumpur
-  - name: "Backpackers in Maldives \U0001F1F2\U0001F1FB"
+  - name: "Backpackers in Maldives 🇲🇻"
     platform: whatsapp
     url: https://chat.whatsapp.com/Jc7OkH7uAFKKfH0PeauBNT
     locations:
@@ -2670,7 +2619,7 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: "Backpackers in Nepal \U0001F1F3\U0001F1F5"
+  - name: "Backpackers in Nepal 🇳🇵"
     platform: whatsapp
     url: https://chat.whatsapp.com/ISTPc0MFxma2HdHfnkSYSt
     locations:
@@ -2684,7 +2633,7 @@ groups:
     locations:
       - continent: Asia
         country_id: PH
-  - name: "Backpackers in Philippines \U0001F1F5\U0001F1ED"
+  - name: "Backpackers in Philippines 🇵🇭"
     platform: whatsapp
     url: https://chat.whatsapp.com/CjVSXSMUDBoKOwvcZ0NwqE
     locations:
@@ -2709,7 +2658,7 @@ groups:
     locations:
       - continent: Asia
         country_id: SG
-  - name: "Backpackers in Singapore \U0001F1F8\U0001F1EC"
+  - name: "Backpackers in Singapore 🇸🇬"
     platform: whatsapp
     url: https://chat.whatsapp.com/JkDBE8gBoMx1OGrkhRI0WB
     locations:
@@ -2734,7 +2683,7 @@ groups:
     locations:
       - continent: Asia
         country_id: KR
-  - name: "Korea Backpackers \U0001F1F0\U0001F1F7"
+  - name: "Korea Backpackers 🇰🇷"
     platform: whatsapp
     url: https://chat.whatsapp.com/FtnHvR3lkrF5XCgCaGvN7b
     locations:
@@ -2753,7 +2702,7 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: "Backpackers in Sri Lanka \U0001F1F1\U0001F1F0"
+  - name: "Backpackers in Sri Lanka 🇱🇰"
     platform: whatsapp
     url: https://chat.whatsapp.com/CqbtuOd5aUkCDIHrEqWVDL
     locations:
@@ -2761,7 +2710,7 @@ groups:
         country_id: LK
     tags:
       - backpacking
-  - name: "Digital nomads Sri Lanka \U0001F1F1\U0001F1F0"
+  - name: "Digital nomads Sri Lanka 🇱🇰"
     platform: whatsapp
     url: https://chat.whatsapp.com/IKlgoOhlEBV71NbhBCeQcj
     locations:
@@ -2774,7 +2723,7 @@ groups:
     locations:
       - continent: Asia
         country_id: LK
-  - name: "Taiwan travelers \U0001F1F9\U0001F1FC"
+  - name: "Taiwan travelers 🇹🇼"
     platform: whatsapp
     url: https://chat.whatsapp.com/FiIz63rIae0ArdvIdD2V1F
     locations:
@@ -2787,7 +2736,7 @@ groups:
     locations:
       - continent: Asia
         country_id: TH
-  - name: "Backpackers in Thailand \U0001F1F9\U0001F1ED"
+  - name: "Backpackers in Thailand 🇹🇭"
     platform: whatsapp
     url: https://chat.whatsapp.com/CFIy6tKpj4VABoGg9yhLAZ
     locations:
@@ -2795,7 +2744,7 @@ groups:
         country_id: TH
     tags:
       - backpacking
-  - name: "Backpackers in Thailand \u278B \U0001F1F9\U0001F1ED"
+  - name: "Backpackers in Thailand ➋ 🇹🇭"
     platform: whatsapp
     url: https://chat.whatsapp.com/HNxPPhu5EkF83jOLeSsejg
     locations:
@@ -2803,7 +2752,7 @@ groups:
         country_id: TH
     tags:
       - backpacking
-  - name: "Deutsche in Thailand \U0001F1E9\U0001F1EA\U0001F1F9\U0001F1ED"
+  - name: "Deutsche in Thailand 🇩🇪🇹🇭"
     platform: whatsapp
     url: https://chat.whatsapp.com/KpIs6xptdSK88rroiaMoyA
     locations:
@@ -2832,7 +2781,7 @@ groups:
         country_id: TH
         city: Chiang Mai
 
-  - name: "Backpackers in Vietnam \U0001F1FB\U0001F1F3"
+  - name: "Backpackers in Vietnam 🇻🇳"
     platform: whatsapp
     url: https://chat.whatsapp.com/EOKNlO0BpsKL3eR6tkfBbA
     locations:
@@ -2909,7 +2858,7 @@ groups:
       - continent: Asia
         country_id: VN
         city: Hoi An
-  - name: "Traveling Antarctica \U0001F1E6\U0001F1F6"
+  - name: "Traveling Antarctica 🇦🇶"
     platform: whatsapp
     url: https://chat.whatsapp.com/IRW7EQnzJuLGFlX7TbF1ww
     locations:
@@ -2928,7 +2877,7 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: "Vanlife Australien \U0001F998"
+  - name: "Vanlife Australien 🦘"
     platform: whatsapp
     url: https://chat.whatsapp.com/BWAKooLkPIU2iUBCDDpSr2
     locations:
@@ -2938,7 +2887,7 @@ groups:
     language_id: de
     tags:
       - vanlife
-  - name: "Dutchies in Australi\xEB"
+  - name: "Dutchies in Australië"
     platform: whatsapp
     url: https://chat.whatsapp.com/HnkgANr3zHJHGE7X6u1CWQ
     locations:
@@ -3033,3 +2982,3528 @@ groups:
         country_id: LK
     tags:
       - networking
+  - name: GudauriLife
+    platform: telegram
+    url: https://t.me/GudauriLife
+    locations:
+      - continent: Europe
+        country_id: GE
+        city: Gudauri
+    tags:
+      - transfers
+      - skiing
+  - name: Bali Car Rental | Group
+    platform: telegram
+    url: https://t.me/balitransportations
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - car
+      - rental
+      - nightlife
+      - parties
+  - name: Expats in Albania
+    platform: reddit
+    url: https://www.reddit.com/r/AlbaniaExpats/
+    locations:
+      - continent: Europe
+        country_id: AL
+    tags:
+      - expats
+      - networking
+  - name: Expats in Albania - The NOT for profit one
+    platform: facebook
+    url: https://www.facebook.com/groups/expatsinalbaniafreegroup
+    locations:
+      - continent: Europe
+        country_id: AL
+    tags:
+      - expats
+      - social
+  - name: Albania Workcations - Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/albaniaworkcation
+    locations:
+      - continent: Europe
+        country_id: AL
+    tags:
+      - networking
+      - social
+  - name: Nomads Food Adventures
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GIkZn1wDasRJCupUADWp6R
+    locations:
+      - continent: South America
+        country_id: AR
+        city: Buenos Aires
+    tags:
+      - food
+      - social
+  - name: Argentina Expat Lounge
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FFvmMr8xBJp1PSeEVNgHM6
+    locations:
+      - continent: South America
+        country_id: AR
+        city: Buenos Aires
+    tags:
+      - networking
+      - expats
+  - name: BA Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/es-ES/ba-digital-nomads/
+    locations:
+      - continent: South America
+        country_id: AR
+        city: Buenos Aires
+    tags:
+      - networking
+      - social
+  - name: BA Digital Nomads Housing
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DZvh0gBEmKKAeL84lD7ZzY
+    locations:
+      - continent: South America
+        country_id: AR
+        city: Buenos Aires
+    tags:
+      - accommodation
+      - networking
+  - name: BA Digital Nomads IV
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Ep0E21943MkFqNq2koeKm7
+    locations:
+      - continent: South America
+        country_id: AR
+    tags:
+      - networking
+      - social
+  - name: BA Digital Nomads Rentals
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CQzD6S9JojQ4YsbhzIVuD4
+    locations:
+      - continent: South America
+        country_id: AR
+        city: Buenos Aires
+    tags:
+      - accommodation
+      - networking
+  - name: Buenos Aires - BA Digital Nomads III
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Jk611BXD0MJ1By0nc95LPU
+    locations:
+      - continent: South America
+        country_id: AR
+        city: Buenos Aires
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Buenos Aires
+    platform: facebook
+    url: https://www.facebook.com/groups/buenosairesdigitalnomads/
+    locations:
+      - continent: South America
+        country_id: AR
+        city: Buenos Aires
+    tags:
+      - networking
+      - social
+  - name: NDBA - Nómades Digitales
+    platform: meetup
+    url: https://www.meetup.com/nomades-digitales/
+    locations:
+      - continent: South America
+        country_id: AR
+        city: Buenos Aires
+    tags:
+      - networking
+      - social
+  - name: Trabajar Remoto Para Empresas de Afuera
+    platform: meetup
+    url: https://www.meetup.com/trabajar-remoto-para-empresas-de-afuera/
+    locations:
+      - continent: South America
+        country_id: AR
+        city: Buenos Aires
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Australia
+    platform: facebook
+    url: https://www.facebook.com/groups/725799070863819/
+    locations:
+      - continent: Oceania
+        country_id: AU
+        city: Sydney
+    tags:
+      - networking
+      - social
+  - name: Sydney Apartment Rentals, Houses, Sublets and Rooms
+    platform: facebook
+    url: https://www.facebook.com/groups/1163907447020818/
+    locations:
+      - continent: Oceania
+        country_id: AU
+        city: Sydney
+    tags:
+      - networking
+      - social
+  - name: Sydney Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/sydney-digital-nomads/
+    locations:
+      - continent: Oceania
+        country_id: AU
+        city: Sydney
+    tags:
+      - networking
+      - social
+  - name: 👩‍💻 Melbourne Freelancers, Creators & Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/melbourne-freelancers/
+    locations:
+      - continent: Oceania
+        country_id: AU
+        city: Melbourne
+    tags:
+      - networking
+      - social
+  - name: Freelancers and Founders Meetup
+    platform: meetup
+    url: https://www.meetup.com/freelancers-and-founders/
+    locations:
+      - continent: Oceania
+        country_id: AU
+        city: Melbourne
+    tags:
+      - networking
+      - social
+  - name: Barbados Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/barbadosnomads
+    locations:
+      - continent: Central America
+        country_id: BB
+    tags:
+      - networking
+      - social
+  - name: São Paulo First Digital Nomad Meetup
+    platform: meetup
+    url: https://www.meetup.com/sao-paulo-first-digital-nomad-meetup/
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Sao Paulo
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads - Rio de Janeiro
+    platform: facebook
+    url: https://www.facebook.com/groups/221330464988478/
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janiero
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads United
+    platform: meetup
+    url: https://www.meetup.com/digital-nomads-united/
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janiero
+    tags:
+      - networking
+      - social
+  - name: Foreigners in Rio de Janeiro
+    platform: facebook
+    url: https://www.facebook.com/groups/161911287321714/
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janiero
+    tags:
+      - networking
+      - expats
+  - name: Rio Short-Term Rental
+    platform: whatsapp
+    url: https://bit.ly/3vW9e5D
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janiero
+    tags:
+      - accommodation
+      - networking
+  - name: Rio Foodies
+    platform: whatsapp
+    url: https://chat.whatsapp.com/L42xttFzPVF1LDCq5ViqDc
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janeiro
+    tags:
+      - food
+      - social
+  - name: Rio Digital Nomads 2.0
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DmLUcTjfnNI5OrWanYuMbd
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janeiro
+    tags:
+      - networking
+      - social
+  - name: Coworking / Laptop Guardians
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DfX6lzEnvsh3TbaXxDy34X
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janeiro
+    tags:
+      - networking
+      - social
+  - name: Rentals (Long Term)
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Exk0ZuWAqFiJPz2bZ4lv2a
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janeiro
+    tags:
+      - accommodation
+      - networking
+  - name: Rentals (Short Term)
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IK459KBZqODJcAM3T0JY3v
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janeiro
+    tags:
+      - accommodation
+      - networking
+  - name: Beach Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/H8Qh46kDNli2LBkorwyl1a
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janeiro
+    tags:
+      - sports
+      - social
+  - name: ⚽ Rio Football ⚽
+    platform: whatsapp
+    url: https://chat.whatsapp.com/J6BapV4G08o8CjR4Era9Z5
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janeiro
+    tags:
+      - sports
+      - social
+  - name: Tennis Group Rio 🎾
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IIXb7fGz4BpDNRumY5y8VR
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janeiro
+    tags:
+      - sports
+      - social
+  - name: Running 🏃‍♂️
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EWe9IdZxfz9IDXnzsJBFwi
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janeiro
+    tags:
+      - sports
+      - social
+  - name: Rio Awareness Group 🧘‍♂️
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CHTUVpCiV78Ad9zyal45BA
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Rio de Janeiro
+    tags:
+      - sports
+      - social
+  - name: Digital Nomads Belo Horizonte
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IVA6rj2M4do1wY5sLyb8TF
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Belo Horizonte
+    tags:
+      - social
+      - meetups
+  - name: Ilha Grande Explorers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CaOFy9WQFsBJpSAIy6pPBk
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Ilha Grande
+    tags:
+      - sports
+      - social
+  - name: Digital Nomads Recife
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Hh9V4pCU0NOEiocXZm0t8Z
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Recife
+    tags:
+      - sports
+      - social
+  - name: Buzios/Arraial de Cabo
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EcbzAXz2i9n8keWHtrqeLs
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Arraial de Cabo
+    tags:
+      - sports
+      - social
+  - name: Digital Nomads & Remote Workers
+    platform: meetup
+    url: https://www.meetup.com/digital-nomads-remote-workers/
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Florianopolis
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Florianópolis - Brazil
+    platform: facebook
+    url: https://www.facebook.com/groups/1550146811977827/
+    locations:
+      - continent: South America
+        country_id: BR
+        city: Florianopolis
+    tags:
+      - networking
+      - social
+  - name: ♫My Brazilian Brazil♫
+    platform: reddit
+    url: https://www.reddit.com/r/Brazil/
+    locations:
+      - continent: South America
+        country_id: BR
+    tags:
+      - networking
+      - social
+  - name: Sofia Digital Nomads and Remote Workers
+    platform: facebook
+    url: https://www.facebook.com/groups/1386394721376365/
+    locations:
+      - continent: Europe
+        country_id: BG
+        city: Sofia
+    tags:
+      - networking
+      - social
+  - name: Sofia Nomads
+    platform: meetup
+    url: https://www.meetup.com/sofia-nomads/
+    locations:
+      - continent: Europe
+        country_id: BG
+        city: Sofia
+    tags:
+      - networking
+      - social
+  - name: Cambodia Digital Nomads & Residents
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalcambodia/group/
+    locations:
+      - continent: Asia
+        country_id: KH
+    tags:
+      - networking
+      - social
+  - name: American ExPats in Vancouver
+    platform: facebook
+    url: https://www.facebook.com/groups/AmericanExPatsInVancouver/
+    locations:
+      - continent: North America
+        country_id: CA
+        city: Vancouver
+    tags:
+      - expats
+      - social
+  - name: Expats World in Vancouver
+    platform: facebook
+    url: https://www.facebook.com/groups/ExpatsWorldVancouver/
+    locations:
+      - continent: North America
+        country_id: CA
+        city: Vancouver
+    tags:
+      - expats
+      - social
+  - name: International travelers in Vancouver
+    platform: facebook
+    url: https://www.facebook.com/groups/travelers.Vancouver
+    locations:
+      - continent: North America
+        country_id: CA
+        city: Vancouver
+    tags:
+      - expats
+      - social
+  - name: Vancouver Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/3482625188444545/
+    locations:
+      - continent: North America
+        country_id: CA
+        city: Vancouver
+    tags:
+      - networking
+      - social
+  - name: Expats in Toronto
+    platform: facebook
+    url: https://www.facebook.com/groups/2246192859015027/
+    locations:
+      - continent: North America
+        country_id: CA
+        city: Toronto
+    tags:
+      - expats
+      - social
+  - name: New in Toronto
+    platform: facebook
+    url: https://www.facebook.com/groups/585441388195757/
+    locations:
+      - continent: North America
+        country_id: CA
+        city: Toronto
+    tags:
+      - expats
+      - social
+  - name: Toronto Travel Buddies
+    platform: facebook
+    url: https://www.facebook.com/groups/2088301861401828
+    locations:
+      - continent: North America
+        country_id: CA
+        city: Toronto
+    tags:
+      - networking
+      - social
+  - name: Montreal Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/montrealdigitalnomads/
+    locations:
+      - continent: North America
+        country_id: CA
+        city: Montreal
+    tags:
+      - networking
+      - social
+  - name: Montreal Locals & Expats
+    platform: facebook
+    url: https://www.facebook.com/groups/montreallocalsandexpats
+    locations:
+      - continent: North America
+        country_id: CA
+        city: Montreal
+    tags:
+      - expats
+      - social
+  - name: Beijing Remote Workers Meetup (by Remotive and Saent)
+    platform: meetup
+    url: https://www.meetup.com/beijing-remote-workers/
+    locations:
+      - continent: Asia
+        country_id: CN
+        city: Beijing
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Medellin
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadsmedellin/
+    locations:
+      - continent: South America
+        country_id: CO
+        city: Medellin
+    tags:
+      - networking
+      - social
+  - name: Medellín Expats | Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/Compraventamde247/
+    locations:
+      - continent: South America
+        country_id: CO
+        city: Medellin
+    tags:
+      - networking
+      - expats
+  - name: Medellin Rooms, Apartments and Expat Info
+    platform: facebook
+    url: https://www.facebook.com/groups/510044409058180/
+    locations:
+      - continent: South America
+        country_id: CO
+        city: Medellin
+    tags:
+      - accommodation
+      - networking
+  - name: Cartagena Nomads
+    platform: whatsapp
+    url: https://chat.whatsapp.com/D01qyhpRdme4VSAjhtJsXo
+    locations:
+      - continent: South America
+        country_id: CO
+        city: Cartagena
+    tags:
+      - networking
+      - social
+  - name: Properties Panoramico
+    platform: whatsapp
+    url: https://chat.whatsapp.com/HPkj17iBrwKE1Xfogsmkvy
+    locations:
+      - continent: South America
+        country_id: CO
+        city: Bogota
+    tags:
+      - accommodation
+      - networking
+  - name: Santa Teresa Beach Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/551545332474420/
+    locations:
+      - continent: Central America
+        country_id: CR
+        city: Santa Teresa
+    tags:
+      - networking
+      - accommodation
+  - name: Costa Rica - Pura Vida!
+    platform: reddit
+    url: https://www.reddit.com/r/costarica/
+    locations:
+      - continent: Central America
+        country_id: CR
+    tags:
+      - networking
+      - social
+  - name: Costa Rica Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/costaricadigitalnomads/
+    locations:
+      - continent: Central America
+        country_id: CR
+    tags:
+      - networking
+      - social
+  - name: Costa Rica Travel and Tourism
+    platform: reddit
+    url: https://www.reddit.com/r/CostaRicaTravel/
+    locations:
+      - continent: Central America
+        country_id: CR
+    tags:
+      - networking
+      - social
+  - name: Digital Nomad Costa Rica
+    platform: facebook
+    url: https://www.facebook.com/groups/790213928319989/
+    locations:
+      - continent: Central America
+        country_id: CR
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Zagreb
+    platform: facebook
+    url: https://www.facebook.com/groups/zagrebdigitalnomads/
+    locations:
+      - continent: Europe
+        country_id: HR
+        city: Zagreb
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Split Croatia
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadssplit/
+    locations:
+      - continent: Europe
+        country_id: HR
+        city: Splt
+    tags:
+      - networking
+      - social
+  - name: Split DNs
+    platform: whatsapp
+    url: https://chat.whatsapp.com/JFikvtZmWfuEHlc1FXz4Fy
+    locations:
+      - continent: Europe
+        country_id: HR
+        city: Split
+    tags:
+      - networking
+      - social
+  - name: Saltwater Nomads
+    platform: meetup
+    url: https://www.meetup.com/saltwater-nomads/
+    locations:
+      - continent: Europe
+        country_id: HR
+        city: Split
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Dubrovnik Croatia
+    platform: facebook
+    url: https://www.facebook.com/groups/dubrovnikdigitalnomads/
+    locations:
+      - continent: Europe
+        country_id: HR
+        city: Dubrovnik
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Croatia
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadscroatia/
+    locations:
+      - continent: Europe
+        country_id: HR
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Croatia Housing
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadscroatiahousing/
+    locations:
+      - continent: Europe
+        country_id: HR
+    tags:
+      - accommodation
+      - networking
+  - name: Digital Nomads Croatia powered by DNA Croatia
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadvisacroatia/
+    locations:
+      - continent: Europe
+        country_id: HR
+    tags:
+      - networking
+      - social
+  - name: Nomads in Croatia
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EtbWk1LPyPLI4D1T29JObs
+    locations:
+      - continent: Europe
+        country_id: HR
+    tags:
+      - networking
+      - social
+  - name: Paphos Chill & Activity
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LLZOOsrmlDV0TFdIvC4oBm
+    locations:
+      - continent: Europe
+        country_id: CY
+        city: Paphos
+    tags:
+      - general
+      - social
+  - name: Nicosia Chill Group ☀🎊👨‍💻🍜🍸
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DpwkDERUR109njI7SsLQXJ
+    locations:
+      - continent: Europe
+        country_id: CY
+        city: Nicosia
+    tags:
+      - general
+      - social
+  - name: Limassol Chill Group ☀🏄🏼‍♂👨‍💻🍜
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Hcg6avaSjXuI1yYPBd7C6O
+    locations:
+      - continent: Europe
+        country_id: CY
+        city: Limassol
+    tags:
+      - general
+      - social
+  - name: Accommodation for Digital Nomads Prague - flats, rooms and coliving
+      stays
+    platform: facebook
+    url: https://www.facebook.com/groups/1504614173169873/
+    locations:
+      - continent: Europe
+        country_id: CZ
+        city: Prague
+    tags:
+      - accommodation
+      - networking
+  - name: Digital Nomads Prague
+    platform: meetup
+    url: https://www.meetup.com/digital-nomads-prague/
+    locations:
+      - continent: Europe
+        country_id: CZ
+        city: Prague
+    tags:
+      - networking
+      - social
+  - name: Prague Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/1564340850453365/
+    locations:
+      - continent: Europe
+        country_id: CZ
+        city: Prague
+    tags:
+      - networking
+      - social
+  - name: Czechia - Nomads in Czech Republic
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CABgEVhyD4M1VByRic2jAP
+    locations:
+      - continent: Europe
+        country_id: CZ
+    tags:
+      - networking
+      - social
+  - name: Copenhagen Remote Workers, Freelancers and Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/copenhagen-remote-workers-freelancers-and-digital-nomads/
+    locations:
+      - continent: Europe
+        country_id: DK
+        city: Copenhagen
+    tags:
+      - networking
+      - social
+  - name: Ecuador Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/dnecuador/
+    locations:
+      - continent: South America
+        country_id: EC
+    tags:
+      - networking
+      - social
+  - name: Dahab Digital Nomads
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DD6GNpu2i4bF8Z0HqozfB4
+    locations:
+      - continent: Africa
+        country_id: EG
+        city: Dahab
+    tags:
+      - networking
+      - social
+  - name: Mojo Coworkcafe & Friends
+    platform: whatsapp
+    url: https://chat.whatsapp.com/D3NxKQVgG2QEm7kYh8BAGt
+    locations:
+      - continent: Africa
+        country_id: EG
+        city: Dahab
+    tags:
+      - networking
+      - social
+  - name: bitcoin en El Salvador
+    platform: facebook
+    url: https://www.facebook.com/groups/316292243440591/
+    locations:
+      - continent: Central America
+        country_id: SV
+    tags:
+      - web3
+      - social
+  - name: Digital Nomads London
+    platform: meetup
+    url: https://www.meetup.com/digital-nomads-london/
+    locations:
+      - continent: Europe
+        country_id: GB
+        city: London
+    tags:
+      - networking
+      - social
+  - name: London Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/london-digital-nomads/
+    locations:
+      - continent: Europe
+        country_id: GB
+        city: London
+    tags:
+      - networking
+      - social
+  - name: London Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/londondigitalnomads/
+    locations:
+      - continent: Europe
+        country_id: GB
+        city: London
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Paris
+    platform: facebook
+    url: https://www.facebook.com/groups/1009574772477915/
+    locations:
+      - continent: Europe
+        country_id: FR
+        city: Paris
+    tags:
+      - networking
+      - social
+  - name: Nice Nomads
+    platform: meetup
+    url: https://www.meetup.com/nice-nomads/
+    locations:
+      - continent: Europe
+        country_id: FR
+        city: Nice
+    tags:
+      - networking
+      - social
+  - name: 🇬🇪 Social Meet-up 2 💚
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DJC3ns2jnV4I8EbIK69eyg
+    locations:
+      - continent: Europe
+        country_id: GE
+        city: Tbilisi
+    tags:
+      - networking
+      - social
+  - name: Digital People Tbilisi
+    platform: meetup
+    url: https://www.meetup.com/digital-people-tbilisi/
+    locations:
+      - continent: Europe
+        country_id: GE
+        city: Tbilisi
+    tags:
+      - networking
+      - social
+  - name: Remote Workers Georgia (Digital Nomads of Tbilisi, Kutaisi & Batumi)
+    platform: facebook
+    url: https://www.facebook.com/groups/277695252922835/
+    locations:
+      - continent: Europe
+        country_id: GE
+        city: Tbilisi
+    tags:
+      - networking
+      - accommodation
+  - name: Tbilisi Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/tbilisidigitalnomad/
+    locations:
+      - continent: Europe
+        country_id: GE
+        city: Tbilisi
+    tags:
+      - networking
+      - accommodation
+  - name: München Digital
+    platform: meetup
+    url: https://www.meetup.com/muenchen-digital/
+    locations:
+      - continent: Europe
+        country_id: DE
+        city: Munich
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Hamburg
+    platform: meetup
+    url: https://www.meetup.com/digital-nomads-hamburg/
+    locations:
+      - continent: Europe
+        country_id: DE
+        city: Hamburg
+    tags:
+      - networking
+      - social
+  - name: Hamburg Digital
+    platform: meetup
+    url: https://www.meetup.com/hamburg-digital/
+    locations:
+      - continent: Europe
+        country_id: DE
+        city: Hamburg
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Frankfurt
+    platform: meetup
+    url: https://www.meetup.com/digital-nomads-frankfurt/
+    locations:
+      - continent: Europe
+        country_id: DE
+        city: Frankfurt
+    tags:
+      - networking
+      - social
+  - name: Düsseldorf Digital
+    platform: meetup
+    url: https://www.meetup.com/duesseldorf-digital/
+    locations:
+      - continent: Europe
+        country_id: DE
+        city: Dusseldorf
+    tags:
+      - networking
+      - social
+  - name: Digitale Nomaden & Freelancer Dresden
+    platform: meetup
+    url: https://www.meetup.com/dnd-digitale-nomaden-dresden/
+    locations:
+      - continent: Europe
+        country_id: DE
+        city: Dresden
+    tags:
+      - networking
+      - social
+  - name: Berlin Digital
+    platform: meetup
+    url: https://www.meetup.com/berlin-digital/
+    locations:
+      - continent: Europe
+        country_id: DE
+        city: Berlin
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Berlin
+    platform: meetup
+    url: https://www.meetup.com/digital-nomads-berlin/
+    locations:
+      - continent: Europe
+        country_id: DE
+        city: Berlin
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Berlin
+    platform: facebook
+    url: https://www.facebook.com/groups/DNBerlin/
+    locations:
+      - continent: Europe
+        country_id: DE
+        city: Berlin
+    tags:
+      - networking
+      - social
+  - name: Digital nomads global
+    platform: meetup
+    url: https://www.meetup.com/digital-nomads-global/
+    locations:
+      - continent: Europe
+        country_id: GI
+    tags:
+      - networking
+      - social
+  - name: Athens and all over Greece Digital Nomands accommodation, co-living
+      places
+    platform: facebook
+    url: https://www.facebook.com/groups/280269995847257/
+    locations:
+      - continent: Europe
+        country_id: GR
+    tags:
+      - accommodation
+      - networking
+  - name: Digital Nomads Athens
+    platform: meetup
+    url: https://www.meetup.com/digital-nomads-athens/
+    locations:
+      - continent: Europe
+        country_id: GR
+    tags:
+      - networking
+      - social
+  - name: Digital nomads in Greece
+    platform: facebook
+    url: https://www.facebook.com/groups/1643040199240574/
+    locations:
+      - continent: Europe
+        country_id: GR
+    tags:
+      - networking
+      - social
+  - name: Greece Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/DNGreece/
+    locations:
+      - continent: Europe
+        country_id: GR
+    tags:
+      - networking
+      - social
+  - name: The Greek side of reddit
+    platform: reddit
+    url: https://www.reddit.com/r/greece/
+    locations:
+      - continent: Europe
+        country_id: GR
+    tags:
+      - networking
+      - social
+  - name: Athens Weekly Digital Nomads Meetup
+    platform: meetup
+    url: https://www.meetup.com/athens-weekly-digital-nomads-meetup/
+    locations:
+      - continent: Europe
+        country_id: GR
+        city: Athens
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Athens
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadsathens/
+    locations:
+      - continent: Europe
+        country_id: GR
+        city: Athens
+    tags:
+      - networking
+      - social
+  - name: DN👩🏽‍💻👨🏽‍💻Remote workers Athens
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KR6KpUsat9uK5kyR6ixxjQ
+    locations:
+      - continent: Europe
+        country_id: GR
+        city: Athens
+    tags:
+      - networking
+      - social
+  - name: Nomad Tikal ⭐️
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Bv0HYObVDsL7ow9OWopTj1
+    locations:
+      - continent: Central America
+        country_id: GT
+        city: Tikal
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads in Hong Kong
+    platform: meetup
+    url: https://www.meetup.com/digitalnomadhongkong/
+    locations:
+      - continent: Asia
+        country_id: HK
+    tags:
+      - networking
+      - social
+  - name: Budapest Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/648464231947085/
+    locations:
+      - continent: Europe
+        country_id: HU
+        city: Budapest
+    tags:
+      - networking
+      - social
+  - name: Budapest Expats MeetUp 🍻
+    platform: whatsapp
+    url: https://chat.whatsapp.com/F6bEFbCcWIDGZFpjXea0ae
+    locations:
+      - continent: Europe
+        country_id: HU
+        city: Budapest
+    tags:
+      - networking
+      - social
+  - name: Digital Nomad accommodation in Budapest - flats, rooms and coliving
+      stays
+    platform: facebook
+    url: https://www.facebook.com/groups/erasmusflatsberlin/
+    locations:
+      - continent: Europe
+        country_id: HU
+        city: Budapest
+    tags:
+      - accommodation
+      - networking
+  - name: Digital Nomad Hungary
+    platform: meetup
+    url: https://www.meetup.com/digital-nomad-hungary/
+    locations:
+      - continent: Europe
+        country_id: HU
+        city: Budapest
+    tags:
+      - networking
+      - social
+  - name: Digitális Nomádok
+    platform: meetup
+    url: https://www.meetup.com/digitalis-nomadok/
+    locations:
+      - continent: Europe
+        country_id: HU
+        city: Budapest
+    tags:
+      - networking
+      - social
+  - name: Travel Work
+    platform: meetup
+    url: https://www.meetup.com/meetup-group-dbpgaypl/
+    locations:
+      - continent: Asia
+        country_id: IN
+        city: Pune
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads India
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CKoMJgwo2QHBmUBssdZp8A
+    locations:
+      - continent: Asia
+        country_id: IN
+    tags:
+      - networking
+      - social
+  - name: nOmAdS in DELHI NCR
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Ge7gYQKRdd5GZGjzUI721b
+    locations:
+      - continent: Asia
+        country_id: IN
+        city: Delhi
+    tags:
+      - networking
+      - social
+  - name: Lombok Nomads 👩🏼‍💻👨🏽‍💻🏝️💫
+    platform: whatsapp
+    url: https://chat.whatsapp.com/G2f3i2LowtiBJreIpqiisg
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Lombok
+    tags:
+      - networking
+      - social
+  - name: Indonesia
+    platform: reddit
+    url: https://www.reddit.com/r/indonesia/
+    locations:
+      - continent: Asia
+        country_id: ID
+    tags:
+      - networking
+      - social
+  - name: Nómadas digitales Indonesia
+    platform: whatsapp
+    url: https://www.gruposviajeros.com/grupo-whatsapp/nomadas-digitales-en-indonesia/
+    locations:
+      - continent: Asia
+        country_id: ID
+    tags:
+      - networking
+      - social
+  - name: Bandung Freelancers
+    platform: meetup
+    url: https://www.meetup.com/bandung-freelancers/
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bandung
+    tags:
+      - networking
+      - social
+  - name: "🇮🇩 Bali Coworking 💻:"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EYnZPPsSqME9F1TpEJvWQs
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: "🇮🇩 Bali in Ubud 🍃:"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/H16a9fRkqWKLUS9AGZfqxz
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: "🇮🇩 Bali in Uluwatu 🌊:"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GT76ePV9u2O7cZpxnzoQw3
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: "🇮🇩 Bali Long Termers 🛵:"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LZoLXsf8jbILfeP2Ph5PN2
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: "🇮🇩 What’s Poppin in Bali 💥:"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EN2GpmVAF5HAeefZf5vu55
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Bali Digital Nomad Accommodation
+    platform: facebook
+    url: https://www.facebook.com/groups/413775415397298/
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - accommodation
+      - networking
+  - name: Bali Digital Nomads - Borderless Entrepreneurship
+    platform: facebook
+    url: https://www.facebook.com/groups/balidigitalnomads/
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - business
+  - name: Bali Digital Nomads 👨‍💻👩‍💻
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Di0b8sniyNb8qvWCBp37UU
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - sports
+      - networking
+  - name: Bali Nomads 4.0 🤙🏼
+    platform: whatsapp
+    url: https://chat.whatsapp.com/G6lVh7dEaIWKLSRQKQIY7X
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Bali Nomads 5.0 🤙🏼
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GLBjO529sxGKE2yPxjY2ms
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Bali Nomads Crypto/NFT 🪙🖼
+    platform: whatsapp
+    url: https://chat.whatsapp.com/F1NwOiYOfpyGr0vy55T5F8
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - web3
+      - networking
+  - name: Bali Nomads Entrepreneurs
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EsUDpnJwFLC6BhvNfNIYms
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - business
+      - networking
+  - name: Bali Nomads Fit 💪
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KV34TwXXY7e5ImLCtb2dCo
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Bali Nomads Surfers 🏄🏻‍♂️🏄🏻‍♀️
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CTEtNunshOlK9fTRzs3oAW
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - sports
+      - networking
+  - name: Canggu Find A Home 🏡 (NEW)
+    platform: whatsapp
+    url: https://chat.whatsapp.com/HLdIhRKtL2B1hoNrXbhkPB
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - accommodation
+      - networking
+  - name: Canggu Find A Home 🏡 (NEW)
+    platform: telegram
+    url: https://t.me/canggufindahome
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - accommodation
+      - networking
+  - name: Uluwatu Find A Home 🏡 🏄 (NEW)
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Hvai7S3LyTG2c4qRoyIPSA
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - accommodation
+      - networking
+  - name: Uluwatu Find A Home 🏡
+    platform: telegram
+    url: https://t.me/uluwatufindahome
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - accommodation
+      - networking
+  - name: Ubud Find A Home 🏡
+    platform: telegram
+    url: https://t.me/ubudfindahome
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - accommodation
+      - networking
+  - name: Canggu 🏐🎷 Events
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EYYw3er3IBf8QOepDSDkSk
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Canggu Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/217930505654678/
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Canggu Entrepreneurs & Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/1189122534499703/
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Bali
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadsinbali/
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Nomies Dinner Club 🌮🍣🥡
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Jwx7j7kBjtBFc3k3s7lVYE
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - food
+      - networking
+  - name: OffChain Bali
+    platform: telegram
+    url: https://t.me/+GFi2Esj5s15jMTA1
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - web3
+  - name: Solo Travelers to Bali 🇮🇩
+    platform: whatsapp
+    url: https://chat.whatsapp.com/E9MMvOVTQ9L8XD2lTjcHfK
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Uluwatu Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/286421615897348/
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Welcome to Bali! Enjoy your stay!
+    platform: reddit
+    url: https://www.reddit.com/r/bali
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: Digital People Dublin
+    platform: meetup
+    url: https://www.meetup.com/digital-people-dublin/
+    locations:
+      - continent: Europe
+        country_id: IE
+        city: Dublin
+    tags:
+      - networking
+      - social
+  - name: Sicily Digital Nomads accommodations, Co-working co-livings
+    platform: facebook
+    url: https://www.facebook.com/groups/1576076382512200/
+    locations:
+      - continent: Europe
+        country_id: IT
+        city: Sicily
+    tags:
+      - accommodation
+      - networking
+  - name: Rome Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/romedigitalnomads/
+    locations:
+      - continent: Europe
+        country_id: IT
+        city: Rome
+    tags:
+      - networking
+      - social
+  - name: Palermo Expats Foreigners Digital nomads & International people
+    platform: facebook
+    url: https://www.facebook.com/groups/579662189197928/
+    locations:
+      - continent: Europe
+        country_id: IT
+        city: Palermo
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Napoli
+    platform: whatsapp
+    url: https://chat.whatsapp.com/K2ym3rviJ9vICPV4RhFnQN
+    locations:
+      - continent: Europe
+        country_id: IT
+        city: Napoli
+    tags:
+      - networking
+      - social
+  - name: Napoli Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/258541586075807/
+    locations:
+      - continent: Europe
+        country_id: IT
+        city: Napoli
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Italy
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadsita/
+    locations:
+      - continent: Europe
+        country_id: IT
+    tags:
+      - networking
+      - social
+  - name: 🇯🇵 Japan Nomads 🎒🤙
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KqyxRoYNZen8PaE7m2xZvU
+    locations:
+      - continent: Asia
+        country_id: JP
+    tags:
+      - networking
+      - social
+  - name: Digital Nomad Japan
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadjapan/
+    locations:
+      - continent: Asia
+        country_id: JP
+    tags:
+      - networking
+      - social
+  - name: Expats in Nairobi
+    platform: facebook
+    url: https://www.facebook.com/groups/248312915261900/
+    locations:
+      - continent: Africa
+        country_id: KE
+        city: Nairobi
+    tags:
+      - expats
+      - networking
+  - name: Penang Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/642269085953446/
+    locations:
+      - continent: Asia
+        country_id: MY
+        city: Penang
+    tags:
+      - networking
+      - social
+  - name: Malaysia
+    platform: reddit
+    url: https://www.reddit.com/r/malaysia/
+    locations:
+      - continent: Asia
+        country_id: MY
+    tags:
+      - networking
+      - social
+  - name: KL EXPATS (Kuala Lumpur/Malaysia)
+    platform: facebook
+    url: https://www.facebook.com/groups/klexpats/
+    locations:
+      - continent: Asia
+        country_id: MY
+        city: Kuala Lumpur
+    tags:
+      - networking
+      - social
+  - name: Kuala Lumpur Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/KLDigitalNomads/
+    locations:
+      - continent: Asia
+        country_id: MY
+        city: Kuala Lumpur
+    tags:
+      - networking
+      - social
+  - name: 🇲🇹 Malta Digital Nomads & Entrepreneurs Community
+    platform: facebook
+    url: https://www.facebook.com/groups/maltadigitalnomadisland/
+    locations:
+      - continent: Europe
+        country_id: MT
+    tags:
+      - networking
+      - social
+  - name: 🇲🇹🏠💻 Accommodation for Digital Nomads in Malta (Coliving,
+      Flatshare...)
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadsmalta/
+    locations:
+      - continent: Europe
+        country_id: MT
+    tags:
+      - accommodation
+      - networking
+  - name: Tulum Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/tulumdigitalnomads/
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Tulum
+    tags:
+      - networking
+      - social
+  - name: Tulum sublets - 2
+    platform: whatsapp
+    url: https://chat.whatsapp.com/D3wwfV9E8Ee51ZzUwVk0MD
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Tulum
+    tags:
+      - accommodation
+      - networking
+  - name: Sayulita Expats and Newcomers :)
+    platform: facebook
+    url: https://www.facebook.com/groups/209727724665349/
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Sayulita
+    tags:
+      - networking
+      - expats
+  - name: Puerto Vallarta Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/pvdigitalnomads/
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Puerto Vallarta
+    tags:
+      - networking
+      - social
+  - name: AcroYoga Puerto 🤸🏽‍♀️
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CdH5Yg5UtrkFQS1SZ9fHj3
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Puerto Escondido
+    tags:
+      - sports
+      - networking
+  - name: Digital Nomads Puerto Escondido
+    platform: facebook
+    url: https://www.facebook.com/groups/3176695115944845/
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Puerto Escondido
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Playa Del Carmen Cancun Tulum
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadplayatulumcancun/
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Playa Del Carmen
+    tags:
+      - networking
+      - social
+  - name: PDC Love, Light & Energy
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IkiLqC4fds1Cv5os4Hhdc5
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Playa Del Carmen
+    tags:
+      - social
+      - networking
+  - name: Playa del Carmen👨‍💻Nomads
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BjojZZrvPus5c6zqjbbcWE
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Playa Del Carmen
+    tags:
+      - networking
+      - social
+  - name: Playa Foodies
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FYIdfyAxoJP3UwDVHletNQ
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Playa Del Carmen
+    tags:
+      - food
+      - networking
+  - name: Oaxaca Expats & Nomads
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LmU655cbiOB4bBCPryfhih
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Oaxaca
+    tags:
+      - networking
+      - social
+  - name: Oaxaca Expats, Locals, Digital Nomads & Entrepreneurs
+    platform: facebook
+    url: https://www.facebook.com/groups/oaxacaexpatsnetwork/
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Oaxaca
+    tags:
+      - networking
+      - expats
+  - name: CDMX Events🍷by ALD
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IzvD47KeRUk2bruvRRqxmq
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Mexico City
+    tags:
+      - social
+      - networking
+  - name: Comedy Night Meet-Up
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LjuDTu0PfTkDgvH4PSjNx8
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Mexico City
+    tags:
+      - social
+      - networking
+  - name: Doing business in Mexico
+    platform: whatsapp
+    url: https://chat.whatsapp.com/H93Z1tuTzPk4InfXSATvsM
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Mexico City
+    tags:
+      - business
+      - networking
+  - name: International Thursday 3
+    platform: whatsapp
+    url: https://chat.whatsapp.com/B8YvenrrgTA10TQ3Izt6vp
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Mexico City
+    tags:
+      - social
+      - networking
+  - name: Mexico City Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/mexicocitydigitalnomads/
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Mexico City
+    tags:
+      - networking
+      - social
+  - name: Mexico Creative Meets ✨
+    platform: whatsapp
+    url: https://chat.whatsapp.com/B6MAwERVLYFHpPYpVmTBS7
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Mexico City
+    tags:
+      - social
+      - networking
+  - name: Digital Nomads México
+    platform: facebook
+    url: https://www.facebook.com/groups/DigitalNomadsMexico/
+    locations:
+      - continent: North America
+        country_id: MX
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Mexico 🇲🇽🪅
+    platform: whatsapp
+    url: https://chat.whatsapp.com/ELQfGtuKQiZIFp35iIPRWA
+    locations:
+      - continent: North America
+        country_id: MX
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads in Merida
+    platform: facebook
+    url: https://www.facebook.com/groups/486086372326683/
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Merida
+    tags:
+      - networking
+      - social
+  - name: Guadalajara Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/guadalajara-digital-nomads/
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Guadalajara
+    tags:
+      - networking
+      - social
+  - name: Marrakech Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/362953525061250/
+    locations:
+      - continent: Africa
+        country_id: MA
+        city: Marrakect
+    tags:
+      - networking
+      - social
+  - name: Digital nomads NL 🇳🇱
+    platform: whatsapp
+    url: https://chat.whatsapp.com/J0RHxluz3jxAJthSwhyHHG
+    locations:
+      - continent: Europe
+        country_id: NL
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Amsterdam
+    platform: facebook
+    url: https://www.facebook.com/groups/730988807024634/
+    locations:
+      - continent: Europe
+        country_id: NL
+        city: Amsterdam
+    tags:
+      - networking
+      - social
+  - name: The Digital Nomads in Chch Meetup
+    platform: meetup
+    url: https://www.meetup.com/digital-nomads-in-chch/
+    locations:
+      - continent: Oceania
+        country_id: NZ
+        city: Christchurch
+    tags:
+      - networking
+      - social
+  - name: Expats in San Juan del Sur
+    platform: facebook
+    url: https://www.facebook.com/groups/expatsinsanjuandelsur/
+    locations:
+      - continent: Central America
+        country_id: NI
+        city: San Juan Del Sur
+    tags:
+      - expats
+      - networking
+  - name: Backpackers Nicaragua
+    platform: facebook
+    url: https://www.facebook.com/groups/1019544238110437/
+    locations:
+      - continent: Central America
+        country_id: NI
+    tags:
+      - networking
+      - social
+  - name: Peru - Digital Nomads & Residency Options
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadsperu/
+    locations:
+      - continent: South America
+        country_id: PE
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Lima
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadslima/
+    locations:
+      - continent: South America
+        country_id: PE
+        city: Lima
+    tags:
+      - networking
+      - social
+  - name: Siargao Homestay & Tours
+    platform: facebook
+    url: https://www.facebook.com/groups/798877421323411/
+    locations:
+      - continent: Asia
+        country_id: PH
+        city: Siargao
+    tags:
+      - accommodation
+      - networking
+  - name: Siargao Long-Term Rentals
+    platform: facebook
+    url: https://www.facebook.com/groups/siargaorentals/
+    locations:
+      - continent: Asia
+        country_id: PH
+        city: Siargao
+    tags:
+      - accommodation
+      - networking
+  - name: Siargao Digital nomads chat
+    platform: whatsapp
+    url: https://chat.whatsapp.com/D9ZJbKI1pAx563aNTwIQsP
+    locations:
+      - continent: Asia
+        country_id: PH
+        city: Siargao
+    tags:
+      - networking
+      - social
+  - name: Digital Nomad Philippines
+    platform: facebook
+    url: https://www.facebook.com/groups/nomadhood.co/
+    locations:
+      - continent: Asia
+        country_id: PH
+    tags:
+      - networking
+      - social
+  - name: Manila Digital Nomads, Entrepreneurs & Creatives
+    platform: facebook
+    url: https://www.meetup.com/manila-digital-nomads-entrepreneurs-creatives/
+    locations:
+      - continent: Asia
+        country_id: PH
+        city: Manila
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads - Makati, Philippines
+    platform: facebook
+    url: https://www.facebook.com/groups/DigitalNomadsMakati/
+    locations:
+      - continent: Asia
+        country_id: PH
+        city: Makati
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Davao
+    platform: facebook
+    url: https://www.facebook.com/groups/oDeskDavao/
+    locations:
+      - continent: Asia
+        country_id: PH
+        city: Davao
+    tags:
+      - networking
+      - social
+  - name: Cebu Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/CebuDigitalNomads/
+    locations:
+      - continent: Asia
+        country_id: PH
+        city: Cebu
+    tags:
+      - networking
+      - social
+  - name: WFH In Boracay
+    platform: facebook
+    url: https://www.facebook.com/groups/867478090483706/
+    locations:
+      - continent: Asia
+        country_id: PH
+        city: Boracay
+    tags:
+      - networking
+      - social
+  - name: Warsaw Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/1734561596822398/discussion/preview
+    locations:
+      - continent: Europe
+        country_id: PL
+        city: Warsaw
+    tags:
+      - networking
+      - social
+  - name: Krakow Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/krakowdigitalnomads/
+    locations:
+      - continent: Europe
+        country_id: PL
+        city: Krakow
+    tags:
+      - networking
+      - social
+  - name: /r/Portugal
+    platform: reddit
+    url: https://www.reddit.com/r/portugal/
+    locations:
+      - continent: Europe
+        country_id: PT
+    tags:
+      - networking
+      - social
+  - name: A place to discuss living in and moving to Portugal
+    platform: reddit
+    url: https://www.reddit.com/r/PortugalExpats/
+    locations:
+      - continent: Europe
+        country_id: PT
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads & Expats in Porto
+    platform: facebook
+    url: https://www.facebook.com/groups/2856657887915664/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Porto
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Porto
+    platform: facebook
+    url: https://www.facebook.com/groups/portodigitalnomads/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Porto
+    tags:
+      - networking
+      - social
+  - name: Porto Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/portodigitalnomad/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Porto
+    tags:
+      - networking
+      - social
+  - name: Portimão Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/1081332299362905/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Portimao
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads in Madeira
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadsinmadeira/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Madeira
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Madeira
+    platform: facebook
+    url: https://www.facebook.com/digitalnomadsmadeira/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Madeira
+    tags:
+      - networking
+      - social
+  - name: Accommodation for digital nomads in Lisbon
+    platform: facebook
+    url: https://www.facebook.com/groups/543566312667172/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Lisbon
+    tags:
+      - accommodation
+      - networking
+  - name: Lisbon Digital Nomads & Expats
+    platform: facebook
+    url: https://www.facebook.com/groups/532696873566509/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Lisbon
+    tags:
+      - networking
+      - expats
+  - name: Lisbon Expats & Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/lisbonomads/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Lisbon
+    tags:
+      - networking
+      - accommodation
+  - name: Portugal - Lisbon Hangout 2022/23
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Gw2zwGk5ZmyCEVRivUVzv1
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Lisbon
+    tags:
+      - meetups
+      - social
+  - name: Portugal - Meetup Lisbon
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EGFZyfYzIMNEWfmxeP07mE
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Lisbon
+    tags:
+      - meetups
+      - social
+  - name: Taste wine & make friends
+    platform: meetup
+    url: https://www.meetup.com/drink-wine-make-friends/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Lisbon
+    tags:
+      - food
+      - networking
+  - name: Lagos Remoters 💻☀️no ads
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Faa5Hcwx59d8rP1oqPSjeo
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Lagos
+    tags:
+      - networking
+      - social
+  - name: Porto Santo Digital Nomads and Meet Ups
+    platform: meetup
+    url: https://www.meetup.com/porto-santo-digital-nomads-and-meet-ups/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Funchal
+    tags:
+      - networking
+      - social
+  - name: Algarve Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/algarvedigitalnomads/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Algarve
+    tags:
+      - networking
+      - social
+  - name: Western Algarve Digital Nomads & Freelancers
+    platform: facebook
+    url: https://www.facebook.com/groups/1024441064321694/
+    locations:
+      - continent: Europe
+        country_id: PT
+        city: Algarve
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads in Romania
+    platform: facebook
+    url: https://www.facebook.com/groups/DigitalNomadsInRomania/
+    locations:
+      - continent: Europe
+        country_id: RO
+    tags:
+      - networking
+      - social
+  - name: Expats in Cluj!
+    platform: facebook
+    url: https://www.facebook.com/groups/expatsincluj/
+    locations:
+      - continent: Europe
+        country_id: RO
+        city: Cluj
+    tags:
+      - networking
+      - expats
+  - name: Bucharest Digital Nomads
+    platform: facebook
+    url: https://www.meetup.com/bucharest-digital-nomads/
+    locations:
+      - continent: Europe
+        country_id: RO
+        city: Bucharest
+    tags:
+      - networking
+      - expats
+  - name: Foreigners & Expats in Brașov
+    platform: facebook
+    url: https://www.facebook.com/groups/398182307534892/
+    locations:
+      - continent: Europe
+        country_id: RO
+        city: Brasov
+    tags:
+      - networking
+      - expats
+  - name: Belgrade Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/belgrade-digital-nomads/
+    locations:
+      - continent: Europe
+        country_id: RS
+        city: Belgrade
+    tags:
+      - networking
+      - social
+  - name: City Nomads
+    platform: meetup
+    url: https://www.meetup.com/citynomads/
+    locations:
+      - continent: Asia
+        country_id: SG
+    tags:
+      - networking
+  - name: Digital People Singapore
+    platform: meetup
+    url: https://www.meetup.com/digital-people-singapore/
+    locations:
+      - continent: Asia
+        country_id: SG
+    tags:
+      - networking
+      - social
+  - name: Remote-Working Group
+    platform: meetup
+    url: https://www.meetup.com/remote-working-group/
+    locations:
+      - continent: Asia
+        country_id: SG
+    tags:
+      - networking
+      - social
+  - name: Yogi Nomads
+    platform: meetup
+    url: https://www.meetup.com/yogi-nomads/
+    locations:
+      - continent: Asia
+        country_id: SG
+    tags:
+      - sports
+      - networking
+  - name: Digital Freelancers
+    platform: meetup
+    url: https://www.meetup.com/digital-freelancing/
+    locations:
+      - continent: Europe
+        country_id: SI
+        city: Ljubljana
+    tags:
+      - networking
+      - social
+  - name: Remote Work meetup
+    platform: meetup
+    url: https://www.meetup.com/remote-work-slovenia/
+    locations:
+      - continent: Europe
+        country_id: SI
+        city: Ljubljana
+    tags:
+      - networking
+      - social
+  - name: Cape Town Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/1535417433393446/
+    locations:
+      - continent: Africa
+        country_id: ZA
+        city: Cape Town
+    tags:
+      - networking
+      - social
+  - name: Nomad Gig Guide
+    platform: whatsapp
+    url: https://linktr.ee/nomadgigguide
+    locations:
+      - continent: Africa
+        country_id: ZA
+        city: Cape Town
+    tags:
+      - accommodation
+      - networking
+  - name: 우리는 디지털노마드다 (Korea Digital Nomads)
+    platform: facebook
+    url: https://www.facebook.com/groups/wearedigitalnomads/
+    locations:
+      - continent: Asia
+        country_id: KR
+    tags:
+      - networking
+      - social
+  - name: Seoul Housing
+    platform: facebook
+    url: https://www.facebook.com/groups/seoulhousing/
+    locations:
+      - continent: Asia
+        country_id: KR
+        city: Seoul
+    tags:
+      - accommodation
+      - networking
+  - name: Digital nomads in Jeju
+    platform: facebook
+    url: https://www.facebook.com/groups/248631242211636/
+    locations:
+      - continent: Asia
+        country_id: KR
+        city: Jeju
+    tags:
+      - networking
+      - social
+  - name: Valencia Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/822085512017504/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Valencia
+    tags:
+      - networking
+      - social
+  - name: Tenerife Digital Nomads
+    platform: telegram
+    url: https://t.me/+5n-VTOLAJXs2M2Q0
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Tenerife
+    tags:
+      - networking
+      - social
+  - name: Tenerife Digital Nomads💻🏝
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LXHogchmannHwq1k3iI0eK
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Tenerife
+    tags:
+      - networking
+      - social
+  - name: Tenerife Remote Workers & Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/507332689404652/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Tenerife
+    tags:
+      - networking
+      - social
+  - name: Tenerife South Digital 2
+    platform: whatsapp
+    url: https://chat.whatsapp.com/J64owcOVGzAIzM6diWhwuE
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Tenerife
+    tags:
+      - networking
+      - social
+  - name: Nómadas digitales Indonesia
+    platform: whatsapp
+    url: https://www.gruposviajeros.com/grupo-whatsapp/nomadas-digitales-en-espana/
+    locations:
+      - continent: Europe
+        country_id: ES
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Spain
+    platform: facebook
+    url: https://es-es.facebook.com/groups/digitalnomadsspain/
+    locations:
+      - continent: Europe
+        country_id: ES
+    tags:
+      - networking
+      - social
+  - name: Tarifa Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/769268589801675/
+    locations:
+      - continent: Europe
+        country_id: ES
+    tags:
+      - networking
+      - social
+  - name: Seville Remote Workers
+    platform: facebook
+    url: https://www.facebook.com/groups/sevilleremoteworkers/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Sevilla
+    tags:
+      - networking
+      - social
+  - name: Santa Pola Remote Workers and Digital Nomads Meetup Group
+    platform: meetup
+    url: https://www.meetup.com/santa-pola-remote-workers-digital-nomads-meetup-group/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Santa Pola
+    tags:
+      - networking
+      - social
+  - name: Digital nomads mallorca
+    platform: meetup
+    url: https://www.meetup.com/bedndesk-meetup/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Mallorca
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Mallorca
+    platform: facebook
+    url: https://www.facebook.com/groups/DNMallorca/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Mallorca
+    tags:
+      - networking
+      - social
+  - name: MALLORCA Digital Nomads💻🌴
+    platform: telegram
+    url: https://t.me/+MofgtDDK9SE0Yzc0
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Mallorca
+    tags:
+      - networking
+      - social
+  - name: Mallorca Digital Nomads💻🏝
+    platform: whatsapp
+    url: https://chat.whatsapp.com/ELytckZCKj8Fw5xB3SPKRJ
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Mallorca
+    tags:
+      - networking
+      - social
+  - name: Málaga Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/malaga-digital-nomads/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Malaga
+    tags:
+      - networking
+      - social
+  - name: Málaga Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/malagadigitalnomads/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Malaga
+    tags:
+      - networking
+      - social
+  - name: Spain - Málaga BAILONG@S
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CeCE39gi4RnAlXK3PBFV8M
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Malaga
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Madrid
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LiMBRrF42GS0HUl6oXPIO9
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Madrid
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Madrid
+    platform: facebook
+    url: https://www.facebook.com/groups/252529318788363/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Madrid
+    tags:
+      - networking
+      - social
+  - name: Las Palmas Café
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EkUKrm2Sz5W3lMrhWJAOZL
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Las Palmas
+    tags:
+      - food
+      - networking
+  - name: Accommodation for Digital Nomads in Gran Canaria
+    platform: facebook
+    url: https://www.facebook.com/groups/939473640299616/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Gran Canaria
+    tags:
+      - accommodation
+      - networking
+  - name: Digital Nomads Gran Canaria
+    platform: meetup
+    url: https://www.meetup.com/gran-canaria-digital-nomads/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Gran Canaria
+    tags:
+      - networking
+      - social
+  - name: Gran Canaria Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/201877786658754/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Gran Canaria
+    tags:
+      - networking
+      - social
+  - name: Yoga Plaza del Pueblo
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EbaTtonsNcFB8VKFDPrpzs
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Gran Canaria
+    tags:
+      - sports
+      - networking
+  - name: Fuerteventura Digital Nomads and expats
+    platform: facebook
+    url: https://www.facebook.com/groups/498086787062291/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Fuerteventura
+    tags:
+      - networking
+      - expats
+  - name: Barcelona Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/847138072058478/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Barcelona
+    tags:
+      - networking
+      - social
+  - name: Barcelona Entrepreneurs & Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/barcelonadigitalnomads/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Barcelona
+    tags:
+      - networking
+      - social
+  - name: Barcelona Freelancer Meetup
+    platform: meetup
+    url: https://www.meetup.com/barcelona-freelancers-meetup/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Barcelona
+    tags:
+      - networking
+      - social
+  - name: BCN Digital Nomads 🌎
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IHtX97yIj2YG2MbeRkgXYC
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Barcelona
+    tags:
+      - networking
+      - social
+  - name: Digital People Barcelona
+    platform: meetup
+    url: https://www.meetup.com/digital-people-barcelona/
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Barcelona
+    tags:
+      - networking
+      - social
+  - name: Spain - Barcelona Digital Nomads
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LkAtbcEMfjCLijR4KwfWUZ
+    locations:
+      - continent: Europe
+        country_id: ES
+        city: Barcelona
+    tags:
+      - networking
+      - social
+  - name: Sri Lanka
+    platform: reddit
+    url: https://www.reddit.com/r/srilanka/
+    locations:
+      - continent: Asia
+        country_id: LK
+    tags:
+      - networking
+      - social
+  - name: "Sri Lanka - #SriLanka🇱🇰 #DigitalNomads"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EWGxCSEL3K7H1jAwEeQYvx
+    locations:
+      - continent: Asia
+        country_id: LK
+    tags:
+      - networking
+      - social
+  - name: Sri Lanka 🇱🇰 Foreigners | Expats | Digital Nomads.
+    platform: facebook
+    url: https://www.facebook.com/groups/889138717772937/
+    locations:
+      - continent: Asia
+        country_id: LK
+    tags:
+      - networking
+      - expats
+  - name: Welcome to Taiwan!
+    platform: reddit
+    url: https://www.reddit.com/r/taiwan/
+    locations:
+      - continent: Asia
+        country_id: TW
+    tags:
+      - networking
+      - social
+  - name: Taipei Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/771466506279148/
+    locations:
+      - continent: Asia
+        country_id: TW
+        city: Taipei
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Thailand
+    platform: facebook
+    url: https://www.facebook.com/groups/thailanddigitalnomads/
+    locations:
+      - continent: Asia
+        country_id: TH
+    tags:
+      - networking
+      - social
+  - name: Thailand Expats and Digital Nomads 🇹🇭
+    platform: facebook
+    url: https://www.facebook.com/groups/thailanddigitalexpats/
+    locations:
+      - continent: Asia
+        country_id: TH
+    tags:
+      - networking
+      - expats
+  - name: Thailand Traveller Community
+    platform: discord
+    url: https://discord.com/invite/3zTmY2N6uq
+    locations:
+      - continent: Asia
+        country_id: TH
+    tags:
+      - networking
+      - social
+  - name: Welcome to r/Thailand
+    platform: reddit
+    url: https://www.reddit.com/r/Thailand/
+    locations:
+      - continent: Asia
+        country_id: TH
+    tags:
+      - networking
+      - social
+  - name: Nómadas digitales en Tailandia
+    platform: whatsapp
+    url: https://www.gruposviajeros.com/grupo-whatsapp/nomadas-digitales-en-tailandia/
+    locations:
+      - continent: Asia
+        country_id: TH
+    tags:
+      - networking
+      - social
+  - name: 🌴🇹🇭 Phuket Nomads 🤙
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GZIcRqSX2RRLQmVRhANnNm
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Phuket
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Rawai Phuket
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadsrawai/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Phuket
+    tags:
+      - networking
+      - social
+  - name: Phuket
+    platform: reddit
+    url: https://www.reddit.com/r/phuket/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Phuket
+    tags:
+      - networking
+      - social
+  - name: Phuket Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DFwi8K7EfJb3Bhs9Xf1qau
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Phuket
+    tags:
+      - networking
+      - social
+  - name: Phuket Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/phuketnomads
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Phuket
+    tags:
+      - networking
+      - social
+  - name: Pattaya Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DIKNncOr0kc9qm5tF1izm1
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Pattaya
+    tags:
+      - networking
+      - social
+  - name: Pai Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BhVdUfKWtJH2HVhXDGcmag
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Pai
+    tags:
+      - networking
+      - social
+  - name: Krabi events & parties
+    platform: facebook
+    url: https://www.facebook.com/groups/KrabiEvents/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Krabi
+    tags:
+      - networking
+      - events
+  - name: Krabi Expats
+    platform: facebook
+    url: https://www.facebook.com/groups/246449763033018/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Krabi
+    tags:
+      - expats
+      - networking
+  - name: Krabi/Railay Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FsvKejhtjEgCHP9dLl2RUB
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Krabi
+    tags:
+      - networking
+      - social
+  - name: Koh Tao Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GfuoY3Wb4TG7qlHR2Ozuom
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Koh Tao
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads on Koh Samui
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadsonkohsamui/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Koh Samui
+    tags:
+      - networking
+      - social
+  - name: Ko Samui Expats
+    platform: facebook
+    url: https://www.facebook.com/groups/samuiexpats/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Koh Samui
+    tags:
+      - networking
+      - expats
+  - name: Koh Samui Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GMMGkfhLzBnECu2lrPSGNf
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Koh Samui
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Koh Phangan
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadkohphangan/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Koh Phangan
+    tags:
+      - networking
+      - social
+  - name: Koh Phangan Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BrqrQBrrYLKDH39Zf5hnAh
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Koh Phangan
+    tags:
+      - networking
+      - social
+  - name: Koh Phangan Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/kpdigitalnomads/about/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Koh Phangan
+    tags:
+      - networking
+      - social
+  - name: Koh Phangan Nomads Community
+    platform: facebook
+    url: https://www.facebook.com/groups/256735521672143/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Koh Phangan
+    tags:
+      - networking
+      - social
+  - name: Koh Lanta Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FOkupYavPz93nwnoXTCvPS
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Koh Lanta
+    tags:
+      - networking
+      - social
+  - name: Chiang Mai Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/JUWeAvzA1fkDDgDApNmvOO
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Chiang Mai
+    tags:
+      - networking
+      - social
+  - name: Chiang Mai CS & Friends
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Dbdx63plMdHKnWUqXwbErJ
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Chiang Mai
+    tags:
+      - networking
+      - social
+  - name: Chiang Mai Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/cmnomads/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Chiang Mai
+    tags:
+      - networking
+      - social
+  - name: Chiang Mai Digital Nomads Entrepreneurs
+    platform: facebook
+    url: https://www.facebook.com/groups/cnxdne/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Chiang Mai
+    tags:
+      - networking
+      - social
+  - name: Chiang Mai Entrepreneur and Beer Group
+    platform: meetup
+    url: https://www.meetup.com/chiang-mai-entrepreneur-and-beer-group/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Chiang Mai
+    tags:
+      - networking
+      - business
+  - name: Nomads / Location independent on FIRE - Chiang Mai
+    platform: meetup
+    url: https://www.meetup.com/chiang-mai-financial-independence-meetup-group/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Chiang Mai
+    tags:
+      - networking
+      - social
+  - name: Thailand - Digital Nomads Chiang Mai 2.0
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Jj6aRzWsMag6yHuMHKO5YC
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Chiang Mai
+    tags:
+      - networking
+      - social
+  - name: The Break Room, by Chiang Mai Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/436338589849184/discussion/preview
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Chiang Mai
+    tags:
+      - networking
+      - social
+  - name: 🏙️ Bangkok Nomads 🇹🇭🤙
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EB1Lo19f71nIIkjyal8y0c
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Bangkok
+    tags:
+      - networking
+      - social
+  - name: Bangkok Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GWjCg1FxZsBHbiKfmV7f5T
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Bangkok
+    tags:
+      - networking
+      - social
+  - name: Bangkok Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/1497047133843898/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Bangkok
+    tags:
+      - networking
+      - social
+  - name: Bangkok Startup Business and Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/bangkok-startup-business-digital-nomads/
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Bangkok
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Turkey
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadturkiye/
+    locations:
+      - continent: Asia
+        country_id: TR
+    tags:
+      - networking
+      - social
+  - name: Foreigners in Izmir
+    platform: facebook
+    url: https://www.facebook.com/groups/564118354029065/
+    locations:
+      - continent: Asia
+        country_id: TR
+        city: Izmir
+    tags:
+      - networking
+      - expats
+  - name: Izmir Expats
+    platform: facebook
+    url: https://www.facebook.com/groups/3059476151006344/
+    locations:
+      - continent: Asia
+        country_id: TR
+        city: Izmir
+    tags:
+      - expats
+      - networking
+  - name: Istanbul Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/istanbuldigitalnomads/
+    locations:
+      - continent: Asia
+        country_id: TR
+        city: Istanbul
+    tags:
+      - networking
+      - social
+  - name: Turkey - Digital Nomads in Istanbul
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KBLzVHD4aqDHw0knSeM7vx
+    locations:
+      - continent: Asia
+        country_id: TR
+        city: Istanbul
+    tags:
+      - networking
+      - social
+  - name: WorkRemote Global Meetup Group
+    platform: meetup
+    url: https://www.meetup.com/workremote-global-meetup-group/
+    locations:
+      - continent: Asia
+        country_id: TR
+        city: Istanbul
+    tags:
+      - networking
+      - social
+  - name: Antalya Digital Nomads, freelancers and expats
+    platform: facebook
+    url: https://www.facebook.com/groups/AntalyaDigitalNomadandfreelancer/
+    locations:
+      - continent: Asia
+        country_id: TR
+        city: Antalya
+    tags:
+      - networking
+      - expats
+  - name: Nomads in UAE 🇦🇪
+    platform: facebook
+    url: https://www.facebook.com/groups/nomadsdxb/
+    locations:
+      - continent: Asia
+        country_id: AE
+    tags:
+      - networking
+      - social
+  - name: Dubai Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/dubai-digital-nomads/
+    locations:
+      - continent: Asia
+        country_id: AE
+        city: Dubai
+    tags:
+      - networking
+      - social
+  - name: San Diego International Connection
+    platform: facebook
+    url: https://www.facebook.com/groups/SDinternationalconnection
+    locations:
+      - continent: North America
+        country_id: US
+        city: San Diego
+    tags:
+      - expats
+      - accomodation
+  - name: Digital Nomads - New York City
+    platform: facebook
+    url: https://www.facebook.com/groups/1054273381315892/
+    locations:
+      - continent: North America
+        country_id: US
+        city: New York City
+    tags:
+      - networking
+      - social
+  - name: New York City, Party--Meetup---Travel---Couchsurfing
+    platform: facebook
+    url: https://www.facebook.com/groups/198732963497526
+    locations:
+      - continent: North America
+        country_id: US
+        city: New York City
+    tags:
+      - networking
+      - social
+  - name: Expats World in Miami
+    platform: facebook
+    url: https://www.facebook.com/groups/expatsworldmiami/
+    locations:
+      - continent: North America
+        country_id: US
+        city: Miami
+    tags:
+      - expats
+      - social
+  - name: LA Digital Nomads
+    platform: meetup
+    url: https://www.meetup.com/la-digital-nomads/
+    locations:
+      - continent: North America
+        country_id: US
+        city: Los Angeles
+    tags:
+      - networking
+      - social
+  - name: Moving to L.A.
+    platform: facebook
+    url: https://www.facebook.com/groups/683306318783872/
+    locations:
+      - continent: North America
+        country_id: US
+        city: Los Angeles
+    tags:
+      - expats
+      - social
+  - name: Living In Las Vegas
+    platform: facebook
+    url: https://www.facebook.com/groups/1542924422495895
+    locations:
+      - continent: North America
+        country_id: US
+        city: Las Vegas
+    tags:
+      - expats
+      - social
+  - name: Moving to Las Vegas Nevada
+    platform: facebook
+    url: https://www.facebook.com/groups/1028559384007326
+    locations:
+      - continent: North America
+        country_id: US
+        city: Las Vegas
+    tags:
+      - expats
+      - social
+  - name: Jackson Hole, Wyoming, Yellowstone and Grand Tetons Visitors
+    platform: facebook
+    url: https://www.facebook.com/groups/52655391893
+    locations:
+      - continent: North America
+        country_id: US
+        city: Jackson Hole
+    tags:
+      - networking
+      - social
+  - name: Work and Travel Jackson Hole WY 2023
+    platform: facebook
+    url: https://www.facebook.com/groups/1426039444348901/
+    locations:
+      - continent: North America
+        country_id: US
+        city: Jackson Hole
+    tags:
+      - networking
+      - social
+  - name: Moving to Denver / Boulder, Colorado
+    platform: facebook
+    url: https://www.facebook.com/groups/movetodenver/
+    locations:
+      - continent: North America
+        country_id: US
+        city: Denver
+    tags:
+      - expats
+      - social
+  - name: Expats in Boston
+    platform: facebook
+    url: https://www.facebook.com/groups/expatsinboston/
+    locations:
+      - continent: North America
+        country_id: US
+        city: Boston
+    tags:
+      - expats
+      - social
+  - name: Bend Remote Worker Meetup
+    platform: meetup
+    url: https://www.meetup.com/bend-remote-workers-meetup/
+    locations:
+      - continent: North America
+        country_id: US
+        city: Bend
+    tags:
+      - networking
+      - social
+  - name: Austin Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/1990235837948491/
+    locations:
+      - continent: North America
+        country_id: US
+        city: Austin
+    tags:
+      - networking
+      - social
+  - name: Moving to Austin Texas
+    platform: facebook
+    url: https://www.facebook.com/groups/1703103966607022
+    locations:
+      - continent: North America
+        country_id: US
+        city: Austin
+    tags:
+      - expats
+      - social
+  - name: Viëtnam
+    platform: whatsapp
+    url: https://chat.whatsapp.com/JTDf6YGiBXRCPj0uBMYL7h
+    locations:
+      - continent: Asia
+        country_id: VN
+    tags:
+      - networking
+      - social
+  - name: Vietnam - Nomadas Vietnam
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IvpQ5hu0CqxElCyXHYVPzY
+    locations:
+      - continent: Asia
+        country_id: VN
+    tags:
+      - networking
+      - social
+  - name: Hoi An Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/980369888684205/
+    locations:
+      - continent: Asia
+        country_id: VN
+        city: Hoi An
+    tags:
+      - networking
+      - social
+  - name: Saigon Digital Nomads, aka Ho Chi Minh
+    platform: facebook
+    url: https://www.facebook.com/groups/saigonnomads/
+    locations:
+      - continent: Asia
+        country_id: VN
+        city: Ho Chi Minh
+    tags:
+      - networking
+      - social
+  - name: Hanoi Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/hanoidigitalnomadsgroup/
+    locations:
+      - continent: Asia
+        country_id: VN
+        city: Hanoi
+    tags:
+      - networking
+      - social
+  - name: Đà Nẵng Nomads 🇻🇳⛱️🤙
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BkDLKuP3QHbKTm6opNdQby
+    locations:
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads in Da Nang
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadsindanang/
+    locations:
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
+    tags:
+      - networking
+      - social
+  - name: Digital Nomad
+    platform: reddit
+    url: https://www.reddit.com/r/digitalnomad/
+    tags:
+      - networking
+      - social
+  - name: Remote Work
+    platform: reddit
+    url: https://www.reddit.com/r/remotework/
+    tags:
+      - networking
+      - social
+  - name: workremotely
+    platform: reddit
+    url: https://www.reddit.com/r/workremotely/
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/1033016563818566/
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Hub
+    platform: facebook
+    url: https://www.facebook.com/groups/756306204446638/
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads Around the World
+    platform: facebook
+    url: https://www.facebook.com/groups/DigitalNomadsAroundTheWorld/
+    tags:
+      - networking
+      - social
+  - name: Nomadbase - The Digital Nomad Community
+    platform: facebook
+    url: https://www.facebook.com/groups/1428340887415620/
+    tags:
+      - networking
+      - social
+  - name: Work From Anywhere 🗺️ Community For Remote Workers & Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadventures/
+    tags:
+      - networking
+      - social
+  - name: Digital Nomad Entrepreneurs
+    platform: facebook
+    url: https://www.facebook.com/groups/digitalnomadentrepreneurs/
+    tags:
+      - networking
+      - business
+  - name: Female Digital Nomads
+    platform: facebook
+    url: https://www.facebook.com/groups/1607248466232418/
+    tags:
+      - networking
+      - social
+  - name: Digital Nomad Girls Community
+    platform: facebook
+    url: https://www.facebook.com/groups/DigitalNomadGirls/
+    tags:
+      - networking
+      - social
+  - name: Remote Like Me Community
+    platform: facebook
+    url: https://www.facebook.com/groups/365479800498644/
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads
+    platform: telegram
+    url: https://t.me/dnxchat
+    tags:
+      - networking
+      - social
+  - name: Digital Nomads
+    platform: discord
+    url: https://discord.com/invite/xrPktWu
+    tags:
+      - networking
+      - social
