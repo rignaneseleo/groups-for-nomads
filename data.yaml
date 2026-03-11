@@ -7278,70 +7278,90 @@ groups:
     platform: whatsapp
     url: https://chat.whatsapp.com/INhAZzIgbB51lIlGeGPHOO
     locations:
-      - city: Da Nang
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
     tags:
       - art
   - name: Coffee in Da Nang
     platform: whatsapp
     url: https://chat.whatsapp.com/K0R0X4WCWbeIX4hQoO3ucf
     locations:
-      - city: Da Nang
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
     tags:
       - coffee
   - name: Film in Da Nang
     platform: whatsapp
     url: https://chat.whatsapp.com/BbGZIpCxpCK4arUPU91yga
     locations:
-      - city: Da Nang
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
     tags:
       - travel
   - name: Food in Da Nang
     platform: whatsapp
     url: https://chat.whatsapp.com/DPOqjAMBNTq3mGDSOJerkd
     locations:
-      - city: Da Nang
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
     tags:
       - food
   - name: Health in Da Nang
     platform: whatsapp
     url: https://chat.whatsapp.com/BRcL8qyiU2t7jxZokZn2j0
     locations:
-      - city: Da Nang
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
     tags:
       - health
   - name: Nightlife in Da Nang
     platform: whatsapp
     url: https://chat.whatsapp.com/HHB5oBgAEPu7AYFZiaB2PF
     locations:
-      - city: Da Nang
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
     tags:
       - nightlife
   - name: Stay in Da Nang
     platform: whatsapp
     url: https://chat.whatsapp.com/JyytTk2lwmo4t4f0DwL6b9
     locations:
-      - city: Da Nang
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
     tags:
       - travel
   - name: Style in Da Nang
     platform: whatsapp
     url: https://chat.whatsapp.com/IaKGH53Y3fz1UxdpDB62QY
     locations:
-      - city: Da Nang
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
     tags:
       - travel
   - name: Tech in Da Nang
     platform: whatsapp
     url: https://chat.whatsapp.com/BBJ9QjDtaL63Ve0iGoq7gM
     locations:
-      - city: Da Nang
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
     tags:
       - technology
   - name: Work in Da Nang
     platform: whatsapp
     url: https://chat.whatsapp.com/KISXntYLkLu4oYy1fQgvQR
     locations:
-      - city: Da Nang
+      - continent: Asia
+        country_id: VN
+        city: Da Nang
     tags:
       - jobs
   - name: Kadikoy Weekly
@@ -7373,14 +7393,18 @@ groups:
     platform: whatsapp
     url: https://chat.whatsapp.com/FEQ3Rbg6C322KNBQWwyxtZ
     locations:
-      - city: Koh Samui
+      - continent: Asia
+        country_id: TH
+        city: Koh Samui
     tags:
       - backpacking
   - name: Backpackers in Europe
     platform: whatsapp
     url: https://chat.whatsapp.com/GASPehBTouoF13OEjhZAuN
     locations:
-      - city: Koh Samui
+      - continent: Asia
+        country_id: TH
+        city: Koh Samui
     tags:
       - backpacking
   - name: Silk Road Overlanders
@@ -7401,7 +7425,9 @@ groups:
     platform: whatsapp
     url: https://chat.whatsapp.com/FQk3HkkKwCg4tmLIPIGdFC
     locations:
-      - city: Koh Samui
+      - continent: Asia
+        country_id: TH
+        city: Koh Samui
     tags:
       - travel
   - name: South America Travelling
@@ -7415,7 +7441,8 @@ groups:
     platform: whatsapp
     url: https://chat.whatsapp.com/K1R2xEwAM41D5H53LGh5l4
     locations:
-      - country_id: PE
+      - continent: South America
+        country_id: PE
     tags:
       - travel
       - hub
