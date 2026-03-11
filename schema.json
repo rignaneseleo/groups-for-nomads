@@ -322,6 +322,20 @@
                             },
                             "required": [
                                 "continent"
+                            ],
+                            "allOf": [
+                                {
+                                    "if": {
+                                        "required": [
+                                            "city"
+                                        ]
+                                    },
+                                    "then": {
+                                        "required": [
+                                            "country_id"
+                                        ]
+                                    }
+                                }
                             ]
                         },
                         "description": "Geographic locations associated with the group"
