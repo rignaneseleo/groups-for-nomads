@@ -46,3 +46,33 @@ def test_validate_yaml_bad_syntax(tmp_path, schema_path):
 
     exit_code = validate_yaml.validate_yaml(str(yaml_file), schema_path, quiet=True)
     assert exit_code == validate_yaml.EXIT_YAML_PARSE_ERROR
+
+
+def test_repository_data_yaml_matches_schema():
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    yaml_file = os.path.join(project_root, "data.yaml")
+    schema_file = os.path.join(project_root, "schema.json")
+
+    exit_code = validate_yaml.validate_yaml(yaml_file, schema_file, quiet=True)
+    assert exit_code == validate_yaml.EXIT_SUCCESS
+
+
+def test_city_requires_country_id_against_repository_schema(tmp_path):
+    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    schema_file = os.path.join(project_root, "schema.json")
+    yaml_file = tmp_path / "data.yaml"
+    yaml_file.write_text(
+        """version: "1.0"
+groups:
+  - name: Sample
+    platform: whatsapp
+    url: https://chat.whatsapp.com/AAAAAAAAAAAAAAAAAAAAAA
+    locations:
+      - continent: Asia
+        city: Da Nang
+""",
+        encoding="utf-8",
+    )
+
+    exit_code = validate_yaml.validate_yaml(str(yaml_file), schema_file, quiet=True)
+    assert exit_code == validate_yaml.EXIT_VALIDATION_ERROR
