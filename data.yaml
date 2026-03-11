@@ -2438,6 +2438,86 @@ groups:
       - housing
       - rentals
       - accommodation
+  - name: Mzungu Africa Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Fl0f0kHY618ByU41YV7bPy
+    locations:
+      - continent: Africa
+    tags:
+      - networking
+      - social
+      - backpacking
+  - name: Mzungu West Africa Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IgfqE1JOZjy8mCw7ahGEX9
+    locations:
+      - continent: Africa
+    tags:
+      - networking
+      - social
+      - backpacking
+  - name: Mzungu Uganda & Kenya Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/JQEy1LGnUuVIUbKLEDiPZq
+    locations:
+      - continent: Africa
+        country_id: UG
+      - continent: Africa
+        country_id: KE
+    tags:
+      - networking
+      - social
+      - backpacking
+  - name: Mzungu South Africa Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/JNWRshG4m64E4FyXK3gj0N?mode=wwt
+    locations:
+      - continent: Africa
+        country_id: ZA
+    tags:
+      - networking
+      - social
+      - backpacking
+  - name: Mzungu Namibia Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/ITkIJ6x1Xpn2dt8h8GbH6L?mode=wwt
+    locations:
+      - continent: Africa
+        country_id: NA
+    tags:
+      - networking
+      - social
+      - backpacking
+  - name: Mzungu Madagascar Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Kg6twpaRwO9DMZd9URtFC9
+    locations:
+      - continent: Africa
+        country_id: MG
+    tags:
+      - networking
+      - social
+      - backpacking
+  - name: Mzungu Ethiopia Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/HoAsuyaRkKC3yyjpy4KIqX?mode=wwt
+    locations:
+      - continent: Africa
+        country_id: ET
+    tags:
+      - networking
+      - social
+      - backpacking
+  - name: Mzungu Tanzania & Zanzibar Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LXhlZ2P0RvI84NIHeToRgZ
+    locations:
+      - continent: Africa
+        country_id: TZ
+    tags:
+      - networking
+      - social
+      - backpacking
   - name: "Linktree for Backpackers in Asia 🌏"
     platform: linktree
     url: https://linktr.ee/backpackersasia
