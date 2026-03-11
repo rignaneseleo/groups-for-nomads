@@ -7427,3 +7427,167 @@ groups:
         country_id: IR
     tags:
       - overlanding
+  - name: Cycle The World Q&A
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KCTVMvDR5A08pYgB191vpp
+    tags:
+      - cycling
+      - travel
+  - name: Bicycle Touring Gear
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Jvm6lKO2PRj0xaFOeKkHhm
+    tags:
+      - cycling
+      - gear
+  - name: Cycling East Africa
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Ks1O8OSBaoFAxgzmJsXEQX
+    locations:
+      - continent: Africa
+    tags:
+      - cycling
+      - travel
+  - name: Cycling West & Central Africa
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Fi0m8EsBSKS2xEb9r4pVlN
+    locations:
+      - continent: Africa
+    tags:
+      - cycling
+      - travel
+  - name: Riding North & Central America
+    platform: whatsapp
+    url: https://chat.whatsapp.com/C4YyCNdHzVl3TOl91BeiJo
+    locations:
+      - continent: North America
+    tags:
+      - cycling
+      - travel
+  - name: Cycling South America
+    platform: whatsapp
+    url: https://chat.whatsapp.com/HDeTCDCyT0V4bWyicZaBRD
+    locations:
+      - continent: South America
+    tags:
+      - cycling
+      - travel
+  - name: Cycling East / Silk Road
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IpeE7GxIYdbJrhJjh6hY14
+    locations:
+      - continent: Asia
+    tags:
+      - cycling
+      - travel
+  - name: Cycling Central and North Asia
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KFPOAcBzNd9LnLHBpEf0S5
+    locations:
+      - continent: Asia
+    tags:
+      - cycling
+      - travel
+  - name: Bicycle Touring Mongolia
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CPRoZMv4dtr2pogz1MkHPJ
+    locations:
+      - continent: Asia
+        country_id: MN
+    tags:
+      - cycling
+      - travel
+  - name: Trans-Siberian Train With Bicycle
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BiansWCDEw38x0a7lSCiTR
+    locations:
+      - continent: Asia
+    tags:
+      - cycling
+      - transportation
+  - name: Cycling China
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KA85DI9wU5o5OBdjyHhD0n
+    locations:
+      - continent: Asia
+        country_id: CN
+    tags:
+      - cycling
+      - travel
+  - name: Korea and Japan Cycling Group
+    platform: whatsapp
+    url: https://chat.whatsapp.com/B8JfsrQTtZaD3zEQhMAkBF
+    locations:
+      - continent: Asia
+        country_id: KR
+      - continent: Asia
+        country_id: JP
+    tags:
+      - cycling
+      - travel
+  - name: Bike in Taiwan
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EUt9Q4HrFcaHWyw7MgItgU
+    locations:
+      - continent: Asia
+        country_id: TW
+    tags:
+      - cycling
+      - travel
+  - name: Cycling South Asia
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KLHJlsL2MGt7vuKFSc2zzo
+    locations:
+      - continent: Asia
+    tags:
+      - cycling
+      - travel
+  - name: Cycling South East Asia
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KSnACNW1N2gJzyCg34volO
+    locations:
+      - continent: Asia
+    tags:
+      - cycling
+      - travel
+  - name: Cycling Europe
+    platform: whatsapp
+    url: https://chat.whatsapp.com/ITxb9OzZHBhGHNCXK9wK3r
+    locations:
+      - continent: Europe
+    tags:
+      - cycling
+      - travel
+  - name: Cycle Touring in Finland
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FzFHD70k58cFIxLrCY8c3Z
+    locations:
+      - continent: Europe
+        country_id: FI
+    tags:
+      - cycling
+      - travel
+  - name: Cycling/Bici-Italy
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Lm4H0u0Ef7V1PKo4rA5lNp
+    locations:
+      - continent: Europe
+        country_id: IT
+    tags:
+      - cycling
+      - travel
+  - name: Cycle Middle East
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KlmFjR8cbEl2oTqxBjAvm1
+    locations:
+      - continent: Asia
+    tags:
+      - cycling
+      - travel
+  - name: Cycling Oceania
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KuTZdaERWYk9x7SErsQMJr
+    locations:
+      - continent: Oceania
+    tags:
+      - cycling
+      - travel
