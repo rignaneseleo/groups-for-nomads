@@ -7088,16 +7088,7 @@ groups:
         city: Amsterdam
     tags:
       - digital_nomads
-  - name: New Zealand Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FRJXlrUU9X9Ix5Ht7COvUU
-    locations:
-      - continent: Oceania
-        country_id: NZ
-        city: Auckland
-    tags:
-      - backpacking
-      - travel
+
   - name: Philippine's backpackers
     platform: whatsapp
     url: https://chat.whatsapp.com/JsXlqCCH05y9owjXxCz4R7
@@ -7108,62 +7099,14 @@ groups:
     tags:
       - backpacking
       - travel
-  - name: The Philippines seasia travel
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FJBB4T4fVHfIyDCG0cAiaI
-    locations:
-      - continent: Asia
-        country_id: PH
-        city: Manila
-    tags:
-      - travel
-  - name: Philippines
-    platform: whatsapp
-    url: https://chat.whatsapp.com/JsXlqCCH05y9owjXxCz4R7g
-    locations:
-      - continent: Asia
-        country_id: PH
-        city: Manila
-    tags:
-      - community
-  - name: Singapore seasia travel
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DNNI3OoATzuGACk85tvFP7
-    locations:
-      - continent: Asia
-        country_id: SG
-        city: Singapore
-    tags:
-      - travel
-  - name: South Korea seasia travel
+  - name: Backpackers in North America
     platform: whatsapp
     url: https://chat.whatsapp.com/JM81kFj5abN8RKYlcSKuop
     locations:
-      - continent: Asia
-        country_id: KR
-        city: Seoul
+      - continent: North America
     tags:
+      - backpacking
       - travel
-  - name: Expat meetings BCN1 - Community
-    platform: website
-    url: https://www.expatmeetings.com/
-    locations:
-      - continent: Europe
-        country_id: ES
-        city: Barcelona
-    tags:
-      - community
-      - expats
-  - name: BCN Meetup
-    platform: website
-    url: https://abnb.me/h9DZdc3lICb
-    locations:
-      - continent: Europe
-        country_id: ES
-        city: Barcelona
-    tags:
-      - events
-      - social
   - name: The Cool Kids of Barcelona
     platform: whatsapp
     url: https://chat.whatsapp.com/KEU2Yr4WrQBHyADLsnhL6E
@@ -7173,7 +7116,7 @@ groups:
         city: Barcelona
     tags:
       - community
-  - name: MALLORCA Digital Nomads💻🏝
+  - name: Hiking Mallorca 🥾
     platform: whatsapp
     url: https://chat.whatsapp.com/EiDX7hKMnL50U5HvhNJRAa
     locations:
@@ -7182,86 +7125,225 @@ groups:
         city: Mallorca
     tags:
       - digital_nomads
-  - name: Sri Lanka Travelers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CLMRaxKrSQCAOVmfHQ6ORD
-    locations:
-      - continent: Asia
-        country_id: LK
-    tags:
-      - travel
-  - name: Thailand seasia travel
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DzrxQT985r3IaFcizvFota
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Bangkok
-    tags:
-      - travel
-  - name: Thailand group Backpackers
+      - hiking
+  - name: Thailand Nomads
     platform: whatsapp
     url: https://chat.whatsapp.com/Gh8GfRvCbBFJx8JYcv7JPv
     locations:
       - continent: Asia
         country_id: TH
-        city: Chiang Mai
     tags:
       - backpacking
       - travel
-  - name: Thailand backpacker
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HfPEMIGc3nFEXpGoZhiFvC
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Phuket
-    tags:
-      - backpacking
-      - travel
-  - name: Istanbul Digital Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KseDnKcjHw98wfPl3etefe
-    locations:
-      - continent: Europe
-        country_id: TR
-        city: Istanbul
-    tags:
-      - digital_nomads
-  - name: Vietnam backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LFv26KzvEMnHb8giScflN7
-    locations:
-      - continent: Asia
-        country_id: VN
-        city: Da Nang
-    tags:
-      - backpacking
-      - travel
-  - name: Vietnam seasia travel
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Gac7rmdFjTJAM2lRDmVmKt
-    locations:
-      - continent: Asia
-        country_id: VN
-        city: Hanoi
-    tags:
-      - travel
-  - name: 🎭 Nomad Artists 🎸🎬
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BBtTZGHSHjHIskzR9P0aZF
-    tags:
-      - arts
-      - creative
-      - digital_nomads
   - name: Backpackers in general
     platform: linktree
     url: https://linktr.ee/backpackerss
     tags:
       - backpacking
       - travel
-  - name: Justin link to nomad groups
-    platform: website
-    url: https://justin-travel.com/travel-whatsapp-groups/
+  - name: QR Portugal
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CeUZ7YGqhYWAVhMdgKH9xl
+    locations:
+      - continent: Europe
+        country_id: PT
     tags:
-      - digital_nomads
+      - lgbtq
+
+  - name: CS Happy Traveling - Main Chat
+    platform: whatsapp
+    url: https://chat.whatsapp.com/1rwZ7XIYvEfBt9yPoCRzDZ
+    tags:
+      - travel
+  - name: Full Moon 🌕 Party in Koh Phangan 🇹🇭
+    platform: whatsapp
+    url: https://chat.whatsapp.com/Duk6L9CICVaIardW6v1eUC
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Koh Phangan
+    tags:
+      - party
+      - nightlife
+      - events
+      - social
+      - travel
+  - name: Backpackers in Sri Lanka ➋ 🇱🇰
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GUX0SHF2uzM3XWSmLCofGP
+    locations:
+      - continent: Asia
+        country_id: LK
+    tags:
+      - travel
+
+  - name: Sumatra, Indonesia
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IRcobkE73YE1REMokawmNt
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Sumatra
+    tags:
+      - travel
+  - name: Central Asian Backpackers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BTKdGBrnR9C2v4noVOkcl9
+    locations:
+      - continent: Asia
+    tags:
+      - backpacking
+      - travel
+  - name: Art in Da Nang
+    platform: whatsapp
+    url: https://chat.whatsapp.com/INhAZzIgbB51lIlGeGPHOO
+    locations:
+      - city: Da Nang
+    tags:
+      - art
+  - name: Coffee in Da Nang
+    platform: whatsapp
+    url: https://chat.whatsapp.com/K0R0X4WCWbeIX4hQoO3ucf
+    locations:
+      - city: Da Nang
+    tags:
+      - coffee
+  - name: Film in Da Nang
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BbGZIpCxpCK4arUPU91yga
+    locations:
+      - city: Da Nang
+    tags:
+      - travel
+  - name: Food in Da Nang
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DPOqjAMBNTq3mGDSOJerkd
+    locations:
+      - city: Da Nang
+    tags:
+      - food
+  - name: Health in Da Nang
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BRcL8qyiU2t7jxZokZn2j0
+    locations:
+      - city: Da Nang
+    tags:
+      - health
+  - name: Nightlife in Da Nang
+    platform: whatsapp
+    url: https://chat.whatsapp.com/HHB5oBgAEPu7AYFZiaB2PF
+    locations:
+      - city: Da Nang
+    tags:
+      - nightlife
+  - name: Stay in Da Nang
+    platform: whatsapp
+    url: https://chat.whatsapp.com/JyytTk2lwmo4t4f0DwL6b9
+    locations:
+      - city: Da Nang
+    tags:
+      - travel
+  - name: Style in Da Nang
+    platform: whatsapp
+    url: https://chat.whatsapp.com/IaKGH53Y3fz1UxdpDB62QY
+    locations:
+      - city: Da Nang
+    tags:
+      - travel
+  - name: Tech in Da Nang
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BBJ9QjDtaL63Ve0iGoq7gM
+    locations:
+      - city: Da Nang
+    tags:
+      - technology
+  - name: Work in Da Nang
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KISXntYLkLu4oYy1fQgvQR
+    locations:
+      - city: Da Nang
+    tags:
+      - jobs
+  - name: Kadikoy Weekly
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GFNIU1sY63E8lg6jzWfIXz
+    locations:
+      - continent: Europe
+        country_id: TR
+        city: Istanbul
+    tags:
+      - backpacking
+  - name: Backpackers in China
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LqN7uMsH6nb0PJYoEu7c8Z
+    locations:
+      - continent: Asia
+        country_id: CN
+    tags:
+      - backpacking
+  - name: Laos Travel
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CnXRH8MHgdDLAswxmh3WNL
+    locations:
+      - continent: Asia
+        country_id: LA
+    tags:
+      - travel
+  - name: Backpackers in Central America
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FEQ3Rbg6C322KNBQWwyxtZ
+    locations:
+      - city: Koh Samui
+    tags:
+      - backpacking
+  - name: Backpackers in Europe
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GASPehBTouoF13OEjhZAuN
+    locations:
+      - city: Koh Samui
+    tags:
+      - backpacking
+  - name: Silk Road Overlanders
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CCb6UaxyzoGKt8sxeziImJ
+    locations:
+      - continent: Asia
+    tags:
+      - overlanding
+  - name: South East Asia Backpacker
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DRRRoVtb4HZ7zOBMV16vpu
+    locations:
+      - continent: Asia
+    tags:
+      - backpacking
+  - name: Central America Travelling
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FQk3HkkKwCg4tmLIPIGdFC
+    locations:
+      - city: Koh Samui
+    tags:
+      - travel
+  - name: South America Travelling
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CKz9WY1IWjSIh9htQ72RR3
+    locations:
+      - continent: South America
+    tags:
+      - travel
+  - name: Peru Hub 🇵🇪 by Karikuy
+    platform: whatsapp
+    url: https://chat.whatsapp.com/K1R2xEwAM41D5H53LGh5l4
+    locations:
+      - country_id: PE
+    tags:
+      - travel
+      - hub
+  - name: Overland to Iran
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DL1RiYIUK0O3Bp3FiK8gTu
+    locations:
+      - continent: Asia
+        country_id: IR
+    tags:
+      - overlanding
