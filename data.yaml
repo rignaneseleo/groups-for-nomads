@@ -204,14 +204,6 @@ groups:
         city: Mexico City
     tags:
       - directory
-
-  - name: CDMX Remote Workers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GYdSopsvi8lCDp9J4gwPqB
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
   - name: Blaxicocina
     platform: whatsapp
     url: https://chat.whatsapp.com/H0l1UTY0ZqC18uVBWj5YuB
