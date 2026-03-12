@@ -89,6 +89,16 @@ This repository uses GitHub Actions for automation:
    - Runs weekly to identify broken invitation links
    - Helps keep the directory up-to-date
 
+4. **WhatsApp Invite Validation**
+   - Validates WhatsApp invite links using WhatsApp invite-page structure (not just HTTP status).
+   - **On pull requests:** checks only WhatsApp links newly added/changed in that PR.
+   - Fails when checked links are offline/inactive.
+   - Adds inline **PR review comments** on `data.yaml` lines when invite-page name differs from `name` (resolve or discard).
+   - **Manual mode (`workflow_dispatch`)** supports `apply_changes=true` to:
+     - remove offline groups
+     - rename mismatched groups to live invite names
+     - upload the updated `data.yaml` as an artifact (no auto-commit).
+
 ### Schema Details
 
 The `schema.json` file enforces:
