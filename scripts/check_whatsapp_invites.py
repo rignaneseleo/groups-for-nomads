@@ -215,7 +215,9 @@ def main() -> int:
 
         if _normalize_name(name) != _normalize_name(result.title):
             rename_by_url[url] = result.title
-            print(f"[{idx}/{total}] WARNING name mismatch: {name!r} -> {result.title!r}")
+            print(
+                f"[{idx}/{total}] WARNING name mismatch: {name!r} -> {result.title!r} | {url}"
+            )
         else:
             print(f"[{idx}/{total}] OK {name}")
 
