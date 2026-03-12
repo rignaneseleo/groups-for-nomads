@@ -1,119 +1,221 @@
 # Digital Nomads Groups Directory
 
-Welcome to the Digital Nomad Community Directory! This project aims to create a comprehensive list of online communities and groups specifically catered to digital nomads. Whether you're a seasoned nomad or just starting your remote work journey, this directory will help you connect with like-minded individuals, find support, and discover exciting opportunities around the world.
+Welcome to the **Digital Nomad Community Directory** — an open dataset of online communities for digital nomads, expats, and remote workers.
 
-## The list
+The goal of this project is simple: make it easy to **find the local WhatsApp, Telegram, Discord, and other groups** where people share real information about cities around the world.
 
-👉🏻 Click [HERE](directory.md) to open the list
-
-## 🗂️ How the Directory Works
-
-This project uses three main files:
-
-1. **`data.yaml`** - The **source of truth** where all data is stored and maintained
-2. **`schema.json`** - Defines the structure and validation rules for the directory data
-3. **`directory.md`** - The human-readable file that's automatically generated from the YAML data
-
-> **Important:** Always make changes to `data.yaml`, NOT the markdown file. The markdown file is automatically generated and any direct changes will be overwritten.
-
-## 🤝 How to Contribute
-
-We welcome and appreciate all contributions to this directory! You can add new groups in two ways:
-
-### Method 1: Easy (Recommended)
-
-Simply **[open a new issue](https://github.com/rignaneseleo/groups-for-nomads/issues/new?template=add_group.yml)** using the "Add a New Group" template. Fill in the details, and we'll add it for you!
-
-### Method 2: Advanced (Pull Request)
-
-If you're comfortable with GitHub and YAML, you can submit a Pull Request directly:
-
-1. Navigate to [data.yaml](data.yaml)
-2. Click the "Edit" (pencil) button
-3. Add your group at the end of the list following this example:
-
-   ```yaml
-   - name: "Chiang Mai Digital Nomads"  # Always use quotes for strings
-     platform: "whatsapp"  # Supported: whatsapp, telegram, discord, linktree, facebook, slack
-     url: "https://chat.whatsapp.com/example"
-     locations:
-       - continent: "Asia"  # Must be one of: Africa, Antarctica, Asia, Europe, North America, South America, Central America, Oceania
-         country_id: "TH"  # ISO 3166-1 alpha-2 country code
-         city: "Chiang Mai"  # Optional
-         region: "Northern Thailand"  # Optional
-     language_id: "en"  # Optional: ISO 639-1 language code
-     commercial: false  # No quotes for boolean values
-     tags:  # Optional: keywords to categorize the group
-       - "coworking"
-       - "meetups"
-       - "housing"
-   ```
-
-4. For multiple locations:
-
-   ```yaml
-   - name: "Southeast Asia Nomads"
-     platform: "telegram"
-     url: "https://t.me/example"
-     locations:
-       - continent: "Asia"
-         country_id: "TH"
-       - continent: "Asia"
-         country_id: "VN"
-       - continent: "Asia"
-         country_id: "ID"
-   ```
-
-5. Click "Propose changes"
-6. Submit a pull request
-
-> **Note:** All contributions are automatically validated against [schema.json](schema.json). Your PR will only be merged if it passes validation.
-
-## 🔧 Technical Information
-
-### Automated Workflows
-
-This repository uses GitHub Actions for automation:
-
-1. **Validation Workflow**
-   - Runs on every pull request
-   - Validates data against schema.json
-   - Ensures data integrity
-
-2. **Markdown Generation**
-   - Triggers on data.yaml updates
-   - Automatically regenerates directory.md
-   - Maintains consistency
-
-3. **Link Checker**
-   - Runs weekly to identify broken invitation links
-   - Helps keep the directory up-to-date
-
-4. **WhatsApp Invite Validation**
-   - Validates WhatsApp invite links using WhatsApp invite-page structure (not just HTTP status).
-   - **On pull requests:** checks only WhatsApp links newly added/changed in that PR.
-   - Fails when checked links are offline/inactive.
-   - Adds inline **PR review comments** on `data.yaml` lines when invite-page name differs from `name` (resolve or discard).
-   - **Manual mode (`workflow_dispatch`)** supports `apply_changes=true` to:
-     - remove offline groups
-     - rename mismatched groups to live invite names
-     - upload the updated `data.yaml` as an artifact (no auto-commit).
-
-### Schema Details
-
-The `schema.json` file enforces:
-- Valid platform values
-- Correct continent names
-- Proper URL formats
-- Required and optional fields
-- Data type validation
-
-For complete validation requirements, refer to [schema.json](schema.json).
-
-## 📜 License
-
-This project is licensed under the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](LICENSE). By contributing, you agree to release your contributions under this license.
+These groups are often the **best source of local knowledge** — from housing and coworking spaces to meetups and practical advice.
 
 ---
 
-Let's build the most comprehensive digital nomad community directory together! Your contributions help fellow nomads connect and thrive in their remote work adventures. 🌍✨
+# 🌐 Browse the Directory
+
+👉🏻 Click **[HERE](directory.md)** to view the full list.
+
+This repository contains the **raw dataset** of groups.
+
+If you'd rather **search, filter, and explore the groups easily**, you can use the website built on top of this dataset:
+
+👉 **https://nomadgroups.wiki**
+
+The website adds:
+
+- 🔎 **Search by city, country, or group name**
+- 🗺️ **Interactive world map**
+- 🎯 **Filters by platform** (WhatsApp, Telegram, Discord, Facebook, Slack)
+- ⭐ **Community ratings** to find active groups
+- 🔖 **Save groups for later**
+- 🤖 **Telegram bot search**
+
+Think of this repo as the **open database**, and the website as the **user-friendly interface**.
+
+---
+
+# 🗂️ How the Directory Works
+
+This project uses three main files:
+
+1. **`data.yaml`**  
+   The **source of truth** where all group data is stored.
+
+2. **`schema.json`**  
+   Defines the structure and validation rules for the data.
+
+3. **`directory.md`**  
+   A human-readable directory automatically generated from the YAML data.
+
+> ⚠️ Always edit **`data.yaml`**, not the markdown file.  
+> `directory.md` is automatically generated and manual edits will be overwritten.
+
+---
+
+# 🤝 How to Contribute
+
+We welcome contributions! You can add new groups in two ways.
+
+## Method 1: Easy (Recommended)
+
+Simply **[open a new issue](https://github.com/rignaneseleo/groups-for-nomads/issues/new?template=add_group.yml)** using the **Add a New Group** template.
+
+Fill in the details and the group will be added to the dataset.
+
+---
+
+## Method 2: Advanced (Pull Request)
+
+If you're comfortable with GitHub and YAML:
+
+1. Open **[data.yaml](data.yaml)**
+2. Click the **Edit (pencil)** button
+3. Add your group at the end of the list following this example:
+
+```yaml
+- name: "Chiang Mai Digital Nomads"
+  platform: "whatsapp"
+  url: "https://chat.whatsapp.com/example"
+  locations:
+    - continent: "Asia"
+      country_id: "TH"
+      city: "Chiang Mai"
+      region: "Northern Thailand"
+  language_id: "en"
+  commercial: false
+  tags:
+    - "coworking"
+    - "meetups"
+    - "housing"
+````
+
+### Multiple locations example
+
+```yaml
+- name: "Southeast Asia Nomads"
+  platform: "telegram"
+  url: "https://t.me/example"
+  locations:
+    - continent: "Asia"
+      country_id: "TH"
+    - continent: "Asia"
+      country_id: "VN"
+    - continent: "Asia"
+      country_id: "ID"
+```
+
+Then:
+
+4. Click **Propose changes**
+5. Submit a **Pull Request**
+
+All contributions are automatically validated against **schema.json** before being merged.
+
+---
+
+# 🎁 Free access for contributors
+
+The website **NomadGroups.wiki** is built on top of this open dataset.
+
+If you contribute to this repository, you're welcome to **use the website for free**.
+
+Just open an issue or submit a pull request and I'll send you access.
+
+This helps improve the dataset while keeping the directory useful for everyone.
+
+---
+
+# 🔧 Technical Information
+
+## Automated Workflows
+
+This repository uses **GitHub Actions** to keep the dataset clean and up-to-date.
+
+### Validation Workflow
+
+Runs on every pull request.
+
+* Validates data against `schema.json`
+* Ensures formatting and data integrity
+
+---
+
+### Markdown Generation
+
+Automatically generates the directory:
+
+* Triggered when `data.yaml` changes
+* Regenerates `directory.md`
+* Keeps the list consistent
+
+---
+
+### Link Checker
+
+Runs weekly to identify broken invitation links.
+
+This helps keep the directory accurate.
+
+---
+
+### WhatsApp Invite Validation
+
+Validates WhatsApp invite links using the **invite page structure**.
+
+Features:
+
+* Checks only new or modified links in pull requests
+* Detects offline groups
+* Adds **PR review comments** when invite names differ
+* Supports manual cleanup via workflow dispatch
+
+Manual mode (`workflow_dispatch`) with `apply_changes=true` can:
+
+* Remove offline groups
+* Rename groups to match the live invite name
+* Upload updated `data.yaml` as an artifact
+
+---
+
+# 📊 Schema Details
+
+The **`schema.json`** file enforces:
+
+* Valid platform values
+* Correct continent names
+* Proper URL formats
+* Required and optional fields
+* Data type validation
+
+See **[schema.json](schema.json)** for full validation rules.
+
+---
+
+# 🧭 Why this repository exists
+
+This project started in **June 2023** as a simple open-source list of digital nomad groups.
+
+Over time the dataset grew to hundreds of communities across many countries.
+
+The goal is to keep a **public, community-maintained dataset** that anyone can:
+
+* use
+* analyze
+* build tools on top of
+
+Since browsing the raw list became difficult, I built **NomadGroups.wiki** as a tool on top of the dataset to make it easier to explore. The website also helps with outreach, allowing more people to discover and join these communities.
+
+The **data remains open here on GitHub**.
+
+---
+
+# 📜 License
+
+This project is licensed under the **GNU General Public License v3**.
+
+By contributing, you agree to release your contributions under this license.
+
+See **[LICENSE](LICENSE)** for details.
+
+---
+
+🌍 Let's build the **largest directory of digital nomad communities** together.
+
+Your contributions help nomads connect, share knowledge, and make every new city easier to navigate.
