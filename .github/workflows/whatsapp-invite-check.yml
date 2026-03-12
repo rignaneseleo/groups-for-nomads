@@ -32,6 +32,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,20 +45,41 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Extract PR WhatsApp links
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin "${{ github.base_ref }}" --depth=1
+          git diff "origin/${{ github.base_ref }}...HEAD" -- data.yaml \
+            | grep '^+' \
+            | grep -v '^+++' \
+            | grep -oE 'https://chat\.whatsapp\.com/[A-Za-z0-9]+' \
+            | sort -u > pr_whatsapp_urls.txt || true
+
+          count=$(wc -l < pr_whatsapp_urls.txt | tr -d ' ')
+          echo "Found $count PR WhatsApp links to check"
+          if [ "$count" -eq 0 ]; then
+            echo "No new WhatsApp links in this PR."
+          fi
+
       - name: Run WhatsApp invite checks
         id: whatsapp_check
         continue-on-error: ${{ github.event_name == 'pull_request' }}
         run: |
           set -o pipefail
           APPLY_FLAG=""
+          URLS_ARG=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.apply_changes }}" = "true" ]; then
             APPLY_FLAG="--apply"
+          fi
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            URLS_ARG="--urls-file pr_whatsapp_urls.txt"
           fi
           python scripts/check_whatsapp_invites.py \
             --data-file data.yaml \
             --delay-ms "$WHATSAPP_LINK_DELAY_MS" \
             --jitter-ms "$WHATSAPP_LINK_JITTER_MS" \
             --retries "$WHATSAPP_LINK_MAX_RETRIES" \
+            $URLS_ARG \
             $APPLY_FLAG 2>&1 | tee whatsapp_invite_check.log
 
       - name: Upload WhatsApp check log

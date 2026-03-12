@@ -24,33 +24,52 @@ class WhatsAppInviteHTMLParser(HTMLParser):
         super().__init__()
         self.element_ids: set[str] = set()
         self.href_by_id: dict[str, str] = {}
-        self._in_h3 = False
+        self._tag_depth = 0
+        self._main_block_depth: Optional[int] = None
+        self._in_main_block_h3 = False
         self._current_h3 = ""
-        self.h3_texts: list[str] = []
+        self.main_block_h3_texts: list[str] = []
+        self.main_block_has_image = False
 
     def handle_starttag(self, tag: str, attrs) -> None:  # type: ignore[override]
+        self._tag_depth += 1
         attrs_map = dict(attrs)
         element_id = attrs_map.get("id")
         if element_id:
             self.element_ids.add(element_id)
+            if element_id == "main_block":
+                self._main_block_depth = self._tag_depth
 
         if tag == "a":
             href = attrs_map.get("href")
             if element_id and href:
                 self.href_by_id[element_id] = href
 
-        if tag == "h3":
-            self._in_h3 = True
+        in_main_block = (
+            self._main_block_depth is not None and self._tag_depth > self._main_block_depth
+        )
+
+        if tag == "img" and in_main_block and attrs_map.get("src"):
+            self.main_block_has_image = True
+
+        if tag == "h3" and in_main_block:
+            self._in_main_block_h3 = True
             self._current_h3 = ""
 
     def handle_data(self, data: str) -> None:  # type: ignore[override]
-        if self._in_h3:
+        if self._in_main_block_h3:
             self._current_h3 += data
 
     def handle_endtag(self, tag: str) -> None:  # type: ignore[override]
-        if tag == "h3":
-            self._in_h3 = False
-            self.h3_texts.append(self._current_h3.strip())
+        if tag == "h3" and self._in_main_block_h3:
+            self._in_main_block_h3 = False
+            self.main_block_h3_texts.append(self._current_h3.strip())
+
+        if self._main_block_depth is not None and self._tag_depth == self._main_block_depth:
+            self._main_block_depth = None
+
+        if self._tag_depth > 0:
+            self._tag_depth -= 1
 
 
 def check_whatsapp_invite_html(html: str) -> InvitePageCheck:
@@ -68,7 +87,10 @@ def check_whatsapp_invite_html(html: str) -> InvitePageCheck:
     if not web_button_href.startswith("https://web.whatsapp.com/accept?code="):
         return InvitePageCheck(False, "missing/invalid #whatsapp-web-button href")
 
-    if not any(title for title in parser.h3_texts):
+    if not parser.main_block_has_image:
+        return InvitePageCheck(False, "group image is missing")
+
+    if not any(title for title in parser.main_block_h3_texts):
         return InvitePageCheck(False, "group title is empty")
 
     return InvitePageCheck(True, "ok")
@@ -165,6 +187,7 @@ def test_check_whatsapp_invite_html_legit_sample():
       <a href="https://chat.whatsapp.com/CKz9WY1IWjSIh9htQ72RR3" id="action-button">
         <span>Apri l'app</span>
       </a>
+      <img src="https://mmg.whatsapp.net/d/f/AwExample.jpg" alt="Group icon" />
       <h3 class="_9vd5 _9scr">South America Travelling</h3>
       <h4>Invito alla chat di gruppo</h4>
       <a href="https://web.whatsapp.com/accept?code=CKz9WY1IWjSIh9htQ72RR3&utm_campaign=wa_chat_v2" id="whatsapp-web-button">
@@ -182,6 +205,7 @@ def test_check_whatsapp_invite_html_probably_not_legit_sample():
       <a href="https://chat.whatsapp.com/CxC8pFQJ86F1L6xyfyccGQ" id="action-button">
         <span>Apri l'app</span>
       </a>
+      <img src="https://mmg.whatsapp.net/d/f/AwExample.jpg" alt="Group icon" />
       <h3 class="_9vd5 _9scr"></h3>
       <h4>Invito alla chat di gruppo</h4>
       <a href="https://web.whatsapp.com/accept?code=CxC8pFQJ86F1L6xyfyccGQ&utm_campaign=wa_chat_v2" id="whatsapp-web-button">
