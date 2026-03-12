@@ -8,6 +8,7 @@ Check WhatsApp invite links in data.yaml.
 """
 
 import argparse
+import json
 import random
 import re
 import sys
@@ -216,7 +217,14 @@ def main() -> int:
         if _normalize_name(name) != _normalize_name(result.title):
             rename_by_url[url] = result.title
             print(
-                f"[{idx}/{total}] WARNING name mismatch: {name!r} -> {result.title!r} | {url}"
+                f"[{idx}/{total}] WARNING name mismatch: {name} -> {result.title} | {url}"
+            )
+            print(
+                "MISMATCH_JSON "
+                + json.dumps(
+                    {"current_name": name, "live_name": result.title, "url": url},
+                    ensure_ascii=False,
+                )
             )
         else:
             print(f"[{idx}/{total}] OK {name}")

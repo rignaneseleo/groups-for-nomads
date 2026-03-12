@@ -102,19 +102,26 @@ jobs:
           payload_path = Path("whatsapp_pr_mismatch_payload.json")
           data_path = Path("data.yaml")
 
-          pattern = re.compile(r"WARNING name mismatch: '(.+)' -> '(.+)' \| (https://chat\.whatsapp\.com/\S+)$")
           mismatches = []
           for raw_line in log_path.read_text(encoding="utf-8", errors="replace").splitlines():
               line = raw_line.strip()
-              m = pattern.search(line)
-              if m:
-                  mismatches.append(
-                      {
-                          "current_name": m.group(1),
-                          "live_name": m.group(2),
-                          "url": m.group(3),
-                      }
-                  )
+              if not line.startswith("MISMATCH_JSON "):
+                  continue
+              try:
+                  payload = json.loads(line.split("MISMATCH_JSON ", 1)[1])
+              except Exception:
+                  continue
+              if not isinstance(payload, dict):
+                  continue
+              if not str(payload.get("url", "")).startswith("https://chat.whatsapp.com/"):
+                  continue
+              mismatches.append(
+                  {
+                      "current_name": str(payload.get("current_name", "")),
+                      "live_name": str(payload.get("live_name", "")),
+                      "url": str(payload.get("url", "")),
+                  }
+              )
 
           url_line_map = {}
           for idx, raw_line in enumerate(data_path.read_text(encoding="utf-8").splitlines(), start=1):
@@ -132,10 +139,10 @@ jobs:
                   {
                       "line": line,
                       "body": (
-                          "<!-- whatsapp-name-mismatch -->\\n"
-                          f"WhatsApp invite page name differs from `data.yaml`.\\n\\n"
-                          f"- Current: `{mismatch['current_name']}`\\n"
-                          f"- Live: `{mismatch['live_name']}`\\n\\n"
+                          "<!-- whatsapp-name-mismatch -->\n"
+                          "WhatsApp invite page name differs from `data.yaml`.\n\n"
+                          f"- Current: `{mismatch['current_name']}`\n"
+                          f"- Live: `{mismatch['live_name']}`\n\n"
                           "Please resolve (rename) or discard (keep as-is) with justification."
                       ),
                   }
