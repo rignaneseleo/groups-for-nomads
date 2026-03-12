@@ -8,28 +8,16 @@ groups:
   - name: Dutchies Worldwide
     platform: linktree
     url: https://linktr.ee/dutchiestravelling
-  - name: Overlanding Community
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IfmuhQ55pQh6ZGdTmykzU0
-    language_id: nl
-    tags:
-      - overlanding
   - name: "Container Sharing and RoRo Shipping worldwide 🚢"
     platform: whatsapp
     url: https://chat.whatsapp.com/BmCwZ5YSY489u4Chb87llo
     tags:
       - shipping
       - logistics
-  - name: Starlink Overlanders
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CY84Z7ulKeND6dRLr2ljy7
-    tags:
-      - overlanding
-      - technology
-      - internet
-  - name: "Nomad Hub - The Strongest Nomad Community 🚀"
+  - name: NomadHub - The Strongest Nomad Community
     platform: whatsapp
     url: https://chat.whatsapp.com/DAOto3fXuHZJUq7ilkYyqt
+    commercial: true
     tags:
       - networking
   - name: "Vanlife Europa 🚐"
@@ -72,7 +60,7 @@ groups:
     tags:
       - language_exchange
       - social
-  - name: "Couchsurfing Events 🏄🏻‍"
+  - name: "Sunshine Events!🍹"
     platform: whatsapp
     url: https://chat.whatsapp.com/Cnmp00nwROIGGq8HOK4SDa
     locations:
@@ -84,7 +72,7 @@ groups:
       - couchsurfing
       - events
       - social
-  - name: Melanated People of Lisbon
+  - name: "🇵🇹 Melanated People of Lisbon"
     platform: whatsapp
     url: https://chat.whatsapp.com/BDYR2HxmipbBtEngQ9i7t0
     locations:
@@ -126,7 +114,7 @@ groups:
       - continent: Europe
         country_id: ES
         city: Valencia
-  - name: Madrid new friends
+  - name: "MADRID NEW FRIENDS🥂❤️"
     platform: whatsapp
     url: https://chat.whatsapp.com/DyosoSaCfXt00exnHQuJJF
     locations:
@@ -136,16 +124,6 @@ groups:
     tags:
       - social
       - networking
-  - name: Freelancers in Madrid
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CBJXxMtx5UYHP1Kj5HkGK8
-    locations:
-      - continent: Europe
-        country_id: ES
-        city: Madrid
-    tags:
-      - freelancing
-      - jobs
   - name: MundoLingo Spain
     platform: telegram
     url: https://t.me/+DrjlLBeM0soxNTM0
@@ -196,42 +174,13 @@ groups:
     tags:
       - language_exchange
       - social
-  - name: Centro y Norte America
-    platform: whatsapp
-    url: https://chat.whatsapp.com/F0Mze9I373BHpIz5lFjvjW
-    locations:
-      - continent: North America
-      - continent: Central America
-    language_id: es
-    tags:
-      - networking
-      - social
-  - name: "Dutchies in de Verenigde Staten 🇺🇸"
+  - name: "Dutchies in the United States 🇺🇸"
     platform: whatsapp
     url: https://chat.whatsapp.com/Jb2c1ovytaXAjpf1skYwin
     locations:
       - continent: North America
         country_id: US
     language_id: nl
-  - name: Central American and Mexican Overlanders
-    platform: whatsapp
-    url: https://chat.whatsapp.com/D35phZbq83cJ9JZzOXjlax
-    locations:
-      - continent: Central America
-      - continent: North America
-        country_id: MX
-    tags:
-      - overlanding
-  - name: Motos in Mexico and Central America
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DaVvJQsXdFv9ExO2OwtjBY
-    locations:
-      - continent: Central America
-      - continent: North America
-        country_id: MX
-    tags:
-      - transportation
-      - motorcycle
   - name: "Costa Rica travelers 🇨🇷"
     platform: whatsapp
     url: https://chat.whatsapp.com/LkAt0e6qNLoB9gO2fGPEOO
@@ -239,14 +188,6 @@ groups:
       - continent: Central America
         country_id: CR
     commercial: true
-  - name: Guatemala Digital Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Ds5K33ap4QKJUq7ilkYyqt
-    locations:
-      - continent: Central America
-        country_id: GT
-        city: Guatemala City
-
   - name: "Dutchies in Mexico 🇲🇽"
     platform: whatsapp
     url: https://chat.whatsapp.com/FjIF9a55rO20juyG9R1su8
@@ -263,67 +204,6 @@ groups:
         city: Mexico City
     tags:
       - directory
-  - name: "CDMX Group of Groups 🇲🇽"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/I1nC4r7OxmiJQYe6GagHU3
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - directory
-  - name: CDMX Remote Workers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GYdSopsvi8lCDp9J4gwPqB
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-
-  - name: Nomad Chat CDMX
-    platform: whatsapp
-    url: https://chat.whatsapp.com/B9o7eWYldLV2Z8MPcfV8Mj
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - networking
-  - name: EN VENTA CDMX
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LPxElKKHQ4Q52UP1nBCRRB
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - marketplace
-  - name: "CDMX hangovers! 🍻"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EPds8AuOgNFH5cl9s3ypVo
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - nightlife
-      - social
-  - name: "🌎Worldwide Sticker Club 🌍"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/D93tWOKjCBVIgghNxNP56l
-    tags:
-      - collecting
-  - name: "🏠ing and Roomie Eventos!"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DNsjPsLVfQfCtGoyXQgY2n
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - nightlife
-      - events
-      - housing
   - name: Blaxicocina
     platform: whatsapp
     url: https://chat.whatsapp.com/H0l1UTY0ZqC18uVBWj5YuB
@@ -364,47 +244,6 @@ groups:
     tags:
       - wellness
       - spirituality
-  - name: Veg-Out CDMX
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HlJhee58Fm84x2754Q2OBa
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - food
-      - vegetarian
-      - vegan
-  - name: "Mama Rumba 🕺💃"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BrVW7syCAvvLpB0s4QwqMz
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - dancing
-      - nightlife
-  - name: "PLAYA COMMUNITY 🤜🏾🤛🏿"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FwrwVQbwPrT4vIz8nZedSmp
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Playa del Carmen
-    tags:
-      - community
-      - networking
-  - name: Puerto Parties & More
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HZPdfSbxKIl7r4g3Phqvfz
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Puerto Vallarta
-    tags:
-      - nightlife
-      - events
   - name: Analog Gamers CDMX
     platform: whatsapp
     url: https://chat.whatsapp.com/KqdAQHKC7EdB0lNlz4mSlv
@@ -426,16 +265,6 @@ groups:
     tags:
       - food
       - social
-  - name: E-commerce Group
-    platform: whatsapp
-    url: https://chat.whatsapp.com/ENhuyTa5GcpJnp6CrqOpBZ
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - business
-      - ecommerce
   - name: CDMX Business Owners
     platform: whatsapp
     url: https://chat.whatsapp.com/EefGYGjGOu6I59ObzYDzxB
@@ -468,7 +297,24 @@ groups:
       - makers
       - entrepreneurship
       - networking
-  - name: CDMX Dance Social
+  - name: "Mama Rumba 🕺💃"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/BrVW7syCAvvLpB0s4QwqMz
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Mexico City
+    tags:
+      - dancing
+      - nightlife
+  - name: CDMX Remote Workers
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GYdSopsvi8lCDp9J4gwPqB
+    locations:
+      - continent: North America
+        country_id: MX
+        city: Mexico City
+  - name: "CDMX Salsa Bacha 2"
     platform: whatsapp
     url: https://chat.whatsapp.com/Hz3dN8j7minL6v3IzTMYYK
     locations:
@@ -477,16 +323,6 @@ groups:
         city: Mexico City
     tags:
       - dancing
-      - social
-  - name: Cantina Crew CDMX
-    platform: whatsapp
-    url: https://chat.whatsapp.com/D0rOpfIj7I79UPymLmdeDr
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - nightlife
       - social
   - name: Morning JumpStart
     platform: whatsapp
@@ -498,7 +334,7 @@ groups:
     tags:
       - wellness
       - productivity
-  - name: "Travelers in Nicaragua 🇳🇮"
+  - name: "Travelers in Nicaragua🇳🇮"
     platform: whatsapp
     url: https://chat.whatsapp.com/K9vdzQs7W233nnpReyJIir
     locations:
@@ -506,7 +342,70 @@ groups:
         country_id: NI
     commercial: true
 
-  - name: South/Central America Travelers
+  - name: "Travelers in Peru 🇵🇪"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FugWuXxR2UV5rjAf9G8gzO
+    locations:
+      - continent: South America
+        country_id: PE
+
+  - name: "Travelers in Ecuador 🇪🇨"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DB3gnjnFVZ8AtI2hpjVgq9
+    locations:
+      - continent: South America
+        country_id: EC
+
+  - name: "Travelers in Brazil 🇧🇷"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/KZiOmWlZgqJGr8LPcIoQy9
+    locations:
+      - continent: South America
+        country_id: BR
+
+  - name: "Travelers in Mexico 🇲🇽"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/DT4TTB3qRtZHqN9Lf9pSBo
+    locations:
+      - continent: North America
+        country_id: MX
+
+  - name: "Travelers in Panama 🇵🇦"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LrBXlvPwTPlJ3q2N7QJwda
+    locations:
+      - continent: Central America
+        country_id: PA
+
+  - name: "Travelers in chile 🇨🇱"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/LNotWKkR2Gi8all5ieXqPg
+    locations:
+      - continent: South America
+        country_id: CL
+
+  - name: "Travelers in Belize 🇧🇿"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/HegAzmj7rEKKafzXszVjjW
+    locations:
+      - continent: Central America
+        country_id: BZ
+
+  - name: "Travelers in Bolivia 🇧🇴"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FFGDb2AOc3P4mIPiK7RbVq
+    locations:
+      - continent: South America
+        country_id: BO
+
+  - name: "Travelers in Guatemala 🇬🇹"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CZSMVXtbcz73dcBzDeHJOo
+    locations:
+      - continent: Central America
+        country_id: GT
+
+  - name: "Backpackers in West Asia"
     platform: whatsapp
     url: https://chat.whatsapp.com/DLACqBov8OyFaRJEsB4Fge
     locations:
@@ -524,41 +423,7 @@ groups:
     language_id: de
     tags:
       - overlanding
-  - name: "Overlander Mules South & Central America"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FFd6EGfbZbX2piHGJZwEkS
-    locations:
-      - continent: Central America
-      - continent: South America
-    language_id: de
-    tags:
-      - overlanding
-      - backpacking
-  - name: "Motos in Mexico and Central America"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/J1x5xvdIGahFLNA7j3890P
-    locations:
-      - continent: Central America
-      - continent: South America
-    language_id: de
-    tags:
-      - overlanding
-  - name: "BUY-SELL-TRADE TRAVELERS IN THE AMERICAS"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EPdOR51wzgO0oicomi9Z9J
-    locations:
-      - continent: Central America
-      - continent: South America
-    language_id: de
-    tags:
-      - overlanding
-  - name: Backpackers in South America
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CP9HPOMf6kNLZafi2t4KoR
-    locations:
-      - continent: South America
-    tags:
-      - backpacking
+
   - name: Dutchies in Latin America
     platform: linktree
     url: https://linktr.ee/dutchies
@@ -595,7 +460,7 @@ groups:
     tags:
       - language_exchange
       - social
-  - name: Backpackers Argentina
+  - name: "Backpackers Argentina 🇦🇷☀️"
     platform: whatsapp
     url: https://chat.whatsapp.com/ICfhLe2Kr2wEfZZnxUmtUr
     locations:
@@ -603,7 +468,7 @@ groups:
         country_id: AR
     tags:
       - backpacking
-  - name: Travelers in Argentina
+  - name: "Travelers in Argentina 🇦🇷"
     platform: whatsapp
     url: https://chat.whatsapp.com/Go3yVVuDqvdICSk1xDx6s0
     locations:
@@ -611,15 +476,7 @@ groups:
         country_id: AR
     commercial: true
 
-  - name: Argentina Overlanders
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DWgiIZGnMz2JyyrOAEwZl5
-    locations:
-      - continent: South America
-        country_id: AR
-    tags:
-      - overlanding
-  - name: BAF Buenos Aires Friends
+  - name: "BAF /// Buenos Aires FRIENDS"
     platform: whatsapp
     url: https://chat.whatsapp.com/GnRRWDrGPoe3jBQvjckIw3
     locations:
@@ -639,22 +496,13 @@ groups:
     tags:
       - freelancing
       - jobs
-  - name: Compra y venta USD, EUR, ARS, BRL, USDT, cripto
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GuKMntRhgZvEX48fgSrYQo
-    locations:
-      - continent: South America
-        country_id: AR
-    tags:
-      - finance
-      - currency_exchange
-      - cryptocurrency
-  - name: Medical/Health Marketplace Argentina
+  - name: "BA Health Market & Services"
     platform: whatsapp
     url: https://chat.whatsapp.com/CZIQyoeqtYZAnPiQKcQ13n
     locations:
       - continent: South America
         country_id: AR
+        city: Buenos Aires
     tags:
       - healthcare
       - marketplace
@@ -667,7 +515,7 @@ groups:
     tags:
       - women
       - community
-  - name: Hiking in Argentina & Patagonia
+  - name: "Hiking in Argentinian Patagonia"
     platform: whatsapp
     url: https://chat.whatsapp.com/K13BMnuoKuvJiSadh4z98u
     locations:
@@ -675,15 +523,6 @@ groups:
         country_id: AR
     tags:
       - hiking
-      - outdoors
-  - name: Patagonia Bariloche & More
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Cr4CdA6dScu7rblxsQFBHN
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Bariloche
-    tags:
       - outdoors
   - name: Linktree for Buenos Aires 'BA Digital Nomads'
     platform: linktree
@@ -705,7 +544,7 @@ groups:
     tags:
       - language_exchange
       - social
-  - name: Pool Party People in BA
+  - name: "🌎 Poolparty People in BA ☀️🤽🏽‍♂🥳🍻"
     platform: whatsapp
     url: https://chat.whatsapp.com/Jaff3CuLzC8HclvIfLxIHI
     locations:
@@ -715,7 +554,7 @@ groups:
     tags:
       - social
       - events
-  - name: Photography in BA
+  - name: "Photography in Buenos Aires"
     platform: whatsapp
     url: https://chat.whatsapp.com/DdO2jpp8EibL8lD2TD1hb7
     locations:
@@ -724,7 +563,7 @@ groups:
         city: Buenos Aires
     tags:
       - photography
-  - name: BA Expat Photographers
+  - name: "BA Expat Photographers 📷"
     platform: whatsapp
     url: https://chat.whatsapp.com/GvAHNO9ab030uHQNBIMcBK
     locations:
@@ -734,7 +573,7 @@ groups:
     tags:
       - photography
 
-  - name: BA Digital Nomads Jobs
+  - name: "BA Digital Nomads Jobs 👩🏻‍💻⭐👨🏼‍💻"
     platform: whatsapp
     url: https://chat.whatsapp.com/LLhOpx9HIMF5tHyssyWly6
     locations:
@@ -743,7 +582,7 @@ groups:
         city: Buenos Aires
     tags:
       - jobs
-  - name: Money Exchange (No Brokers allowed)
+  - name: "BAF /// P2P Exchange (No Brokers allowed)"
     platform: whatsapp
     url: https://chat.whatsapp.com/LQb6yakPB559A5EaVlxtQq
     locations:
@@ -753,17 +592,7 @@ groups:
     tags:
       - finance
       - currency_exchange
-  - name: Mercado (Buy / Sell / Services)
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EHUnfslk1e7B3XHs3vP7Fl
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - marketplace
-      - buy_and_sell
-  - name: Legal & Accountant Advice
+  - name: "Legal & Accountant Advice 🇦🇷 ⚖️💰"
     platform: whatsapp
     url: https://chat.whatsapp.com/Flc2pmIptqc180TkBKkRZO
     locations:
@@ -774,48 +603,17 @@ groups:
       - legal
       - finance
       - advice
-  - name: BA Board Game Lovers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HEDW5WeL7IHJtAHiqEZbPV
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - board_games
-      - gaming
-      - hobbies
-  - name: BA Event List
+  - name: "MoodOut - Lista de Eventos - NO CHAT 🗣️ - Buenos Aires Open Group - Invite your friends!"
     platform: whatsapp
     url: https://chat.whatsapp.com/KA2X3VmDwyyKzhtiOPVJfn
     locations:
       - continent: South America
         country_id: AR
         city: Buenos Aires
+    commercial: true
     tags:
       - events
       - social
-  - name: BA Sporties
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HrRwMGiP9u9EBFUPTnHmnE
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - sports
-      - fitness
-  - name: Sports & Health at Buenos Aires
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IL03K9SiHO2HkRD512NXII
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - sports
-      - fitness
-      - health
   - name: Palermo Nomad Coworking
     platform: whatsapp
     url: https://chat.whatsapp.com/H7WW6lAQoz8KHPRtJOcMHY
@@ -826,7 +624,7 @@ groups:
     tags:
       - coworking
 
-  - name: Asadito - asados in la Lucila
+  - name: "Asadito"
     platform: whatsapp
     url: https://chat.whatsapp.com/EeWxMCMOtq0HFblAYNf1tw
     locations:
@@ -837,64 +635,7 @@ groups:
       - food
       - social
       - bbq
-  - name: Nomad Artists
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CXMqgHWbmbXFSvcDLjhilx
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - art
-      - creative
-
-  - name: "Pádel Beginners"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/L7etY1Qjrh64WXL6spuLD9
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - sports
-      - padel
-      - beginners
-  - name: Spanish painting & culture group
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HJCvpOZbgZm61ofO3whhZs
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - art
-      - culture
-      - spanish
-      - painting
-  - name: Spanish Bar & Language group
-    platform: whatsapp
-    url: https://chat.whatsapp.com/JJY3SknxwQK2Wiolqfmasv
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - language
-      - spanish
-      - social
-  - name: Outdoor Cinema Club
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DaBy9ClAEVvItYo7hlCZ0z
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - cinema
-      - movies
-      - outdoor
-      - entertainment
-  - name: Food Meetup - Argentina
+  - name: "Food meet up BA / Argentina Travellers"
     platform: whatsapp
     url: https://chat.whatsapp.com/FSiTlVNx9ZvAyj7F1T6SoR
     locations:
@@ -905,18 +646,7 @@ groups:
       - food
       - social
       - meetup
-  - name: Beer & Cheers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EqnlBWOhzfHJ6CLsZI9l0r
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - drinks
-      - beer
-      - social
-  - name: UNDER CLUB (dance, techno)
+  - name: "UNDER CLUB"
     platform: whatsapp
     url: https://chat.whatsapp.com/DWYd7WuiKFMBdHn2EAT5fA
     locations:
@@ -928,7 +658,7 @@ groups:
       - dance
       - techno
       - music
-  - name: Ping Pong Buenos Aires
+  - name: "Ping Pong Buenos Aires 🏓"
     platform: whatsapp
     url: https://chat.whatsapp.com/CR0VGPgIemQFjPABnFrXuB
     locations:
@@ -939,37 +669,6 @@ groups:
       - sports
       - ping_pong
       - table_tennis
-  - name: Club Social
-    platform: whatsapp
-    url: https://chat.whatsapp.com/G73RrbEtDs757rchINANqm
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - social
-      - networking
-  - name: Club Social 2
-    platform: whatsapp
-    url: https://chat.whatsapp.com/E73PBQ6Lawf0iWcDbYdwMS
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - social
-      - networking
-  - name: Club Social market & housing
-    platform: whatsapp
-    url: https://chat.whatsapp.com/F8dc0CyIzYm7J1kCRWwwbI
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - housing
-      - marketplace
-      - social
   - name: Mindful Nomads - Buenos Aires
     platform: whatsapp
     url: https://chat.whatsapp.com/CLXfzyvdjM5KWNdN1RZayc
@@ -981,17 +680,6 @@ groups:
       - mindfulness
       - wellness
 
-  - name: LGBT+ BA International
-    platform: whatsapp
-    url: https://chat.whatsapp.com/JadJ6iCD3z6G5vKzuTi61J
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - lgbtq
-      - community
-      - social
   - name: Hiking in Mendoza
     platform: whatsapp
     url: https://chat.whatsapp.com/HXh8WYp3GTfGTgbOZu3a5v
@@ -1003,7 +691,7 @@ groups:
       - hiking
       - outdoors
       - nature
-  - name: "Traveling in Bolivia 🧭🇧🇴"
+  - name: "𝗧𝗥𝗔𝗩𝗘𝗟𝗜𝗡𝗚 𝗜𝗡 𝗕𝗢𝗟𝗜𝗩𝗜𝗔 🧭🇧🇴"
     platform: whatsapp
     url: https://chat.whatsapp.com/C80kUNYT8GcJmit7gT8kbt
     locations:
@@ -1011,15 +699,7 @@ groups:
         country_id: BO
     tags:
       - backpacking
-  - name: "Traveling in Bolivia 🇧🇴🎒🚙🏍️⛰️"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Iuvh9hvh873IptNugih9uy
-    locations:
-      - continent: South America
-        country_id: BO
-    tags:
-      - backpacking
-      - transportation
+
   - name: MundoLingo Brazil
     platform: telegram
     url: https://t.me/+e_NGPDyykRViOGY0
@@ -1031,65 +711,8 @@ groups:
       - language
       - cultural_exchange
       - events
-  - name: Overlanders in Brazil
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BzDrTkxgNLtGLTLnPnH15w
-    locations:
-      - continent: South America
-        country_id: BR
-    tags:
-      - overlanding
-      - road_trips
-  - name: Digital Nomads Florianopolis
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EJDgKrA14ibE1pxt4l87mg
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Florianopolis
-    tags:
-      - networking
-  - name: Digital Nomads Floripa - Magic Happens Here
-    platform: whatsapp
-    url: https://chat.whatsapp.com/L54clBmXJfxLQq648M4Nc8
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Florianopolis
-    tags:
-      - networking
-  - name: Rio Friends MeetUp
-    platform: whatsapp
-    url: https://chat.whatsapp.com/L7SRFAnykqlLWmw1Bwc7b7
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - social
-      - meetup
-      - friendship
-  - name: Rio Digital Nomads 2.0
-    platform: whatsapp
-    url: https://chat.whatsapp.com/B60QYOkl0z7BUYQQScKEeS
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - networking
-  - name: Beach Day Posto 9 Fridays
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FMpZO4LKDjxAIyylRZhCQ1
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - beach
-      - social
-      - friday_events
-  - name: Rio de Janiero CS
+
+  - name: "Rio de Janeiro CS"
     platform: whatsapp
     url: https://chat.whatsapp.com/Hx4K3HKIDA2LipEXuZN7yw
     locations:
@@ -1099,7 +722,7 @@ groups:
     tags:
       - couchsurfing
       - hospitality
-  - name: Rio Pints & Meet-up
+  - name: "Rio pints & meet up"
     platform: whatsapp
     url: https://chat.whatsapp.com/JX9USdkYfKpGp4sL8KIpxF
     locations:
@@ -1110,17 +733,8 @@ groups:
       - drinks
       - social
       - meetup
-  - name: Visa Support Group
-    platform: whatsapp
-    url: https://chat.whatsapp.com/ELk4BNkkuNXDFCDPonITcR
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - visa
-      - immigration
-  - name: Buy Sell/Trade Furniture
+
+  - name: "Rio Sale,Buy,Trade,Donate"
     platform: whatsapp
     url: https://chat.whatsapp.com/FhsycEZEQIZEUIgzE47ARp
     locations:
@@ -1131,7 +745,7 @@ groups:
       - marketplace
       - furniture
       - buy_sell
-  - name: Hike-a-holics
+  - name: "Hike-a-holics RJ 🥾"
     platform: whatsapp
     url: https://chat.whatsapp.com/IpBlhKpfaEf00d85stp4wK
     locations:
@@ -1142,7 +756,7 @@ groups:
       - hiking
       - outdoors
       - nature
-  - name: Hike-a-holics (old)
+  - name: Hike-a-holics RJ 🥾 2.0
     platform: whatsapp
     url: https://chat.whatsapp.com/LfDS8HDDwDSFGulza7Xiff
     locations:
@@ -1153,18 +767,8 @@ groups:
       - hiking
       - outdoors
       - nature
-  - name: For Foodies
-    platform: whatsapp
-    url: https://chat.whatsapp.com/G1zrtnbSInIGdjSK8FbvFA
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - food
-      - culinary
-      - restaurants
-  - name: Rio Random
+
+  - name: "Random Rio Group✌🏻🇧🇷"
     description: From naked motel parties to restaurant reviews, truly random
     platform: whatsapp
     url: https://chat.whatsapp.com/FSjdKyJvpcY240RefmvSmo
@@ -1177,52 +781,6 @@ groups:
       - events
       - nightlife
       - random
-  - name: All-carnaval
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DBXCKanZEEh3HPwtARymr8
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - carnival
-      - festivals
-      - events
-  - name: Samba Schools
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Cm6OzuKLzjsECLAmsOWSBa
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - samba
-      - dance
-      - music
-      - culture
-  - name: Camarote Carnaval
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DY5zLmZsn1S3B80ucHTb69
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - carnival
-      - vip
-      - events
-      - festivals
-  - name: Dancing in Rio
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CehGfMVTKrb0QUGJi6YOLK
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - dance
-      - nightlife
-      - social
   - name: Foreigners in Barra
     platform: whatsapp
     url: https://chat.whatsapp.com/HB1RcaxO7ujL6UMIrYKmZL
@@ -1230,7 +788,7 @@ groups:
       - continent: South America
         country_id: BR
         city: Rio De Janeiro
-  - name: Business Nomad Meet-up
+  - name: "Business Nomads Rio"
     platform: whatsapp
     url: https://chat.whatsapp.com/DfdEk4xtWsu6o1oJCjACwW
     locations:
@@ -1252,62 +810,7 @@ groups:
       - movies
       - cinema
       - entertainment
-  - name: Board Gamers in RJ
-    platform: whatsapp
-    url: https://chat.whatsapp.com/JiVb6LzS7rF9jlzgvAEvga
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - board_games
-      - gaming
-      - social
-  - name: Footy
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LpPg9UPvnSC1NsX8AI6UKz
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - football
-      - soccer
-      - sports
-  - name: Volleyball
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CsH226HQsvQ9qLYzkYrSJ7
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - volleyball
-      - sports
-      - fitness
-  - name: Basketball
-    platform: whatsapp
-    url: https://chat.whatsapp.com/E1kZsflMYpW7Pi2s7fgngi
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - basketball
-      - sports
-      - fitness
-  - name: Surfing
-    platform: whatsapp
-    url: https://chat.whatsapp.com/J6kEH7UAXnH0gNQvPQS7YP
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - surfing
-      - water_sports
-      - beach
-  - name: Rio Sports Supporters
+  - name: "Rio sports supporters"
     platform: whatsapp
     url: https://chat.whatsapp.com/JTAbo2pRipJ5WXeN8bCCkY
     locations:
@@ -1329,29 +832,7 @@ groups:
       - events
       - promotions
       - social
-  - name: Festas Errejotas
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BNrAQaIcm4X0VMwq9QFVYf
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - parties
-      - nightlife
-      - events
-  - name: Festas Brasil
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GpDvyFzDesa0PynNhFROUl
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio De Janeiro
-    tags:
-      - parties
-      - nightlife
-      - events
-  - name: Festas Melhores
+  - name: "Melhores Festas RJ #4"
     platform: whatsapp
     url: https://chat.whatsapp.com/HUoqHDe1r0yFP99opmMmUz
     locations:
@@ -1362,25 +843,27 @@ groups:
       - parties
       - nightlife
       - events
-  - name: Techno Party
+  - name: "INCEPTION ✦"
     platform: whatsapp
     url: https://chat.whatsapp.com/LcCgdM08Rri7pouqcsUrRR
     locations:
       - continent: South America
         country_id: BR
         city: Rio De Janeiro
+    commercial: true
     tags:
       - techno
       - music
       - nightlife
       - parties
-  - name: Techno Party2
+  - name: "AtO₂"
     platform: whatsapp
     url: https://chat.whatsapp.com/Eob5H3a852b98OgizKDv7F
     locations:
       - continent: South America
         country_id: BR
         city: Rio De Janeiro
+    commercial: true
     tags:
       - techno
       - music
@@ -1397,16 +880,7 @@ groups:
       - nightlife
       - pub
       - guestlist
-  - name: Digital Nomads Sao Paulo
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Ijwh8BQxgu4BJKQUwDBU36
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Sao Paulo
-    tags:
-      - networking
-  - name: "Gastronômicas 🦪🍤🍝"
+  - name: "Foodies SP"
     platform: whatsapp
     url: https://chat.whatsapp.com/JHcsctmhuzQH2XtP9IdH6v
     locations:
@@ -1417,26 +891,7 @@ groups:
       - food
       - gastronomy
       - culinary
-  - name: "Kemi in São Paulo"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GcrDB4gLZTlBy5KObZPc8s
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Sao Paulo
-    tags:
-      - social
-      - community
-  - name: Overlanding Chile
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KgWcgA6BRmf4qx9PkBKC8p
-    locations:
-      - continent: South America
-        country_id: CL
-    tags:
-      - overlanding
-      - road_trips
-  - name: Digital Nomads/Expats in Chile
+  - name: "Chile Living"
     platform: whatsapp
     url: https://chat.whatsapp.com/FKCy0oYFwyn7tBOFeuUDBd
     locations:
@@ -1450,14 +905,6 @@ groups:
         country_id: CO
     tags:
       - networking
-  - name: Colombia travellers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IpxrAo0aoLmH7VbxVBrazY
-    locations:
-      - continent: South America
-        country_id: CO
-    tags:
-      - backpacking
   - name: CamperClubColombia
     platform: whatsapp
     url: https://chat.whatsapp.com/IlI6c9yEvfT0bCiqoELBDN
@@ -1466,57 +913,7 @@ groups:
         country_id: CO
     tags:
       - overlanding
-  - name: Colombia Biker ADVs
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Lgfu1NFOi3iEfZOQUP5Znh
-    locations:
-      - continent: South America
-        country_id: CO
-    tags:
-      - motorcycles
-      - biking
-      - adventure
-  - name: Travelers in Colombia
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BFeNnwP3kNl11Er9nrREwx
-    locations:
-      - continent: South America
-        country_id: CO
-    commercial: true
-    tags:
-      - backpacking
-  - name: Bogota Expats
-    platform: whatsapp
-    url: https://chat.whatsapp.com/K4ZmeuXfUQcJ46E4DKa6z1
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Bogota
-    tags:
-      - expats
-  - name: Bogota IntDev
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Dt21ZOXjEjvFJDTX3WntXp
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Bogota
-    tags:
-      - development
-      - international
-      - networking
-  - name: CS Picnic
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IcpH9bZvgAVLc7KjRV4u6W
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Bogota
-    tags:
-      - couchsurfing
-      - picnic
-      - social
-  - name: Cartagena Expats & Digital Nomads
+  - name: "Cartagena Expats & Digital Nomads ☀️"
     platform: whatsapp
     url: https://chat.whatsapp.com/Ji77amHkUNlDcB6z6pxxTJ
     locations:
@@ -1526,7 +923,7 @@ groups:
     tags:
       - expats
       - community
-  - name: Medellin Nomads & Amigos
+  - name: "Medellín Nomads & Amigos (event posts permitted 8am-10am only)"
     platform: whatsapp
     url: https://chat.whatsapp.com/EnQaDkdmkRSEqpZpEn0OEl
     locations:
@@ -1546,7 +943,7 @@ groups:
     tags:
       - meetup
       - networking
-  - name: Nomads // visitor of MDE
+  - name: "Nomads // Visitors of MDE **INACTIVE**"
     platform: whatsapp
     url: https://chat.whatsapp.com/D218VvL7GO3C6jgEvXsmgG
     locations:
@@ -1555,61 +952,30 @@ groups:
         city: Medellin
     tags:
       - visitors
-  - name: "MDE Coworking 💻"
+  - name: "Online Spanish Classes VI - ⚡ENERGIZE YOUR SPANISH ⚡"
     platform: whatsapp
     url: https://chat.whatsapp.com/F3mEXK7QMxBIs6arUiPp4x
     locations:
       - continent: South America
         country_id: CO
         city: Medellin
+    commercial: true
     tags:
       - coworking
 
-  - name: "Medellin Meetups 🙌"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LrVumJvbes2FF5P40brHQ8
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - meetup
-      - social
-      - events
-  - name: "Medellin Foodies 🙌🍜🍴"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KOw6nmA7qu369Fz1V9g2Ny
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - food
-      - culinary
-      - restaurants
-  - name: "🌳MINDFUL MEET UPS - MDE"
+  - name: "Online Spanish Classes IX - ⚡ENERGIZE YOUR SPANISH ⚡"
     platform: whatsapp
     url: https://chat.whatsapp.com/BbWkftXvsCpCGVPpZ0eUkj
     locations:
       - continent: South America
         country_id: CO
         city: Medellin
+    commercial: true
     tags:
       - mindfulness
       - wellness
       - meditation
-  - name: Laureles General
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Hiz1QZVvkoM0wn5s1IxXgb
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - laureles
-      - neighborhood
-      - community
-  - name: Sabaneta General
+  - name: "Simply Sabaneta 🇨🇴 🌈✨"
     platform: whatsapp
     url: https://chat.whatsapp.com/Ka0iMZYBrG9L62hjU5fEdQ
     locations:
@@ -1620,18 +986,7 @@ groups:
       - sabaneta
       - neighborhood
       - community
-  - name: Women General
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EUq6VaVkftR1bGzQggpUsG
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - women
-      - community
-      - social
-  - name: Christian Expats
+  - name: "Medellín Christian Expats"
     platform: whatsapp
     url: https://chat.whatsapp.com/L4blIQV7aAu3JDEiJqT547
     locations:
@@ -1642,29 +997,19 @@ groups:
       - christian
       - religion
       - expats
-  - name: LGBTQ+
+  - name: "Online Spanish Classes X - ⚡ENERGIZE YOUR SPANISH ⚡"
     platform: whatsapp
     url: https://chat.whatsapp.com/FCFNXif7Ay38aDjcYMRvsV
     locations:
       - continent: South America
         country_id: CO
         city: Medellin
+    commercial: true
     tags:
       - lgbtq
       - community
       - social
-  - name: Parents
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IACy8TCM8Te6AVNnlCt2JL
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - parents
-      - family
-      - children
-  - name: Expats in Oriente
+  - name: "MDE Expats in Oriente 🌳💒"
     platform: whatsapp
     url: https://chat.whatsapp.com/FqB190rYYFpJ1Q264DX2tv
     locations:
@@ -1686,29 +1031,7 @@ groups:
       - community
       - resources
       - directory
-  - name: Apartment Hunting
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Cl1wpaCwwU1I8cYZtPcAdn
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - housing
-      - apartments
-      - real_estate
-  - name: Buy/Sell/Trade/Donate Items
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LuKwWM6owndK429aYC5lat
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - marketplace
-      - buy_and_sell
-      - community
-  - name: MDE Job Marketplace
+  - name: "MED Job Marketplace"
     platform: whatsapp
     url: https://chat.whatsapp.com/L003SHICERo7COfH6i8Szm
     locations:
@@ -1719,18 +1042,7 @@ groups:
       - jobs
       - employment
       - networking
-  - name: Hiking Club
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KeiPGJhlm2eLoSrbBDZuKY
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - hiking
-      - outdoors
-      - fitness
-  - name: Volunteer Work
+  - name: "Volunteering In Medellín"
     platform: whatsapp
     url: https://chat.whatsapp.com/CuUi8qerJpI2GBR61ERmTR
     locations:
@@ -1741,7 +1053,7 @@ groups:
       - volunteering
       - community
       - social_impact
-  - name: Social Dancing & Classes
+  - name: "MEDELLÍN DANCE"
     platform: whatsapp
     url: https://chat.whatsapp.com/B7RxgPl8MyOAi0yBlMyBY0
     locations:
@@ -1752,7 +1064,7 @@ groups:
       - dancing
       - social
       - classes
-  - name: Medallo MTB
+  - name: "Medallo MTB 💦🚵🏼‍♀️🚵🌳"
     platform: whatsapp
     url: https://chat.whatsapp.com/ClV26kf9GanBYQaJkC7FLy
     locations:
@@ -1774,29 +1086,7 @@ groups:
       - arts
       - culture
       - creative
-  - name: "The Movie Group 🍿"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EWRlK7aTk44IEVFkuhCC0t
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - movies
-      - entertainment
-      - social
-  - name: "Texas Holdem Medellín"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/I08PZwS6LGdBs6oCAlOWfn
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - poker
-      - gaming
-      - cards
-  - name: Food Experiences
+  - name: "The MDE Social Culinary Club | 🇨🇴 Edit"
     platform: whatsapp
     url: https://chat.whatsapp.com/J7Rbxriff4M5AK6xL2dsUf
     locations:
@@ -1807,7 +1097,7 @@ groups:
       - food
       - dining
       - culinary
-  - name: Music Festivals
+  - name: "MDE Social Music Club ⚡️"
     platform: whatsapp
     url: https://chat.whatsapp.com/BDrNmuU5fz8BT5Po5iHCG6
     locations:
@@ -1818,7 +1108,7 @@ groups:
       - music
       - festivals
       - entertainment
-  - name: Brazilian Zouk Dancing
+  - name: "Zouk in Medallo"
     platform: whatsapp
     url: https://chat.whatsapp.com/KUd3W034SZ4EpN5dA0Jsh7
     locations:
@@ -1829,7 +1119,7 @@ groups:
       - dancing
       - zouk
       - brazilian
-  - name: Designers Club
+  - name: "The MDE Design Collective"
     platform: whatsapp
     url: https://chat.whatsapp.com/GsHaHUSbgtr04r3qHTxeaD
     locations:
@@ -1840,7 +1130,7 @@ groups:
       - design
       - creative
       - professional
-  - name: Board Games
+  - name: "Medellín Board Games 🎲"
     platform: whatsapp
     url: https://chat.whatsapp.com/ElbgsRbd8p16E5sUVCRICL
     locations:
@@ -1851,18 +1141,7 @@ groups:
       - board_games
       - gaming
       - social
-  - name: Acroyoga
-    platform: whatsapp
-    url: https://chat.whatsapp.com/F3YImM9GSBn4ip25LySEo3
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - yoga
-      - acrobatics
-      - fitness
-  - name: Club Conscience (Wellness club)
+  - name: "♻️ Sustainability & Veg Group 🌽"
     platform: whatsapp
     url: https://chat.whatsapp.com/IxCY0DvDovV6Ow8uHNM2qA
     locations:
@@ -1873,7 +1152,7 @@ groups:
       - wellness
       - mindfulness
       - health
-  - name: Organic Products
+  - name: "🇨🇴 Medellín Organics 🍃"
     platform: whatsapp
     url: https://chat.whatsapp.com/C3kCF1CTQPvBnAA5fPyrRw
     locations:
@@ -1884,7 +1163,7 @@ groups:
       - organic
       - health
       - shopping
-  - name: Walking Meditations
+  - name: "Comunidad de Dr Joe Dispenza en Medellin"
     platform: whatsapp
     url: https://chat.whatsapp.com/Krr0a0fpZFDAlHPdHrNnrn
     locations:
@@ -1895,7 +1174,7 @@ groups:
       - meditation
       - mindfulness
       - walking
-  - name: "🍃 Ayahuasca Ceremonies - Medellín - Javier Yagari y Johannes 🍃🥃"
+  - name: "🍃 Ayahuasca Ceremonies in Medellín/Colombia  🍃🥃"
     platform: whatsapp
     url: https://chat.whatsapp.com/IM8rehOdsDt5OF2UA7CZ29
     locations:
@@ -1917,18 +1196,7 @@ groups:
       - medicine
       - spiritual
       - healing
-  - name: MDE After Dark
-    platform: whatsapp
-    url: https://chat.whatsapp.com/JLjPJAEJopp43rNEX95zJA
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - nightlife
-      - social
-      - entertainment
-  - name: Awareness & Consciousness events
+  - name: "MDE Awareness Group 🙏💃🌱🧘🏽‍♂️✨"
     platform: whatsapp
     url: https://chat.whatsapp.com/Hg5G4XpWnfdANynL41WLtd
     locations:
@@ -1939,39 +1207,6 @@ groups:
       - consciousness
       - spiritual
       - events
-  - name: IT/Tech Medellin
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Juai959qAK42d9XXh8823U
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - technology
-      - it
-      - professional
-  - name: Medellin Compra y venta - Fair Buy/Sell/Trade
-    platform: whatsapp
-    url: https://chat.whatsapp.com/H8JZTRadF1k4d4G3MPVaXh
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - marketplace
-      - buy_and_sell
-      - trading
-  - name: Vegan and Vegeterians in Medellin
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FRhqcVwQfdWG1LUDoMmyKl
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - vegan
-      - vegetarian
-      - food
   - name: Gratitude Circle
     platform: whatsapp
     url: https://chat.whatsapp.com/DiT84sUww6eKipj9o5FY8n
@@ -1983,7 +1218,7 @@ groups:
       - gratitude
       - mindfulness
       - personal_growth
-  - name: Hollistic Wellness
+  - name: "The LOVE Tribe 😇💕🧝🏽‍♀️🧙‍♂️"
     platform: whatsapp
     url: https://chat.whatsapp.com/HPAfnS7UCUhDafwjjqdj8f
     locations:
@@ -1994,7 +1229,7 @@ groups:
       - wellness
       - holistic
       - health
-  - name: Canadians
+  - name: "🍁 Canadians in Medellin 🍁"
     platform: whatsapp
     url: https://chat.whatsapp.com/IsdSTyInbnlG2MPuahXE8N
     locations:
@@ -2005,18 +1240,7 @@ groups:
       - canadian
       - expat
       - community
-  - name: Colombians from Abroad
-    platform: whatsapp
-    url: https://chat.whatsapp.com/L9urCE9aH3L442jcNT1Jtl
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - colombian
-      - expat
-      - community
-  - name: French
+  - name: "Francophones à Medellin"
     platform: whatsapp
     url: https://chat.whatsapp.com/L5DKu8bGDOxCG6y7a858ks
     locations:
@@ -2038,7 +1262,7 @@ groups:
     tags:
       - expat
       - community
-  - name: Russians
+  - name: "Russians in Medellín 🇷🇺"
     platform: whatsapp
     url: https://chat.whatsapp.com/JMLjXiVkpyFEdFVpVHeJdp
     locations:
@@ -2049,7 +1273,7 @@ groups:
       - russian
       - expat
       - community
-  - name: MDE Sports All-Stars
+  - name: "MDE Sports All-Stars 🚲🏋️‍♀️🏊🏃"
     platform: whatsapp
     url: https://chat.whatsapp.com/FAvZfLOeSSnJAdUYwI0lWq
     locations:
@@ -2060,7 +1284,7 @@ groups:
       - sports
       - fitness
       - activities
-  - name: Another Yoga club
+  - name: "🇨🇴 Medellin Yoga & Wellness 🍃 Events"
     platform: whatsapp
     url: https://chat.whatsapp.com/EHYGFXvhbpF7byCjMt7FQl
     locations:
@@ -2071,17 +1295,6 @@ groups:
       - yoga
       - fitness
       - wellness
-  - name: Football
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IXcBgRgybsX260udORp9Di
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - football
-      - soccer
-      - sports
   - name: "🏐Volleyball Medellin"
     platform: whatsapp
     url: https://chat.whatsapp.com/JCcGgpsfKrpKf04Wp9FfPM
@@ -2093,7 +1306,7 @@ groups:
       - volleyball
       - sports
       - fitness
-  - name: Tennis
+  - name: "🎾 Tennis in Medellín 🎾"
     platform: whatsapp
     url: https://chat.whatsapp.com/IwUX9MiTcFcLoTiuOllebK
     locations:
@@ -2104,28 +1317,6 @@ groups:
       - tennis
       - sports
       - fitness
-  - name: Ping Pong in MDE
-    platform: whatsapp
-    url: https://chat.whatsapp.com/L2pr4SyKqng4bWPn0Jerab
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellin
-    tags:
-      - ping_pong
-      - table_tennis
-      - sports
-  - name: Santa Marta Expats & Digital Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GfSuzdAah9kDkL7MqrGRNv
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Santa Marta
-    tags:
-      - expat
-
-      - community
   - name: "Backpacking in Ecuador 🎒🥾"
     platform: whatsapp
     url: https://chat.whatsapp.com/JjBMo83mbokGrDIkcFz3J3
@@ -2152,15 +1343,6 @@ groups:
         country_id: EC
     tags:
       - galapagos
-  - name: Overlanders and travellers in the Guyanas
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LVZ0mF68ce8AQ853nIp8Bt
-    locations:
-      - continent: South America
-        country_id: GY
-    tags:
-      - overlanding
-      - guyanas
   - name: Discover Paraguay - Overlanders
     platform: whatsapp
     url: https://chat.whatsapp.com/JC6Or809IlOCVqcQbxzm5Z
@@ -2170,23 +1352,6 @@ groups:
     tags:
       - overlanding
       - paraguay
-  - name: "Traveling in Peru 🇵🇪🎒🚙⛰️🏍️"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/B6oR28INgH633xIVHVGUXH
-    locations:
-      - continent: South America
-        country_id: PE
-    tags:
-      - peru
-  - name: Germans in Peru!
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KcMb7gegCtg514uRTfWZKv
-    locations:
-      - continent: South America
-        country_id: PE
-    tags:
-      - expat
-      - community
   - name: MundoLingo Peru
     platform: telegram
     url: https://t.me/+rBDLSTqFISQxMGFk
@@ -2198,7 +1363,7 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: Cusco nomads and travelers
+  - name: "Cusco nomads and travellers"
     platform: whatsapp
     url: https://chat.whatsapp.com/JXZk1JO7XgH0HoXnkZerEX
     locations:
@@ -2230,18 +1395,7 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: Lima Expats and Friends
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CDjyHVOhjPY94pOGHfMEJd
-    locations:
-      - continent: South America
-        country_id: PE
-        city: Lima
-    tags:
-      - expat
-      - community
-      - social
-  - name: Lima Men's Group
+  - name: "Lima Men"
     platform: whatsapp
     url: https://chat.whatsapp.com/BvFYYIAcvnQ41lc1AQReoP
     locations:
@@ -2252,7 +1406,7 @@ groups:
       - expat
       - community
       - social
-  - name: Co-Working Cafe Meetups
+  - name: "Lima Coworking & Cafes ☕️💻💰"
     platform: whatsapp
     url: https://chat.whatsapp.com/BSYjpnaJensIIUD7znUUVv
     locations:
@@ -2263,17 +1417,6 @@ groups:
       - coworking
 
       - networking
-  - name: Exchange 2023 Lima
-    platform: whatsapp
-    url: https://chat.whatsapp.com/F01Xu8HKF3x5EGnDj6BW9H
-    locations:
-      - continent: South America
-        country_id: PE
-        city: Lima
-    tags:
-      - exchange
-      - students
-      - community
   - name: Volleyball - Lima
     platform: whatsapp
     url: https://chat.whatsapp.com/LgvEMYyVqrkJAuSm84ZXYl
@@ -2285,7 +1428,7 @@ groups:
       - sports
       - volleyball
       - activities
-  - name: Hiking
+  - name: "Hiking Group Lima"
     platform: whatsapp
     url: https://chat.whatsapp.com/DJUIlp3Ezww3vAfK8NJOk6
     locations:
@@ -2296,7 +1439,7 @@ groups:
       - hiking
       - outdoors
       - activities
-  - name: "Tribe Cerros 🎒☘️🌳🌵🌸 (Second Hiking Group)"
+  - name: "Trekking, hiking, picnic y playa🏕️ 🎒☘️🌳🌵🌸"
     platform: whatsapp
     url: https://chat.whatsapp.com/C4EteDvNbqQ5sDRZTT9pFB
     locations:
@@ -2307,7 +1450,7 @@ groups:
       - hiking
       - outdoors
       - activities
-  - name: Paintball
+  - name: "Paintball!"
     platform: whatsapp
     url: https://chat.whatsapp.com/J55Xkkmmpnw3wbhJQVGFbk
     locations:
@@ -2329,7 +1472,7 @@ groups:
       - dance
       - salsa
       - bachata
-  - name: Dog Lover (For Dog Walks, etc.)
+  - name: "🐶🐱 Pets LOVER"
     platform: whatsapp
     url: https://chat.whatsapp.com/CSnB6S89FmR0WBEC3jBRXM
     locations:
@@ -2340,29 +1483,7 @@ groups:
       - pets
       - dogs
       - activities
-  - name: Lima Day Parties
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KQna4x3uBe3BFo0Qd08nAF
-    locations:
-      - continent: South America
-        country_id: PE
-        city: Lima
-    tags:
-      - parties
-      - social
-      - entertainment
-  - name: Nightlife
-    platform: whatsapp
-    url: https://chat.whatsapp.com/COpZ3q0F8nf4FERDDPILhi
-    locations:
-      - continent: South America
-        country_id: PE
-        city: Lima
-    tags:
-      - nightlife
-      - entertainment
-      - social
-  - name: Expatriates in Cusco
+  - name: "We ❤️ Cusco 🍻🇵🇪"
     platform: whatsapp
     url: https://chat.whatsapp.com/CDC3O67oFMmJfbc2qh5m4o
     locations:
@@ -2372,7 +1493,7 @@ groups:
     tags:
       - social
       - networking
-  - name: Travelling overland in Uruguay
+  - name: "Uruguay Overlanders 🇺🇾🦭🚗🎒"
     platform: whatsapp
     url: https://chat.whatsapp.com/K9OR05vKihVCGVCeSHYXYG
     locations:
@@ -2381,24 +1502,6 @@ groups:
     tags:
       - overlanding
       - uruguay
-  - name: "Venezuela 🇻🇪💥"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KNIZIxVJg8L07duupFtuXp
-    locations:
-      - continent: South America
-        country_id: VE
-    tags:
-      - venezuela
-      - community
-  - name: Overlanding Venezuela English
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FSQkIWLpiCpBRblQuvrQyH
-    locations:
-      - continent: South America
-        country_id: VE
-    tags:
-      - overlanding
-      - venezuela
   - name: "DAHAB FORUM 🌴"
     platform: telegram
     url: https://t.me/DahabForum
@@ -2418,15 +1521,6 @@ groups:
     tags:
       - overlanding
       - africa
-  - name: Cape Town Travellers, Nomads and Couchsurfers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IoAVHkezT1W5J3NoXRd8Ry
-    locations:
-      - continent: Africa
-        country_id: ZA
-        city: Cape Town
-    tags:
-      - couchsurfing
   - name: Camps Bay, Bakoven, Sea Point, Fresnaye & Bantry Bay Rentals
     platform: whatsapp
     url: https://chat.whatsapp.com/KQCDLehUTYWDA7r4I3Jmb0
@@ -2438,20 +1532,22 @@ groups:
       - housing
       - rentals
       - accommodation
-  - name: Mzungu Africa Group
+  - name: "Mzungu- Backpack Africa 🦁"
     platform: whatsapp
     url: https://chat.whatsapp.com/Fl0f0kHY618ByU41YV7bPy
     locations:
       - continent: Africa
+    commercial: true
     tags:
       - networking
       - social
       - backpacking
-  - name: Mzungu West Africa Group
+  - name: "Mzungu.org - West Africa 🦍"
     platform: whatsapp
     url: https://chat.whatsapp.com/IgfqE1JOZjy8mCw7ahGEX9
     locations:
       - continent: Africa
+    commercial: true
     tags:
       - networking
       - social
@@ -2459,6 +1555,7 @@ groups:
   - name: Mzungu Uganda & Kenya Group
     platform: whatsapp
     url: https://chat.whatsapp.com/JQEy1LGnUuVIUbKLEDiPZq
+    commercial: true
     locations:
       - continent: Africa
         country_id: UG
@@ -2468,7 +1565,8 @@ groups:
       - networking
       - social
       - backpacking
-  - name: Mzungu South Africa Group
+  - name: "South Africa 🇿🇦 by Mzungu"
+    commercial: true
     platform: whatsapp
     url: https://chat.whatsapp.com/JNWRshG4m64E4FyXK3gj0N?mode=wwt
     locations:
@@ -2478,12 +1576,13 @@ groups:
       - networking
       - social
       - backpacking
-  - name: Mzungu Namibia Group
+  - name: "Namibia 🇳🇦🏜- by Mzungu.org"
     platform: whatsapp
     url: https://chat.whatsapp.com/ITkIJ6x1Xpn2dt8h8GbH6L?mode=wwt
     locations:
       - continent: Africa
         country_id: NA
+    commercial: true
     tags:
       - networking
       - social
@@ -2491,6 +1590,7 @@ groups:
   - name: Mzungu Madagascar Group
     platform: whatsapp
     url: https://chat.whatsapp.com/Kg6twpaRwO9DMZd9URtFC9
+    commercial: true
     locations:
       - continent: Africa
         country_id: MG
@@ -2498,9 +1598,10 @@ groups:
       - networking
       - social
       - backpacking
-  - name: Mzungu Ethiopia Group
+  - name: "Ethiopia 🇪🇹🐒 by Mzungu.org"
     platform: whatsapp
     url: https://chat.whatsapp.com/HoAsuyaRkKC3yyjpy4KIqX?mode=wwt
+    commercial: true
     locations:
       - continent: Africa
         country_id: ET
@@ -2510,6 +1611,7 @@ groups:
       - backpacking
   - name: Mzungu Tanzania & Zanzibar Group
     platform: whatsapp
+    commercial: true
     url: https://chat.whatsapp.com/LXhlZ2P0RvI84NIHeToRgZ
     locations:
       - continent: Africa
@@ -2536,17 +1638,6 @@ groups:
     tags:
       - overlanding
       - asia
-  - name: Southeast Asia Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GZGmk6YxCDdI6gAWEa1gF6
-    locations:
-      - continent: Asia
-  - name: Cambodia Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KBhFHifsBZxF0Q3siOG3yj
-    locations:
-      - continent: Asia
-        country_id: KH
   - name: "Backpackers in Cambodia 🇰🇭"
     platform: whatsapp
     url: https://chat.whatsapp.com/EoQR2PcRln908KhUpit4dv
@@ -2555,12 +1646,6 @@ groups:
         country_id: KH
     tags:
       - backpacking
-  - name: India Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/K3q23k9F6M4IWHKLKI7m0E
-    locations:
-      - continent: Asia
-        country_id: IN
   - name: "Backpackers in India 🇮🇳"
     platform: whatsapp
     url: https://chat.whatsapp.com/H8cXuNXuZdRDIW5C0EsZa6
@@ -2577,15 +1662,6 @@ groups:
         country_id: ID
     tags:
       - backpacking
-  - name: Bali Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GYVg06zZnnRBxbhBE8k61d
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - social
   - name: "Backpackers in Bali 🇮🇩"
     platform: whatsapp
     url: https://chat.whatsapp.com/DtzSMxbvwgDBTJRW28mRgk
@@ -2604,29 +1680,7 @@ groups:
         city: Bali
     tags:
       - backpacking
-  - name: "🌀Bali Nomads Giving Back🌀"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Gq8sjbZBKFk6iUc78XRqdz
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - volunteering
-      - charity
-      - community
-  - name: Canggu Men
-    platform: whatsapp
-    url: https://chat.whatsapp.com/ClpnSc1ZOv46uRki6nH0KH
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - men
-      - social
-      - community
-  - name: Outpost (Hostel) Ubud Members
+  - name: "Outpost Ubud Members"
     platform: whatsapp
     url: https://chat.whatsapp.com/JktOfABz70f5ODed0MLbhA
     locations:
@@ -2673,13 +1727,6 @@ groups:
         country_id: MY
     tags:
       - backpacking
-  - name: Kuala Lumpur Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CNBEaZUhOcUDKOCdDMLYag
-    locations:
-      - continent: Asia
-        country_id: MY
-        city: Kuala Lumpur
   - name: "Backpackers in Maldives 🇲🇻"
     platform: whatsapp
     url: https://chat.whatsapp.com/Jc7OkH7uAFKKfH0PeauBNT
@@ -2707,12 +1754,6 @@ groups:
         country_id: NP
     tags:
       - backpacking
-  - name: Philippines Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/ICZ83CBak5JGtZbbtq3xUZ
-    locations:
-      - continent: Asia
-        country_id: PH
   - name: "Backpackers in Philippines 🇵🇭"
     platform: whatsapp
     url: https://chat.whatsapp.com/CjVSXSMUDBoKOwvcZ0NwqE
@@ -2732,12 +1773,6 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: Singapore Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GjWgx4eLaDH0ajYkNh7bnP
-    locations:
-      - continent: Asia
-        country_id: SG
   - name: "Backpackers in Singapore 🇸🇬"
     platform: whatsapp
     url: https://chat.whatsapp.com/JkDBE8gBoMx1OGrkhRI0WB
@@ -2757,13 +1792,7 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: South Korea Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/E8JtEiu7YTA7WNGeLCj5au
-    locations:
-      - continent: Asia
-        country_id: KR
-  - name: "Korea Backpackers 🇰🇷"
+  - name: "Korea Backpackers🇰🇷"
     platform: whatsapp
     url: https://chat.whatsapp.com/FtnHvR3lkrF5XCgCaGvN7b
     locations:
@@ -2790,14 +1819,14 @@ groups:
         country_id: LK
     tags:
       - backpacking
-  - name: "Digital nomads Sri Lanka 🇱🇰"
+  - name: "DN Sri Lanka Main group"
     platform: whatsapp
     url: https://chat.whatsapp.com/IKlgoOhlEBV71NbhBCeQcj
     locations:
       - continent: Asia
         country_id: LK
 
-  - name: Sri Lanka Nomads
+  - name: "🇱🇰 Sri Lanka Nomads 🤙"
     platform: whatsapp
     url: https://chat.whatsapp.com/EFxtGC06nYP1idWVFfjzft
     locations:
@@ -2810,12 +1839,6 @@ groups:
       - continent: Asia
         country_id: TW
 
-  - name: Thailand Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BtP78LZqIJNBafgHbaR9RH
-    locations:
-      - continent: Asia
-        country_id: TH
   - name: "Backpackers in Thailand 🇹🇭"
     platform: whatsapp
     url: https://chat.whatsapp.com/CFIy6tKpj4VABoGg9yhLAZ
@@ -2853,14 +1876,6 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: Digital Nomads Chiang Mai
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GrgKJ03yhweA8efZnw80XG
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Chiang Mai
-
   - name: "Backpackers in Vietnam 🇻🇳"
     platform: whatsapp
     url: https://chat.whatsapp.com/EOKNlO0BpsKL3eR6tkfBbA
@@ -2869,36 +1884,9 @@ groups:
         country_id: VN
     tags:
       - backpacking
-  - name: Vietnam Questions & Tips
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DOyp1WtIVA47IeYXUUNNFz
-    locations:
-      - continent: Asia
-        country_id: VN
-
-  - name: Food Group (Da Nang/Hoi An)
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BboqGzu1nt0DuvEIWivGJm
-    locations:
-      - continent: Asia
-        country_id: VN
-        city: Da Nang
-      - continent: Asia
-        country_id: VN
-        city: Hoi An
-    tags:
-      - food
-      - dining
-      - restaurants
-  - name: Vietnam DNs & Travellers
+  - name: "Online Spanish Classes V - ⚡ENERGIZE YOUR SPANISH ⚡"
     platform: whatsapp
     url: https://chat.whatsapp.com/D6aS5W7arnLLVHfCpyn4ip
-    locations:
-      - continent: Asia
-        country_id: VN
-  - name: Vietnam Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KGl3CPA9LeVKvK87MtZhmg
     locations:
       - continent: Asia
         country_id: VN
@@ -2913,31 +1901,6 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: Da Nang Nomad Meet Ups
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KDpgku6pV0tCraUs48Lzdv
-    locations:
-      - continent: Asia
-        country_id: VN
-        city: Da Nang
-    tags:
-      - meetups
-      - social
-  - name: Hanoi DNs
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Gf6yfPLjAx5HpSqiIFXOlP
-    locations:
-      - continent: Asia
-        country_id: VN
-        city: Hanoi
-
-  - name: Hoi An Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FrsX6p5WadCDkBLNq1LERW
-    locations:
-      - continent: Asia
-        country_id: VN
-        city: Hoi An
   - name: "Traveling Antarctica 🇦🇶"
     platform: whatsapp
     url: https://chat.whatsapp.com/IRW7EQnzJuLGFlX7TbF1ww
@@ -2988,15 +1951,6 @@ groups:
       - language_exchange
       - social
       - networking
-  - name: Smileys Coworkers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KyuiRGdjHm7ErkCe3BHGGX
-    locations:
-      - continent: Asia
-        country_id: TR
-        city: Istanbul
-    tags:
-      - networking
   - name: Smileys Community
     platform: instagram
     url: https://www.instagram.com/smileys.community
@@ -3009,7 +1963,7 @@ groups:
       - sport
       - party
       - houring
-  - name: Neighbours Citywide Capetown
+  - name: "Neighbours Citywide⚡️"
     platform: whatsapp
     url: https://chat.whatsapp.com/FCgy7oIu8xULi2rkBwoB8X
     locations:
@@ -3018,7 +1972,7 @@ groups:
         city: Cape Town
     tags:
       - community
-  - name: Bangkok Digital Nomads Community
+  - name: "Bangkok Digital Nomads 2025"
     platform: whatsapp
     url: https://chat.whatsapp.com/F6aI5O81eVeDnLcuWFoSnC
     locations:
@@ -3054,7 +2008,7 @@ groups:
         city: Bangkok
     tags:
       - networking
-  - name: Digital Nomads Sri Lanka
+  - name: "Nomads in Sri Lanka"
     platform: whatsapp
     url: https://chat.whatsapp.com/C7iSQsJVeliAPiv0bMzswV
     locations:
@@ -3111,16 +2065,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Nomads Food Adventures
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GIkZn1wDasRJCupUADWp6R
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - food
-      - social
   - name: Argentina Expat Lounge
     platform: whatsapp
     url: https://chat.whatsapp.com/FFvmMr8xBJp1PSeEVNgHM6
@@ -3134,45 +2078,6 @@ groups:
   - name: BA Digital Nomads
     platform: meetup
     url: https://www.meetup.com/es-ES/ba-digital-nomads/
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - networking
-      - social
-  - name: BA Digital Nomads Housing
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DZvh0gBEmKKAeL84lD7ZzY
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - accommodation
-      - networking
-  - name: BA Digital Nomads IV
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Ep0E21943MkFqNq2koeKm7
-    locations:
-      - continent: South America
-        country_id: AR
-    tags:
-      - networking
-      - social
-  - name: BA Digital Nomads Rentals
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CQzD6S9JojQ4YsbhzIVuD4
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - accommodation
-      - networking
-  - name: Buenos Aires - BA Digital Nomads III
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Jk611BXD0MJ1By0nc95LPU
     locations:
       - continent: South America
         country_id: AR
@@ -3319,37 +2224,7 @@ groups:
     tags:
       - accommodation
       - networking
-  - name: Rio Foodies
-    platform: whatsapp
-    url: https://chat.whatsapp.com/L42xttFzPVF1LDCq5ViqDc
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio de Janeiro
-    tags:
-      - food
-      - social
-  - name: Rio Digital Nomads 2.0
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DmLUcTjfnNI5OrWanYuMbd
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio de Janeiro
-    tags:
-      - networking
-      - social
-  - name: Coworking / Laptop Guardians
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DfX6lzEnvsh3TbaXxDy34X
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio de Janeiro
-    tags:
-      - networking
-      - social
-  - name: Rentals (Long Term)
+  - name: "LT Rental has moved"
     platform: whatsapp
     url: https://chat.whatsapp.com/Exk0ZuWAqFiJPz2bZ4lv2a
     locations:
@@ -3359,7 +2234,7 @@ groups:
     tags:
       - accommodation
       - networking
-  - name: Rentals (Short Term)
+  - name: "ST Rental has moved"
     platform: whatsapp
     url: https://chat.whatsapp.com/IK459KBZqODJcAM3T0JY3v
     locations:
@@ -3369,7 +2244,7 @@ groups:
     tags:
       - accommodation
       - networking
-  - name: Beach Group
+  - name: "Rio Nomad Beach ☀️🏖"
     platform: whatsapp
     url: https://chat.whatsapp.com/H8Qh46kDNli2LBkorwyl1a
     locations:
@@ -3389,73 +2264,13 @@ groups:
     tags:
       - sports
       - social
-  - name: Tennis Group Rio 🎾
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IIXb7fGz4BpDNRumY5y8VR
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio de Janeiro
-    tags:
-      - sports
-      - social
-  - name: Running 🏃‍♂️
+  - name: "Running in Rio"
     platform: whatsapp
     url: https://chat.whatsapp.com/EWe9IdZxfz9IDXnzsJBFwi
     locations:
       - continent: South America
         country_id: BR
         city: Rio de Janeiro
-    tags:
-      - sports
-      - social
-  - name: Rio Awareness Group 🧘‍♂️
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CHTUVpCiV78Ad9zyal45BA
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Rio de Janeiro
-    tags:
-      - sports
-      - social
-  - name: Digital Nomads Belo Horizonte
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IVA6rj2M4do1wY5sLyb8TF
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Belo Horizonte
-    tags:
-      - social
-      - meetups
-  - name: Ilha Grande Explorers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CaOFy9WQFsBJpSAIy6pPBk
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Ilha Grande
-    tags:
-      - sports
-      - social
-  - name: Digital Nomads Recife
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Hh9V4pCU0NOEiocXZm0t8Z
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Recife
-    tags:
-      - sports
-      - social
-  - name: Buzios/Arraial de Cabo
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EcbzAXz2i9n8keWHtrqeLs
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Arraial de Cabo
     tags:
       - sports
       - social
@@ -3647,7 +2462,7 @@ groups:
     tags:
       - accommodation
       - networking
-  - name: Cartagena Nomads
+  - name: "Cartagena Nomads☀️🙌🏻"
     platform: whatsapp
     url: https://chat.whatsapp.com/D01qyhpRdme4VSAjhtJsXo
     locations:
@@ -3657,16 +2472,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Properties Panoramico
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HPkj17iBrwKE1Xfogsmkvy
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Bogota
-    tags:
-      - accommodation
-      - networking
   - name: Santa Teresa Beach Digital Nomads
     platform: facebook
     url: https://www.facebook.com/groups/551545332474420/
@@ -3733,16 +2538,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Split DNs
-    platform: whatsapp
-    url: https://chat.whatsapp.com/JFikvtZmWfuEHlc1FXz4Fy
-    locations:
-      - continent: Europe
-        country_id: HR
-        city: Split
-    tags:
-      - networking
-      - social
   - name: Saltwater Nomads
     platform: meetup
     url: https://www.meetup.com/saltwater-nomads/
@@ -3790,42 +2585,13 @@ groups:
     tags:
       - networking
       - social
-  - name: Nomads in Croatia
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EtbWk1LPyPLI4D1T29JObs
-    locations:
-      - continent: Europe
-        country_id: HR
-    tags:
-      - networking
-      - social
-  - name: Paphos Chill & Activity
+  - name: "Paphos Chill Group"
     platform: whatsapp
     url: https://chat.whatsapp.com/LLZOOsrmlDV0TFdIvC4oBm
     locations:
       - continent: Europe
         country_id: CY
         city: Paphos
-    tags:
-      - general
-      - social
-  - name: Nicosia Chill Group ☀🎊👨‍💻🍜🍸
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DpwkDERUR109njI7SsLQXJ
-    locations:
-      - continent: Europe
-        country_id: CY
-        city: Nicosia
-    tags:
-      - general
-      - social
-  - name: Limassol Chill Group ☀🏄🏼‍♂👨‍💻🍜
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Hcg6avaSjXuI1yYPBd7C6O
-    locations:
-      - continent: Europe
-        country_id: CY
-        city: Limassol
     tags:
       - general
       - social
@@ -3860,15 +2626,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Czechia - Nomads in Czech Republic
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CABgEVhyD4M1VByRic2jAP
-    locations:
-      - continent: Europe
-        country_id: CZ
-    tags:
-      - networking
-      - social
   - name: Copenhagen Remote Workers, Freelancers and Digital Nomads
     platform: meetup
     url: https://www.meetup.com/copenhagen-remote-workers-freelancers-and-digital-nomads/
@@ -3885,16 +2642,6 @@ groups:
     locations:
       - continent: South America
         country_id: EC
-    tags:
-      - networking
-      - social
-  - name: Dahab Digital Nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DD6GNpu2i4bF8Z0HqozfB4
-    locations:
-      - continent: Africa
-        country_id: EG
-        city: Dahab
     tags:
       - networking
       - social
@@ -3964,16 +2711,6 @@ groups:
       - continent: Europe
         country_id: FR
         city: Nice
-    tags:
-      - networking
-      - social
-  - name: 🇬🇪 Social Meet-up 2 💚
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DJC3ns2jnV4I8EbIK69eyg
-    locations:
-      - continent: Europe
-        country_id: GE
-        city: Tbilisi
     tags:
       - networking
       - social
@@ -4182,16 +2919,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Nomad Tikal ⭐️
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Bv0HYObVDsL7ow9OWopTj1
-    locations:
-      - continent: Central America
-        country_id: GT
-        city: Tikal
-    tags:
-      - networking
-      - social
   - name: Digital Nomads in Hong Kong
     platform: meetup
     url: https://www.meetup.com/digitalnomadhongkong/
@@ -4262,35 +2989,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Digital Nomads India
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CKoMJgwo2QHBmUBssdZp8A
-    locations:
-      - continent: Asia
-        country_id: IN
-    tags:
-      - networking
-      - social
-  - name: nOmAdS in DELHI NCR
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Ge7gYQKRdd5GZGjzUI721b
-    locations:
-      - continent: Asia
-        country_id: IN
-        city: Delhi
-    tags:
-      - networking
-      - social
-  - name: Lombok Nomads 👩🏼‍💻👨🏽‍💻🏝️💫
-    platform: whatsapp
-    url: https://chat.whatsapp.com/G2f3i2LowtiBJreIpqiisg
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Lombok
-    tags:
-      - networking
-      - social
   - name: Indonesia
     platform: reddit
     url: https://www.reddit.com/r/indonesia/
@@ -4319,47 +3017,7 @@ groups:
     tags:
       - networking
       - social
-  - name: "🇮🇩 Bali Coworking 💻:"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EYnZPPsSqME9F1TpEJvWQs
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - networking
-      - social
-  - name: "🇮🇩 Bali in Ubud 🍃:"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/H16a9fRkqWKLUS9AGZfqxz
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - networking
-      - social
-  - name: "🇮🇩 Bali in Uluwatu 🌊:"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GT76ePV9u2O7cZpxnzoQw3
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - networking
-      - social
-  - name: "🇮🇩 Bali Long Termers 🛵:"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LZoLXsf8jbILfeP2Ph5PN2
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - networking
-      - social
-  - name: "🇮🇩 What’s Poppin in Bali 💥:"
+  - name: "What’s Poppin in Bali 💥"
     platform: whatsapp
     url: https://chat.whatsapp.com/EN2GpmVAF5HAeefZf5vu55
     locations:
@@ -4389,47 +3047,7 @@ groups:
     tags:
       - networking
       - business
-  - name: Bali Digital Nomads 👨‍💻👩‍💻
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Di0b8sniyNb8qvWCBp37UU
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - sports
-      - networking
-  - name: Bali Nomads 4.0 🤙🏼
-    platform: whatsapp
-    url: https://chat.whatsapp.com/G6lVh7dEaIWKLSRQKQIY7X
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - networking
-      - social
-  - name: Bali Nomads 5.0 🤙🏼
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GLBjO529sxGKE2yPxjY2ms
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - networking
-      - social
-  - name: Bali Nomads Crypto/NFT 🪙🖼
-    platform: whatsapp
-    url: https://chat.whatsapp.com/F1NwOiYOfpyGr0vy55T5F8
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - web3
-      - networking
-  - name: Bali Nomads Entrepreneurs
+  - name: "*OLD* Bali Nomads Entrepreneurs"
     platform: whatsapp
     url: https://chat.whatsapp.com/EsUDpnJwFLC6BhvNfNIYms
     locations:
@@ -4438,36 +3056,6 @@ groups:
         city: Bali
     tags:
       - business
-      - networking
-  - name: Bali Nomads Fit 💪
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KV34TwXXY7e5ImLCtb2dCo
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - networking
-      - social
-  - name: Bali Nomads Surfers 🏄🏻‍♂️🏄🏻‍♀️
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CTEtNunshOlK9fTRzs3oAW
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - sports
-      - networking
-  - name: Canggu Find A Home 🏡 (NEW)
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HLdIhRKtL2B1hoNrXbhkPB
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - accommodation
       - networking
   - name: Canggu Find A Home 🏡 (NEW)
     platform: telegram
@@ -4479,7 +3067,7 @@ groups:
     tags:
       - accommodation
       - networking
-  - name: Uluwatu Find A Home 🏡 🏄 (NEW)
+  - name: "The Bukit Peninsula - OLD"
     platform: whatsapp
     url: https://chat.whatsapp.com/Hvai7S3LyTG2c4qRoyIPSA
     locations:
@@ -4509,7 +3097,7 @@ groups:
     tags:
       - accommodation
       - networking
-  - name: Canggu 🏐🎷 Events
+  - name: "Bali Weekly Events"
     platform: whatsapp
     url: https://chat.whatsapp.com/EYYw3er3IBf8QOepDSDkSk
     locations:
@@ -4549,16 +3137,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Nomies Dinner Club 🌮🍣🥡
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Jwx7j7kBjtBFc3k3s7lVYE
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - food
-      - networking
   - name: OffChain Bali
     platform: telegram
     url: https://t.me/+GFi2Esj5s15jMTA1
@@ -4569,16 +3147,6 @@ groups:
     tags:
       - networking
       - web3
-  - name: Solo Travelers to Bali 🇮🇩
-    platform: whatsapp
-    url: https://chat.whatsapp.com/E9MMvOVTQ9L8XD2lTjcHfK
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - networking
-      - social
   - name: Uluwatu Digital Nomads
     platform: facebook
     url: https://www.facebook.com/groups/286421615897348/
@@ -4665,15 +3233,6 @@ groups:
     locations:
       - continent: Europe
         country_id: IT
-    tags:
-      - networking
-      - social
-  - name: 🇯🇵 Japan Nomads 🎒🤙
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KqyxRoYNZen8PaE7m2xZvU
-    locations:
-      - continent: Asia
-        country_id: JP
     tags:
       - networking
       - social
@@ -4794,16 +3353,6 @@ groups:
     tags:
       - networking
       - social
-  - name: AcroYoga Puerto 🤸🏽‍♀️
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CdH5Yg5UtrkFQS1SZ9fHj3
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Puerto Escondido
-    tags:
-      - sports
-      - networking
   - name: Digital Nomads Puerto Escondido
     platform: facebook
     url: https://www.facebook.com/groups/3176695115944845/
@@ -4824,17 +3373,7 @@ groups:
     tags:
       - networking
       - social
-  - name: PDC Love, Light & Energy
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IkiLqC4fds1Cv5os4Hhdc5
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Playa Del Carmen
-    tags:
-      - social
-      - networking
-  - name: Playa del Carmen👨‍💻Nomads
+  - name: "PDC - DN - Group"
     platform: whatsapp
     url: https://chat.whatsapp.com/BjojZZrvPus5c6zqjbbcWE
     locations:
@@ -4844,16 +3383,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Playa Foodies
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FYIdfyAxoJP3UwDVHletNQ
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Playa Del Carmen
-    tags:
-      - food
-      - networking
   - name: Oaxaca Expats & Nomads
     platform: whatsapp
     url: https://chat.whatsapp.com/LmU655cbiOB4bBCPryfhih
@@ -4874,16 +3403,6 @@ groups:
     tags:
       - networking
       - expats
-  - name: CDMX Events🍷by ALD
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IzvD47KeRUk2bruvRRqxmq
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - social
-      - networking
   - name: Comedy Night Meet-Up
     platform: whatsapp
     url: https://chat.whatsapp.com/LjuDTu0PfTkDgvH4PSjNx8
@@ -4894,7 +3413,7 @@ groups:
     tags:
       - social
       - networking
-  - name: Doing business in Mexico
+  - name: "Mexico"
     platform: whatsapp
     url: https://chat.whatsapp.com/H93Z1tuTzPk4InfXSATvsM
     locations:
@@ -4903,16 +3422,6 @@ groups:
         city: Mexico City
     tags:
       - business
-      - networking
-  - name: International Thursday 3
-    platform: whatsapp
-    url: https://chat.whatsapp.com/B8YvenrrgTA10TQ3Izt6vp
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Mexico City
-    tags:
-      - social
       - networking
   - name: Mexico City Digital Nomads
     platform: facebook
@@ -4924,7 +3433,7 @@ groups:
     tags:
       - networking
       - social
-  - name: Mexico Creative Meets ✨
+  - name: "US Creative Meets ✨"
     platform: whatsapp
     url: https://chat.whatsapp.com/B6MAwERVLYFHpPYpVmTBS7
     locations:
@@ -4937,15 +3446,6 @@ groups:
   - name: Digital Nomads México
     platform: facebook
     url: https://www.facebook.com/groups/DigitalNomadsMexico/
-    locations:
-      - continent: North America
-        country_id: MX
-    tags:
-      - networking
-      - social
-  - name: Digital Nomads Mexico 🇲🇽🪅
-    platform: whatsapp
-    url: https://chat.whatsapp.com/ELQfGtuKQiZIFp35iIPRWA
     locations:
       - continent: North America
         country_id: MX
@@ -5069,9 +3569,10 @@ groups:
     tags:
       - accommodation
       - networking
-  - name: Siargao Digital nomads chat
+  - name: "Siargao Digital Nomads Community 💚 (By Coco Space)"
     platform: whatsapp
     url: https://chat.whatsapp.com/D9ZJbKI1pAx563aNTwIQsP
+    commercial: true
     locations:
       - continent: Asia
         country_id: PH
@@ -5266,17 +3767,7 @@ groups:
     tags:
       - networking
       - accommodation
-  - name: Portugal - Lisbon Hangout 2022/23
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Gw2zwGk5ZmyCEVRivUVzv1
-    locations:
-      - continent: Europe
-        country_id: PT
-        city: Lisbon
-    tags:
-      - meetups
-      - social
-  - name: Portugal - Meetup Lisbon
+  - name: "Meetup Lisbon"
     platform: whatsapp
     url: https://chat.whatsapp.com/EGFZyfYzIMNEWfmxeP07mE
     locations:
@@ -5509,16 +4000,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Tenerife Digital Nomads💻🏝
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LXHogchmannHwq1k3iI0eK
-    locations:
-      - continent: Europe
-        country_id: ES
-        city: Tenerife
-    tags:
-      - networking
-      - social
   - name: Tenerife Remote Workers & Digital Nomads
     platform: facebook
     url: https://www.facebook.com/groups/507332689404652/
@@ -5529,7 +4010,7 @@ groups:
     tags:
       - networking
       - social
-  - name: Tenerife South Digital 2
+  - name: "DIGITAL NOMADS TENERIFE SOUTH"
     platform: whatsapp
     url: https://chat.whatsapp.com/J64owcOVGzAIzM6diWhwuE
     locations:
@@ -5616,16 +4097,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Mallorca Digital Nomads💻🏝
-    platform: whatsapp
-    url: https://chat.whatsapp.com/ELytckZCKj8Fw5xB3SPKRJ
-    locations:
-      - continent: Europe
-        country_id: ES
-        city: Mallorca
-    tags:
-      - networking
-      - social
   - name: Málaga Digital Nomads
     platform: meetup
     url: https://www.meetup.com/malaga-digital-nomads/
@@ -5646,23 +4117,13 @@ groups:
     tags:
       - networking
       - social
-  - name: Spain - Málaga BAILONG@S
+  - name: "BAILONG@S"
     platform: whatsapp
     url: https://chat.whatsapp.com/CeCE39gi4RnAlXK3PBFV8M
     locations:
       - continent: Europe
         country_id: ES
         city: Malaga
-    tags:
-      - networking
-      - social
-  - name: Digital Nomads Madrid
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LiMBRrF42GS0HUl6oXPIO9
-    locations:
-      - continent: Europe
-        country_id: ES
-        city: Madrid
     tags:
       - networking
       - social
@@ -5676,16 +4137,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Las Palmas Café
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EkUKrm2Sz5W3lMrhWJAOZL
-    locations:
-      - continent: Europe
-        country_id: ES
-        city: Las Palmas
-    tags:
-      - food
-      - networking
   - name: Accommodation for Digital Nomads in Gran Canaria
     platform: facebook
     url: https://www.facebook.com/groups/939473640299616/
@@ -5716,7 +4167,7 @@ groups:
     tags:
       - networking
       - social
-  - name: Yoga Plaza del Pueblo
+  - name: "Yoga plaza del pueblo"
     platform: whatsapp
     url: https://chat.whatsapp.com/EbaTtonsNcFB8VKFDPrpzs
     locations:
@@ -5805,15 +4256,6 @@ groups:
     tags:
       - networking
       - social
-  - name: "Sri Lanka - #SriLanka🇱🇰 #DigitalNomads"
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EWGxCSEL3K7H1jAwEeQYvx
-    locations:
-      - continent: Asia
-        country_id: LK
-    tags:
-      - networking
-      - social
   - name: Sri Lanka 🇱🇰 Foreigners | Expats | Digital Nomads.
     platform: facebook
     url: https://www.facebook.com/groups/889138717772937/
@@ -5887,16 +4329,6 @@ groups:
     tags:
       - networking
       - social
-  - name: 🌴🇹🇭 Phuket Nomads 🤙
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GZIcRqSX2RRLQmVRhANnNm
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Phuket
-    tags:
-      - networking
-      - social
   - name: Digital Nomads Rawai Phuket
     platform: facebook
     url: https://www.facebook.com/groups/digitalnomadsrawai/
@@ -5917,16 +4349,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Phuket Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DFwi8K7EfJb3Bhs9Xf1qau
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Phuket
-    tags:
-      - networking
-      - social
   - name: Phuket Digital Nomads
     platform: facebook
     url: https://www.facebook.com/groups/phuketnomads
@@ -5934,26 +4356,6 @@ groups:
       - continent: Asia
         country_id: TH
         city: Phuket
-    tags:
-      - networking
-      - social
-  - name: Pattaya Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DIKNncOr0kc9qm5tF1izm1
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Pattaya
-    tags:
-      - networking
-      - social
-  - name: Pai Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BhVdUfKWtJH2HVhXDGcmag
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Pai
     tags:
       - networking
       - social
@@ -5977,26 +4379,6 @@ groups:
     tags:
       - expats
       - networking
-  - name: Krabi/Railay Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FsvKejhtjEgCHP9dLl2RUB
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Krabi
-    tags:
-      - networking
-      - social
-  - name: Koh Tao Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GfuoY3Wb4TG7qlHR2Ozuom
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Koh Tao
-    tags:
-      - networking
-      - social
   - name: Digital Nomads on Koh Samui
     platform: facebook
     url: https://www.facebook.com/groups/digitalnomadsonkohsamui/
@@ -6017,29 +4399,9 @@ groups:
     tags:
       - networking
       - expats
-  - name: Koh Samui Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GMMGkfhLzBnECu2lrPSGNf
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Koh Samui
-    tags:
-      - networking
-      - social
   - name: Digital Nomads Koh Phangan
     platform: facebook
     url: https://www.facebook.com/groups/digitalnomadkohphangan/
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Koh Phangan
-    tags:
-      - networking
-      - social
-  - name: Koh Phangan Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BrqrQBrrYLKDH39Zf5hnAh
     locations:
       - continent: Asia
         country_id: TH
@@ -6064,36 +4426,6 @@ groups:
       - continent: Asia
         country_id: TH
         city: Koh Phangan
-    tags:
-      - networking
-      - social
-  - name: Koh Lanta Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FOkupYavPz93nwnoXTCvPS
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Koh Lanta
-    tags:
-      - networking
-      - social
-  - name: Chiang Mai Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/JUWeAvzA1fkDDgDApNmvOO
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Chiang Mai
-    tags:
-      - networking
-      - social
-  - name: Chiang Mai CS & Friends
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Dbdx63plMdHKnWUqXwbErJ
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Chiang Mai
     tags:
       - networking
       - social
@@ -6137,16 +4469,6 @@ groups:
     tags:
       - networking
       - social
-  - name: Thailand - Digital Nomads Chiang Mai 2.0
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Jj6aRzWsMag6yHuMHKO5YC
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Chiang Mai
-    tags:
-      - networking
-      - social
   - name: The Break Room, by Chiang Mai Digital Nomads
     platform: facebook
     url: https://www.facebook.com/groups/436338589849184/discussion/preview
@@ -6154,26 +4476,6 @@ groups:
       - continent: Asia
         country_id: TH
         city: Chiang Mai
-    tags:
-      - networking
-      - social
-  - name: 🏙️ Bangkok Nomads 🇹🇭🤙
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EB1Lo19f71nIIkjyal8y0c
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Bangkok
-    tags:
-      - networking
-      - social
-  - name: Bangkok Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/GWjCg1FxZsBHbiKfmV7f5T
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Bangkok
     tags:
       - networking
       - social
@@ -6236,7 +4538,7 @@ groups:
     tags:
       - networking
       - social
-  - name: Turkey - Digital Nomads in Istanbul
+  - name: "Indian 🤹"
     platform: whatsapp
     url: https://chat.whatsapp.com/KBLzVHD4aqDHw0knSeM7vx
     locations:
@@ -6435,18 +4737,9 @@ groups:
     tags:
       - expats
       - social
-  - name: Viëtnam
+  - name: "Vietnam Backpackers"
     platform: whatsapp
     url: https://chat.whatsapp.com/JTDf6YGiBXRCPj0uBMYL7h
-    locations:
-      - continent: Asia
-        country_id: VN
-    tags:
-      - networking
-      - social
-  - name: Vietnam - Nomadas Vietnam
-    platform: whatsapp
-    url: https://chat.whatsapp.com/IvpQ5hu0CqxElCyXHYVPzY
     locations:
       - continent: Asia
         country_id: VN
@@ -6480,16 +4773,6 @@ groups:
       - continent: Asia
         country_id: VN
         city: Hanoi
-    tags:
-      - networking
-      - social
-  - name: Đà Nẵng Nomads 🇻🇳⛱️🤙
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BkDLKuP3QHbKTm6opNdQby
-    locations:
-      - continent: Asia
-        country_id: VN
-        city: Da Nang
     tags:
       - networking
       - social
@@ -6587,26 +4870,7 @@ groups:
     tags:
       - networking
       - social
-  - name: BA nomads II
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EEmxp7WXwU4DVlkDtF7OKP
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - digital_nomads
-  - name: Trips/Weekends outside BA (Buenos Aires)
-    platform: whatsapp
-    url: https://chat.whatsapp.com/ELqsQOXd5hV15ViByMuPit
-    locations:
-      - continent: South America
-        country_id: AR
-        city: Buenos Aires
-    tags:
-      - travel
-      - trips
-  - name: Australia Backpackers
+  - name: "Backpackers in Australia"
     platform: whatsapp
     url: https://chat.whatsapp.com/C5WEjPekNCyAJJhvsmumw7
     locations:
@@ -6615,16 +4879,7 @@ groups:
     tags:
       - backpacking
       - travel
-  - name: chat selina floripa
-    platform: whatsapp
-    url: https://chat.whatsapp.com/G1bznwlz49M6MUcxaEZjx3
-    locations:
-      - continent: South America
-        country_id: BR
-        city: Florianópolis
-    tags:
-      - community
-  - name: Rio Meet Up Group 3.0
+  - name: "Rio Meet Up Group 4.0"
     platform: whatsapp
     url: https://chat.whatsapp.com/DtA92BgHvco0Zyo0uFGm5t
     locations:
@@ -6634,7 +4889,7 @@ groups:
     tags:
       - events
       - social
-  - name: •M&E• International meetups & Events SP
+  - name: "•M&E• International Meetups & Events  Sao Paulo"
     platform: whatsapp
     url: https://chat.whatsapp.com/EJEUalSjTuQ2CaAYl0dUdv
     locations:
@@ -6644,7 +4899,7 @@ groups:
     tags:
       - events
       - social
-  - name: Bansko Social
+  - name: "Bansko Social 2️⃣0️⃣2️⃣6️⃣"
     platform: whatsapp
     url: https://chat.whatsapp.com/KN0kH6ybNY09gThnQs6p4c
     locations:
@@ -6653,16 +4908,7 @@ groups:
         city: Bansko
     tags:
       - social
-  - name: Fall Into Bansko 2023
-    platform: whatsapp
-    url: https://chat.whatsapp.com/EvG9pnALGxy6Boglyz99tT
-    locations:
-      - continent: Europe
-        country_id: BG
-        city: Bansko
-    tags:
-      - community
-  - name: Cambodia Backpackers
+  - name: "Cambodian Backpackers"
     platform: whatsapp
     url: https://chat.whatsapp.com/DIc4msPAqloHVZ70JQ1YlD
     locations:
@@ -6672,16 +4918,7 @@ groups:
     tags:
       - backpacking
       - travel
-  - name: Cambodia seasia travel
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LOTXBFQluoW2oLOTRoulTR
-    locations:
-      - continent: Asia
-        country_id: KH
-        city: Siem Reap
-    tags:
-      - travel
-  - name: Cali female power
+  - name: "Cali female power 💜🩷💛💪"
     platform: whatsapp
     url: https://chat.whatsapp.com/CPoejtN2WevCyztW5Ts7MP
     locations:
@@ -6690,24 +4927,6 @@ groups:
         city: Cali
     tags:
       - women
-  - name: Cartagena Nomads☀️🙌🏻
-    platform: whatsapp
-    url: https://chat.whatsapp.com/JfByrLNqNkRCma0CX7qF4A
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Cartagena
-    tags:
-      - digital_nomads
-  - name: ♦️Medellin Digital Nomads CLUB
-    platform: whatsapp
-    url: https://chat.whatsapp.com/E96ssGpGTVH3LKnr84XYWm
-    locations:
-      - continent: South America
-        country_id: CO
-        city: Medellín
-    tags:
-      - digital_nomads
   - name: Medellín Coworking Crew
     platform: whatsapp
     url: https://chat.whatsapp.com/FsyklhO2jDw5hsTBFpedcN
@@ -6717,7 +4936,7 @@ groups:
         city: Medellín
     tags:
       - coworking
-  - name: Cyprus Nomading & Travel
+  - name: "CY Nomading & Travel"
     platform: whatsapp
     url: https://chat.whatsapp.com/JCxnP9A1eggFw8UGdlDv9s
     locations:
@@ -6745,7 +4964,7 @@ groups:
         city: Paphos
     tags:
       - community
-  - name: Paphos Boardgame Meeples - Community
+  - name: "Paphos Boardgame Meeples"
     platform: whatsapp
     url: https://chat.whatsapp.com/DqMMPD7RaCYAGKn6Z18JyA
     locations:
@@ -6755,7 +4974,7 @@ groups:
     tags:
       - gaming
       - social
-  - name: PAPHOS WEEKLY ENTREPRENEURIAL & DIGITAL NOMAD MEETUP
+  - name: "Blunchers 🇬🇧"
     platform: whatsapp
     url: https://chat.whatsapp.com/LJlipoDKeFO5hWc4F6MNJk
     locations:
@@ -6768,35 +4987,7 @@ groups:
       - events
       - networking
       - social
-  - name: Advise and help in Berlin
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CMc9HgS4nPB7E1lhfSEDZf
-    locations:
-      - continent: Europe
-        country_id: DE
-        city: Berlin
-    tags:
-      - community
-  - name: Germany
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CwowkEKHjZsC8y0ZvZssn4
-    locations:
-      - continent: Europe
-        country_id: DE
-    tags:
-      - community
-  - name: Athens Digital Nomads Meetup- Main - Community
-    platform: whatsapp
-    url: https://chat.whatsapp.com/JfXVHnuoqmSIDC1WIlGgm6
-    locations:
-      - continent: Europe
-        country_id: GR
-        city: Athens
-    tags:
-      - digital_nomads
-      - events
-      - social
-  - name: Hong Kong seasia travel
+  - name: "Backpackers in Hongkong"
     platform: whatsapp
     url: https://chat.whatsapp.com/HAqapfiWHyd8k5CwgzSOKG
     locations:
@@ -6805,25 +4996,7 @@ groups:
         city: Hong Kong
     tags:
       - travel
-  - name: India seasia travel
-    platform: whatsapp
-    url: https://chat.whatsapp.com/FPDSC9QB2Tv5HnVDIieooh
-    locations:
-      - continent: Asia
-        country_id: IN
-        city: Delhi
-    tags:
-      - travel
-  - name: nOmAdS in DELHI NCR
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HJbsCYK4Ash6j8gH692CK6
-    locations:
-      - continent: Asia
-        country_id: IN
-        city: Delhi
-    tags:
-      - digital_nomads
-  - name: Bali, Indonesia seasia
+  - name: "Bali, Indonesia"
     platform: whatsapp
     url: https://chat.whatsapp.com/GC1xJYkHFuNJE2Qk5JZHd4
     locations:
@@ -6832,17 +5005,7 @@ groups:
         city: Bali
     tags:
       - community
-  - name: Bali Backpackers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HK6K3FWGr7RF5TkMobkHvR
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Bali
-    tags:
-      - backpacking
-      - travel
-  - name: Kalimantan, Indonesia seasia
+  - name: "Kalimantan, Indonesia"
     platform: whatsapp
     url: https://chat.whatsapp.com/GT8FC2VeY54FUDBGySeCc7
     locations:
@@ -6851,58 +5014,13 @@ groups:
         city: Balikpapan
     tags:
       - community
-  - name: Indonesia seasia travel
-    platform: whatsapp
-    url: https://chat.whatsapp.com/DW3jmtkVo0AHXlu0Qxu0SM
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Jakarta
-    tags:
-      - travel
-  - name: Indonesia
-    platform: whatsapp
-    url: https://chat.whatsapp.com/L906asogJIhEnms6mJmE9T
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Jakarta
-    tags:
-      - community
-  - name: Papua, Indonesia seasia
-    platform: whatsapp
-    url: https://chat.whatsapp.com/F2QJFq90k4vKpalxmabClr
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Jayapura
-    tags:
-      - community
-  - name: East Nusa Tenggara, Indonesia seasia
-    platform: whatsapp
-    url: https://chat.whatsapp.com/L5pRHP0LEoYGTFJFFDRcDK
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Kupang
-    tags:
-      - community
-  - name: Lombok-Gili Islands, Indonesia seasia
+  - name: "West Nusa Tenggara, Indonesia"
     platform: whatsapp
     url: https://chat.whatsapp.com/CIV9KSvlXh8JNnqzwO9xRB
     locations:
       - continent: Asia
         country_id: ID
         city: Lombok-Gili Islands
-    tags:
-      - community
-  - name: Sulawesi, Indonesia seasia
-    platform: whatsapp
-    url: https://chat.whatsapp.com/JDc9YtZMn3J3oaCxPVkWAl
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Makassar
     tags:
       - community
   - name: Indonesia Backpackers
@@ -6915,7 +5033,7 @@ groups:
     tags:
       - backpacking
       - travel
-  - name: Sumatra, Indonesia seasia
+  - name: "Sumatra, Indonesia"
     platform: whatsapp
     url: https://chat.whatsapp.com/CwqCBAVlrcjLJOg9wLl7gP
     locations:
@@ -6924,35 +5042,7 @@ groups:
         city: Sumatra
     tags:
       - community
-  - name: Java, Indonesia seasia
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LBFuNfOWiQYIQ9SnlbuLa1
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Surabaya
-    tags:
-      - community
-  - name: Indonesia backpacker
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Jq1VChT8BkaB7YZAGyRt8x
-    locations:
-      - continent: Asia
-        country_id: ID
-        city: Surabaya
-    tags:
-      - backpacking
-      - travel
-  - name: Japan seasia travel
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BmVdqgqNaxPGGjuk3P0Car
-    locations:
-      - continent: Asia
-        country_id: JP
-        city: Japan
-    tags:
-      - travel
-  - name: Kazakhstan Travelers
+  - name: "Kazakhstan Backpackers"
     platform: whatsapp
     url: https://chat.whatsapp.com/K0lKCCtY8unFyJbqJSrwqI
     locations:
@@ -6980,24 +5070,6 @@ groups:
     tags:
       - backpacking
       - travel
-  - name: Laos seasia travel
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Ej0Kit7ukxGARezDU5eFBf
-    locations:
-      - continent: Asia
-        country_id: LA
-        city: Vientiane
-    tags:
-      - travel
-  - name: Malaysia seasia travel
-    platform: whatsapp
-    url: https://chat.whatsapp.com/L7stedT6f70H86MbUBTpMR
-    locations:
-      - continent: Asia
-        country_id: MY
-        city: George Town
-    tags:
-      - travel
   - name: Malaysia Travelers
     platform: whatsapp
     url: https://chat.whatsapp.com/Jcxg9Z7hsDw4GO7PCZLmGx
@@ -7007,16 +5079,7 @@ groups:
         city: Kuala Lumpur
     tags:
       - travel
-  - name: Borneo Travelers
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Lt4YlYWEXpuKfjaM9wiKqR
-    locations:
-      - continent: Asia
-        country_id: MY
-        city: Kota Kinabalu
-    tags:
-      - travel
-  - name: Cancun
+  - name: "Lo que necesites en Cancún⛱️"
     platform: whatsapp
     url: https://chat.whatsapp.com/J5Syyf18I4a0k9IaSYZua2
     locations:
@@ -7025,7 +5088,7 @@ groups:
         city: Cancun
     tags:
       - community
-  - name: "Healtcare: Guadalajara Nayarit Puerto Vallarta"
+  - name: "Healthcare Jalisco and Nayarit: Sayulita | Puerto Vallarta | Guadalajara"
     platform: whatsapp
     url: https://chat.whatsapp.com/Dc1ByLJSAmi3f0uvRbYn5F
     locations:
@@ -7034,7 +5097,7 @@ groups:
         city: Guadalajara
     tags:
       - community
-  - name: "Healtcare: Mexico City and Queretaro"
+  - name: "Healthcare Mexico City | Queretaro"
     platform: whatsapp
     url: https://chat.whatsapp.com/HLq3OJ8jj3C0EznnjpcEC7
     locations:
@@ -7043,7 +5106,7 @@ groups:
         city: Mexico City
     tags:
       - community
-  - name: "Reconnect: Ice Bath Crew (Mexico)"
+  - name: "Reconnect Breath"
     platform: whatsapp
     url: https://chat.whatsapp.com/KZDi9hxOvKcJXnyhfqIhTF
     locations:
@@ -7052,7 +5115,7 @@ groups:
         city: Mexico City
     tags:
       - wellness
-  - name: "Healtcare: Oaxaca City Puerto Escondido San Cristobal"
+  - name: "Healthcare Oaxaca and Chiapas: Puerto Escondido | Oaxaca City | San Cristobal"
     platform: whatsapp
     url: https://chat.whatsapp.com/DMHYvzeMr7EA2pFkJZJbW8
     locations:
@@ -7061,26 +5124,8 @@ groups:
         city: Oaxaca City
     tags:
       - community
-  - name: Techies in Playa
-    platform: whatsapp
-    url: https://chat.whatsapp.com/C4cUoPdyqYXAwuCtjRtojB
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Playa del Carmen
-    tags:
-      - networking
-      - tech
-  - name: Playa Digital nomads
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CPrbArhQWAX0nIQyG38OWJ
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Playa del Carmen
-    tags:
-      - digital_nomads
-  - name: "Healtcare: Playa del Carmen Cozumel Cancun Tulum Merida"
+  - name: "Healthcare Yucatan and Riviera Maya: | Playa del Carmen | Cancun | Tulum | Merida"
+
     platform: whatsapp
     url: https://chat.whatsapp.com/JYQQ7P4EOSsCU3qQHI5R7R
     locations:
@@ -7108,7 +5153,7 @@ groups:
         city: Playa del Carmen
     tags:
       - community
-  - name: Tulum Digital Nomads - Community
+  - name: "Tulum Digital Nomads"
     platform: whatsapp
     url: https://chat.whatsapp.com/C3QHkQzfK3W9Qew7D8dRvp
     locations:
@@ -7117,39 +5162,7 @@ groups:
         city: Tulum
     tags:
       - digital_nomads
-  - name: Tulum Expat Events - Community
-    platform: whatsapp
-    url: https://chat.whatsapp.com/E0mJYGXA1XxKL0N99jDhqC
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Tulum
-    tags:
-      - community
-      - events
-      - expats
-  - name: Tulum Expat Events - Community
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BNcNKKPJhunK52aaJpAo5a
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Tulum
-    tags:
-      - community
-      - events
-      - expats
-  - name: Tulum Dinner Club🍴 - Community
-    platform: whatsapp
-    url: https://chat.whatsapp.com/I6qcb3JOo8yKeDXSP6VLIV
-    locations:
-      - continent: North America
-        country_id: MX
-        city: Tulum
-    tags:
-      - food
-      - social
-  - name: Nepal Backpackers
+  - name: "Backpackers in Nepal"
     platform: whatsapp
     url: https://chat.whatsapp.com/KtKxzBDkHznHs0tkqUdGSf
     locations:
@@ -7159,16 +5172,6 @@ groups:
     tags:
       - backpacking
       - travel
-  - name: Digital nomads NL 🇳🇱
-    platform: whatsapp
-    url: https://chat.whatsapp.com/LuqFCn0I88p5FFxMB6jngh
-    locations:
-      - continent: Europe
-        country_id: NL
-        city: Amsterdam
-    tags:
-      - digital_nomads
-
   - name: Philippine's backpackers
     platform: whatsapp
     url: https://chat.whatsapp.com/JsXlqCCH05y9owjXxCz4R7
@@ -7230,7 +5233,7 @@ groups:
     tags:
       - lgbtq
 
-  - name: CS Happy Traveling - Main Chat
+  - name: "CS Happy Traveling ✈️"
     platform: whatsapp
     url: https://chat.whatsapp.com/1rwZ7XIYvEfBt9yPoCRzDZ
     tags:
@@ -7454,19 +5457,13 @@ groups:
         country_id: IR
     tags:
       - overlanding
-  - name: Cycle The World Q&A
+  - name: 'Cycle the World "Q&A"'
     platform: whatsapp
     url: https://chat.whatsapp.com/KCTVMvDR5A08pYgB191vpp
     tags:
       - cycling
       - travel
-  - name: Bicycle Touring Gear
-    platform: whatsapp
-    url: https://chat.whatsapp.com/Jvm6lKO2PRj0xaFOeKkHhm
-    tags:
-      - cycling
-      - gear
-  - name: Cycling East Africa
+  - name: "Cycle East Africa 🚵"
     platform: whatsapp
     url: https://chat.whatsapp.com/Ks1O8OSBaoFAxgzmJsXEQX
     locations:
@@ -7474,27 +5471,11 @@ groups:
     tags:
       - cycling
       - travel
-  - name: Cycling West & Central Africa
+  - name: "West & Central Africa Cycling Group 🚴"
     platform: whatsapp
     url: https://chat.whatsapp.com/Fi0m8EsBSKS2xEb9r4pVlN
     locations:
       - continent: Africa
-    tags:
-      - cycling
-      - travel
-  - name: Riding North & Central America
-    platform: whatsapp
-    url: https://chat.whatsapp.com/C4YyCNdHzVl3TOl91BeiJo
-    locations:
-      - continent: North America
-    tags:
-      - cycling
-      - travel
-  - name: Cycling South America
-    platform: whatsapp
-    url: https://chat.whatsapp.com/HDeTCDCyT0V4bWyicZaBRD
-    locations:
-      - continent: South America
     tags:
       - cycling
       - travel
@@ -7506,7 +5487,7 @@ groups:
     tags:
       - cycling
       - travel
-  - name: Cycling Central and North Asia
+  - name: "Cycling Central & North Asia 🚵"
     platform: whatsapp
     url: https://chat.whatsapp.com/KFPOAcBzNd9LnLHBpEf0S5
     locations:
@@ -7514,33 +5495,7 @@ groups:
     tags:
       - cycling
       - travel
-  - name: Bicycle Touring Mongolia
-    platform: whatsapp
-    url: https://chat.whatsapp.com/CPRoZMv4dtr2pogz1MkHPJ
-    locations:
-      - continent: Asia
-        country_id: MN
-    tags:
-      - cycling
-      - travel
-  - name: Trans-Siberian Train With Bicycle
-    platform: whatsapp
-    url: https://chat.whatsapp.com/BiansWCDEw38x0a7lSCiTR
-    locations:
-      - continent: Asia
-    tags:
-      - cycling
-      - transportation
-  - name: Cycling China
-    platform: whatsapp
-    url: https://chat.whatsapp.com/KA85DI9wU5o5OBdjyHhD0n
-    locations:
-      - continent: Asia
-        country_id: CN
-    tags:
-      - cycling
-      - travel
-  - name: Korea and Japan Cycling Group
+  - name: "Introduce yourself: Gateway Korea & Japan cycling group."
     platform: whatsapp
     url: https://chat.whatsapp.com/B8JfsrQTtZaD3zEQhMAkBF
     locations:
@@ -7551,7 +5506,7 @@ groups:
     tags:
       - cycling
       - travel
-  - name: Bike in Taiwan
+  - name: "Cycling Taiwan"
     platform: whatsapp
     url: https://chat.whatsapp.com/EUt9Q4HrFcaHWyw7MgItgU
     locations:
@@ -7568,7 +5523,7 @@ groups:
     tags:
       - cycling
       - travel
-  - name: Cycling South East Asia
+  - name: "Cycling South East Asia (Mainland)"
     platform: whatsapp
     url: https://chat.whatsapp.com/KSnACNW1N2gJzyCg34volO
     locations:
@@ -7576,7 +5531,7 @@ groups:
     tags:
       - cycling
       - travel
-  - name: Cycling Europe
+  - name: "Cycling Europe 🚵"
     platform: whatsapp
     url: https://chat.whatsapp.com/ITxb9OzZHBhGHNCXK9wK3r
     locations:
@@ -7602,7 +5557,7 @@ groups:
     tags:
       - cycling
       - travel
-  - name: Cycle Middle East
+  - name: "Cycle Middle East 🚵"
     platform: whatsapp
     url: https://chat.whatsapp.com/KlmFjR8cbEl2oTqxBjAvm1
     locations:
@@ -7610,7 +5565,7 @@ groups:
     tags:
       - cycling
       - travel
-  - name: Cycling Oceania
+  - name: "Cycling Oceania 🚵"
     platform: whatsapp
     url: https://chat.whatsapp.com/KuTZdaERWYk9x7SErsQMJr
     locations:
@@ -7618,3 +5573,11 @@ groups:
     tags:
       - cycling
       - travel
+  - name: Nomadi Digitali Italiani
+    platform: facebook
+    url: https://www.facebook.com/groups/nomadidigitaliitaliani
+    locations:
+      - continent: Europe
+        country_id: IT
+    tags:
+      - community
