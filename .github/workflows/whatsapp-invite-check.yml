@@ -17,6 +17,7 @@ on:
 permissions:
   contents: read
   issues: write
+  pull-requests: write
 
 jobs:
   whatsapp-invite-check:
@@ -32,6 +33,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -43,20 +46,41 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Extract PR WhatsApp links
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin "${{ github.base_ref }}" --depth=1
+          git diff "origin/${{ github.base_ref }}...HEAD" -- data.yaml \
+            | grep '^+' \
+            | grep -v '^+++' \
+            | grep -oE 'https://chat\.whatsapp\.com/[A-Za-z0-9]+' \
+            | sort -u > pr_whatsapp_urls.txt || true
+
+          count=$(wc -l < pr_whatsapp_urls.txt | tr -d ' ')
+          echo "Found $count PR WhatsApp links to check"
+          if [ "$count" -eq 0 ]; then
+            echo "No new WhatsApp links in this PR."
+          fi
+
       - name: Run WhatsApp invite checks
         id: whatsapp_check
         continue-on-error: ${{ github.event_name == 'pull_request' }}
         run: |
           set -o pipefail
           APPLY_FLAG=""
+          URLS_ARG=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.apply_changes }}" = "true" ]; then
             APPLY_FLAG="--apply"
+          fi
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            URLS_ARG="--urls-file pr_whatsapp_urls.txt"
           fi
           python scripts/check_whatsapp_invites.py \
             --data-file data.yaml \
             --delay-ms "$WHATSAPP_LINK_DELAY_MS" \
             --jitter-ms "$WHATSAPP_LINK_JITTER_MS" \
             --retries "$WHATSAPP_LINK_MAX_RETRIES" \
+            $URLS_ARG \
             $APPLY_FLAG 2>&1 | tee whatsapp_invite_check.log
 
       - name: Upload WhatsApp check log
@@ -65,6 +89,125 @@ jobs:
         with:
           name: whatsapp-invite-check-log
           path: whatsapp_invite_check.log
+
+      - name: Build PR mismatch review payload
+        if: always() && github.event_name == 'pull_request'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import re
+
+          log_path = Path("whatsapp_invite_check.log")
+          payload_path = Path("whatsapp_pr_mismatch_payload.json")
+          data_path = Path("data.yaml")
+
+          mismatches = []
+          for raw_line in log_path.read_text(encoding="utf-8", errors="replace").splitlines():
+              line = raw_line.strip()
+              if not line.startswith("MISMATCH_JSON "):
+                  continue
+              try:
+                  payload = json.loads(line.split("MISMATCH_JSON ", 1)[1])
+              except Exception:
+                  continue
+              if not isinstance(payload, dict):
+                  continue
+              if not str(payload.get("url", "")).startswith("https://chat.whatsapp.com/"):
+                  continue
+              mismatches.append(
+                  {
+                      "current_name": str(payload.get("current_name", "")),
+                      "live_name": str(payload.get("live_name", "")),
+                      "url": str(payload.get("url", "")),
+                  }
+              )
+
+          url_line_map = {}
+          for idx, raw_line in enumerate(data_path.read_text(encoding="utf-8").splitlines(), start=1):
+              stripped = raw_line.strip()
+              if stripped.startswith("url: https://chat.whatsapp.com/"):
+                  url_line_map[stripped.split("url: ", 1)[1]] = idx
+
+          review_comments = []
+          for mismatch in mismatches:
+              url = mismatch["url"]
+              line = url_line_map.get(url)
+              if not line:
+                  continue
+              review_comments.append(
+                  {
+                      "line": line,
+                      "body": (
+                          "<!-- whatsapp-name-mismatch -->\n"
+                          "WhatsApp invite page name differs from `data.yaml`.\n\n"
+                          f"- Current: `{mismatch['current_name']}`\n"
+                          f"- Live: `{mismatch['live_name']}`\n\n"
+                          "Please resolve (rename) or discard (keep as-is) with justification."
+                      ),
+                  }
+              )
+
+          payload_path.write_text(json.dumps(review_comments), encoding="utf-8")
+          print(f"review_comment_count={len(review_comments)}")
+
+          with Path(".github_output_tmp").open("w", encoding="utf-8") as out:
+              out.write(f"review_comment_count={len(review_comments)}\n")
+          PY
+          cat .github_output_tmp >> "$GITHUB_OUTPUT"
+
+      - name: Post PR review comments for mismatches
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const path = "whatsapp_pr_mismatch_payload.json";
+            const pull_number = context.payload.pull_request.number;
+            const commit_id = context.payload.pull_request.head.sha;
+            const marker = "<!-- whatsapp-name-mismatch -->";
+
+            if (!fs.existsSync(path)) {
+              core.info("No mismatch payload file found.");
+              return;
+            }
+
+            const comments = JSON.parse(fs.readFileSync(path, "utf8"));
+
+            const existing = await github.paginate(github.rest.pulls.listReviewComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number,
+              per_page: 100,
+            });
+
+            for (const c of existing) {
+              if (c.user?.login === "github-actions[bot]" && c.body?.includes(marker)) {
+                await github.rest.pulls.deleteReviewComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: c.id,
+                });
+              }
+            }
+
+            if (!comments.length) {
+              core.info("No mismatch review comments to post.");
+              return;
+            }
+
+            for (const c of comments) {
+              await github.rest.pulls.createReviewComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number,
+                commit_id,
+                path: "data.yaml",
+                line: c.line,
+                side: "RIGHT",
+                body: c.body,
+              });
+            }
 
       - name: Upload updated data.yaml (manual apply mode)
         if: always() && github.event_name == 'workflow_dispatch' && inputs.apply_changes == true

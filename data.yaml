@@ -2,7 +2,7 @@ version: "1.0"
 groups:
   - name: Digital Nomads Network
     platform: telegram
-    url: https://t.me/NetworkDigitalNomads
+    url: https://t.me/DigitalNomadGroups
     tags:
       - networking
   - name: Dutchies Worldwide
@@ -3951,6 +3951,15 @@ groups:
     tags:
       - accommodation
       - networking
+  - name: ZATech - South Africa's Largest Tech Community
+    platform: slack
+    url: https://zatech.co.za/#invite-email
+    locations:
+      - continent: Africa
+        country_id: ZA
+    tags:
+      - networking
+      - social
   - name: 우리는 디지털노마드다 (Korea Digital Nomads)
     platform: facebook
     url: https://www.facebook.com/groups/wearedigitalnomads/
@@ -4538,6 +4547,26 @@ groups:
     tags:
       - networking
       - social
+  - name: "🏠 Smileys Rooms for Rent"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/J6X3an9nNmB3m7jOAepgux
+    locations:
+      - continent: Asia
+        country_id: TR
+        city: Istanbul
+    tags:
+      - accommodation
+      - networking
+  - name: "Smileys Coworking"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EL9VaMchnJi4yVx6GoNoIW
+    locations:
+      - continent: Asia
+        country_id: TR
+        city: Istanbul
+    tags:
+      - coworking
+      - networking
   - name: "Indian 🤹"
     platform: whatsapp
     url: https://chat.whatsapp.com/KBLzVHD4aqDHw0knSeM7vx

@@ -8,6 +8,7 @@ Check WhatsApp invite links in data.yaml.
 """
 
 import argparse
+import json
 import random
 import re
 import sys
@@ -33,33 +34,52 @@ class WhatsAppInviteHTMLParser(HTMLParser):
         super().__init__()
         self.element_ids: set[str] = set()
         self.href_by_id: dict[str, str] = {}
-        self._in_h3 = False
+        self._tag_depth = 0
+        self._main_block_depth: int | None = None
+        self._in_main_block_h3 = False
         self._current_h3 = ""
-        self.h3_texts: list[str] = []
+        self.main_block_h3_texts: list[str] = []
+        self.main_block_has_image = False
 
     def handle_starttag(self, tag: str, attrs) -> None:  # type: ignore[override]
+        self._tag_depth += 1
         attrs_map = dict(attrs)
         element_id = attrs_map.get("id")
         if element_id:
             self.element_ids.add(element_id)
+            if element_id == "main_block":
+                self._main_block_depth = self._tag_depth
 
         if tag == "a":
             href = attrs_map.get("href")
             if element_id and href:
                 self.href_by_id[element_id] = href
 
-        if tag == "h3":
-            self._in_h3 = True
+        in_main_block = (
+            self._main_block_depth is not None and self._tag_depth > self._main_block_depth
+        )
+
+        if tag == "img" and in_main_block and attrs_map.get("src"):
+            self.main_block_has_image = True
+
+        if tag == "h3" and in_main_block:
+            self._in_main_block_h3 = True
             self._current_h3 = ""
 
     def handle_data(self, data: str) -> None:  # type: ignore[override]
-        if self._in_h3:
+        if self._in_main_block_h3:
             self._current_h3 += data
 
     def handle_endtag(self, tag: str) -> None:  # type: ignore[override]
-        if tag == "h3":
-            self._in_h3 = False
-            self.h3_texts.append(self._current_h3.strip())
+        if tag == "h3" and self._in_main_block_h3:
+            self._in_main_block_h3 = False
+            self.main_block_h3_texts.append(self._current_h3.strip())
+
+        if self._main_block_depth is not None and self._tag_depth == self._main_block_depth:
+            self._main_block_depth = None
+
+        if self._tag_depth > 0:
+            self._tag_depth -= 1
 
 
 def _normalize_name(value: str) -> str:
@@ -114,7 +134,10 @@ def _validate_link(url: str, retries: int) -> LinkResult:
     if not web_button_href.startswith("https://web.whatsapp.com/accept?code="):
         return LinkResult("inactive", "missing/invalid #whatsapp-web-button href", "")
 
-    title = next((t for t in parser.h3_texts if t), "")
+    if not parser.main_block_has_image:
+        return LinkResult("inactive", "group image is missing", "")
+
+    title = next((t for t in parser.main_block_h3_texts if t), "")
     if not title:
         return LinkResult("inactive", "group title is empty", "")
 
@@ -131,6 +154,7 @@ def _sleep_with_jitter(delay_ms: int, jitter_ms: int) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-file", default="data.yaml")
+    parser.add_argument("--urls-file", default="")
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--delay-ms", type=int, default=1200)
     parser.add_argument("--jitter-ms", type=int, default=900)
@@ -142,16 +166,40 @@ def main() -> int:
         data = yaml.safe_load(f)
 
     groups = data.get("groups", [])
+    selected_urls: set[str] | None = None
+    if args.urls_file:
+        urls_path = Path(args.urls_file)
+        if not urls_path.exists():
+            print(f"URLs file not found: {urls_path}")
+            return 2
+        selected_urls = {
+            line.strip()
+            for line in urls_path.read_text(encoding="utf-8").splitlines()
+            if line.strip().startswith("https://chat.whatsapp.com/")
+        }
+        if not selected_urls:
+            print("No WhatsApp URLs to check from URLs file.")
+            return 0
+
     inactive_urls: set[str] = set()
     rename_by_url: dict[str, str] = {}
 
-    whatsapp_groups = [
+    whatsapp_groups_all = [
         g
         for g in groups
         if isinstance(g, dict)
         and isinstance(g.get("url"), str)
         and g.get("url", "").strip().startswith("https://chat.whatsapp.com/")
     ]
+    if selected_urls is None:
+        whatsapp_groups = whatsapp_groups_all
+    else:
+        whatsapp_groups = [
+            g for g in whatsapp_groups_all if g.get("url", "").strip() in selected_urls
+        ]
+        if not whatsapp_groups:
+            print("No matching WhatsApp groups found in data.yaml for selected URLs.")
+            return 0
 
     total = len(whatsapp_groups)
     print(f"Checking {total} WhatsApp links...")
@@ -168,7 +216,16 @@ def main() -> int:
 
         if _normalize_name(name) != _normalize_name(result.title):
             rename_by_url[url] = result.title
-            print(f"[{idx}/{total}] WARNING name mismatch: {name!r} -> {result.title!r}")
+            print(
+                f"[{idx}/{total}] WARNING name mismatch: {name} -> {result.title} | {url}"
+            )
+            print(
+                "MISMATCH_JSON "
+                + json.dumps(
+                    {"current_name": name, "live_name": result.title, "url": url},
+                    ensure_ascii=False,
+                )
+            )
         else:
             print(f"[{idx}/{total}] OK {name}")
 
