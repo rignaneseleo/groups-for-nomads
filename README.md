@@ -10,9 +10,11 @@ These groups are often the **best source of local knowledge** — from housing a
 
 # 🌐 Browse the Directory
 
-👉🏻 Click **[HERE](directory.md)** to view the full list.
+👉🏻 Click **[HERE](directory.md)** to view the full list for free.
 
 This repository contains the **raw dataset** of groups.
+
+# ⭐️ Directory with Superpowers
 
 If you'd rather **search, filter, and explore the groups easily**, you can use the website built on top of this dataset:
 
@@ -20,12 +22,11 @@ If you'd rather **search, filter, and explore the groups easily**, you can use t
 
 The website adds:
 
-- 🔎 **Search by city, country, or group name**
-- 🗺️ **Interactive world map**
-- 🎯 **Filters by platform** (WhatsApp, Telegram, Discord, Facebook, Slack)
-- ⭐ **Community ratings** to find active groups
-- 🔖 **Save groups for later**
 - 🤖 **Telegram bot search**
+- 🔎 **Search by city, country, or group name**
+- 🗺️ **3D interactive world map**
+- 🎯 **Filters by platform** (WhatsApp, Telegram, Discord, Facebook, Slack, Linktree)
+- ⭐ **Community ratings** to find active groups
 
 Think of this repo as the **open database**, and the website as the **user-friendly interface**.
 
@@ -116,7 +117,7 @@ The website **NomadGroups.wiki** is built on top of this open dataset.
 
 If you contribute to this repository, you're welcome to **use the website for free**.
 
-Just open an issue or submit a pull request and I'll send you access.
+Just open an issue or submit a pull request, ping me at gn@leorigna.com and I'll send you lifetime access.
 
 This helps improve the dataset while keeping the directory useful for everyone.
 
