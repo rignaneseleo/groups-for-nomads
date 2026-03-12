@@ -1,4 +1,6 @@
 import os
+import random
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from html.parser import HTMLParser
@@ -86,6 +88,24 @@ def _fetch_html(url: str, timeout_seconds: int = 12) -> str:
         return response.read(250_000).decode("utf-8", errors="replace")
 
 
+def _read_int_env(name: str, default: int) -> int:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    try:
+        parsed = int(value)
+    except ValueError:
+        return default
+    return max(parsed, 0)
+
+
+def _sleep_with_jitter(base_delay_ms: int, jitter_ms: int) -> None:
+    if base_delay_ms <= 0 and jitter_ms <= 0:
+        return
+    extra = random.randint(0, jitter_ms) if jitter_ms > 0 else 0
+    time.sleep((base_delay_ms + extra) / 1000.0)
+
+
 def _extract_whatsapp_groups():
     data_path = Path(__file__).resolve().parents[1] / "data.yaml"
     with data_path.open("r", encoding="utf-8") as file:
@@ -104,18 +124,34 @@ def _extract_whatsapp_groups():
 
 
 def _validate_group_link(index: int, name: str, url: str) -> tuple[str, Optional[str]]:
-    try:
-        html = _fetch_html(url)
-    except HTTPError as exc:
-        if exc.code == 429:
-            return "inconclusive", f"#{index} {name} -> {url} | HTTP error 429 (rate limited)"
-        return "invalid", f"#{index} {name} -> {url} | HTTP error {exc.code}"
-    except URLError as exc:
-        return "invalid", f"#{index} {name} -> {url} | URL error: {exc.reason}"
-    except TimeoutError:
-        return "invalid", f"#{index} {name} -> {url} | timeout"
-    except Exception as exc:  # pragma: no cover
-        return "invalid", f"#{index} {name} -> {url} | unexpected error: {exc}"
+    delay_ms = _read_int_env("WHATSAPP_LINK_DELAY_MS", 0)
+    jitter_ms = _read_int_env("WHATSAPP_LINK_JITTER_MS", 0)
+    max_retries = _read_int_env("WHATSAPP_LINK_MAX_RETRIES", 2)
+    retry_backoff_ms = _read_int_env("WHATSAPP_LINK_RETRY_BACKOFF_MS", 1500)
+
+    for attempt in range(max_retries + 1):
+        _sleep_with_jitter(delay_ms, jitter_ms)
+        try:
+            html = _fetch_html(url)
+            break
+        except HTTPError as exc:
+            if exc.code == 429:
+                if attempt < max_retries:
+                    time.sleep((retry_backoff_ms * (2**attempt)) / 1000.0)
+                    continue
+                return (
+                    "inconclusive",
+                    f"#{index} {name} -> {url} | HTTP error 429 (rate limited)",
+                )
+            return "invalid", f"#{index} {name} -> {url} | HTTP error {exc.code}"
+        except URLError as exc:
+            return "invalid", f"#{index} {name} -> {url} | URL error: {exc.reason}"
+        except TimeoutError:
+            return "invalid", f"#{index} {name} -> {url} | timeout"
+        except Exception as exc:  # pragma: no cover
+            return "invalid", f"#{index} {name} -> {url} | unexpected error: {exc}"
+    else:
+        return "inconclusive", f"#{index} {name} -> {url} | exhausted retries"
 
     result = check_whatsapp_invite_html(html)
     if not result.is_legit:
@@ -166,7 +202,8 @@ def test_data_yaml_whatsapp_links_open_legit_invite_pages():
     whatsapp_groups = _extract_whatsapp_groups()
     assert whatsapp_groups, "No WhatsApp invite links found in data.yaml"
 
-    max_workers = int(os.getenv("WHATSAPP_LINK_TEST_WORKERS", "8"))
+    default_workers = "1" if os.getenv("GITHUB_ACTIONS") == "true" else "8"
+    max_workers = max(1, int(os.getenv("WHATSAPP_LINK_TEST_WORKERS", default_workers)))
     total = len(whatsapp_groups)
     invalid_failures: list[str] = []
     inconclusive_failures: list[str] = []

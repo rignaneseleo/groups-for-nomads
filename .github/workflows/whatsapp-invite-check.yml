@@ -1,0 +1,103 @@
+name: WhatsApp Invite Validation
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply_changes:
+        description: "Apply offline removals and name fixes to data.yaml (manual use)"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: "30 2 * * 1"
+  pull_request:
+    paths:
+      - "data.yaml"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  whatsapp-invite-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      RUN_WHATSAPP_LINK_TESTS: "1"
+      WHATSAPP_LINK_TEST_WORKERS: "1"
+      WHATSAPP_LINK_DELAY_MS: "1200"
+      WHATSAPP_LINK_JITTER_MS: "900"
+      WHATSAPP_LINK_MAX_RETRIES: "2"
+      WHATSAPP_LINK_RETRY_BACKOFF_MS: "2000"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run WhatsApp invite checks
+        id: whatsapp_check
+        continue-on-error: ${{ github.event_name == 'pull_request' }}
+        run: |
+          set -o pipefail
+          APPLY_FLAG=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.apply_changes }}" = "true" ]; then
+            APPLY_FLAG="--apply"
+          fi
+          python scripts/check_whatsapp_invites.py \
+            --data-file data.yaml \
+            --delay-ms "$WHATSAPP_LINK_DELAY_MS" \
+            --jitter-ms "$WHATSAPP_LINK_JITTER_MS" \
+            --retries "$WHATSAPP_LINK_MAX_RETRIES" \
+            $APPLY_FLAG 2>&1 | tee whatsapp_invite_check.log
+
+      - name: Upload WhatsApp check log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: whatsapp-invite-check-log
+          path: whatsapp_invite_check.log
+
+      - name: Upload updated data.yaml (manual apply mode)
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.apply_changes == true
+        uses: actions/upload-artifact@v4
+        with:
+          name: whatsapp-data-yaml-updated
+          path: data.yaml
+
+      - name: Prepare failure report for issue
+        if: steps.whatsapp_check.outcome == 'failure' && github.event_name != 'pull_request'
+        run: |
+          {
+            echo "## WhatsApp invite validation failed"
+            echo
+            echo "- Workflow: ${{ github.workflow }}"
+            echo "- Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            echo "- Commit: ${{ github.sha }}"
+            echo
+            echo "### Last log lines"
+            echo
+            echo '```text'
+            tail -n 200 whatsapp_invite_check.log
+            echo '```'
+          } > whatsapp_invite_failure.md
+
+      - name: Create issue on scheduled/manual failure
+        if: steps.whatsapp_check.outcome == 'failure' && github.event_name != 'pull_request'
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: "WhatsApp invite validation failed"
+          content-filepath: ./whatsapp_invite_failure.md
+          labels: broken-links, whatsapp
+
+      - name: Fail strict run
+        if: steps.whatsapp_check.outcome == 'failure' && github.event_name != 'pull_request'
+        run: exit 1
