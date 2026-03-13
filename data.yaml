@@ -5610,3 +5610,10 @@ groups:
         country_id: IT
     tags:
       - community
+  - name: enmauritanie.com
+    platform: whatsapp
+    url: https://chat.whatsapp.com/GL0ngpaygUcEXYkB0uglfB
+    commercial: true
+    locations:
+      - continent: Africa
+        country_id: MR
