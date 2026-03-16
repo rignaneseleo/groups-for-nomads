@@ -1484,7 +1484,7 @@
 
 ![Facebook](icons/facebook.svg) [Digital Nomads Florianópolis - Brazil](https://www.facebook.com/groups/1550146811977827/) #networking #social
 
-### Rio De Janeiro
+### Rio de Janeiro
 ![Whatsapp](icons/whatsapp.svg) [Rio de Janeiro CS](https://chat.whatsapp.com/Hx4K3HKIDA2LipEXuZN7yw) #couchsurfing #hospitality
 
 ![Whatsapp](icons/whatsapp.svg) [Rio pints & meet up](https://chat.whatsapp.com/JX9USdkYfKpGp4sL8KIpxF) #drinks #social #meetup
@@ -1515,7 +1515,14 @@
 
 ![Whatsapp](icons/whatsapp.svg) [Pub Krio Guestlist](https://wa.me/5521982234138) #nightlife #pub #guestlist
 
-### Rio de Janeiro
+![Facebook](icons/facebook.svg) [Digital Nomads - Rio de Janeiro](https://www.facebook.com/groups/221330464988478/) #networking #social
+
+[Digital Nomads United](https://www.meetup.com/digital-nomads-united/) #networking #social
+
+![Facebook](icons/facebook.svg) [Foreigners in Rio de Janeiro](https://www.facebook.com/groups/161911287321714/) #networking #expats
+
+![Whatsapp](icons/whatsapp.svg) [Rio Short-Term Rental](https://bit.ly/3vW9e5D) #accommodation #networking
+
 ![Whatsapp](icons/whatsapp.svg) [LT Rental has moved](https://chat.whatsapp.com/Exk0ZuWAqFiJPz2bZ4lv2a) #accommodation #networking
 
 ![Whatsapp](icons/whatsapp.svg) [ST Rental has moved](https://chat.whatsapp.com/IK459KBZqODJcAM3T0JY3v) #accommodation #networking
@@ -1527,15 +1534,6 @@
 ![Whatsapp](icons/whatsapp.svg) [Running in Rio](https://chat.whatsapp.com/EWe9IdZxfz9IDXnzsJBFwi) #sports #social
 
 ![Whatsapp](icons/whatsapp.svg) [Rio Meet Up Group 4.0](https://chat.whatsapp.com/DtA92BgHvco0Zyo0uFGm5t) #events #social
-
-### Rio de Janiero
-![Facebook](icons/facebook.svg) [Digital Nomads - Rio de Janeiro](https://www.facebook.com/groups/221330464988478/) #networking #social
-
-[Digital Nomads United](https://www.meetup.com/digital-nomads-united/) #networking #social
-
-![Facebook](icons/facebook.svg) [Foreigners in Rio de Janeiro](https://www.facebook.com/groups/161911287321714/) #networking #expats
-
-![Whatsapp](icons/whatsapp.svg) [Rio Short-Term Rental](https://bit.ly/3vW9e5D) #accommodation #networking
 
 ### Sao Paulo
 ![Whatsapp](icons/whatsapp.svg) [Foodies SP](https://chat.whatsapp.com/JHcsctmhuzQH2XtP9IdH6v) #food #gastronomy #culinary
