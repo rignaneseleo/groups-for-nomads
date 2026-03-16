@@ -718,7 +718,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - couchsurfing
       - hospitality
@@ -728,7 +728,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - drinks
       - social
@@ -740,7 +740,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - marketplace
       - furniture
@@ -751,7 +751,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - hiking
       - outdoors
@@ -762,7 +762,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - hiking
       - outdoors
@@ -775,7 +775,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - social
       - events
@@ -787,14 +787,14 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
   - name: "Business Nomads Rio"
     platform: whatsapp
     url: https://chat.whatsapp.com/DfdEk4xtWsu6o1oJCjACwW
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - business
 
@@ -805,7 +805,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - movies
       - cinema
@@ -816,7 +816,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - sports
       - fans
@@ -827,7 +827,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - events
       - promotions
@@ -838,7 +838,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - parties
       - nightlife
@@ -849,7 +849,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     commercial: true
     tags:
       - techno
@@ -862,7 +862,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     commercial: true
     tags:
       - techno
@@ -875,7 +875,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio De Janeiro
+        city: Rio de Janeiro
     tags:
       - nightlife
       - pub
@@ -2190,7 +2190,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio de Janiero
+        city: Rio de Janeiro
     tags:
       - networking
       - social
@@ -2200,7 +2200,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio de Janiero
+        city: Rio de Janeiro
     tags:
       - networking
       - social
@@ -2210,7 +2210,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio de Janiero
+        city: Rio de Janeiro
     tags:
       - networking
       - expats
@@ -2220,7 +2220,7 @@ groups:
     locations:
       - continent: South America
         country_id: BR
-        city: Rio de Janiero
+        city: Rio de Janeiro
     tags:
       - accommodation
       - networking
