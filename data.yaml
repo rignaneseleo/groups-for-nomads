@@ -5617,15 +5617,83 @@ groups:
     locations:
       - continent: Africa
         country_id: MR
-    - name: "Backpacker Jobs in Australia"
-  platform: "facebook"
-  url: "https://www.facebook.com/share/g/1A9ZYsk4sF/"
-  locations:
-    - continent: "Oceania"
-      country_id: "AU"
-  language_id: "en"
-  commercial: false
-  tags:
-    - "jobs"
-    - "backpackers"
-    - "australia"
+
+  - name: "Backpacker Jobs in Australia"
+    platform: "facebook"
+    url: "https://www.facebook.com/share/g/1A9ZYsk4sF/"
+    locations:
+      - continent: "Oceania"
+        country_id: "AU"
+    language_id: "en"
+    commercial: false
+    tags:
+      - "jobs"
+      - "backpackers"
+      - "australia"
+
+  - name: "Italiani a Melbourne"
+    platform: "facebook"
+    url: "https://www.facebook.com/groups/128452603868136"
+    locations:
+      - continent: "Oceania"
+        country_id: "AU"
+        city: "Melbourne"
+        region: "Victoria"
+    language_id: "it"
+    commercial: false
+    tags:
+      - "italians"
+      - "community"
+      - "melbourne"
+
+  - name: "ITALIANI IN AUSTRALIA 🇮🇹"
+    platform: "facebook"
+    url: "https://www.facebook.com/groups/1531412010403946"
+    locations:
+      - continent: "Oceania"
+        country_id: "AU"
+    language_id: "it"
+    commercial: false
+    tags:
+      - "italians"
+      - "community"
+      - "australia"
+
+  - name: "Australia Campervans, Cars & Campers"
+    platform: "facebook"
+    url: "https://www.facebook.com/groups/466941273491930"
+    locations:
+      - continent: "Oceania"
+        country_id: "AU"
+    language_id: "en"
+    commercial: false
+    tags:
+      - "transport"
+      - "campers"
+      - "backpackers"
+
+  - name: "Australian Independent Backpackers"
+    platform: "facebook"
+    url: "https://www.facebook.com/groups/178893179152200"
+    locations:
+      - continent: "Oceania"
+        country_id: "AU"
+    language_id: "en"
+    commercial: false
+    tags:
+      - "backpackers"
+      - "community"
+      - "australia"
+
+  - name: "AUSTRALIA Backpackers Info"
+    platform: "facebook"
+    url: "https://www.facebook.com/groups/Austravelinfo"
+    locations:
+      - continent: "Oceania"
+        country_id: "AU"
+    language_id: "en"
+    commercial: false
+    tags:
+      - "backpackers"
+      - "info"
+      - "australia"
