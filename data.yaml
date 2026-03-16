@@ -5617,3 +5617,15 @@ groups:
     locations:
       - continent: Africa
         country_id: MR
+    - name: "Backpacker Jobs in Australia"
+  platform: "facebook"
+  url: "https://www.facebook.com/share/g/1A9ZYsk4sF/"
+  locations:
+    - continent: "Oceania"
+      country_id: "AU"
+  language_id: "en"
+  commercial: false
+  tags:
+    - "jobs"
+    - "backpackers"
+    - "australia"
