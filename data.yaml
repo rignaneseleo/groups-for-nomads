@@ -5697,3 +5697,18 @@ groups:
       - "backpackers"
       - "info"
       - "australia"
+
+  - name: "Dahab Hangouts"
+    platform: "whatsapp"
+    url: "https://chat.whatsapp.com/DJb4Ert2RwM4GegdVcw12d"
+    locations:
+      - continent: "Asia"
+        country_id: "EG"
+    language_id: "en"
+    commercial: false
+    tags:
+      - "community"
+      - "egypt"
+      - "dahab"
+      - "social"
+      - "events"
