@@ -235,7 +235,7 @@ jobs:
 
       - name: Create issue on scheduled/manual failure
         if: steps.whatsapp_check.outcome == 'failure' && github.event_name != 'pull_request'
-        uses: peter-evans/create-issue-from-file@v4
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: "WhatsApp invite validation failed"
           content-filepath: ./whatsapp_invite_failure.md

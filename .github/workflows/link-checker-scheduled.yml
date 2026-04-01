@@ -29,7 +29,7 @@ jobs:
 
       - name: Create issue on broken links
         if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@v4
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: "Broken links detected"
           content-filepath: ./lychee/out.md
