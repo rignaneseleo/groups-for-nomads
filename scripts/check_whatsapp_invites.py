@@ -4,6 +4,8 @@ Check WhatsApp invite links in data.yaml.
 
 - Fails when inactive/offline links are found.
 - Warns when invite page title differs from group name.
+- Reports rate-limited or unreachable links as INCONCLUSIVE. Those are never
+  treated as offline and are never removed by --apply.
 - Optional --apply mode updates names and removes inactive entries.
 """
 
@@ -20,6 +22,10 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 import yaml
+
+# The WhatsApp 429 window resets after about 255 s (measured 2026-09-13).
+DEFAULT_RATE_LIMIT_WAIT_S = 300
+DEFAULT_RATE_LIMIT_MAX_WAITS = 12
 
 
 @dataclass
@@ -100,25 +106,66 @@ def _fetch_html(url: str, timeout_seconds: int = 15) -> str:
         return response.read(250_000).decode("utf-8", errors="replace")
 
 
-def _validate_link(url: str, retries: int) -> LinkResult:
+def _short_backoff(attempt: int) -> None:
+    """Small backoff for the first quick retries (2s, 4s, 8s, ...)."""
+    time.sleep(2 * (2**attempt))
+
+
+def _validate_link(
+    url: str,
+    retries: int,
+    rate_limit_wait_s: int = DEFAULT_RATE_LIMIT_WAIT_S,
+    rate_limit_max_waits: int = DEFAULT_RATE_LIMIT_MAX_WAITS,
+) -> LinkResult:
     html = ""
-    for attempt in range(retries + 1):
+    attempts_used = 0
+    waits_used = 0
+
+    while True:
         try:
             html = _fetch_html(url)
             break
         except HTTPError as exc:
-            if exc.code == 429 and attempt < retries:
-                time.sleep(2 * (2**attempt))
-                continue
             if exc.code == 429:
+                if attempts_used < retries:
+                    _short_backoff(attempts_used)
+                    attempts_used += 1
+                    continue
+                if waits_used < rate_limit_max_waits:
+                    waits_used += 1
+                    print(
+                        f"RATE LIMITED: waiting {rate_limit_wait_s}s "
+                        f"(wait {waits_used}/{rate_limit_max_waits})",
+                        flush=True,
+                    )
+                    time.sleep(rate_limit_wait_s)
+                    continue
                 return LinkResult("inconclusive", "HTTP 429 (rate limited)", "")
+            if 500 <= exc.code < 600:
+                if attempts_used < retries:
+                    _short_backoff(attempts_used)
+                    attempts_used += 1
+                    continue
+                return LinkResult("inconclusive", f"HTTP {exc.code} (server error)", "")
             return LinkResult("inactive", f"HTTP {exc.code}", "")
         except URLError as exc:
-            return LinkResult("inactive", f"URL error: {exc.reason}", "")
+            if attempts_used < retries:
+                _short_backoff(attempts_used)
+                attempts_used += 1
+                continue
+            return LinkResult("inconclusive", f"URL error: {exc.reason}", "")
         except TimeoutError:
-            return LinkResult("inactive", "timeout", "")
-        except Exception as exc:  # pragma: no cover
-            return LinkResult("inactive", f"unexpected error: {exc}", "")
+            if attempts_used < retries:
+                _short_backoff(attempts_used)
+                attempts_used += 1
+                continue
+            return LinkResult("inconclusive", "timeout", "")
+        except Exception as exc:
+            if attempts_used < retries:
+                _short_backoff(attempts_used)
+                attempts_used += 1
+                continue
+            return LinkResult("inconclusive", f"unexpected error: {exc}", "")
 
     parser = WhatsAppInviteHTMLParser()
     parser.feed(html)
@@ -159,6 +206,13 @@ def main() -> int:
     parser.add_argument("--delay-ms", type=int, default=1200)
     parser.add_argument("--jitter-ms", type=int, default=900)
     parser.add_argument("--retries", type=int, default=2)
+    parser.add_argument(
+        "--rate-limit-wait-s", type=int, default=DEFAULT_RATE_LIMIT_WAIT_S
+    )
+    parser.add_argument(
+        "--rate-limit-max-waits", type=int, default=DEFAULT_RATE_LIMIT_MAX_WAITS
+    )
+    parser.add_argument("--report-file", default="")
     args = parser.parse_args()
 
     data_path = Path(args.data_file)
@@ -181,8 +235,12 @@ def main() -> int:
             print("No WhatsApp URLs to check from URLs file.")
             return 0
 
-    inactive_urls: set[str] = set()
+    inactive_urls: dict[str, str] = {}
+    inconclusive_urls: dict[str, str] = {}
     rename_by_url: dict[str, str] = {}
+    offline_records: list[dict[str, str]] = []
+    inconclusive_records: list[dict[str, str]] = []
+    mismatch_records: list[dict[str, str]] = []
 
     whatsapp_groups_all = [
         g
@@ -207,15 +265,32 @@ def main() -> int:
         url = group["url"].strip()
         name = str(group.get("name", "<unknown>"))
         _sleep_with_jitter(max(0, args.delay_ms), max(0, args.jitter_ms))
-        result = _validate_link(url, max(0, args.retries))
+        result = _validate_link(
+            url,
+            max(0, args.retries),
+            max(0, args.rate_limit_wait_s),
+            max(0, args.rate_limit_max_waits),
+        )
+
+        if result.status == "inconclusive":
+            inconclusive_urls[url] = result.reason
+            inconclusive_records.append(
+                {"name": name, "url": url, "reason": result.reason}
+            )
+            print(f"[{idx}/{total}] INCONCLUSIVE {name} -> {url} | {result.reason}")
+            continue
 
         if result.status != "active":
-            inactive_urls.add(url)
+            inactive_urls[url] = result.reason
+            offline_records.append({"name": name, "url": url, "reason": result.reason})
             print(f"[{idx}/{total}] OFFLINE {name} -> {url} | {result.reason}")
             continue
 
         if _normalize_name(name) != _normalize_name(result.title):
             rename_by_url[url] = result.title
+            mismatch_records.append(
+                {"current_name": name, "live_name": result.title, "url": url}
+            )
             print(
                 f"[{idx}/{total}] WARNING name mismatch: {name} -> {result.title} | {url}"
             )
@@ -231,7 +306,21 @@ def main() -> int:
 
     print()
     print(f"Offline groups: {len(inactive_urls)}")
+    print(f"Inconclusive groups: {len(inconclusive_urls)}")
     print(f"Name mismatches: {len(rename_by_url)}")
+
+    if args.report_file:
+        report = {
+            "checked": total,
+            "offline": offline_records,
+            "inconclusive": inconclusive_records,
+            "mismatches": mismatch_records,
+        }
+        report_path = Path(args.report_file)
+        report_path.write_text(
+            json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+        )
+        print(f"Wrote report to {report_path}")
 
     if args.apply:
         new_groups = []
@@ -246,7 +335,8 @@ def main() -> int:
                 new_groups.append(group)
                 continue
             normalized = url.strip()
-            if normalized in inactive_urls:
+            # Inconclusive links are never removed: their state is unknown.
+            if normalized in inactive_urls and normalized not in inconclusive_urls:
                 removed += 1
                 continue
             if normalized in rename_by_url:
@@ -259,7 +349,7 @@ def main() -> int:
             yaml.safe_dump(data, f, sort_keys=False, allow_unicode=True)
         print(f"Applied changes to {data_path}: removed={removed}, renamed={renamed}")
 
-    # Fail on offline links; mismatches are warnings.
+    # Fail on offline links; mismatches and inconclusive results are warnings.
     return 1 if inactive_urls else 0
 
 

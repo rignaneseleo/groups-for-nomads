@@ -60,6 +60,8 @@ Simply **[open a new issue](https://github.com/rignaneseleo/groups-for-nomads/is
 
 Fill in the details and the group will be added to the dataset.
 
+A workflow reads every issue whose title starts with `Add Group:` (or that carries the `add-group` label) and opens the pull request for you.
+
 ---
 
 ## Method 2: Advanced (Pull Request)
@@ -166,6 +168,10 @@ Features:
 * Detects offline groups
 * Adds **PR review comments** when invite names differ
 * Supports manual cleanup via workflow dispatch
+
+WhatsApp rate-limits the invite pages after about 52 fetches per IP, so the weekly run waits `WHATSAPP_RATE_LIMIT_WAIT_S` seconds and retries when it gets an HTTP 429. A link that stays rate-limited or unreachable is reported as **inconclusive**, never as offline, and is never removed.
+
+The weekly run keeps one open issue labelled `whatsapp-check` with the current offline groups, and closes it when every link is active again.
 
 Manual mode (`workflow_dispatch`) with `apply_changes=true` can:
 

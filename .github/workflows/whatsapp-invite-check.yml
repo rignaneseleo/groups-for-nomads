@@ -22,7 +22,7 @@ permissions:
 jobs:
   whatsapp-invite-check:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
     env:
       RUN_WHATSAPP_LINK_TESTS: "1"
       WHATSAPP_LINK_TEST_WORKERS: "1"
@@ -30,6 +30,10 @@ jobs:
       WHATSAPP_LINK_JITTER_MS: "900"
       WHATSAPP_LINK_MAX_RETRIES: "2"
       WHATSAPP_LINK_RETRY_BACKOFF_MS: "2000"
+      # WhatsApp rate-limits after about 52 invite fetches per IP.
+      # The window resets after about 255 s, so wait 300 s and retry.
+      WHATSAPP_RATE_LIMIT_WAIT_S: "300"
+      WHATSAPP_RATE_LIMIT_MAX_WAITS: "12"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -80,6 +84,9 @@ jobs:
             --delay-ms "$WHATSAPP_LINK_DELAY_MS" \
             --jitter-ms "$WHATSAPP_LINK_JITTER_MS" \
             --retries "$WHATSAPP_LINK_MAX_RETRIES" \
+            --rate-limit-wait-s "$WHATSAPP_RATE_LIMIT_WAIT_S" \
+            --rate-limit-max-waits "$WHATSAPP_RATE_LIMIT_MAX_WAITS" \
+            --report-file whatsapp_invite_report.json \
             $URLS_ARG \
             $APPLY_FLAG 2>&1 | tee whatsapp_invite_check.log
 
@@ -89,6 +96,14 @@ jobs:
         with:
           name: whatsapp-invite-check-log
           path: whatsapp_invite_check.log
+
+      - name: Upload WhatsApp check report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: whatsapp-invite-check-report
+          path: whatsapp_invite_report.json
+          if-no-files-found: warn
 
       - name: Build PR mismatch review payload
         if: always() && github.event_name == 'pull_request'
@@ -216,31 +231,129 @@ jobs:
           name: whatsapp-data-yaml-updated
           path: data.yaml
 
-      - name: Prepare failure report for issue
-        if: steps.whatsapp_check.outcome == 'failure' && github.event_name != 'pull_request'
-        run: |
-          {
-            echo "## WhatsApp invite validation failed"
-            echo
-            echo "- Workflow: ${{ github.workflow }}"
-            echo "- Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-            echo "- Commit: ${{ github.sha }}"
-            echo
-            echo "### Last log lines"
-            echo
-            echo '```text'
-            tail -n 200 whatsapp_invite_check.log
-            echo '```'
-          } > whatsapp_invite_failure.md
-
-      - name: Create issue on scheduled/manual failure
-        if: steps.whatsapp_check.outcome == 'failure' && github.event_name != 'pull_request'
-        uses: peter-evans/create-issue-from-file@v4
+      - name: Sync offline-groups issue
+        if: always() && github.event_name != 'pull_request'
+        uses: actions/github-script@v7
+        env:
+          RUN_URL: "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          COMMIT_SHA: "${{ github.sha }}"
         with:
-          title: "WhatsApp invite validation failed"
-          content-filepath: ./whatsapp_invite_failure.md
-          labels: broken-links, whatsapp
+          script: |
+            const fs = require("fs");
+
+            const runUrl = process.env.RUN_URL;
+            const commitSha = process.env.COMMIT_SHA;
+            const reportPath = "whatsapp_invite_report.json";
+            const titlePrefix = "WhatsApp groups offline";
+            const trackingLabel = "whatsapp-check";
+
+            let report = { checked: 0, offline: [], inconclusive: [], mismatches: [] };
+            if (fs.existsSync(reportPath)) {
+              try {
+                report = JSON.parse(fs.readFileSync(reportPath, "utf8"));
+              } catch (err) {
+                core.warning(`Could not parse ${reportPath}: ${err}`);
+              }
+            } else {
+              core.warning(`${reportPath} not found. Treating the report as empty.`);
+            }
+
+            const offline = Array.isArray(report.offline) ? report.offline : [];
+            const inconclusive = Array.isArray(report.inconclusive) ? report.inconclusive : [];
+            const mismatches = Array.isArray(report.mismatches) ? report.mismatches : [];
+            const checked = Number(report.checked || 0);
+
+            const lines = [];
+            lines.push(`## ${titlePrefix}`);
+            lines.push("");
+            lines.push(`- Run: ${runUrl}`);
+            lines.push(`- Commit: ${commitSha}`);
+            lines.push("");
+            lines.push("| Result | Count |");
+            lines.push("| --- | --- |");
+            lines.push(`| Checked | ${checked} |`);
+            lines.push(`| Offline | ${offline.length} |`);
+            lines.push(`| Inconclusive | ${inconclusive.length} |`);
+            lines.push(`| Name mismatches | ${mismatches.length} |`);
+            lines.push("");
+
+            if (offline.length) {
+              lines.push("### Offline groups");
+              lines.push("");
+              for (const item of offline) {
+                lines.push(`- **${item.name}** — ${item.url} — ${item.reason}`);
+              }
+              lines.push("");
+            } else {
+              lines.push("No offline groups in this run.");
+              lines.push("");
+            }
+
+            if (inconclusive.length) {
+              lines.push("<details>");
+              lines.push(`<summary>Inconclusive groups (${inconclusive.length}) — state unknown, nothing removed</summary>`);
+              lines.push("");
+              for (const item of inconclusive) {
+                lines.push(`- **${item.name}** — ${item.url} — ${item.reason}`);
+              }
+              lines.push("");
+              lines.push("</details>");
+              lines.push("");
+            }
+
+            const body = lines.join("\n");
+
+            const openIssues = await github.paginate(github.rest.issues.listForRepo, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: trackingLabel,
+              per_page: 100,
+            });
+            const existing = openIssues.find((issue) => issue.title.startsWith(titlePrefix));
+
+            if (offline.length > 0) {
+              const title = `${titlePrefix} (${offline.length})`;
+              if (existing) {
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: existing.number,
+                  title,
+                  body,
+                });
+                core.info(`Updated issue #${existing.number}.`);
+              } else {
+                const created = await github.rest.issues.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title,
+                  body,
+                  labels: [trackingLabel, "broken-links"],
+                });
+                core.info(`Created issue #${created.data.number}.`);
+              }
+              return;
+            }
+
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: `All WhatsApp links are active again as of ${runUrl}`,
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                state: "closed",
+              });
+              core.info(`Closed issue #${existing.number}.`);
+            } else {
+              core.info("No offline groups and no open tracking issue. Nothing to do.");
+            }
 
       - name: Fail strict run
-        if: steps.whatsapp_check.outcome == 'failure' && github.event_name != 'pull_request'
+        if: always() && github.event_name != 'pull_request' && steps.whatsapp_check.outcome == 'failure'
         run: exit 1
