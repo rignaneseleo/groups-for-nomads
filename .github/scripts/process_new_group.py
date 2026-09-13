@@ -4,6 +4,28 @@ import re
 from ruamel.yaml import YAML
 from ruamel.yaml.comments import CommentedMap
 
+WHATSAPP_INVITE_PREFIX = "https://chat.whatsapp.com/"
+
+def normalize_url(url):
+    """
+    Cleans a submitted group URL.
+
+    - Strips surrounding whitespace.
+    - For WhatsApp invite links, drops the query string and the fragment.
+      Share links often carry tracking parameters such as "?s=cl&p=i&mlu=0".
+    - Leaves every other platform's URL unchanged apart from the strip.
+    """
+    if not isinstance(url, str):
+        return url
+
+    cleaned = url.strip()
+    if not cleaned.startswith(WHATSAPP_INVITE_PREFIX):
+        return cleaned
+
+    for separator in ("?", "#"):
+        cleaned = cleaned.split(separator, 1)[0]
+    return cleaned
+
 def parse_issue_body(body):
     """
     Parses the markdown body of the issue form.
@@ -29,7 +51,7 @@ def parse_issue_body(body):
         elif header == "Platform":
             data['platform'] = content.lower() if content else None
         elif header == "URL":
-            data['url'] = content
+            data['url'] = normalize_url(content) if content else None
         elif header == "Continent":
             data['continent'] = content
         elif header == "Country Code":
@@ -60,7 +82,7 @@ def create_group_entry(parsed_data):
     group = CommentedMap()
     group['name'] = parsed_data.get('name')
     group['platform'] = parsed_data.get('platform')
-    group['url'] = parsed_data.get('url')
+    group['url'] = normalize_url(parsed_data.get('url'))
 
     # Locations
     location = CommentedMap()

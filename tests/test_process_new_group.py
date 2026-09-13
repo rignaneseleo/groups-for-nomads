@@ -114,6 +114,50 @@ def test_create_group_entry():
     # checking implementation: if parsed_data.get('commercial'): group['commercial'] = True. So if False, it is omitted.
     assert entry['tags'] == ['tech']
 
+def test_normalize_url_strips_whatsapp_query_string():
+    dirty = "  https://chat.whatsapp.com/FWEY69OKifAHekP09izaQe?s=cl&p=i&mlu=0  "
+    assert (
+        process_new_group.normalize_url(dirty)
+        == "https://chat.whatsapp.com/FWEY69OKifAHekP09izaQe"
+    )
+
+
+def test_normalize_url_strips_whatsapp_fragment():
+    dirty = "https://chat.whatsapp.com/ABC123#share"
+    assert process_new_group.normalize_url(dirty) == "https://chat.whatsapp.com/ABC123"
+
+
+def test_normalize_url_keeps_other_platform_query_strings():
+    url = " https://example.com/group?ref=nomads "
+    assert process_new_group.normalize_url(url) == "https://example.com/group?ref=nomads"
+
+
+def test_parse_issue_body_cleans_whatsapp_url():
+    body = """
+### Group Name
+Goings on in Granada
+
+### Platform
+WhatsApp
+
+### URL
+https://chat.whatsapp.com/FWEY69OKifAHekP09izaQe?s=cl&p=i&mlu=0
+"""
+    result = process_new_group.parse_issue_body(body)
+    assert result['url'] == "https://chat.whatsapp.com/FWEY69OKifAHekP09izaQe"
+
+
+def test_create_group_entry_cleans_whatsapp_url():
+    entry = process_new_group.create_group_entry(
+        {
+            'name': 'Goings on in Granada',
+            'platform': 'whatsapp',
+            'url': 'https://chat.whatsapp.com/FWEY69OKifAHekP09izaQe?s=cl',
+        }
+    )
+    assert entry['url'] == "https://chat.whatsapp.com/FWEY69OKifAHekP09izaQe"
+
+
 def test_create_group_entry_commercial():
     parsed_data = {
         'name': 'Commercial Group',
