@@ -5784,7 +5784,7 @@ groups:
       - "social"
       - "events"
       - "brunches"
-  - name: Goings on in Granada
+  - name: "Goings on in Granada!"
     platform: whatsapp
     url: https://chat.whatsapp.com/FWEY69OKifAHekP09izaQe
     locations:
