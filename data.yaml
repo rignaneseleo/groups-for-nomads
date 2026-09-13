@@ -348,6 +348,13 @@ groups:
     locations:
       - continent: South America
         country_id: PE
+  
+  - name: "Traveling in Peru 🇵🇪🎒🚙⛰️🏍️"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/I6JorMDxvzd6Y2F1KwKLUm
+    locations:
+      - continent: South America
+        country_id: PE
 
   - name: "Travelers in Ecuador 🇪🇨"
     platform: whatsapp
@@ -358,7 +365,7 @@ groups:
 
   - name: "Travelers in Brazil 🇧🇷"
     platform: whatsapp
-    url: https://chat.whatsapp.com/KZiOmWlZgqJGr8LPcIoQy9
+    url: https://chat.whatsapp.com/IF3aprJkPRDKz37tHKKly6
     locations:
       - continent: South America
         country_id: BR
@@ -424,7 +431,27 @@ groups:
     tags:
       - overlanding
 
-  - name: Dutchies in Latin America
+  - name: "PanamericAnimals"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/HIPPoyJo4I0BrFhStqCZQI
+    locations:
+      - continent: North America
+      - continent: Central America
+      - continent: South America
+    language_id: en
+    tags:
+      - animals
+
+  - name: "EuropAnimals"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CAKW4375h616dAwpYUg5vc
+    locations:
+      - continent: Europe
+    language_id: en
+    tags:
+      - animals
+
+  - name: "Dutchies in Latin America"
     platform: linktree
     url: https://linktr.ee/dutchies
     locations:
@@ -439,7 +466,8 @@ groups:
         country_id: AR
     tags:
       - resources
-  - name: Linktree for Hiking Groups in Argentina & Chile
+
+  - name: "Linktree for Hiking Groups in Argentina & Chile"
     platform: linktree
     url: https://linktr.ee/Mavrica14
     locations:
@@ -450,7 +478,8 @@ groups:
     tags:
       - hiking
       - outdoors
-  - name: MundoLingo Argentina
+
+  - name: "MundoLingo Argentina"
     platform: telegram
     url: https://t.me/+oPMzrYofXJYyZTE0
     locations:
@@ -460,6 +489,7 @@ groups:
     tags:
       - language_exchange
       - social
+
   - name: "Backpackers Argentina 🇦🇷☀️"
     platform: whatsapp
     url: https://chat.whatsapp.com/ICfhLe2Kr2wEfZZnxUmtUr
@@ -468,6 +498,7 @@ groups:
         country_id: AR
     tags:
       - backpacking
+
   - name: "Travelers in Argentina 🇦🇷"
     platform: whatsapp
     url: https://chat.whatsapp.com/Go3yVVuDqvdICSk1xDx6s0
@@ -1335,6 +1366,24 @@ groups:
     tags:
       - overlanding
       - ecuador
+  - name: "Overlanding Chile 🏔⛺🗿◻🍯"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/FkVDLJwmcY96oolXwEtjOG
+    locations:
+      - continent: South America
+        country_id: CL
+    tags:
+      - overlanding
+      - chile
+  - name: "Argentina Overlanders"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/CC6NsIG2U7cF5qeTThRl1n
+    locations:
+      - continent: South America
+        country_id: AR
+    tags:
+      - overlanding
+
   - name: "Traveling in Galapagos 🐢"
     platform: whatsapp
     url: https://chat.whatsapp.com/EMb6hPWIqDaEHSxxvPHs9D
@@ -1343,6 +1392,14 @@ groups:
         country_id: EC
     tags:
       - galapagos
+
+  - name: "Traveling in Bolivia 🇧🇴🎒🚙🏍️⛰️"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/EwJJDzUsNuPJF9Ne84D0By
+    locations:
+      - continent: South America
+        country_id: BO
+
   - name: Discover Paraguay - Overlanders
     platform: whatsapp
     url: https://chat.whatsapp.com/JC6Or809IlOCVqcQbxzm5Z
@@ -2075,6 +2132,7 @@ groups:
     tags:
       - networking
       - expats
+
   - name: BA Digital Nomads
     platform: meetup
     url: https://www.meetup.com/es-ES/ba-digital-nomads/
