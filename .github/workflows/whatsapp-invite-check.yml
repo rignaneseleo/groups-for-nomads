@@ -233,7 +233,7 @@ jobs:
 
       - name: Sync offline-groups issue
         if: always() && github.event_name != 'pull_request'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         env:
           RUN_URL: "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           COMMIT_SHA: "${{ github.sha }}"
