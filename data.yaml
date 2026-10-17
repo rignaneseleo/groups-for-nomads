@@ -2047,6 +2047,16 @@ groups:
         city: Bangkok
     tags:
       - networking
+  - name: "Бангкок — Bangkok Chat (RU)"
+    platform: telegram
+    url: https://t.me/bkk_chat
+    locations:
+      - continent: Asia
+        country_id: TH
+        city: Bangkok
+    language_id: ru
+    tags:
+      - social
   - name: Bangkok Digital Nomads Community
     platform: discord
     url: https://discord.gg/Gk3mSk6SKE
