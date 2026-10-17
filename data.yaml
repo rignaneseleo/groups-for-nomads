@@ -2047,16 +2047,6 @@ groups:
         city: Bangkok
     tags:
       - networking
-  - name: "Bangkok Chat 🇹🇭"
-    platform: telegram
-    url: https://t.me/bangkokgroup
-    locations:
-      - continent: Asia
-        country_id: TH
-        city: Bangkok
-    tags:
-      - social
-      - networking
   - name: "Бангкок — Bangkok Chat (RU)"
     platform: telegram
     url: https://t.me/bkk_chat
