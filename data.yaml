@@ -2057,6 +2057,66 @@ groups:
     language_id: ru
     tags:
       - social
+  - name: "Digital Nomads In Bali, Indonesia"
+    platform: telegram
+    url: https://t.me/+S9wOxR0sxUNmNGU9
+    locations:
+      - continent: Asia
+        country_id: ID
+        city: Bali
+    tags:
+      - networking
+      - social
+  - name: "Tbilisi Expat Community"
+    platform: telegram
+    url: https://t.me/tbilisi_expat_community
+    locations:
+      - continent: Europe
+        country_id: GE
+        city: Tbilisi
+    tags:
+      - expats
+      - events
+  - name: "Экспаты Грузия — Expats Georgia (RU)"
+    platform: telegram
+    url: https://t.me/expats_georgia
+    locations:
+      - continent: Europe
+        country_id: GE
+    language_id: ru
+    tags:
+      - expats
+      - social
+  - name: "IT Meetup Batumi 💻"
+    platform: telegram
+    url: https://t.me/itmeetupbatumi
+    locations:
+      - continent: Europe
+        country_id: GE
+        city: Batumi
+    tags:
+      - networking
+      - events
+  - name: "ConnectBaku Language & Cultural Exchange"
+    platform: telegram
+    url: https://t.me/connectbaku
+    locations:
+      - continent: Europe
+        country_id: AZ
+        city: Baku
+    tags:
+      - language_exchange
+      - social
+  - name: "BA Digital Nomads III"
+    platform: whatsapp
+    url: https://chat.whatsapp.com/HMKAXj8cPvTJ8ITNgbgouP
+    locations:
+      - continent: South America
+        country_id: AR
+        city: Buenos Aires
+    tags:
+      - networking
+      - social
   - name: Bangkok Digital Nomads Community
     platform: discord
     url: https://discord.gg/Gk3mSk6SKE
